@@ -1,23 +1,28 @@
-# main.py — Điểm bắt đầu (Entry point) CLI cho VietLunarCalendar
+# main.py — Điểm bắt đầu (Entry point) tạo Lịch Âm Việt Nam
 # ============================================================
 """
 Công cụ tạo file iCalendar (.ics) cho lịch âm Việt Nam.
+Tự động tính toán cuốn chiếu 10 năm tới phục vụ đồng bộ tự động qua URL.
 
 Cách dùng:
-    python main.py                          # Tạo file tổng hợp giai đoạn 2026–2060
-    python main.py --split                  # Tạo thêm các file riêng lẻ cho từng năm
-    python main.py --start 2026 --end 2030  # Tạo lịch cho một khoảng năm tùy chỉnh
+    python main.py                          # Tạo file tổng hợp 10 năm tới và cập nhật viet_lunar_latest.ics
+    python main.py --split                  # Tạo thêm các file riêng lẻ từng năm và file zip
+    python main.py --start 2026 --end 2036  # Tạo lịch cho khoảng năm tùy chọn
     python main.py --year 2027              # Chỉ tạo lịch cho một năm cụ thể
-
-Lưu ý: File 'viet_lunar_latest.ics' luôn được tạo để phục vụ link URL cố định.
 """
 import argparse
+import re
 import sys
 import time
 import zipfile
 import shutil
-from datetime import datetime, date
+from datetime import date
 from pathlib import Path
+
+# Đảm bảo đường dẫn gốc của project luôn nằm trong sys.path
+ROOT_DIR = Path(__file__).resolve().parent
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 try:
     from tqdm import tqdm
@@ -25,13 +30,9 @@ try:
 except ImportError:
     HAS_TQDM = False
 
-from config import START_YEAR, END_YEAR, OUTPUT_DIR
-from ics_generator import LunarCalendarGenerator
+from src.config import START_YEAR, END_YEAR, OUTPUT_DIR, DEFAULT_YEARS_AHEAD
+from src.ics_generator import LunarCalendarGenerator
 
-
-# ──────────────────────────────────────────────────────────────
-# Helpers
-# ──────────────────────────────────────────────────────────────
 
 def print_banner():
     banner = r"""
@@ -72,28 +73,48 @@ def create_zip_archive(files: list[Path], output_zip: Path):
     return output_zip
 
 
-# ──────────────────────────────────────────────────────────────
-# Main logic
-# ──────────────────────────────────────────────────────────────
+def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
+    """
+    Tự động xóa các file của những năm đã qua để giữ thư mục output luôn sạch sẽ.
+    - Xóa file lẻ từng năm: viet_lunar_{year}.ics nếu year < current_year
+    - Xóa file tổng hợp cũ: viet_lunar_{start}_{end}.ics nếu start < current_year
+    - Xóa file zip cũ: viet_lunar_yearly_{start}_{end}.zip nếu start < current_year
+    """
+    removed: list[str] = []
+    if not output_path.exists():
+        return removed
 
-def print_pinkie_banner():
-    banner = r"""
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-🌸                                                          🌸
-🌸     🌙  LỊCH ÂM VIỆT NAM — Pinkie Web Dashboard          🌸
-🌸             Múi giờ GMT+7 (Asia/Ho_Chi_Minh)             🌸
-🌸                                                          🌸
-🌸   For all the cute girls who aren't super tech-savvy     🌸
-🌸   and the sweetest, gentlest boys out there~ ♡           🌸
-🌸                                                          🌸
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-"""
-    print(banner)
+    single_year_re = re.compile(r'^viet_lunar_(\d{4})\.ics$')
+    range_ics_re = re.compile(r'^viet_lunar_(\d{4})_(\d{4})\.ics$')
+    range_zip_re = re.compile(r'^viet_lunar_yearly_(\d{4})_(\d{4})\.zip$')
 
+    for file in output_path.iterdir():
+        if not file.is_file():
+            continue
 
-# ──────────────────────────────────────────────────────────────
-# Main logic
-# ──────────────────────────────────────────────────────────────
+        # 1. File lẻ từng năm đã qua
+        m_single = single_year_re.match(file.name)
+        if m_single and int(m_single.group(1)) < current_year:
+            file.unlink()
+            removed.append(file.name)
+            continue
+
+        # 2. File tổng hợp cũ có năm bắt đầu đã qua
+        m_range = range_ics_re.match(file.name)
+        if m_range and int(m_range.group(1)) < current_year:
+            file.unlink()
+            removed.append(file.name)
+            continue
+
+        # 3. File zip cũ có năm bắt đầu đã qua
+        m_zip = range_zip_re.match(file.name)
+        if m_zip and int(m_zip.group(1)) < current_year:
+            file.unlink()
+            removed.append(file.name)
+            continue
+
+    return removed
+
 
 def main():
     parser = argparse.ArgumentParser(
@@ -102,16 +123,12 @@ def main():
         epilog=__doc__,
     )
     parser.add_argument(
-        '--cli', action='store_true',
-        help='Chạy chế độ dòng lệnh CLI thuần túy (Mặc định sẽ mở giao diện Web GUI)',
+        '--start', type=int, default=None,
+        help=f'Năm bắt đầu (mặc định: năm hiện tại)',
     )
     parser.add_argument(
-        '--start', type=int, default=START_YEAR,
-        help=f'Năm bắt đầu (mặc định: {START_YEAR})',
-    )
-    parser.add_argument(
-        '--end', type=int, default=END_YEAR,
-        help=f'Năm kết thúc (mặc định: {END_YEAR})',
+        '--end', type=int, default=None,
+        help=f'Năm kết thúc (mặc định: năm bắt đầu + {DEFAULT_YEARS_AHEAD} năm)',
     )
     parser.add_argument(
         '--year', type=int, default=None,
@@ -127,42 +144,16 @@ def main():
     )
     args = parser.parse_args()
 
-    # 1. Chạy giao diện Web GUI (Mặc định)
-    if not args.cli:
-        print_pinkie_banner()
-        import webbrowser
-        import threading
-        from server import run_server
-        
-        # Chạy máy chủ Web ở luồng phụ
-        server_thread = threading.Thread(target=run_server, daemon=True)
-        server_thread.start()
-        
-        # Đợi máy chủ khởi động rồi mở trình duyệt tự động
-        time.sleep(0.6)
-        webbrowser.open("http://localhost:8000")
-        
-        print("💡 Gợi ý: Nếu muốn chạy chế độ dòng lệnh cũ, hãy dùng lệnh: python main.py --cli")
-        print("🌸 Nhấn Ctrl + C trong terminal này để tắt máy chủ Web bất kỳ lúc nào.")
-        
-        try:
-            while True:
-                time.sleep(1)
-        except KeyboardInterrupt:
-            print("\n🌸 Hẹn gặp lại bạn lần sau! Chúc bạn một ngày ngọt ngào! (´｡• ᵕ •｡`) ♡")
-            sys.exit(0)
-
-    # 2. Chạy chế độ dòng lệnh CLI
     print_banner()
-    
-    # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm)
+
+    # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm cuốn chiếu)
     current_year = date.today().year
-    
+
     if args.year:
         start_year = end_year = args.year
     else:
-        start_year = args.start if 'start' in [a.dest for a in parser._actions if args.start != START_YEAR] else current_year
-        end_year = args.end if 'end' in [a.dest for a in parser._actions if args.end != END_YEAR] else (start_year + 5)
+        start_year = args.start if args.start is not None else current_year
+        end_year = args.end if args.end is not None else (start_year + DEFAULT_YEARS_AHEAD)
 
     if start_year > end_year:
         print(f'❌ Lỗi: --start ({start_year}) phải nhỏ hơn hoặc bằng --end ({end_year})')
@@ -171,6 +162,14 @@ def main():
     output_path = Path(args.output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
+    # ── 0. Tự động dọn dẹp các file của những năm đã qua ──────────
+    removed_files = cleanup_past_files(output_path, current_year)
+    if removed_files:
+        print(f'🧹 Đã tự động dọn dẹp {len(removed_files)} file của các năm đã qua:')
+        for rf in removed_files:
+            print(f'   🗑️ {rf}')
+        print()
+
     gen = LunarCalendarGenerator()
     total_files: list[Path] = []
 
@@ -178,11 +177,11 @@ def main():
     print(f'📂 Thư mục output   : {output_path.resolve()}')
     print()
 
-    # ── Tạo file riêng từng năm (nếu yêu cầu) ──────────────
+    # ── 1. Tạo file riêng từng năm (nếu yêu cầu --split hoặc --year) ─
     if args.split or args.year:
         years = range(start_year, end_year + 1)
         iter_years = tqdm(years, desc='Đang tạo file từng năm', unit='năm') \
-                     if HAS_TQDM else years
+            if HAS_TQDM else years
 
         yearly_files: list[Path] = []
         for year in iter_years:
@@ -204,7 +203,7 @@ def main():
             total_files.append(zip_name)
             print(f'  ✅ Đã tạo file zip ({format_size(zip_name)})')
 
-    # ── Tạo file tổng hợp ───────────────────────────────────
+    # ── 2. Tạo file tổng hợp & viet_lunar_latest.ics ───────────────
     if not args.year:
         suffix = f'{start_year}_{end_year}'
         if start_year == end_year:
@@ -214,21 +213,21 @@ def main():
               f'({end_year - start_year + 1} năm)...')
         t0 = time.time()
         cal = gen.generate_range(start_year, end_year)
-        
-        # Save labeled file
+
+        # Lưu file tên theo khoảng năm
         fname = output_path / f'viet_lunar_{suffix}.ics'
         gen.save(cal, fname)
         total_files.append(fname)
-        
-        # Save latest link copy
+
+        # Cập nhật file viet_lunar_latest.ics phục vụ link URL cố định
         latest_fname = output_path / 'viet_lunar_latest.ics'
         shutil.copy(fname, latest_fname)
         total_files.append(latest_fname)
-        
+
         elapsed = time.time() - t0
         print(f'  ✅ Hoàn thành trong {elapsed:.1f}s')
 
-    # ── Tổng kết ────────────────────────────────────────────
+    # ── 3. Tổng kết ────────────────────────────────────────────────
     print()
     print('═' * 55)
     print('📊 KẾT QUẢ:')
@@ -237,11 +236,6 @@ def main():
         print(f'   📄 {fp.name}')
         print(f'      → {n_events:,} events  |  {format_size(fp)}')
     print('═' * 55)
-    print()
-    print('💡 Hướng dẫn import:')
-    print('   Google Calendar : calendar.google.com → Cài đặt → Import')
-    print('   Apple Calendar  : File → Import...')
-    print('   Outlook         : File → Open & Export → Import/Export')
     print()
     print('🎉 Hoàn thành!')
 

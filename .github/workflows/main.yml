@@ -5,12 +5,13 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 0 1 * *'  # Chạy vào 00:00 ngày 1 hàng tháng
-  workflow_dispatch:      # Cho phép chạy thủ công từ tab Actions
+    - cron: '0 0 1 1 *'  # Chạy 1 năm 1 lần vào 00:00 ngày 1 tháng 1 hàng năm
+  workflow_dispatch:      # Cho phép chạy thủ công từ tab Actions bất kỳ lúc nào
 
 jobs:
   update-calendar:
     runs-on: ubuntu-latest
+    timeout-minutes: 10   # Giới hạn thời gian tối đa để bảo vệ tài nguyên
     permissions:
       contents: write    # Cho phép action push code ngược lại repo
 
@@ -31,12 +32,12 @@ jobs:
 
       - name: Generate Calendar files
         run: |
-          # Chạy script để tạo file tổng hợp và file riêng từng năm
+          # Tự động tạo file tổng hợp 10 năm cuốn chiếu và các file riêng từng năm
           python main.py --split
 
       - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add output/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update lunar calendar files [skip ci]" && git push)
+          git add -A output/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: annual auto-update lunar calendar files (10-year rolling) [skip ci]" && git push)

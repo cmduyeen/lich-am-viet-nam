@@ -1,59 +1,97 @@
-<!-- SEO Metadata -->
-<meta name="description" content="Tự động đồng bộ Lịch Âm Việt Nam chuẩn xác tối giản">
-<meta name="keywords" content="lich am viet nam, pinkie lunar calendar, dong bo lich am, lich am ics, justduyen, pinkie suite">
-<meta name="author" content="justduyen">
+<!-- SEO Metadata & Social Graph -->
+<meta name="description" content="Lịch Âm Việt Nam — Đồng bộ tự động vào Google Calendar, Apple Calendar, Outlook. Chuẩn xác, tối giản, tự động duy trì 10 năm tới.">
+<meta name="keywords" content="lich am viet nam, lich am google calendar, lich am apple calendar, lich am ics, dong bo lich am, cmduyeen, pinkie suite">
+<meta name="author" content="cmduyeen">
+<meta property="og:title" content="🌙 Lịch Âm Việt Nam — Tự Động Đồng Bộ & Tối Giản">
+<meta property="og:description" content="Đồng bộ Lịch Âm Việt Nam chuẩn xác, tối giản và tự động duy trì trọn đời cho Google Calendar, Apple Calendar và Outlook.">
+<meta property="og:url" content="https://github.com/cmduyeen/lich-am-viet-nam">
+<meta property="og:type" content="website">
 
-## 🌸 Lịch Âm Việt Nam Tự Động Đồng Bộ 🌸
-<img width="1574" height="785" alt="screenshot-licham" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
+<h1 align="center">🌙 Lịch Âm Việt Nam dùng nhanh trong Google Calendar, Apple Calendar và Outlook</h1>
 
-### 1. Giới thiệu
+<p align="center">
+  Đồng bộ Lịch Âm Việt Nam chuẩn xác, tối giản và tự động duy trì trọn đời.
+</p>
 
-`Lịch Âm Việt Nam Tự Động Đồng Bộ` giúp tự động đồng bộ Lịch Âm Việt Nam trực tiếp vào Google Calendar và thiết bị của bạn. Chỉ cần đăng ký một lần bằng đường dẫn URL là lịch tự chạy và cập nhật trọn đời, không cần cài đặt phức tạp.
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FFD1DC?style=flat" alt="License" /></a>
+  <img src="https://img.shields.io/badge/Cập_nhật-Tự_động_hàng_năm-FFF0F5?style=flat&logoColor=D4698B" alt="Auto Update" />
+  <img src="https://img.shields.io/badge/Dữ_liệu-10_năm_tới-FFD1DC?style=flat" alt="10 Years" />
+  <img src="https://img.shields.io/badge/Định_dạng-iCalendar_.ics-FFF0F5?style=flat&logoColor=D4698B" alt="ICS Format" />
+</p>
 
-Lịch bao gồm đầy đủ thông tin:
-- Các ngày lễ truyền thống Việt Nam và Quốc tế 
-- Ngày cúng gia tiên theo văn hoá người Việt (Mùng 1 & Rằm)
-- Các thông tin về Can Chi và 24 Tiết khí thiên văn.
+<p align="center">
+  <img width="900" alt="Lịch Âm Việt Nam" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
+</p>
 
 ---
 
-### 2. Cách dùng
+### Lý do ra đời
 
-#### 🎈 Cách 1: Đồng bộ tự động qua URL(dễ nhất & khuyên dùng)
-Copy link đăng ký lịch → thêm lịch mới:
+Xuất phát từ lối sống tối giản — không muốn cài thêm ứng dụng phụ phiền phức, dự án ra đời để đồng bộ Lịch Âm trực tiếp vào app lịch mặc định có sẵn trên mọi thiết bị:
+
+- **Không cần cài app** — Tích hợp thẳng vào Google Calendar, Apple Calendar có sẵn.
+- **Sạch mắt & Tối giản** — Chỉ hiện ngày âm và ngày lễ lớn, không thông báo rác.
+- **Tự động trọn đời** — Sẵn sàng cho 10 năm tới, tự động cập nhật không cần can thiệp.
+
+---
+
+### Đăng ký lịch (Subscribe URL)
+
+Dán đường dẫn đăng ký lịch sau vào ứng dụng lịch của bạn:
 
 ```text
-https://raw.githubusercontent.com/justduyen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
 
-- iPhone/iPad: Cài đặt → Lịch → Tài khoản → Thêm tài khoản → Khác → Thêm lịch đã đăng ký → Dán link → Lưu.
+<details open>
+<summary><b>Hướng dẫn cài đặt nhanh theo thiết bị</b></summary>
+<br>
 
-- PC/Laptop: Vào calendar.google.com → Nhấn + tại Lịch khác → Từ URL → Dán link.
+- **Apple (iPhone / iPad / Mac)**: Cài đặt → Lịch → Tài khoản → Thêm tài khoản → Khác → Thêm lịch đã đăng ký → Dán link → Lưu.
+- **Google Calendar (Web / Android)**: Truy cập [calendar.google.com](https://calendar.google.com) → Nhấn biểu tượng **+** cạnh mục *Lịch khác* → Chọn *Từ URL* → Dán link.
+- **Microsoft Outlook**: File → Open & Export → Import/Export → Import an iCalendar (.ics) → Dán link.
 
-- Outlook: File → Open & Export → Import/Export → Import an iCalendar (.ics) → Dán link.
+</details>
 
-#### 🛠️ Cách 2: Chạy Code / Tùy biến(dành cho dev)
+---
 
-```Bash
-pip install -r requirements.txt
-python main.py          # Chạy Web GUI (localhost:8000) tự động tạo file theo ý muốn
-python main.py --cli    # Chạy nhanh qua dòng lệnh (CLI)
-```
-### 3. Chức năng
+### Danh mục ngày lễ lớn
 
-* 📅 Đồng bộ trực quan, tiện lợi:
-    * Hiển thị Lịch Âm trực tiếp dưới Lịch Dương trên Google Calendar, Apple Calendar, Outlook vô cùng gọn gàng.
-    * Tự động cập nhật trọn đời, không cần thao tác thủ công hàng năm.
-* 🧧 Đầy đủ các ngày lễ truyền thống Việt Nam:
-    * Tết cổ truyền: Đêm Giao Thừa, Tết Nguyên Đán (Mùng 1 - Mùng 3), Cúng Ông Công Ông Táo (23 Chạp), Ngày Vía Thần Tài (Mùng 10 tháng Giêng).
-    * Lễ hội dân gian: Giỗ Tổ Hùng Vương (10/3 âm lịch), Tết Đoan Ngọ (5/5 âm lịch), Tết Trung Thu (Rằm tháng 8).
-    * Tâm linh & Phật giáo: Rằm Tháng Giêng (Tết Nguyên Tiêu), Đại Lễ Phật Đản (15/4 âm lịch), Lễ Vu Lan báo hiếu (Rằm tháng 7).
-* 🌑 Tiện ích nhắc nhở định kỳ:
-    * Tự động nhắc nhở ngày Mùng 1 (Sóc) và Ngày Rằm (Vọng) hàng tháng để bạn tiện sửa soạn đi chùa, ăn chay.
-* 🌌 Thiên văn & Can Chi học:
-    * Xem chính xác Can Chi của ngày (ví dụ: Giáp Tý, Ất Sửu,...).
-    * Cập nhật chuẩn xác 24 Tiết khí thiên văn học (Lập Xuân, Xuân Phân, Hạ Chí, Thu Phân, Đông Chí,...).
+<details open>
+<summary><b>Quốc lễ nghỉ chính thức</b></summary>
+<br>
 
-### 4. Kết nối & Bản quyền
-- Phát hành hoàn toàn miễn phí dưới giấy phép MIT.
-- Mọi ý tưởng hoặc báo lỗi, vui lòng gửi Issue / Pull Request.
+- **Tết Dương Lịch**: Ngày 1 tháng 1 Dương lịch.
+- **Tết Nguyên Đán**: Đêm Giao Thừa, Mùng 1, Mùng 2, Mùng 3 Tết Âm lịch.
+- **Giỗ Tổ Hùng Vương**: Ngày 10 tháng 3 Âm lịch.
+- **Giải Phóng Miền Nam**: Ngày 30 tháng 4 Dương lịch.
+- **Quốc Tế Lao Động**: Ngày 1 tháng 5 Dương lịch.
+- **Quốc Khánh**: Ngày 2 tháng 9 Dương lịch.
+
+</details>
+
+<details open>
+<summary><b>Lễ hội truyền thống dân tộc tiêu biểu</b></summary>
+<br>
+
+- **Cúng Ông Công Ông Táo**: Ngày 23 tháng Chạp.
+- **Vía Thần Tài**: Ngày mùng 10 tháng Giêng.
+- **Rằm Tháng Giêng (Tết Nguyên Tiêu)**: Ngày 15 tháng Giêng.
+- **Đại Lễ Phật Đản**: Ngày 15 tháng 4 Âm lịch.
+- **Tết Đoan Ngọ**: Ngày 5 tháng 5 Âm lịch.
+- **Lễ Vu Lan Báo Hiếu**: Ngày 15 tháng 7 Âm lịch (Rằm tháng 7).
+- **Tết Trung Thu**: Ngày 15 tháng 8 Âm lịch (Rằm tháng 8).
+
+</details>
+
+---
+
+### License
+
+- [MIT License](LICENSE) — Miễn phí và mã nguồn mở.
+- Copyright © 2026 [cmduyeen](https://github.com/cmduyeen) — Pinkie Suite.
+
+<p align="center">
+  <img src="assets/signature.svg" alt="cmduyeen" width="400" />
+</p>
