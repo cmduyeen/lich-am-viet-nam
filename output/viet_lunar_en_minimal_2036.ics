@@ -1,0 +1,153 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2036
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360112
+DTEND;VALUE=DATE:20360113
+DTSTAMP:20261020T191903Z
+UID:vnlunar-en-minimal-20360112@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yin Wood Cat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20360128
+DTEND;VALUE=DATE:20360129
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360128@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yang Fire Dragon year)\nFirst day of the
+  lunar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360211
+DTEND;VALUE=DATE:20360212
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360211@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360312
+DTEND;VALUE=DATE:20360313
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360312@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360411
+DTEND;VALUE=DATE:20360412
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360411@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360510
+DTEND;VALUE=DATE:20360511
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360510@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360609
+DTEND;VALUE=DATE:20360610
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360609@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360708
+DTEND;VALUE=DATE:20360709
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360708@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360806
+DTEND;VALUE=DATE:20360807
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360806@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, leap month 6 (Yang Fire Dragon year)\nTraditiona
+ l lunar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20360905
+DTEND;VALUE=DATE:20360906
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20360905@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20361004
+DTEND;VALUE=DATE:20361005
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20361004@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20361102
+DTEND;VALUE=DATE:20361103
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20361102@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yang Fire Dragon year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20361202
+DTEND;VALUE=DATE:20361203
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20361202@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yang Fire Dragon year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20361231
+DTEND;VALUE=DATE:20370101
+DTSTAMP:20261020T191904Z
+UID:vnlunar-en-minimal-20361231@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yang Fire Dragon year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR

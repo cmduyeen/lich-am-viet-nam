@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2029
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290129
+DTEND;VALUE=DATE:20290130
+DTSTAMP:20261020T191855Z
+UID:vnlunar-en-minimal-20290129@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yang Earth Monkey year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290213@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yin Earth Rooster year)\nFirst day of th
+ e lunar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290227
+DTEND;VALUE=DATE:20290228
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290227@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290329@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290428
+DTEND;VALUE=DATE:20290429
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290428@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290527
+DTEND;VALUE=DATE:20290528
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290527@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290626
+DTEND;VALUE=DATE:20290627
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290626@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290725
+DTEND;VALUE=DATE:20290726
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290725@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290824
+DTEND;VALUE=DATE:20290825
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290824@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20290922
+DTEND;VALUE=DATE:20290923
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20290922@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20291022
+DTEND;VALUE=DATE:20291023
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20291022@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yin Earth Rooster year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20291120
+DTEND;VALUE=DATE:20291121
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20291120@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yin Earth Rooster year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20291219
+DTEND;VALUE=DATE:20291220
+DTSTAMP:20261020T191856Z
+UID:vnlunar-en-minimal-20291219@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yin Earth Rooster year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR

@@ -14,6 +14,10 @@
 </p>
 
 <p align="center">
+  Tiếng Việt | <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FFD1DC?style=flat" alt="License" /></a>
   <img src="https://img.shields.io/badge/Cập_nhật-Tự_động_hàng_năm-FFF0F5?style=flat&logoColor=D4698B" alt="Auto Update" />
   <img src="https://img.shields.io/badge/Dữ_liệu-10_năm_tới-FFD1DC?style=flat" alt="10 Years" />
@@ -43,6 +47,43 @@ Dán đường dẫn đăng ký lịch sau vào ứng dụng lịch của bạn:
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
+
+Bản tiếng Anh có tiêu đề và mô tả sự kiện riêng: xem [hướng dẫn tiếng Anh](README.en.md#subscribe).
+Đường dẫn lịch tiếng Việt hiện tại không thay đổi.
+
+#### Lịch tối giản: chỉ Rằm và Tết Nguyên Đán
+
+- [Bản tối giản tiếng Việt](output/viet_lunar_minimal_latest.ics).
+- [Bản tối giản tiếng Anh](output/viet_lunar_en_minimal_latest.ics).
+
+Mở tệp đã chọn, nhấn **Raw**, rồi sao chép URL vào ứng dụng lịch để đăng ký.
+Dùng URL của kho và nhánh đang xem; không dùng nhánh `main` của kho gốc nếu
+tệp chưa được hợp nhất vào đó. Chọn một bản lịch để tránh hiển thị trùng sự kiện.
+
+Hai bản tối giản có cùng ngày, với tiêu đề tiếng Việt:
+
+- **Rằm**: ngày 15 của mọi tháng âm lịch, **kể cả tháng nhuận**. Đây là quy ước
+  âm lịch truyền thống, **không phải thời điểm hoặc ngày trăng tròn thiên văn chính xác**.
+  Tiêu đề vẫn là Rằm khi trùng Tết Trung Thu, Vu Lan hoặc ngày lễ khác.
+- **Tết Nguyên Đán**: chỉ mùng 1 tháng Giêng **không nhuận**. Không gồm Giao Thừa,
+  mùng 2, mùng 3 hay mùng 1 của tháng nhuận.
+
+Sự kiện kéo dài cả ngày; phần mô tả giữ ngày âm và ghi rõ tháng nhuận nếu có.
+Các bản đầy đủ và tối giản có mã sự kiện, tệp và URL riêng, không ghi đè nhau.
+
+Tạo bản tối giản tiếng Việt (mặc định), tiếng Việt tường minh hoặc tiếng Anh:
+
+```sh
+python main.py --minimal --split
+python main.py --language vi --minimal --split
+python main.py --language en --minimal --split
+```
+
+Tiền tố tệp là `viet_lunar_minimal` hoặc `viet_lunar_en_minimal`, với các dạng
+`_latest.ics`, `_<năm>.ics`, `_<năm đầu>_<năm cuối>.ics` và `_yearly_<năm đầu>_<năm cuối>.zip`.
+`--year` chỉ tạo tệp một năm, không thay thế lịch `latest`; `--output-dir` chọn thư mục khác.
+Việc dọn tệp cũ chỉ áp dụng cho ngôn ngữ và chế độ đã chọn. Workflow hằng năm
+được cấu hình tạo cả bản đầy đủ và tối giản cho hai ngôn ngữ.
 
 <details open>
 <summary><b>Hướng dẫn cài đặt nhanh theo thiết bị</b></summary>

@@ -9,6 +9,9 @@ Cách dùng:
     python main.py --split                  # Tạo thêm các file riêng lẻ từng năm và file zip
     python main.py --start 2026 --end 2036  # Tạo lịch cho khoảng năm tùy chọn
     python main.py --year 2027              # Chỉ tạo lịch cho một năm cụ thể
+    python main.py --language en --split    # Generate English calendars alongside Vietnamese files
+    python main.py --language en --minimal --split  # Only lunar day 15 and Lunar New Year's Day
+    python main.py --minimal --split        # Rằm và Mùng 1 Tết, tiếng Việt (mặc định)
 """
 import argparse
 import re
@@ -73,20 +76,26 @@ def create_zip_archive(files: list[Path], output_zip: Path):
     return output_zip
 
 
-def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
+def cleanup_past_files(
+    output_path: Path, current_year: int, language: str = 'vi', minimal: bool = False,
+) -> list[str]:
     """
     Tự động xóa các file của những năm đã qua để giữ thư mục output luôn sạch sẽ.
     - Xóa file lẻ từng năm: viet_lunar_{year}.ics nếu year < current_year
     - Xóa file tổng hợp cũ: viet_lunar_{start}_{end}.ics nếu start < current_year
     - Xóa file zip cũ: viet_lunar_yearly_{start}_{end}.zip nếu start < current_year
+    English files use viet_lunar_en; minimal files append _minimal to the selected language prefix.
     """
     removed: list[str] = []
     if not output_path.exists():
         return removed
 
-    single_year_re = re.compile(r'^viet_lunar_(\d{4})\.ics$')
-    range_ics_re = re.compile(r'^viet_lunar_(\d{4})_(\d{4})\.ics$')
-    range_zip_re = re.compile(r'^viet_lunar_yearly_(\d{4})_(\d{4})\.zip$')
+    prefix = 'viet_lunar_en' if language == 'en' else 'viet_lunar'
+    if minimal:
+        prefix += '_minimal'
+    single_year_re = re.compile(rf'^{prefix}_(\d{{4}})\.ics$')
+    range_ics_re = re.compile(rf'^{prefix}_(\d{{4}})_(\d{{4}})\.ics$')
+    range_zip_re = re.compile(rf'^{prefix}_yearly_(\d{{4}})_(\d{{4}})\.zip$')
 
     for file in output_path.iterdir():
         if not file.is_file():
@@ -139,6 +148,14 @@ def main():
         help='Tạo file riêng cho từng năm (ngoài file tổng hợp)',
     )
     parser.add_argument(
+        '--language', choices=('vi', 'en'), default='vi',
+        help='Calendar language: vi (default) or en (English, separate output files)',
+    )
+    parser.add_argument(
+        '--minimal', action='store_true',
+        help="Only traditional lunar day 15 and Lunar New Year's Day (vi or en)",
+    )
+    parser.add_argument(
         '--output-dir', type=str, default=OUTPUT_DIR,
         help=f'Thư mục output (mặc định: {OUTPUT_DIR})',
     )
@@ -163,14 +180,17 @@ def main():
     output_path.mkdir(parents=True, exist_ok=True)
 
     # ── 0. Tự động dọn dẹp các file của những năm đã qua ──────────
-    removed_files = cleanup_past_files(output_path, current_year)
+    removed_files = cleanup_past_files(output_path, current_year, args.language, args.minimal)
     if removed_files:
         print(f'🧹 Đã tự động dọn dẹp {len(removed_files)} file của các năm đã qua:')
         for rf in removed_files:
             print(f'   🗑️ {rf}')
         print()
 
-    gen = LunarCalendarGenerator()
+    gen = LunarCalendarGenerator(language=args.language, minimal=args.minimal)
+    prefix = 'viet_lunar_en' if args.language == 'en' else 'viet_lunar'
+    if args.minimal:
+        prefix += '_minimal'
     total_files: list[Path] = []
 
     print(f'📅 Khoảng thời gian : {start_year} → {end_year}')
@@ -187,7 +207,7 @@ def main():
         for year in iter_years:
             t0 = time.time()
             cal = gen.generate_year(year)
-            fname = output_path / f'viet_lunar_{year}.ics'
+            fname = output_path / f'{prefix}_{year}.ics'
             gen.save(cal, fname)
             yearly_files.append(fname)
             total_files.append(fname)
@@ -197,7 +217,7 @@ def main():
 
         # Nén vào file zip nếu dùng --split (nhiều hơn 1 năm)
         if args.split and len(yearly_files) > 1:
-            zip_name = output_path / f'viet_lunar_yearly_{start_year}_{end_year}.zip'
+            zip_name = output_path / f'{prefix}_yearly_{start_year}_{end_year}.zip'
             print(f'\n📦 Đang nén {len(yearly_files)} file vào {zip_name.name}...')
             create_zip_archive(yearly_files, zip_name)
             total_files.append(zip_name)
@@ -215,12 +235,12 @@ def main():
         cal = gen.generate_range(start_year, end_year)
 
         # Lưu file tên theo khoảng năm
-        fname = output_path / f'viet_lunar_{suffix}.ics'
+        fname = output_path / f'{prefix}_{suffix}.ics'
         gen.save(cal, fname)
         total_files.append(fname)
 
         # Cập nhật file viet_lunar_latest.ics phục vụ link URL cố định
-        latest_fname = output_path / 'viet_lunar_latest.ics'
+        latest_fname = output_path / f'{prefix}_latest.ics'
         shutil.copy(fname, latest_fname)
         total_files.append(latest_fname)
 

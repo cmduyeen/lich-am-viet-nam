@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270122@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yang Fire Horse year)\nTraditional lun
+ ar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270206@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yin Fire Goat year)\nFirst day of the lu
+ nar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270220@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270322@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270421@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270520@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270619@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270718@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270816@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20270915@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20271014@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yin Fire Goat year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20271112@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yin Fire Goat year)\nTraditional lunar
+  day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261020T191853Z
+UID:vnlunar-en-minimal-20271212@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yin Fire Goat year)\nTraditional lunar
+  day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR

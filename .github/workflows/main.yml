@@ -30,10 +30,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Generate Calendar files
+      - name: Test calendar generation
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate full and minimal lunar calendar files
         run: |
           # Tự động tạo file tổng hợp 10 năm cuốn chiếu và các file riêng từng năm
           python main.py --split
+          python main.py --language en --split
+          python main.py --minimal --split
+          python main.py --language en --minimal --split
 
       - name: Commit and push changes
         run: |

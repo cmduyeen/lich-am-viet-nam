@@ -1,0 +1,1641 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Chỉ gồm Rằm (ngày 15 âm lịch, kể cả tháng nhu
+ ận) và Mùng 1 Tết Nguyên Đán (tháng Giêng không nhuận). Khô
+ ng phải thời điểm trăng tròn thiên văn chính xác. Múi giờ 
+ GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Lịch Âm Việt Nam - Tối Giản 2026–2036
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260103@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Ất Tỵ)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260202@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Ất Tỵ)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260217@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Bính Ngọ)\nNgày đầu năm â
+ m lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260303@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260402@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260501@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260531@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260629@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260728@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260827@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20260925@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20261024@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Bính Ngọ)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20261123@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Bính Ngọ)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20260928T071136Z
+UID:vnlunar-minimal-20261223@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Bính Ngọ)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270122@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Bính Ngọ)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270206@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Đinh Mùi)\nNgày đầu năm âm
+  lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270220@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270322@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270421@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270520@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270619@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270718@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270816@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20270915@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20271014@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Đinh Mùi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20271112@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Đinh Mùi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20271212@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Đinh Mùi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280111
+DTEND;VALUE=DATE:20280112
+DTSTAMP:20260928T071137Z
+UID:vnlunar-minimal-20280111@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Đinh Mùi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20280126
+DTEND;VALUE=DATE:20280127
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280126@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Mậu Thân)\nNgày đầu năm â
+ m lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280209
+DTEND;VALUE=DATE:20280210
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280209@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280310@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280409
+DTEND;VALUE=DATE:20280410
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280409@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280509
+DTEND;VALUE=DATE:20280510
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280509@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280607
+DTEND;VALUE=DATE:20280608
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280607@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280707@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 nhuận âm lịch (Mậu Thân)\nNgày 15 â
+ m lịch theo truyền thống\, không phải thời điểm trăng tròn
+  thiên văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280805
+DTEND;VALUE=DATE:20280806
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280805@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280904
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20280903@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20281003@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20281101@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Mậu Thân)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20281130
+DTEND;VALUE=DATE:20281201
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20281130@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Mậu Thân)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20281230
+DTEND;VALUE=DATE:20281231
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20281230@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Mậu Thân)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290129
+DTEND;VALUE=DATE:20290130
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290129@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Mậu Thân)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20290213
+DTEND;VALUE=DATE:20290214
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290213@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Kỷ Dậu)\nNgày đầu năm âm
+  lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290227
+DTEND;VALUE=DATE:20290228
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290227@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290329
+DTEND;VALUE=DATE:20290330
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290329@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290428
+DTEND;VALUE=DATE:20290429
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290428@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290527
+DTEND;VALUE=DATE:20290528
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290527@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290626
+DTEND;VALUE=DATE:20290627
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290626@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290725
+DTEND;VALUE=DATE:20290726
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290725@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290824
+DTEND;VALUE=DATE:20290825
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290824@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20290922
+DTEND;VALUE=DATE:20290923
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20290922@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20291022
+DTEND;VALUE=DATE:20291023
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20291022@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20291120
+DTEND;VALUE=DATE:20291121
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20291120@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20291219
+DTEND;VALUE=DATE:20291220
+DTSTAMP:20260928T071138Z
+UID:vnlunar-minimal-20291219@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300118
+DTEND;VALUE=DATE:20300119
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300118@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Kỷ Dậu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20300203
+DTEND;VALUE=DATE:20300204
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300203@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Canh Tuất)\nNgày đầu năm â
+ m lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300217
+DTEND;VALUE=DATE:20300218
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300217@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300318
+DTEND;VALUE=DATE:20300319
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300318@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300417
+DTEND;VALUE=DATE:20300418
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300417@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300516
+DTEND;VALUE=DATE:20300517
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300516@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300615
+DTEND;VALUE=DATE:20300616
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300615@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300715
+DTEND;VALUE=DATE:20300716
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300715@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300813
+DTEND;VALUE=DATE:20300814
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300813@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20300912
+DTEND;VALUE=DATE:20300913
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20300912@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20301011
+DTEND;VALUE=DATE:20301012
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20301011@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Canh Tuất)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20301110
+DTEND;VALUE=DATE:20301111
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20301110@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Canh Tuất)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20301209
+DTEND;VALUE=DATE:20301210
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20301209@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Canh Tuất)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310108
+DTEND;VALUE=DATE:20310109
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310108@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Canh Tuất)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20310123
+DTEND;VALUE=DATE:20310124
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310123@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Tân Hợi)\nNgày đầu năm âm
+  lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310206
+DTEND;VALUE=DATE:20310207
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310206@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310307
+DTEND;VALUE=DATE:20310308
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310307@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310406
+DTEND;VALUE=DATE:20310407
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310406@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310506
+DTEND;VALUE=DATE:20310507
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310506@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 nhuận âm lịch (Tân Hợi)\nNgày 15 âm
+  lịch theo truyền thống\, không phải thời điểm trăng tròn 
+ thiên văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310604
+DTEND;VALUE=DATE:20310605
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310604@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310704
+DTEND;VALUE=DATE:20310705
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310704@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310802
+DTEND;VALUE=DATE:20310803
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310802@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20310901
+DTEND;VALUE=DATE:20310902
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20310901@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20311001
+DTEND;VALUE=DATE:20311002
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20311001@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20311030
+DTEND;VALUE=DATE:20311031
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20311030@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Tân Hợi)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20311129
+DTEND;VALUE=DATE:20311130
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20311129@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Tân Hợi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20311228
+DTEND;VALUE=DATE:20311229
+DTSTAMP:20260928T071139Z
+UID:vnlunar-minimal-20311228@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Tân Hợi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320127
+DTEND;VALUE=DATE:20320128
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320127@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Tân Hợi)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20320211
+DTEND;VALUE=DATE:20320212
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320211@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Nhâm Tý)\nNgày đầu năm âm 
+ lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320225
+DTEND;VALUE=DATE:20320226
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320225@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320326
+DTEND;VALUE=DATE:20320327
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320326@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320424
+DTEND;VALUE=DATE:20320425
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320424@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320523
+DTEND;VALUE=DATE:20320524
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320523@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320622
+DTEND;VALUE=DATE:20320623
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320622@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320721
+DTEND;VALUE=DATE:20320722
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320721@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320820
+DTEND;VALUE=DATE:20320821
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320820@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20320919
+DTEND;VALUE=DATE:20320920
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20320919@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20321018
+DTEND;VALUE=DATE:20321019
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20321018@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Nhâm Tý)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20321117
+DTEND;VALUE=DATE:20321118
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20321117@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Nhâm Tý)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20321217
+DTEND;VALUE=DATE:20321218
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20321217@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Nhâm Tý)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330115
+DTEND;VALUE=DATE:20330116
+DTSTAMP:20260928T071140Z
+UID:vnlunar-minimal-20330115@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Nhâm Tý)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20330131
+DTEND;VALUE=DATE:20330201
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330131@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Quý Sửu)\nNgày đầu năm âm
+  lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330214
+DTEND;VALUE=DATE:20330215
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330214@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330315
+DTEND;VALUE=DATE:20330316
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330315@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330414
+DTEND;VALUE=DATE:20330415
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330414@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330513
+DTEND;VALUE=DATE:20330514
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330513@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330611
+DTEND;VALUE=DATE:20330612
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330611@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330711
+DTEND;VALUE=DATE:20330712
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330711@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330809
+DTEND;VALUE=DATE:20330810
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330809@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20330908
+DTEND;VALUE=DATE:20330909
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20330908@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20331007
+DTEND;VALUE=DATE:20331008
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20331007@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Quý Sửu)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20331106
+DTEND;VALUE=DATE:20331107
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20331106@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Quý Sửu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20331206
+DTEND;VALUE=DATE:20331207
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20331206@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Quý Sửu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340105
+DTEND;VALUE=DATE:20340106
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340105@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 nhuận âm lịch (Quý Sửu)\nNgày 15 â
+ m lịch theo truyền thống\, không phải thời điểm trăng tròn
+  thiên văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340203
+DTEND;VALUE=DATE:20340204
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340203@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Quý Sửu)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20340219
+DTEND;VALUE=DATE:20340220
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340219@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Giáp Dần)\nNgày đầu năm â
+ m lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340305
+DTEND;VALUE=DATE:20340306
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340305@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340403
+DTEND;VALUE=DATE:20340404
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340403@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340503
+DTEND;VALUE=DATE:20340504
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340503@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340601
+DTEND;VALUE=DATE:20340602
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340601@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340630
+DTEND;VALUE=DATE:20340701
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340630@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340730
+DTEND;VALUE=DATE:20340731
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340730@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340828
+DTEND;VALUE=DATE:20340829
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340828@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20340927
+DTEND;VALUE=DATE:20340928
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20340927@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20341026
+DTEND;VALUE=DATE:20341027
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20341026@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Giáp Dần)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20341125
+DTEND;VALUE=DATE:20341126
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20341125@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Giáp Dần)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20341225
+DTEND;VALUE=DATE:20341226
+DTSTAMP:20260928T071141Z
+UID:vnlunar-minimal-20341225@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Giáp Dần)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350123
+DTEND;VALUE=DATE:20350124
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350123@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Giáp Dần)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20350208
+DTEND;VALUE=DATE:20350209
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350208@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Ất Mão)\nNgày đầu năm âm 
+ lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350222
+DTEND;VALUE=DATE:20350223
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350222@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350324
+DTEND;VALUE=DATE:20350325
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350324@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350422
+DTEND;VALUE=DATE:20350423
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350422@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350522
+DTEND;VALUE=DATE:20350523
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350522@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350620
+DTEND;VALUE=DATE:20350621
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350620@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350719
+DTEND;VALUE=DATE:20350720
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350719@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350818
+DTEND;VALUE=DATE:20350819
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350818@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20350916
+DTEND;VALUE=DATE:20350917
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20350916@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20351015
+DTEND;VALUE=DATE:20351016
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20351015@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Ất Mão)\nNgày 15 âm lịch t
+ heo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20351114
+DTEND;VALUE=DATE:20351115
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20351114@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Ất Mão)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20351214
+DTEND;VALUE=DATE:20351215
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20351214@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Ất Mão)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360112
+DTEND;VALUE=DATE:20360113
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360112@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Ất Mão)\nNgày 15 âm lịch 
+ theo truyền thống\, không phải thời điểm trăng tròn thiên v
+ ăn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20360128
+DTEND;VALUE=DATE:20360129
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360128@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Bính Thìn)\nNgày đầu năm â
+ m lịch (mùng 1 tháng Giêng không nhuận).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360211
+DTEND;VALUE=DATE:20360212
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360211@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360312
+DTEND;VALUE=DATE:20360313
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360312@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360411
+DTEND;VALUE=DATE:20360412
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360411@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360510
+DTEND;VALUE=DATE:20360511
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360510@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360609
+DTEND;VALUE=DATE:20360610
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360609@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360708
+DTEND;VALUE=DATE:20360709
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360708@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360806
+DTEND;VALUE=DATE:20360807
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360806@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 6 nhuận âm lịch (Bính Thìn)\nNgày 15 â
+ m lịch theo truyền thống\, không phải thời điểm trăng tròn
+  thiên văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20360905
+DTEND;VALUE=DATE:20360906
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20360905@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20361004
+DTEND;VALUE=DATE:20361005
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20361004@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20361102
+DTEND;VALUE=DATE:20361103
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20361102@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Bính Thìn)\nNgày 15 âm lịch
+  theo truyền thống\, không phải thời điểm trăng tròn thiên 
+ văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20361202
+DTEND;VALUE=DATE:20361203
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20361202@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Bính Thìn)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20361231
+DTEND;VALUE=DATE:20370101
+DTSTAMP:20260928T071142Z
+UID:vnlunar-minimal-20361231@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Bính Thìn)\nNgày 15 âm lịc
+ h theo truyền thống\, không phải thời điểm trăng tròn thiên
+  văn chính xác.
+END:VEVENT
+END:VCALENDAR

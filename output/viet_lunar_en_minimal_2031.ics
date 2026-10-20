@@ -1,0 +1,153 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2031
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310108
+DTEND;VALUE=DATE:20310109
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310108@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yang Metal Dog year)\nTraditional luna
+ r day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20310123
+DTEND;VALUE=DATE:20310124
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310123@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yin Metal Pig year)\nFirst day of the lu
+ nar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310206
+DTEND;VALUE=DATE:20310207
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310206@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310307
+DTEND;VALUE=DATE:20310308
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310307@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310406
+DTEND;VALUE=DATE:20310407
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310406@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310506
+DTEND;VALUE=DATE:20310507
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310506@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, leap month 3 (Yin Metal Pig year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310604
+DTEND;VALUE=DATE:20310605
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310604@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310704
+DTEND;VALUE=DATE:20310705
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310704@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310802
+DTEND;VALUE=DATE:20310803
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310802@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20310901
+DTEND;VALUE=DATE:20310902
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20310901@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20311001
+DTEND;VALUE=DATE:20311002
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20311001@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20311030
+DTEND;VALUE=DATE:20311031
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20311030@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yin Metal Pig year)\nTraditional lunar 
+ day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20311129
+DTEND;VALUE=DATE:20311130
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20311129@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yin Metal Pig year)\nTraditional lunar
+  day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20311228
+DTEND;VALUE=DATE:20311229
+DTSTAMP:20261020T191858Z
+UID:vnlunar-en-minimal-20311228@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yin Metal Pig year)\nTraditional lunar
+  day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR

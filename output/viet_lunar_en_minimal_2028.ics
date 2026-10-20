@@ -1,0 +1,153 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2028
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280111
+DTEND;VALUE=DATE:20280112
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280111@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yin Fire Goat year)\nTraditional lunar
+  day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20280126
+DTEND;VALUE=DATE:20280127
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280126@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yang Earth Monkey year)\nFirst day of th
+ e lunar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280209
+DTEND;VALUE=DATE:20280210
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280209@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280310@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280409
+DTEND;VALUE=DATE:20280410
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280409@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280509
+DTEND;VALUE=DATE:20280510
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280509@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280607
+DTEND;VALUE=DATE:20280608
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280607@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280707
+DTEND;VALUE=DATE:20280708
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280707@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, leap month 5 (Yang Earth Monkey year)\nTradition
+ al lunar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280805
+DTEND;VALUE=DATE:20280806
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280805@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20280903
+DTEND;VALUE=DATE:20280904
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20280903@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20281003@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20281101
+DTEND;VALUE=DATE:20281102
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20281101@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yang Earth Monkey year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20281130
+DTEND;VALUE=DATE:20281201
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20281130@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yang Earth Monkey year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20281230
+DTEND;VALUE=DATE:20281231
+DTSTAMP:20261020T191854Z
+UID:vnlunar-en-minimal-20281230@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yang Earth Monkey year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR

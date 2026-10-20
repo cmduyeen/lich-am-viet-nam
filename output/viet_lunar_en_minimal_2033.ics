@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Full Moon (traditional lunar day 15, including leap months) an
+ d Lunar New Year's Day only. Not exact astronomical full moon times. Time 
+ zone GMT+7 - Asia/Ho_Chi_Minh.
+X-WR-CALNAME:Vietnamese Lunar Calendar - Minimal 2033
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330115
+DTEND;VALUE=DATE:20330116
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330115@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 12 (Yang Water Rat year)\nTraditional luna
+ r day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20330131
+DTEND;VALUE=DATE:20330201
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330131@cmduyeen
+COLOR:#E53935
+DESCRIPTION:Lunar day 1\, month 1 (Yin Water Buffalo year)\nFirst day of th
+ e lunar year (non-leap month 1).
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330214
+DTEND;VALUE=DATE:20330215
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330214@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 1 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330315
+DTEND;VALUE=DATE:20330316
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330315@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 2 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330414
+DTEND;VALUE=DATE:20330415
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330414@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 3 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330513
+DTEND;VALUE=DATE:20330514
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330513@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 4 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330611
+DTEND;VALUE=DATE:20330612
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330611@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 5 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330711
+DTEND;VALUE=DATE:20330712
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330711@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 6 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330809
+DTEND;VALUE=DATE:20330810
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330809@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 7 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20330908
+DTEND;VALUE=DATE:20330909
+DTSTAMP:20261020T191900Z
+UID:vnlunar-en-minimal-20330908@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 8 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20331007
+DTEND;VALUE=DATE:20331008
+DTSTAMP:20261020T191901Z
+UID:vnlunar-en-minimal-20331007@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 9 (Yin Water Buffalo year)\nTraditional lu
+ nar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20331106
+DTEND;VALUE=DATE:20331107
+DTSTAMP:20261020T191901Z
+UID:vnlunar-en-minimal-20331106@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 10 (Yin Water Buffalo year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20331206
+DTEND;VALUE=DATE:20331207
+DTSTAMP:20261020T191901Z
+UID:vnlunar-en-minimal-20331206@cmduyeen
+COLOR:#FB8C00
+DESCRIPTION:Lunar day 15\, month 11 (Yin Water Buffalo year)\nTraditional l
+ unar day 15\, not an exact astronomical full moon time.
+END:VEVENT
+END:VCALENDAR
