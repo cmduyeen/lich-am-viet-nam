@@ -5,6 +5,7 @@
 from __future__ import annotations
 from datetime import date, timedelta
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Optional
 
 from lunar_python import Solar
@@ -71,7 +72,7 @@ def lunar_day_name(day: int) -> str:
 # Dataclass kết quả chuyển đổi
 # ──────────────────────────────────────────────────────────────
 
-@dataclass
+@dataclass(frozen=True)
 class LunarDate:
     """Đối tượng chứa thông tin chi tiết về ngày âm lịch."""
     # Ngày dương lịch gốc
@@ -166,6 +167,7 @@ def _tietKhi_to_viet(tk: str) -> Optional[str]:
 # Hàm chuyển đổi chính
 # ──────────────────────────────────────────────────────────────
 
+@lru_cache(maxsize=8192)
 def to_lunar(d: date) -> LunarDate:
     """
     Chuyển đổi một ngày dương lịch sang âm lịch Việt Nam (GMT+7).
@@ -187,18 +189,10 @@ def to_lunar(d: date) -> LunarDate:
     gz_day   = lunar.getDayInGanZhi()
 
     # Con giáp — getYearShengXiao() trả về con giáp âm lịch (đúng) e.g. '马'=Ngựa (Ngọ)
-    try:
-        zodiac_raw = lunar.getYearShengXiao()
-        zodiac_vn  = _zodiac_to_viet(zodiac_raw)
-    except Exception:
-        zodiac_vn = '?'
+    zodiac_vn = _zodiac_to_viet(lunar.getYearShengXiao())
 
     # Tiết Khí — getJieQi() trả về string rỗng nếu không phải tiết khí
-    try:
-        tietKhi_raw = lunar.getJieQi()
-        tietKhi_vn  = _tietKhi_to_viet(tietKhi_raw) if tietKhi_raw else None
-    except Exception:
-        tietKhi_vn = None
+    tietKhi_vn = _tietKhi_to_viet(lunar.getJieQi())
 
     return LunarDate(
         solar_date    = d,

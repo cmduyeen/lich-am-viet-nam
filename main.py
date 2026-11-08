@@ -30,7 +30,7 @@ try:
 except ImportError:
     HAS_TQDM = False
 
-from src.config import START_YEAR, END_YEAR, OUTPUT_DIR, DEFAULT_YEARS_AHEAD
+from src.config import OUTPUT_DIR, DEFAULT_YEARS_AHEAD
 from src.ics_generator import LunarCalendarGenerator
 
 
@@ -55,13 +55,10 @@ def format_size(path: Path) -> str:
 def count_events(filepath: Path) -> int:
     """Đếm số VEVENT trong file .ics."""
     count = 0
-    try:
-        with open(filepath, 'rb') as f:
-            for line in f:
-                if line.strip() == b'BEGIN:VEVENT':
-                    count += 1
-    except Exception:
-        pass
+    with filepath.open('rb') as file:
+        for line in file:
+            if line.strip() == b'BEGIN:VEVENT':
+                count += 1
     return count
 
 
@@ -117,6 +114,9 @@ def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
 
 
 def main():
+    if hasattr(sys.stdout, 'reconfigure'):
+        sys.stdout.reconfigure(encoding='utf-8')
+
     parser = argparse.ArgumentParser(
         description='Tạo file iCalendar (.ics) Lịch Âm Việt Nam',
         formatter_class=argparse.RawDescriptionHelpFormatter,
@@ -139,7 +139,7 @@ def main():
         help='Tạo file riêng cho từng năm (ngoài file tổng hợp)',
     )
     parser.add_argument(
-        '--output-dir', type=str, default=OUTPUT_DIR,
+        '--output-dir', type=str, default=str(ROOT_DIR / OUTPUT_DIR),
         help=f'Thư mục output (mặc định: {OUTPUT_DIR})',
     )
     args = parser.parse_args()
@@ -149,7 +149,7 @@ def main():
     # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm cuốn chiếu)
     current_year = date.today().year
 
-    if args.year:
+    if args.year is not None:
         start_year = end_year = args.year
     else:
         start_year = args.start if args.start is not None else current_year

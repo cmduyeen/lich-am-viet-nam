@@ -3,11 +3,10 @@
 # ============================================================
 from __future__ import annotations
 
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
-import pytz
 from icalendar import Calendar, Event
 
 try:
@@ -32,7 +31,7 @@ except ImportError:
     from lunar_converter import to_lunar, is_last_day_of_lunar_month, LunarDate
 
 
-def _build_event_for_day(d: date, lunar: LunarDate) -> Event:
+def _build_event_for_day(d: date, lunar: LunarDate, dtstamp: datetime) -> Event:
     """Tạo VEVENT tối giản cho 1 ngày: Ngày âm + Ngày lễ lớn nếu có."""
     day = lunar.lunar_day
     m = lunar.lunar_month_abs
@@ -80,8 +79,7 @@ def _build_event_for_day(d: date, lunar: LunarDate) -> Event:
     else:
         event.add('color', '#1E88E5')  # Xanh dương trang nhã cho ngày thường
 
-    tz = pytz.timezone(TIMEZONE)
-    event.add('dtstamp', datetime.now(tz))
+    event.add('dtstamp', dtstamp)
 
     return event
 
@@ -121,13 +119,11 @@ class LunarCalendarGenerator:
     def _fill_calendar(self, cal: Calendar, start: date, end: date) -> None:
         """Duyệt qua từng ngày trong khoảng thời gian và thêm sự kiện vào Calendar."""
         current = start
+        dtstamp = datetime.now(timezone.utc)
         while current <= end:
-            try:
-                lunar = to_lunar(current)
-                event = _build_event_for_day(current, lunar)
-                cal.add_component(event)
-            except Exception as exc:
-                print(f'[WARN] Lỗi khi xử lý ngày {current}: {exc}')
+            lunar = to_lunar(current)
+            event = _build_event_for_day(current, lunar, dtstamp)
+            cal.add_component(event)
             current += timedelta(days=1)
 
     @staticmethod
