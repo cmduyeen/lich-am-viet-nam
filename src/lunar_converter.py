@@ -178,27 +178,31 @@ def to_lunar(d: date) -> LunarDate:
     Returns:
         LunarDate: Đối tượng chứa đầy đủ thông tin âm lịch.
     """
+    from .vietnamese_astronomy import vietnamese_date
+    lunar_year, vietnamese_month, vietnamese_day = vietnamese_date(d)
     solar = Solar.fromYmd(d.year, d.month, d.day)
     lunar = solar.getLunar()
 
-    raw_month = lunar.getMonth()   # Tháng nhuận trả về số âm (e.g. -4 = nhuận tháng 4)
+    raw_month = vietnamese_month   # Tháng nhuận trả về số âm (e.g. -4 = nhuận tháng 4)
     is_leap   = raw_month < 0      # Tháng nhuận khi month < 0
 
-    gz_year  = lunar.getYearInGanZhi()
+    stems = tuple(THIEN_CAN)
+    branches = tuple(DIA_CHI)
+    gz_year = stems[(lunar_year - 4) % 10] + branches[(lunar_year - 4) % 12]
     gz_month = lunar.getMonthInGanZhi()
     gz_day   = lunar.getDayInGanZhi()
 
     # Con giáp — getYearShengXiao() trả về con giáp âm lịch (đúng) e.g. '马'=Ngựa (Ngọ)
-    zodiac_vn = _zodiac_to_viet(lunar.getYearShengXiao())
+    zodiac_vn = tuple(CON_GIAP.values())[(lunar_year - 4) % 12]
 
     # Tiết Khí — getJieQi() trả về string rỗng nếu không phải tiết khí
     tietKhi_vn = _tietKhi_to_viet(lunar.getJieQi())
 
     return LunarDate(
         solar_date    = d,
-        lunar_year    = lunar.getYear(),
+        lunar_year    = lunar_year,
         lunar_month   = raw_month,
-        lunar_day     = lunar.getDay(),
+        lunar_day     = vietnamese_day,
         is_leap_month = is_leap,
         can_chi_year  = _ganzhi_to_viet(gz_year),
         can_chi_month = _ganzhi_to_viet(gz_month),

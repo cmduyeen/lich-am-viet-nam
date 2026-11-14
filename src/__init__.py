@@ -6,6 +6,7 @@ from .config import START_YEAR, END_YEAR, OUTPUT_DIR, DEFAULT_YEARS_AHEAD
 from .lunar_converter import to_lunar, LunarDate
 from .holidays import HolidayInfo
 from .ics_generator import LunarCalendarGenerator
+from .user_config import CalendarOptions
 
 __all__ = [
     'START_YEAR',
@@ -16,4 +17,5 @@ __all__ = [
     'LunarDate',
     'HolidayInfo',
     'LunarCalendarGenerator',
+    'CalendarOptions',
 ]

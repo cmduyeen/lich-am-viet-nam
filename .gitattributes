@@ -1,0 +1,6 @@
+* text=auto eol=lf
+output/*.ics -text
+output/*.ics whitespace=-trailing-space
+output/*.zip binary
+*.png binary
+tests/fixtures/hko-*.txt -text whitespace=-trailing-space

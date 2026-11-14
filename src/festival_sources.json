@@ -1,0 +1,32 @@
+{
+  "VN": {
+    "khai_ha": "https://vietnamembassy-usa.org/node/665",
+    "han_thuc": "https://vietnamembassy-usa.org/node/665",
+    "ghost": "https://vietnamembassy-usa.org/node/665"
+  },
+  "TW": {
+    "mazu": "https://www.twtainan.net/en/statics/religion/",
+    "qixi": "https://www.twtainan.net/en/statics/religion/"
+  },
+  "HK": {
+    "mazu": "https://www.ctc.org.hk/en/festival/",
+    "tam_kung": "https://www.ctc.org.hk/en/festival/",
+    "cny_day_3": "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+  },
+  "MO": {
+    "mazu": "https://www.culture.gov.mo/en/News/detail/12051",
+    "na_tcha": "https://www.culture.gov.mo/en/News/detail/12051"
+  },
+  "KR": {
+    "new_year_eve": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038",
+    "seollal_day_2": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038",
+    "chuseok_eve": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038",
+    "chuseok_day_2": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+  },
+  "SG": {
+    "cny_day_2": "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+  },
+  "MY": {
+    "cny_day_2": "https://www.tourism.gov.my/media/view/chinese-new-year"
+  }
+}
