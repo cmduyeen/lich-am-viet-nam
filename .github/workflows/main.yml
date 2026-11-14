@@ -1,47 +1,139 @@
-name: Update Lunar Calendar ICS
+name: Update Lunar Calendars
 
 on:
-  push:
-    branches:
-      - main
+  pull_request:
     paths:
-      - 'main.py'
-      - 'src/**'
+      - '**/*.py'
+      - 'src/*.json'
+      - 'tests/**'
+      - '**/README*.md'
+      - 'docs/**'
+      - '**/calendar.config.json'
       - 'requirements.txt'
-      - '.github/workflows/main.yml'
+      - '.github/workflows/**'
+  push:
+    branches: [main]
+    paths:
+      - '**/*.py'
+      - 'src/*.json'
+      - 'tests/**'
+      - '**/README*.md'
+      - 'docs/**'
+      - '**/calendar.config.json'
+      - 'requirements.txt'
+      - '.github/workflows/**'
   schedule:
-    - cron: '0 0 1 1 *'  # Chạy 1 năm 1 lần vào 00:00 ngày 1 tháng 1 hàng năm
-  workflow_dispatch:      # Cho phép chạy thủ công từ tab Actions bất kỳ lúc nào
+    - cron: '17 0 1 1 *' # January 1, 07:17 Vietnam time; avoid the busy hour boundary
+  workflow_dispatch:
+    inputs:
+      custom_config:
+        description: 'Optional committed JSON config path (overrides CUSTOM_CONFIG for this run)'
+        required: false
+        type: string
+      force_rebuild:
+        description: 'Force regression checks and generation even when current'
+        default: false
+        type: boolean
+      verify_browser:
+        description: 'Run browser consumer checks and capture screenshots'
+        default: false
+        type: boolean
+
+concurrency:
+  group: lunar-calendars-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
 
 jobs:
-  update-calendar:
+  verify-and-build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10   # Giới hạn thời gian tối đa để bảo vệ tài nguyên
+    timeout-minutes: 15
     permissions:
-      contents: write    # Cho phép action push code ngược lại repo
-
+      contents: write
+    env:
+      CUSTOM_CONFIG: ${{ inputs.custom_config || vars.CUSTOM_CONFIG }}
+      PYTHONUTF8: '1'
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
           persist-credentials: false
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Check whether feed generation is needed
+        id: freshness
+        shell: bash
+        run: |
+          args=()
+          if [ -n "$CUSTOM_CONFIG" ]; then args+=(--custom-config "$CUSTOM_CONFIG"); fi
+          if python3 src/release_state.py --check "${args[@]}"; then
+            echo "needed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "needed=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Decide whether to verify
+        id: work
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          NEEDED: ${{ steps.freshness.outputs.needed }}
+          FORCE: ${{ inputs.force_rebuild }}
+          BROWSER: ${{ inputs.verify_browser }}
+        run: |
+          if [ "$NEEDED" = true ] || [ "$FORCE" = true ] || [ "$BROWSER" = true ] || [ "$EVENT_NAME" = pull_request ] || [ "$EVENT_NAME" = push ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo 'Feeds current: dependency installation, generation, artifacts and commits skipped.' >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.work.outputs.run == 'true'
         with:
           python-version: '3.11'
-          cache: 'pip'
-
-      - name: Install dependencies
-        run: python -m pip install -r requirements.txt
-
-      - name: Generate Calendar files
+          cache: pip
+      - name: Install pinned runtime dependencies
+        if: steps.work.outputs.run == 'true'
+        run: python -m pip install --require-hashes -r requirements.txt
+      - name: Run regression and documentation checks
+        if: steps.work.outputs.run == 'true'
+        run: python -m unittest discover -s tests -v
+      - name: Build and validate candidate feeds
+        if: steps.work.outputs.run == 'true'
+        env:
+          FORCE: ${{ inputs.force_rebuild }}
         run: |
-          # Tự động tạo file tổng hợp 10 năm cuốn chiếu và các file riêng từng năm
-          python main.py --split
-
-      - name: Commit and push changes
+          args=()
+          if [ -n "$CUSTOM_CONFIG" ]; then args+=(--custom-config "$CUSTOM_CONFIG"); fi
+          if [ "$FORCE" != true ]; then args+=(--if-needed); fi
+          python generate_all.py "${args[@]}"
+      - uses: actions/setup-node@v4
+        if: github.event_name == 'pull_request' || inputs.verify_browser
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: tests/e2e/package-lock.json
+      - name: Verify actual ICS in a browser consumer
+        if: github.event_name == 'pull_request' || inputs.verify_browser
+        run: |
+          npm ci --prefix tests/e2e --ignore-scripts --no-fund
+          cd tests/e2e
+          npx playwright install --with-deps chromium
+          node run.mjs
+      - name: Upload browser evidence
+        if: always() && (github.event_name == 'pull_request' || inputs.verify_browser)
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-consumer-evidence
+          path: tests/e2e/artifacts/
+          retention-days: 3
+      - name: Upload candidate feeds for review
+        if: github.event_name == 'pull_request' || (github.event_name == 'workflow_dispatch' && steps.work.outputs.run == 'true')
+        uses: actions/upload-artifact@v4
+        with:
+          name: lunar-calendar-candidates
+          path: output/
+          include-hidden-files: true
+          retention-days: 3
+      - name: Publish reviewed feeds only when different
+        if: steps.work.outputs.run == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.PUBLISH_LUNAR_FEEDS == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -49,7 +141,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add -A output/
           if ! git diff --cached --quiet; then
-            git commit -m "chore: annual auto-update lunar calendar files (10-year rolling)"
-            git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
-            git push
+            git commit -m "chore: update reviewed lunar calendar feeds"
+            auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+            git -c "http.https://github.com/.extraheader=AUTHORIZATION: basic $auth" push
           fi

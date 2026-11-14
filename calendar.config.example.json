@@ -1,0 +1,18 @@
+{
+  "country": "VN",
+  "language": "vi",
+  "content": "observances",
+  "lunar_days": [
+    1,
+    15
+  ],
+  "holiday_types": [
+    "lunar"
+  ],
+  "colors": {
+    "calendar": "#E53935",
+    "holiday": "#C62828",
+    "lunar_day": "#FB8C00",
+    "ordinary": "#1E88E5"
+  }
+}

@@ -1,244 +1,117 @@
-# main.py — Điểm bắt đầu (Entry point) tạo Lịch Âm Việt Nam
-# ============================================================
-"""
-Công cụ tạo file iCalendar (.ics) cho lịch âm Việt Nam.
-Tự động tính toán cuốn chiếu 10 năm tới phục vụ đồng bộ tự động qua URL.
+"""Generate a traditional lunar calendar, or preserve the original Vietnamese feed.
 
-Cách dùng:
-    python main.py                          # Tạo file tổng hợp 10 năm tới và cập nhật viet_lunar_latest.ics
-    python main.py --split                  # Tạo thêm các file riêng lẻ từng năm và file zip
-    python main.py --start 2026 --end 2036  # Tạo lịch cho khoảng năm tùy chọn
-    python main.py --year 2027              # Chỉ tạo lịch cho một năm cụ thể
+No arguments: original full Vietnamese calendar.
+--country VN: new festival-only Vietnamese calendar.
+--countries VN,CN,KR --language en: one semantically merged festival feed.
 """
 import argparse
+import json
+from datetime import datetime
+from pathlib import Path
 import re
 import sys
-import time
-import zipfile
-import shutil
-from datetime import date
-from pathlib import Path
+import tempfile
+from zoneinfo import ZoneInfo
+from src.user_config import CalendarOptions, parse_lunar_days, parse_holiday_types
+from src.profiles import PROFILES, RESIDENCES, get_profile
+from src.naming import output_prefix as _output_prefix
+from src.ics import create_zip as create_zip_archive, publish_staged
+from src.build import build_files
+from src.output_lock import output_lock
+from src.config import resolve_year_range
 
-# Đảm bảo đường dẫn gốc của project luôn nằm trong sys.path
-ROOT_DIR = Path(__file__).resolve().parent
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
-
-try:
-    from tqdm import tqdm
-    HAS_TQDM = True
-except ImportError:
-    HAS_TQDM = False
-
-from src.config import OUTPUT_DIR, DEFAULT_YEARS_AHEAD
-from src.ics_generator import LunarCalendarGenerator
+ROOT_DIR=Path(__file__).resolve().parent
 
 
-def print_banner():
-    banner = r"""
-╔══════════════════════════════════════════════════════════╗
-║         🌙  LỊCH ÂM VIỆT NAM — iCalendar Generator       ║
-║              Múi giờ GMT+7 (Asia/Ho_Chi_Minh)             ║
-╚══════════════════════════════════════════════════════════╝
-"""
-    print(banner)
-
-
-def format_size(path: Path) -> str:
-    """Trả về kích thước file dạng KB / MB."""
-    size = path.stat().st_size
-    if size >= 1_048_576:
-        return f'{size / 1_048_576:.2f} MB'
-    return f'{size / 1024:.1f} KB'
-
-
-def count_events(filepath: Path) -> int:
-    """Đếm số VEVENT trong file .ics."""
-    count = 0
-    with filepath.open('rb') as file:
-        for line in file:
-            if line.strip() == b'BEGIN:VEVENT':
-                count += 1
-    return count
-
-
-def create_zip_archive(files: list[Path], output_zip: Path):
-    """Nén danh sách các file .ics vào một file nén định dạng .zip."""
-    with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for file in files:
-            zipf.write(file, arcname=file.name)
-    return output_zip
-
-
-def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
-    """
-    Tự động xóa các file của những năm đã qua để giữ thư mục output luôn sạch sẽ.
-    - Xóa file lẻ từng năm: viet_lunar_{year}.ics nếu year < current_year
-    - Xóa file tổng hợp cũ: viet_lunar_{start}_{end}.ics nếu start < current_year
-    - Xóa file zip cũ: viet_lunar_yearly_{start}_{end}.zip nếu start < current_year
-    """
-    removed: list[str] = []
-    if not output_path.exists():
-        return removed
-
-    single_year_re = re.compile(r'^viet_lunar_(\d{4})\.ics$')
-    range_ics_re = re.compile(r'^viet_lunar_(\d{4})_(\d{4})\.ics$')
-    range_zip_re = re.compile(r'^viet_lunar_yearly_(\d{4})_(\d{4})\.zip$')
-
-    for file in output_path.iterdir():
-        if not file.is_file():
-            continue
-
-        # 1. File lẻ từng năm đã qua
-        m_single = single_year_re.match(file.name)
-        if m_single and int(m_single.group(1)) < current_year:
-            file.unlink()
-            removed.append(file.name)
-            continue
-
-        # 2. File tổng hợp cũ có năm bắt đầu đã qua
-        m_range = range_ics_re.match(file.name)
-        if m_range and int(m_range.group(1)) < current_year:
-            file.unlink()
-            removed.append(file.name)
-            continue
-
-        # 3. File zip cũ có năm bắt đầu đã qua
-        m_zip = range_zip_re.match(file.name)
-        if m_zip and int(m_zip.group(1)) < current_year:
-            file.unlink()
-            removed.append(file.name)
-            continue
-
+def cleanup_past_files(output_path,current_year,output_prefix='viet_lunar'):
+    """Compatibility helper, restricted to a single exact feed prefix."""
+    folder=Path(output_path)
+    removed=[]
+    pattern=re.compile('^'+re.escape(output_prefix)+r'_(?:yearly_)?(\d{4})(?:_\d{4})?\.(?:ics|zip)$')
+    for path in folder.iterdir() if folder.exists() else ():
+        match=pattern.fullmatch(path.name)
+        if path.is_file() and match and int(match.group(1))<current_year:
+            path.unlink()
+            removed.append(path.name)
     return removed
 
 
-def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-
-    parser = argparse.ArgumentParser(
-        description='Tạo file iCalendar (.ics) Lịch Âm Việt Nam',
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-        epilog=__doc__,
-    )
-    parser.add_argument(
-        '--start', type=int, default=None,
-        help=f'Năm bắt đầu (mặc định: năm hiện tại)',
-    )
-    parser.add_argument(
-        '--end', type=int, default=None,
-        help=f'Năm kết thúc (mặc định: năm bắt đầu + {DEFAULT_YEARS_AHEAD} năm)',
-    )
-    parser.add_argument(
-        '--year', type=int, default=None,
-        help='Chỉ tạo file cho 1 năm cụ thể (ghi đè --start / --end)',
-    )
-    parser.add_argument(
-        '--split', action='store_true',
-        help='Tạo file riêng cho từng năm (ngoài file tổng hợp)',
-    )
-    parser.add_argument(
-        '--output-dir', type=str, default=str(ROOT_DIR / OUTPUT_DIR),
-        help=f'Thư mục output (mặc định: {OUTPUT_DIR})',
-    )
-    args = parser.parse_args()
-
-    print_banner()
-
-    # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm cuốn chiếu)
-    current_year = date.today().year
-
-    if args.year is not None:
-        start_year = end_year = args.year
-    else:
-        start_year = args.start if args.start is not None else current_year
-        end_year = args.end if args.end is not None else (start_year + DEFAULT_YEARS_AHEAD)
-
-    if start_year > end_year:
-        print(f'❌ Lỗi: --start ({start_year}) phải nhỏ hơn hoặc bằng --end ({end_year})')
-        sys.exit(1)
-
-    output_path = Path(args.output_dir)
-    output_path.mkdir(parents=True, exist_ok=True)
-
-    # ── 0. Tự động dọn dẹp các file của những năm đã qua ──────────
-    removed_files = cleanup_past_files(output_path, current_year)
-    if removed_files:
-        print(f'🧹 Đã tự động dọn dẹp {len(removed_files)} file của các năm đã qua:')
-        for rf in removed_files:
-            print(f'   🗑️ {rf}')
-        print()
-
-    gen = LunarCalendarGenerator()
-    total_files: list[Path] = []
-
-    print(f'📅 Khoảng thời gian : {start_year} → {end_year}')
-    print(f'📂 Thư mục output   : {output_path.resolve()}')
-    print()
-
-    # ── 1. Tạo file riêng từng năm (nếu yêu cầu --split hoặc --year) ─
-    if args.split or args.year:
-        years = range(start_year, end_year + 1)
-        iter_years = tqdm(years, desc='Đang tạo file từng năm', unit='năm') \
-            if HAS_TQDM else years
-
-        yearly_files: list[Path] = []
-        for year in iter_years:
-            t0 = time.time()
-            cal = gen.generate_year(year)
-            fname = output_path / f'viet_lunar_{year}.ics'
-            gen.save(cal, fname)
-            yearly_files.append(fname)
-            total_files.append(fname)
-            elapsed = time.time() - t0
-            if not HAS_TQDM:
-                print(f'  ✅ {fname.name}  ({format_size(fname)}, {elapsed:.1f}s)')
-
-        # Nén vào file zip nếu dùng --split (nhiều hơn 1 năm)
-        if args.split and len(yearly_files) > 1:
-            zip_name = output_path / f'viet_lunar_yearly_{start_year}_{end_year}.zip'
-            print(f'\n📦 Đang nén {len(yearly_files)} file vào {zip_name.name}...')
-            create_zip_archive(yearly_files, zip_name)
-            total_files.append(zip_name)
-            print(f'  ✅ Đã tạo file zip ({format_size(zip_name)})')
-
-    # ── 2. Tạo file tổng hợp & viet_lunar_latest.ics ───────────────
-    if not args.year:
-        suffix = f'{start_year}_{end_year}'
-        if start_year == end_year:
-            suffix = str(start_year)
-
-        print(f'\n⏳ Đang tạo file tổng hợp {start_year}–{end_year} '
-              f'({end_year - start_year + 1} năm)...')
-        t0 = time.time()
-        cal = gen.generate_range(start_year, end_year)
-
-        # Lưu file tên theo khoảng năm
-        fname = output_path / f'viet_lunar_{suffix}.ics'
-        gen.save(cal, fname)
-        total_files.append(fname)
-
-        # Cập nhật file viet_lunar_latest.ics phục vụ link URL cố định
-        latest_fname = output_path / 'viet_lunar_latest.ics'
-        shutil.copy(fname, latest_fname)
-        total_files.append(latest_fname)
-
-        elapsed = time.time() - t0
-        print(f'  ✅ Hoàn thành trong {elapsed:.1f}s')
-
-    # ── 3. Tổng kết ────────────────────────────────────────────────
-    print()
-    print('═' * 55)
-    print('📊 KẾT QUẢ:')
-    for fp in total_files:
-        n_events = count_events(fp)
-        print(f'   📄 {fp.name}')
-        print(f'      → {n_events:,} events  |  {format_size(fp)}')
-    print('═' * 55)
-    print()
-    print('🎉 Hoàn thành!')
+def count_events(filepath):
+    return Path(filepath).read_bytes().count(b'BEGIN:VEVENT\r\n')
 
 
-if __name__ == '__main__':
-    main()
+def main(argv=None):
+    if hasattr(sys.stdout,'reconfigure'): sys.stdout.reconfigure(encoding='utf-8')
+    parser=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter,argument_default=argparse.SUPPRESS)
+    group=parser.add_mutually_exclusive_group()
+    group.add_argument('--country',type=str.upper)
+    group.add_argument('--countries',help='Comma-separated country codes')
+    parser.add_argument('--tradition')
+    parser.add_argument('--residence',type=str.upper,help='Where you live, e.g. US; keeps source-calendar civil dates')
+    parser.add_argument('--language',help='en, vi, zh-Hans, zh-Hant, ko, ms or native')
+    parser.add_argument('--content',choices=('festivals','observances','daily'))
+    parser.add_argument('--minimal',action='store_true',help='Legacy Full Moon and Lunar New Year mode; incompatible with --content')
+    parser.add_argument('--feed-name',help='Stable custom subscription name, e.g. my-calendar')
+    parser.add_argument('--config',type=Path)
+    parser.add_argument('--start',type=int)
+    parser.add_argument('--end',type=int)
+    parser.add_argument('--year',type=int)
+    parser.add_argument('--lunar-days',help='all, none, or comma-separated days 1-30')
+    parser.add_argument('--holiday-types',help='all, none, solar, lunar or solar,lunar')
+    for key in ('calendar','holiday','lunar-day','ordinary'):
+        parser.add_argument(f'--{key}-color',metavar='#RRGGBB')
+    parser.add_argument('--split',action='store_true')
+    parser.add_argument('--output-dir',type=Path,default=ROOT_DIR/'output')
+    parser.add_argument('--list-countries',action='store_true')
+    args=vars(parser.parse_args(argv))
+    if args.get('list_countries'):
+        for p in PROFILES.values():
+            print(f'{p.code} | {p.tradition} | {", ".join(p.languages)} | {p.first_year}-{p.last_year}')
+        for host in RESIDENCES.values():
+            print(f'{host.code} | residence | traditions: {", ".join(dict(host.traditions))}; language native=en')
+        return 0
+    try:
+        data={}
+        if 'config' in args:
+            data=json.loads(args['config'].read_text(encoding='utf-8-sig'))
+            if not isinstance(data,dict): raise ValueError('configuration root must be a JSON object')
+        data=dict(data)
+        # An explicit CLI profile replaces a JSON profile and its default language.
+        if 'countries' in args or ('country' in args and ('countries' in data or args['country'] != data.get('country','VN'))):
+            for key in ('country','countries','language','tradition'): data.pop(key,None)
+        for key in ('feed_name','country','residence','tradition','language','content','minimal'):
+            if key in args: data[key]=args[key]
+        if 'countries' in args: data['countries']=[c.strip().upper() for c in args['countries'].split(',')]
+        if 'start' in args: data['start_year']=args['start']
+        if 'end' in args: data['end_year']=args['end']
+        if 'year' in args: data.update(start_year=args['year'],end_year=args['year'])
+        if 'lunar_days' in args:
+            days=parse_lunar_days(args['lunar_days'])
+            data['lunar_days']='all' if days is None else sorted(days)
+        if 'holiday_types' in args: data['holiday_types']=sorted(parse_holiday_types(args['holiday_types']))
+        colors=data.get('colors',{})
+        if not isinstance(colors,dict): raise ValueError('colors must be an object')
+        colors=dict(colors)
+        for key in ('calendar','holiday','lunar_day','ordinary'):
+            if key+'_color' in args: colors[key]=args[key+'_color']
+        if colors: data['colors']=colors
+        options=CalendarOptions.from_mapping(data)
+        current=datetime.now(ZoneInfo(get_profile(options.selected_countries[0]).timezone)).year
+        start,end=resolve_year_range(current,options.start_year,options.end_year,
+                                    min(get_profile(c).last_year for c in options.selected_countries))
+        output=args['output_dir']
+        # All generation and wire-format checks finish before touching output.
+        with output_lock(output), tempfile.TemporaryDirectory(prefix='lunar-build-') as temp:
+            calendar,files=build_files(options,start,end,Path(temp),output,args.get('split',False),'year' in args,
+                                       latest_only=not args.get('split',False) and 'year' not in args)
+            changes=publish_staged(temp,output)
+        print(f'{options.residence + " / " if options.residence else ""}{", ".join(options.selected_countries)} | {options.language} | {start}-{end} | {len(calendar.walk("VEVENT"))} events')
+        for file in files: print(str(output/file.name))
+        print(f'{len(changes)} files updated')
+    except (ValueError,TypeError,KeyError,OSError,json.JSONDecodeError) as exc:
+        parser.error(str(exc))
+    return 0
+
+
+if __name__=='__main__':
+    raise SystemExit(main())

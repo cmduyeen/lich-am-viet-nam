@@ -1,43 +1,51 @@
-<h1 align="center">🌙 Lịch Âm Việt Nam</h1>
+# 🌙 Global Lunar Calendars
 
-<p align="center">
-  Lịch âm và ngày lễ Việt Nam, đồng bộ với ứng dụng lịch yêu thích bằng một liên kết.
-</p>
+Choose a region, then open a country guide. Each guide has an English version, a native-language version and a copyable calendar URL.
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/Gi%E1%BA%A5y_ph%C3%A9p-MIT-FFD1DC?style=flat" alt="Giấy phép MIT" /></a>
-  <img src="https://img.shields.io/badge/C%E1%BA%ADp_nh%E1%BA%ADt-H%C3%A0ng_n%C4%83m-FFF0F5?style=flat" alt="Cập nhật hàng năm" />
-  <img src="https://img.shields.io/badge/Ph%E1%BA%A1m_vi-10_n%C4%83m_t%E1%BB%9Bi-FFD1DC?style=flat" alt="10 năm tiếp theo" />
-  <img src="https://img.shields.io/badge/%C4%90%E1%BB%8Bnh_d%E1%BA%A1ng-iCalendar_(.ics)-FFF0F5?style=flat" alt="Định dạng iCalendar" />
-</p>
+## 1. Choose your calendar
 
-<p align="center">
-  <img width="900" alt="Minh họa Lịch Âm Việt Nam" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
-</p>
+<details>
+<summary><strong>East Asia</strong></summary>
 
----
+- **China** — [English](china/README.md) · [简体中文](china/README.zh-Hans.md)
+- **Taiwan** — [English](taiwan/README.md) · [繁體中文](taiwan/README.zh-Hant.md)
+- **Hong Kong** — [English](hong-kong/README.md) · [繁體中文](hong-kong/README.zh-Hant.md)
+- **Macao** — [English](macao/README.md) · [繁體中文](macao/README.zh-Hant.md)
+- **South Korea** — [English](south-korea/README.md) · [한국어](south-korea/README.ko.md)
 
-## Thêm lịch bằng liên kết
+</details>
 
-Sao chép liên kết và chọn **Thêm lịch từ URL** hoặc **Đăng ký lịch bằng URL** trong ứng dụng lịch của bạn:
+<details>
+<summary><strong>Southeast Asia</strong></summary>
 
-```text
-https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
+- **Vietnam** — [English](vietnam/README.md) · [Tiếng Việt](vietnam/README.vi.md)
+- **Singapore** — [English](singapore/README.md) · [简体中文](singapore/README.zh-Hans.md)
+- **Malaysia** — [English](malaysia/README.md) · [Bahasa Melayu](malaysia/README.ms.md)
+
+</details>
+
+<details>
+<summary><strong>North America</strong></summary>
+
+- **[United States](united-states/README.md)** — choose Vietnamese, Chinese or Korean tradition.
+
+</details>
+
+## 2. Customize with Python
+
+One shared generator; no separate country applications. Run from this root folder after installing Python 3.11+ and requirements.txt:
+
+```powershell
+python main.py --config vietnam/calendar.config.json
+python main.py --country US --tradition vietnamese --language en
 ```
 
-Sau đó dán liên kết và lưu. Hãy đăng ký bằng URL để ứng dụng tự nhận các lần cập nhật, thay vì tải tệp `.ics` về máy. Tương thích với Google Calendar, Apple Calendar, Outlook và các ứng dụng hỗ trợ iCalendar.
+Configurations live next to each country’s two guides. Generated calendars stay in output/ so existing subscription URLs remain stable. Defaults cover the current year and next year; scheduled generation is annual, with immediate rebuilds for fixes. Yearly files and ZIPs are optional via --split --output-dir exports. A local folder rename does not rename the GitHub repository or publish new URLs.
 
-## Nội dung lịch
+## Status and development
 
-- Ngày âm lịch tương ứng với từng ngày dương lịch.
-- Ngày mùng 1, ngày rằm và đêm Giao Thừa.
-- Ngày lễ lớn: Tết Dương lịch, Tết Nguyên Đán, Giỗ Tổ Hùng Vương, Ngày Giải phóng miền Nam, Ngày Quốc tế Lao động và Quốc khánh.
-- Dịp truyền thống: Ông Công Ông Táo, Vía Thần Tài, Tết Nguyên Tiêu, Phật Đản, Tết Đoan Ngọ, Vu Lan và Tết Trung Thu.
+New feeds require publication to main before subscription. Native-language review and live calendar-app checks are still pending. Nigeria, Egypt, Brazil and Mexico are roadmap markets, not supported calendar profiles.
 
-Dữ liệu sử dụng múi giờ Việt Nam (GMT+7), được cập nhật tự động hằng năm và duy trì cho 10 năm tiếp theo.
+[Development](docs/DEVELOPMENT.md) · [Automation](docs/AUTOMATION.md) · [Feed inventory](output/index.json) · [Release checklist](docs/RELEASE.md) · [MIT](LICENSE)
 
----
-
-<p align="center">
-  Phần mềm mã nguồn mở theo giấy phép <a href="LICENSE">MIT</a>.
-</p>
+[cmduyeen](https://github.com/cmduyeen)
