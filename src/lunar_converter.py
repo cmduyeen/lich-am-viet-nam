@@ -1,6 +1,6 @@
 # ============================================================
 # lunar_converter.py — Chuyển đổi Dương lịch sang Âm lịch Việt Nam
-#   Sử dụng thư viện lunar-python (thuật toán Jean Meeus, GMT+7)
+#   Tính sóc và trung khí theo ngày dân sự GMT+7 (1900–2099)
 # ============================================================
 from __future__ import annotations
 from datetime import date, timedelta
@@ -9,6 +9,7 @@ from functools import lru_cache
 from typing import Optional
 
 from lunar_python import Solar
+from .vietnamese_astronomy import vietnamese_date
 
 
 # ──────────────────────────────────────────────────────────────
@@ -181,24 +182,27 @@ def to_lunar(d: date) -> LunarDate:
     solar = Solar.fromYmd(d.year, d.month, d.day)
     lunar = solar.getLunar()
 
-    raw_month = lunar.getMonth()   # Tháng nhuận trả về số âm (e.g. -4 = nhuận tháng 4)
+    vn_year, vn_month, vn_day = vietnamese_date(d)
+    raw_month = vn_month   # Tháng nhuận trả về số âm (e.g. -4 = nhuận tháng 4)
     is_leap   = raw_month < 0      # Tháng nhuận khi month < 0
 
-    gz_year  = lunar.getYearInGanZhi()
+    stems = list(THIEN_CAN)
+    branches = list(DIA_CHI)
+    gz_year = stems[(vn_year - 4) % 10] + branches[(vn_year - 4) % 12]
     gz_month = lunar.getMonthInGanZhi()
     gz_day   = lunar.getDayInGanZhi()
 
     # Con giáp — getYearShengXiao() trả về con giáp âm lịch (đúng) e.g. '马'=Ngựa (Ngọ)
-    zodiac_vn = _zodiac_to_viet(lunar.getYearShengXiao())
+    zodiac_vn = list(CON_GIAP.values())[(vn_year - 4) % 12]
 
     # Tiết Khí — getJieQi() trả về string rỗng nếu không phải tiết khí
     tietKhi_vn = _tietKhi_to_viet(lunar.getJieQi())
 
     return LunarDate(
         solar_date    = d,
-        lunar_year    = lunar.getYear(),
+        lunar_year    = vn_year,
         lunar_month   = raw_month,
-        lunar_day     = lunar.getDay(),
+        lunar_day     = vn_day,
         is_leap_month = is_leap,
         can_chi_year  = _ganzhi_to_viet(gz_year),
         can_chi_month = _ganzhi_to_viet(gz_month),

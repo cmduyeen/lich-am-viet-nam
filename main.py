@@ -14,9 +14,10 @@ import argparse
 import re
 import sys
 import time
-import zipfile
-import shutil
-from datetime import date
+from src.ics import create_zip
+from src.files import atomic_write
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 # Đảm bảo đường dẫn gốc của project luôn nằm trong sys.path
@@ -64,9 +65,7 @@ def count_events(filepath: Path) -> int:
 
 def create_zip_archive(files: list[Path], output_zip: Path):
     """Nén danh sách các file .ics vào một file nén định dạng .zip."""
-    with zipfile.ZipFile(output_zip, 'w', zipfile.ZIP_DEFLATED) as zipf:
-        for file in files:
-            zipf.write(file, arcname=file.name)
+    create_zip(files, output_zip)
     return output_zip
 
 
@@ -147,7 +146,7 @@ def main():
     print_banner()
 
     # Xử lý tham số năm (Mặc định: Năm hiện tại -> +10 năm cuốn chiếu)
-    current_year = date.today().year
+    current_year = datetime.now(ZoneInfo('Asia/Ho_Chi_Minh')).year
 
     if args.year is not None:
         start_year = end_year = args.year
@@ -155,20 +154,11 @@ def main():
         start_year = args.start if args.start is not None else current_year
         end_year = args.end if args.end is not None else (start_year + DEFAULT_YEARS_AHEAD)
 
-    if start_year > end_year:
-        print(f'❌ Lỗi: --start ({start_year}) phải nhỏ hơn hoặc bằng --end ({end_year})')
-        sys.exit(1)
+    if not (1900 <= start_year <= end_year <= 2098):
+        parser.error('Khoảng năm hỗ trợ: 1900–2098; năm bắt đầu phải không lớn hơn năm kết thúc.')
 
     output_path = Path(args.output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
-
-    # ── 0. Tự động dọn dẹp các file của những năm đã qua ──────────
-    removed_files = cleanup_past_files(output_path, current_year)
-    if removed_files:
-        print(f'🧹 Đã tự động dọn dẹp {len(removed_files)} file của các năm đã qua:')
-        for rf in removed_files:
-            print(f'   🗑️ {rf}')
-        print()
 
     gen = LunarCalendarGenerator()
     total_files: list[Path] = []
@@ -221,18 +211,21 @@ def main():
 
         # Cập nhật file viet_lunar_latest.ics phục vụ link URL cố định
         latest_fname = output_path / 'viet_lunar_latest.ics'
-        shutil.copy(fname, latest_fname)
+        atomic_write(latest_fname, fname.read_bytes())
         total_files.append(latest_fname)
 
         elapsed = time.time() - t0
         print(f'  ✅ Hoàn thành trong {elapsed:.1f}s')
+
+    # Chỉ dọn tệp cũ sau khi tạo lịch thành công.
+    cleanup_past_files(output_path, min(current_year, start_year))
 
     # ── 3. Tổng kết ────────────────────────────────────────────────
     print()
     print('═' * 55)
     print('📊 KẾT QUẢ:')
     for fp in total_files:
-        n_events = count_events(fp)
+        n_events = count_events(fp) if fp.suffix == '.ics' else 0
         print(f'   📄 {fp.name}')
         print(f'      → {n_events:,} events  |  {format_size(fp)}')
     print('═' * 55)

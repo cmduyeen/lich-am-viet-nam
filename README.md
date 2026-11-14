@@ -1,3 +1,5 @@
+**Tiếng Việt** · [English](README.en.md)
+
 <h1 align="center">🌙 Lịch Âm Việt Nam</h1>
 
 <p align="center">

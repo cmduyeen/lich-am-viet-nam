@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Optional
 
 from icalendar import Calendar, Event
+from .ics import write_calendar
 
 try:
     from .config import (
@@ -18,7 +19,7 @@ try:
         FIXED_SOLAR_HOLIDAYS, FIXED_LUNAR_HOLIDAYS,
         GIAO_THUA, HolidayInfo,
     )
-    from .lunar_converter import to_lunar, is_last_day_of_lunar_month, LunarDate
+    from .lunar_converter import to_lunar, LunarDate
 except ImportError:
     from config import (
         CALENDAR_NAME, CALENDAR_DESCRIPTION,
@@ -28,7 +29,7 @@ except ImportError:
         FIXED_SOLAR_HOLIDAYS, FIXED_LUNAR_HOLIDAYS,
         GIAO_THUA, HolidayInfo,
     )
-    from lunar_converter import to_lunar, is_last_day_of_lunar_month, LunarDate
+    from lunar_converter import to_lunar, LunarDate
 
 
 def _build_event_for_day(d: date, lunar: LunarDate, dtstamp: datetime) -> Event:
@@ -39,9 +40,9 @@ def _build_event_for_day(d: date, lunar: LunarDate, dtstamp: datetime) -> Event:
     # 1. Xác định ngày lễ lớn (nếu có)
     holiday: Optional[HolidayInfo] = None
 
-    if m == 12 and is_last_day_of_lunar_month(d):
+    if to_lunar(d + timedelta(days=1)).lunar_year != lunar.lunar_year:
         holiday = GIAO_THUA
-    elif (m, day) in FIXED_LUNAR_HOLIDAYS:
+    elif not lunar.is_leap_month and (m, day) in FIXED_LUNAR_HOLIDAYS:
         holiday = FIXED_LUNAR_HOLIDAYS[(m, day)]
     elif (d.month, d.day) in FIXED_SOLAR_HOLIDAYS:
         holiday = FIXED_SOLAR_HOLIDAYS[(d.month, d.day)]
@@ -56,8 +57,13 @@ def _build_event_for_day(d: date, lunar: LunarDate, dtstamp: datetime) -> Event:
     else:
         summary = f'{day}/{m}'
 
+    if lunar.is_leap_month:
+        summary = summary.replace(f'{day}/{m}', f'{day}/{m} nhuận', 1)
+
     # 3. Mô tả (Description): Súc tích, không rối mắt
     desc_lines = [f'Ngày {day} tháng {m} âm lịch ({lunar.can_chi_year})']
+    if lunar.is_leap_month:
+        desc_lines.append('Tháng nhuận')
     if holiday:
         desc_lines.append(f'{holiday.name}: {holiday.description}')
     description = '\n'.join(desc_lines)
@@ -131,5 +137,5 @@ class LunarCalendarGenerator:
         """Lưu đối tượng Calendar ra file định dạng .ics."""
         filepath = Path(filepath)
         filepath.parent.mkdir(parents=True, exist_ok=True)
-        with open(filepath, 'wb') as f:
-            f.write(cal.to_ical())
+        previous = filepath if filepath.exists() else filepath.with_name('viet_lunar_latest.ics')
+        write_calendar(cal, filepath, previous=previous)
