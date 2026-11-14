@@ -1,0 +1,504 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon.
+X-WR-CALNAME:China — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+SUMMARY:Laba Festival
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-laba-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2025\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-xiaonian_north-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-xiaonian_south-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-new_year_eve-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-lunar_new_year-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-cny_day_2-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-cny_day_3-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-lantern-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-dragon_heads-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-dragon_boat-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 26\n\nTraditional observance\; not an official public-holiday or substitut
+ e-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-qixi-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2026\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-ghost-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2026\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-mid_autumn-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-double_ninth-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2026\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laba Festival
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-laba-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-xiaonian_north-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-xiaonian_south-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-new_year_eve-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-lunar_new_year-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2027\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-cny_day_2-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-cny_day_3-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-lantern-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-dragon_heads-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-dragon_boat-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 27\n\nTraditional observance\; not an official public-holiday or substitut
+ e-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-qixi-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2027\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-ghost-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2027\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-mid_autumn-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-festivals-double_ninth-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2027\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+END:VCALENDAR

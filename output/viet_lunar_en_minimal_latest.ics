@@ -1,0 +1,364 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional lunar day 15 and Lunar New Year only. Full Moon i
+ s not an astronomical instant. UTC+7.
+X-WR-CALNAME:Vietnamese Lunar Calendar (Minimal) 2026-2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260103@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2025\nYear of the Wood Snake\nTraditional fu
+ ll-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260202@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/12/2025\nYear of the Wood Snake\nTraditional fu
+ ll-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260217@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Lunar date: 1/1/2026\nYear of the Fire Horse\nThe first day of
+  the first non-leap lunar month.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260303@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/1/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260402@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/2/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260501@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/3/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260531@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/4/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260629@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/5/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260728@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/6/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260827@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/7/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20260925@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/8/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20261024@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/9/2026\nYear of the Fire Horse\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20261123@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/10/2026\nYear of the Fire Horse\nTraditional fu
+ ll-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20261223@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2026\nYear of the Fire Horse\nTraditional fu
+ ll-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270122@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/12/2026\nYear of the Fire Horse\nTraditional fu
+ ll-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270206@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Lunar date: 1/1/2027\nYear of the Fire Goat\nThe first day of 
+ the first non-leap lunar month.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270220@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/1/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270322@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/2/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270421@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/3/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270520@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/4/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270619@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/5/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270718@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/6/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270816@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/7/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20270915@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/8/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20271014@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/9/2027\nYear of the Fire Goat\nTraditional full
+ -moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20271112@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/10/2027\nYear of the Fire Goat\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261114T154353Z
+UID:vnlunar-en-minimal-20271212@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2027\nYear of the Fire Goat\nTraditional ful
+ l-moon observance on lunar day 15\, not the exact astronomical full moon.
+LAST-MODIFIED:20261114T154353Z
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+END:VCALENDAR

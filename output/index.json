@@ -1,0 +1,1753 @@
+[
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 30,
+    "file": "lunar_vn_vietnamese_vi_festivals_latest.ics",
+    "sha256": "9e4cdab1c1f557589a3715492a129ab8eac3ac891df1213137197952c6c313e4",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_vn_vietnamese_vi_observances_latest.ics",
+    "sha256": "303f8754680a006c86178192c61d033a7bd75f361c3ae1fea4bb10e6f49829ca",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_vn_vietnamese_vi_daily_latest.ics",
+    "sha256": "86b5ebf3ff7c75f3322933cb8cda2c7029c84019120d8a923088e3cf3dae1b1f",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 30,
+    "file": "lunar_vn_vietnamese_en_festivals_latest.ics",
+    "sha256": "8c68ff2bf5e85102b1ce4316484d0dbea23844ef0d99988d96932743a2bdb463",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_vn_vietnamese_en_observances_latest.ics",
+    "sha256": "5811fcde754ff3bd5c58c940e26a9d1ce4837ed282bcde8811085dd07c8d02db",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_vn_vietnamese_en_daily_latest.ics",
+    "sha256": "2a645dcb59d1dbdaa26de97eee8925be93221420a07b61d42e3ea2c505ff9805",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 28,
+    "file": "lunar_cn_chinese_zh-Hans_festivals_latest.ics",
+    "sha256": "b47181e168e2215d79fc98790db78aa51e06dcac15cb98d1742e9e52a1266662",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_cn_chinese_zh-Hans_observances_latest.ics",
+    "sha256": "368c0054dc3402a7077d7fb051c76e203bc5b073ca4132c025413eb1e6f014c6",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_cn_chinese_zh-Hans_daily_latest.ics",
+    "sha256": "3b3a829450edc6cf19bc6c075811de8459baef660654f56ae2d5fdf0432ace59",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 28,
+    "file": "lunar_cn_chinese_en_festivals_latest.ics",
+    "sha256": "01800cc6d9fcee59c4d25e911adb64642a3f567398c83f275640a249cdf839a0",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_cn_chinese_en_observances_latest.ics",
+    "sha256": "f376769204d4e510c9a3ce29e19e9f4b22e5bc39aa02652919dce5eda4984b31",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_cn_chinese_en_daily_latest.ics",
+    "sha256": "8d39288af79a69f85a1ce3cc3ca7828d183987c74d39fc64ee3c7f655c4348cc",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 22,
+    "file": "lunar_tw_chinese_zh-Hant_festivals_latest.ics",
+    "sha256": "5efb9e10cd049d276ab74ef540c20604d953bfd51fd451b9e848ae4373fdee49",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 64,
+    "file": "lunar_tw_chinese_zh-Hant_observances_latest.ics",
+    "sha256": "17e80a6a24b2fe047e1fcded0340abbec8376aec3b7c547e53ea5c88f8dd1431",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_tw_chinese_zh-Hant_daily_latest.ics",
+    "sha256": "7f4332e3afddf5ebc831729e84bfd7bbe3d5ac5cfdc1af965d4727ea6e343045",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 22,
+    "file": "lunar_tw_chinese_en_festivals_latest.ics",
+    "sha256": "336f5c849d62ead8f01edf0a02b45a833b0beba8480f460ffb3f3026139ad054",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 64,
+    "file": "lunar_tw_chinese_en_observances_latest.ics",
+    "sha256": "f1f712faa50b73ae15e8a8c5a4314f0c98d2eeadadd316e4fbe9b7eae97bdd11",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "TW"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_tw_chinese_en_daily_latest.ics",
+    "sha256": "d564246d245325f3f4a7b6e0fe3fa33134fbd914372c91c3b04088d2860f8277",
+    "sources": [
+      "https://www.dgpa.gov.tw/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.twtainan.net/en/statics/religion/"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 24,
+    "file": "lunar_hk_chinese_zh-Hant_festivals_latest.ics",
+    "sha256": "b31149c769cffb99f28897424aeb50bbbbbf496a6148bfa2c305e0e2d639d59f",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 66,
+    "file": "lunar_hk_chinese_zh-Hant_observances_latest.ics",
+    "sha256": "360b79f38b2c58a8de775f0895c57a3d1084cd99516c36d36c0f6b4a7e6cf1e3",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_hk_chinese_zh-Hant_daily_latest.ics",
+    "sha256": "33944ade213557f855ac4e032d9c15c6020c347bc437749899477a61a8db8a9b",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 24,
+    "file": "lunar_hk_chinese_en_festivals_latest.ics",
+    "sha256": "98b0e9b519c6da7b6cd52bd238f379eb09e129096ae52eb63f17d8a7b66f8f0e",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 66,
+    "file": "lunar_hk_chinese_en_observances_latest.ics",
+    "sha256": "d877dba3946bfde0095821453401ff160f12906d1c192c61a8a3839caa84111d",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "HK"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_hk_chinese_en_daily_latest.ics",
+    "sha256": "6173e1fbe5ae18a745bba1ea6647030844664b9e1ddc94a3e37ab2c6a96cdd89",
+    "sources": [
+      "https://www.ctc.org.hk/en/festival/",
+      "https://www.gov.hk/en/about/abouthk/holiday/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.info.gov.hk/gia/general/202505/16/P2025051300353.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 22,
+    "file": "lunar_mo_chinese_zh-Hant_festivals_latest.ics",
+    "sha256": "adb73de2e889a93695f5fabcb36dc12e72eb392f17df3c881cc7de59d0aa8a4d",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 64,
+    "file": "lunar_mo_chinese_zh-Hant_observances_latest.ics",
+    "sha256": "8a87d8fde7d5d176a53d86f7fed36716e2525832beee35da3cb3b0a4f9f44ee7",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_mo_chinese_zh-Hant_daily_latest.ics",
+    "sha256": "a6e0d0a3ee381aecd34fa411675f1d8850a76082f3c54ab0808bd293477519e2",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 22,
+    "file": "lunar_mo_chinese_en_festivals_latest.ics",
+    "sha256": "0d054d2e7fdea5a5bce3f3e239fde0404c62189c710aa647d2989887fa4d2e55",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 64,
+    "file": "lunar_mo_chinese_en_observances_latest.ics",
+    "sha256": "cf045124b6fcfd699de189d3558bf55cd5e145219fdb00382102a62dd9217039",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MO"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_mo_chinese_en_daily_latest.ics",
+    "sha256": "f7165bf3273d461a8a27a6e9e147a9e4af0ab0b2502dbbc894057aa72ec95838",
+    "sources": [
+      "https://www.culture.gov.mo/en/News/detail/12051",
+      "https://www.gov.mo/en/public-holidays/",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 18,
+    "file": "lunar_kr_korean_ko_festivals_latest.ics",
+    "sha256": "925141d58b8bec07aeb5e27de7b83df4a39a3ec8e2e4d31b632f96d735501efa",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 62,
+    "file": "lunar_kr_korean_ko_observances_latest.ics",
+    "sha256": "a67422b7128e57f21b20097f983b792d90d8703369d441396f9f744af76d70bc",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 730,
+    "file": "lunar_kr_korean_ko_daily_latest.ics",
+    "sha256": "a9e5f953ce3c5fa1a3db8490370c86510dec96f7d3798265cec5b738a1f66bce",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 18,
+    "file": "lunar_kr_korean_en_festivals_latest.ics",
+    "sha256": "d82222eea6054d660a588288146710fc2cb0b9092e4cbe16dc3db6cac478190f",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 62,
+    "file": "lunar_kr_korean_en_observances_latest.ics",
+    "sha256": "2dc694ede2545abcba21e44029c0cbb65727be23d3bc2cb0e5949091841a9c0c",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 730,
+    "file": "lunar_kr_korean_en_daily_latest.ics",
+    "sha256": "941d2ba406db780c90e5c94ccf877cfdb4bffce6febc1f1144bd46be140e2aae",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 14,
+    "file": "lunar_sg_chinese_en_festivals_latest.ics",
+    "sha256": "c399ec372301e463ad588d896cb6ea210e7418cb452cd79675905d6bf7129ab1",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 56,
+    "file": "lunar_sg_chinese_en_observances_latest.ics",
+    "sha256": "22048572d0e6e979dc375a49199da406803b3183ee3a68f0505a2ad466be6148",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_sg_chinese_en_daily_latest.ics",
+    "sha256": "fd233266eb27510ec811f1baaf8274f63fa4cfe70647ad81da1ceba6b7d8dafa",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 14,
+    "file": "lunar_sg_chinese_zh-Hans_festivals_latest.ics",
+    "sha256": "b3024e906671c74670384254b991481ed76317970733e0d49e434020227e7b21",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 56,
+    "file": "lunar_sg_chinese_zh-Hans_observances_latest.ics",
+    "sha256": "8bba041088f5f79089974ef9f4e3b2ade4eb73c38cb0262273bdfe78c66862b7",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "SG"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_sg_chinese_zh-Hans_daily_latest.ics",
+    "sha256": "85e1f735801d137ac64159503c67912e861fb8bb9dd9009503529c1628d18961",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.mom.gov.sg/employment-practices/public-holidays",
+      "https://www.mom.gov.sg/newsroom/press-releases/2025/0616-public-holidays-for-2026"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "ms",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 14,
+    "file": "lunar_my_chinese_ms_festivals_latest.ics",
+    "sha256": "77e4164875d79529d35ee55de385c16b981908b65dee707bb55ef0ee53ef7665",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "ms",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 56,
+    "file": "lunar_my_chinese_ms_observances_latest.ics",
+    "sha256": "33b1392b759f9c243a260da4a2428e1a92f636b30b21ca46927d8cfafad733b4",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "ms",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_my_chinese_ms_daily_latest.ics",
+    "sha256": "cd733719e8d367483db42dbdfb1a6d348fa976bf063289b0a844168ccf6d274d",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 14,
+    "file": "lunar_my_chinese_en_festivals_latest.ics",
+    "sha256": "12bfa5cea62a76ec06f0b0a61652ed0b4c9ec2e94601948e070252b3baee2695",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 56,
+    "file": "lunar_my_chinese_en_observances_latest.ics",
+    "sha256": "33445e8390c450bbf9b51f6d851deee63649297b66fc7865de1e79a5de70cbc6",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_my_chinese_en_daily_latest.ics",
+    "sha256": "701fe96245daa3b151e0976a9ab7151ee99402c19d0dafa9ab9c418838f6cf86",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 14,
+    "file": "lunar_my_chinese_zh-Hans_festivals_latest.ics",
+    "sha256": "30d34d5bcec18d651c9840d04dee074129f12dcf56f7f8267c12ef9ddff80876",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 56,
+    "file": "lunar_my_chinese_zh-Hans_observances_latest.ics",
+    "sha256": "619be3292937d10f90a024c026a8991b91b4e03e2cdb76112a9f4276d89f2be3",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "MY"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_my_chinese_zh-Hans_daily_latest.ics",
+    "sha256": "bac83e687a9545ae6da009008751cc918137c650547f8cde77aeff515b88ebd0",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+      "https://www.kabinet.gov.my/",
+      "https://www.tourism.gov.my/media/view/chinese-new-year"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 30,
+    "file": "lunar_us_vietnamese_en_festivals_latest.ics",
+    "sha256": "f82d8ccc10bebdb8d8d06f48f76e05d1badf5dff625cc35b41f8616fa7ef8ab0",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_us_vietnamese_en_observances_latest.ics",
+    "sha256": "b1e4ae962118ff4fb7167c4e68ac2b68a33ecca07a3938135e7ab2e4cb03a8f5",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_us_vietnamese_en_daily_latest.ics",
+    "sha256": "f38f7e38f59d7e62739adca8452cef53a89ad110a0347753d7ef4a4f5adc8a35",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 30,
+    "file": "lunar_us_vietnamese_vi_festivals_latest.ics",
+    "sha256": "a01d787e344692358a1cb52a3577832cdd17feb8eab8cd23ee072291ff83f65a",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_us_vietnamese_vi_observances_latest.ics",
+    "sha256": "f22dac60f45e7d45cdeaa323810a4ceaea822d73b125af52cac723d1883dc52e",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": "vietnamese",
+    "language": "vi",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 732,
+    "file": "lunar_us_vietnamese_vi_daily_latest.ics",
+    "sha256": "26fea0ded3384ca785e25f7fc44562df330534a923ee7e53049a1eec2ae18b42",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 28,
+    "file": "lunar_us_chinese_en_festivals_latest.ics",
+    "sha256": "9589643c67ed5e3257f3aa57a682a9358c8d677fed47921057b437b2c0809d72",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_us_chinese_en_observances_latest.ics",
+    "sha256": "06c9e3e5c60ea7b060f651bbdd2e5adfb61b0493bc8f666b37a250246c2dd640",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_us_chinese_en_daily_latest.ics",
+    "sha256": "abbe9390877292dd91a11735a8e474bd0945250e232ec95303dd5d79ec026270",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 28,
+    "file": "lunar_us_chinese_zh-Hans_festivals_latest.ics",
+    "sha256": "e71c858a6bebb4d727646c3ad363e3bb66084a75d82b379b60fd1d670a18fa67",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_us_chinese_zh-Hans_observances_latest.ics",
+    "sha256": "e9f8927819e4cc4590592c930eb3b92d600e8c274c7dddbfe92e61a535c2ea29",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hans",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_us_chinese_zh-Hans_daily_latest.ics",
+    "sha256": "684fb2e077407edda910f394284f10ee64fc9d9de05cd0254d9e4dd8152b5245",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 28,
+    "file": "lunar_us_chinese_zh-Hant_festivals_latest.ics",
+    "sha256": "c15be67790ce6233d04cd032432e6ca658a9b00b08047d3bf4baaa86393b3548",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 70,
+    "file": "lunar_us_chinese_zh-Hant_observances_latest.ics",
+    "sha256": "47f3dbf04f230744fcff4887ccbbece050fa0b6b1aa9f999838fb28756787254",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "CN"
+    ],
+    "tradition": "chinese",
+    "language": "zh-Hant",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "lunar_us_chinese_zh-Hant_daily_latest.ics",
+    "sha256": "26c50bb6ecf4f27a635fbcd4ff300db0de481158494cb262dec176ab3f8975ec",
+    "sources": [
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 18,
+    "file": "lunar_us_korean_en_festivals_latest.ics",
+    "sha256": "e9b409c5d17dd31f8ea866785e91cf52763fca1bc3d1d64bafbae7c54ea4e70e",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 62,
+    "file": "lunar_us_korean_en_observances_latest.ics",
+    "sha256": "3629fb9a3c291e0df9c8f709126476faa244e7d43104c049e192e26278a5b8c7",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "en",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 730,
+    "file": "lunar_us_korean_en_daily_latest.ics",
+    "sha256": "e68b29680232c6ecd6da43b72a12b70a88a6ca77946de8398e594fff67678d72",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 18,
+    "file": "lunar_us_korean_ko_festivals_latest.ics",
+    "sha256": "208f6a63d005427ef458506325176c3d8eb275d4f37f710fcf3b02042103b9a7",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "observances",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 62,
+    "file": "lunar_us_korean_ko_observances_latest.ics",
+    "sha256": "d0cca43a56da44684fc4114aaf33cb73f20ce712afde74c9b5c4b753675821a3",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "KR"
+    ],
+    "tradition": "korean",
+    "language": "ko",
+    "content": "daily",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 730,
+    "file": "lunar_us_korean_ko_daily_latest.ics",
+    "sha256": "6fac4883bcf83acd70ebaf7f356d77e8aeec1f660237f1899ccce8ae524a60cf",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false,
+    "residence": "US",
+    "residence_sources": [
+      "https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-asian-population.html"
+    ],
+    "date_policy": "source-calendar-civil-date"
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
+    "language": "vi",
+    "content": "legacy-daily",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "viet_lunar_latest.ics",
+    "sha256": "4f8657bc0f390030a25c4207c0617f530400952ae9816f23ae7e702de2377a9d",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
+    "language": "vi",
+    "content": "minimal",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 27,
+    "file": "viet_lunar_minimal_latest.ics",
+    "sha256": "c0a1b5b9488fff432658aca0b1437c553d28e17645f20de653f9467f1dc9594c",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
+    "language": "en",
+    "content": "legacy-daily",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 730,
+    "file": "viet_lunar_en_latest.ics",
+    "sha256": "e461d61b1d2f2f272ac36f9748d376ed6aa1ccb5d211624112054c0058693cb0",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
+    "language": "en",
+    "content": "minimal",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 27,
+    "file": "viet_lunar_en_minimal_latest.ics",
+    "sha256": "65dcc9e879c7a12584aac796511783f8be9e08e2f3feee53dc88213e47787102",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "CN",
+      "KR",
+      "VN"
+    ],
+    "tradition": null,
+    "language": "en",
+    "content": "festivals",
+    "legacy": false,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2050,
+    "events": 62,
+    "file": "lunar_cn-kr-vn_merged_en_festivals_latest.ics",
+    "sha256": "c8723cb9ef855b58abce97bc0944bf6e998eb8d986786b7d09e3c340ccc891cc",
+    "sources": [
+      "https://astro.kasi.re.kr/",
+      "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038",
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665",
+      "https://www.hko.gov.hk/en/gts/time/conversion.htm"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  }
+]

@@ -1,0 +1,390 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon.
+X-WR-CALNAME:Taiwan — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-kitchen_gods-tw-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Kitchen Gods Day\nLunar date: 24/12/2025\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-new_year_eve-tw-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-lunar_new_year-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year\nLunar date: 1/1/2026\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-cny_day_2-tw-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year — Day 2\nLunar date: 2/1/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-lantern-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lantern Festival\nLunar date: 15/1/2026\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mazu’s Birthday
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-mazu-tw-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Mazu’s Birthday\nLunar date: 23/3/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mazu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-dragon_boat-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-qixi-tw-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Qixi Festival\nLunar date: 7/7/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-ghost-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Ghost Festival\nLunar date: 15/7/2026\n\nTraditional o
+ bservance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-mid_autumn-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-double_ninth-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Double Ninth Festival\nLunar date: 9/9/2026\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-kitchen_gods-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Kitchen Gods Day\nLunar date: 24/12/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-new_year_eve-tw-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-lunar_new_year-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year\nLunar date: 1/1/2027\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-cny_day_2-tw-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Lunar New Year — Day 2\nLunar date: 2/1/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-lantern-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Lantern Festival\nLunar date: 15/1/2027\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mazu’s Birthday
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-mazu-tw-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Mazu’s Birthday\nLunar date: 23/3/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mazu
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-dragon_boat-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/2
+ 027\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+DTSTAMP:20261114T000000Z
+UID:lunar-tw-festivals-qixi-tw-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Taiwan: Qixi Festival\nLunar date: 7/7/2027\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-ghost-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Ghost Festival\nLunar date: 15/7/2027\n\nTraditional o
+ bservance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-mid_autumn-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+DTSTAMP:20261114T154331Z
+UID:lunar-tw-festivals-double_ninth-tw-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Taiwan: Double Ninth Festival\nLunar date: 9/9/2027\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154331Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:TW
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+END:VCALENDAR
