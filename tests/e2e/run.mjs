@@ -113,5 +113,7 @@ try{
  console.log(JSON.stringify({status:'passed',feeds:inventory.length,events:totalEvents,checks:checks.length,evidence},null,2));
 }finally{
  if(browser)await browser.close();if(server)await new Promise(resolve=>server.close(resolve));
- await fs.rm(temp,{recursive:true,force:true});
+ const resolvedTemp=path.resolve(temp);
+ if(path.dirname(resolvedTemp)!==path.resolve(os.tmpdir()) || !path.basename(resolvedTemp).startsWith('lunar-consumer-'))throw new Error('Unsafe temporary cleanup target');
+ await fs.rm(resolvedTemp,{recursive:true,force:true});
 }
