@@ -18,6 +18,49 @@ from src.calendar_options import HOLIDAYS, load_custom_holidays
 
 
 class CalendarTests(unittest.TestCase):
+    def test_all_in_one_solar_and_lunar_holidays_stay_in_daily_events(self):
+        expected = {
+            date(2026, 2, 14): ('Lễ Tình nhân', "Valentine's Day"),
+            date(2026, 3, 8): ('Quốc tế Phụ nữ', "International Women's Day"),
+            date(2026, 6, 1): ('Quốc tế Thiếu nhi', "Children's Day"),
+            date(2026, 6, 28): ('Gia đình Việt Nam', 'Vietnamese Family Day'),
+            date(2026, 10, 20): ('Phụ nữ Việt Nam', "Vietnamese Women's Day"),
+            date(2026, 11, 20): ('Nhà giáo Việt Nam', "Vietnamese Teachers' Day"),
+            date(2026, 11, 24): ('Văn hóa Việt Nam', 'Vietnam Culture Day'),
+            date(2026, 12, 24): ('Đêm Giáng sinh', 'Christmas Eve'),
+            date(2026, 12, 25): ('Giáng sinh', 'Christmas'),
+        }
+        for index, language in enumerate(('vi', 'en')):
+            events = LunarCalendarGenerator(language).generate_year(2026).walk('VEVENT')
+            by_date = {event.decoded('dtstart'): event for event in events}
+            self.assertEqual(len(events), 365)
+            self.assertEqual(len(by_date), 365)
+            for day, names in expected.items():
+                with self.subTest(language=language, day=day):
+                    event = by_date[day]
+                    self.assertIn(names[index], str(event['summary']))
+                    lunar = to_lunar(day)
+                    self.assertTrue(str(event['summary']).startswith(
+                        f'{lunar.lunar_day}/{lunar.lunar_month_abs}'
+                    ))
+            for event in events:
+                lunar = to_lunar(event.decoded('dtstart'))
+                for month, day, vi, en in (
+                    (3, 3, 'Tết Hàn thực', 'Han Thuc Festival'),
+                    (10, 15, 'Tết Hạ nguyên', 'Ha Nguyen Festival'),
+                ):
+                    if not lunar.is_leap_month and (lunar.lunar_month, lunar.lunar_day) == (month, day):
+                        self.assertIn(vi if language == 'vi' else en, str(event['summary']))
+
+    def test_new_culture_day_starts_in_2026_and_observances_are_not_leave(self):
+        old = LunarCalendarGenerator('en', 'culture').generate_year(2025).walk('VEVENT')
+        new = LunarCalendarGenerator('en', 'culture').generate_year(2026).walk('VEVENT')
+        self.assertFalse(any('Vietnam Culture Day' in str(e['summary']) for e in old))
+        self.assertEqual(sum('Vietnam Culture Day' in str(e['summary']) for e in new), 1)
+        self.assertTrue(HOLIDAYS['culture'].public)
+        for id in ('valentine', 'teachers', 'children', 'new-year-eve', 'christmas'):
+            self.assertFalse(HOLIDAYS[id].public)
+
     def test_custom_defaults_to_private_directory(self):
         with tempfile.TemporaryDirectory() as folder:
             with patch.object(cli, 'ROOT_DIR', Path(folder)), patch.object(

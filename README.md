@@ -23,13 +23,13 @@
 
 Sao chép liên kết và chọn **Thêm lịch từ URL** hoặc **Đăng ký lịch bằng URL** trong ứng dụng lịch của bạn:
 
-**Tiếng Việt**
+**Tiếng Việt — Lịch Việt Nam · VI**
 
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
 
-**English**
+**English — Vietnam Calendar · EN**
 
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
@@ -39,12 +39,15 @@ Sau đó dán liên kết và lưu. Hãy đăng ký bằng URL để ứng dụn
 
 Chỉ cần chọn **một** ngôn ngữ. Ví dụ cùng ngày Trung Thu: `15/8 • Tết Trung Thu` hoặc `15/8 • Mid-Autumn Festival`. Liên kết tiếng Việt cũ vẫn dùng được.
 
-### Nội dung lịch
+### Một lịch cho tất cả
 
-- Ngày âm lịch tương ứng với từng ngày dương lịch.
+- Ngày âm lịch **hằng ngày**; lễ âm và lễ dương ghi kèm trong cùng sự kiện.
 - Ngày mùng 1, ngày rằm và đêm Giao Thừa.
 - Ngày lễ lớn: Tết Dương lịch, Tết Nguyên Đán, Giỗ Tổ Hùng Vương, Ngày Giải phóng miền Nam, Ngày Quốc tế Lao động và Quốc khánh.
-- Dịp truyền thống: Ông Công Ông Táo, Vía Thần Tài, Tết Nguyên Tiêu, Phật Đản, Tết Đoan Ngọ, Vu Lan và Tết Trung Thu.
+- Dịp truyền thống: Ông Công Ông Táo, Vía Thần Tài, Nguyên Tiêu, Hàn thực, Phật Đản, Đoan Ngọ, Vu Lan, Trung Thu và Hạ nguyên.
+- Dịp dương lịch: Valentine, 8/3, 1/6, 28/6, 20/10, 20/11, Ngày Văn hóa Việt Nam 24/11 (từ 2026) và Giáng sinh.
+
+Ví dụ: `12/10 • Nhà giáo Việt Nam`. Nhiều lễ trùng ngày vẫn chỉ có **một** sự kiện. [Danh mục và nguồn đối chiếu](docs/HOLIDAYS.md). Đây là lịch ngày lễ và dịp kỷ niệm; lịch nghỉ bù/hoán đổi làm việc cần theo thông báo từng năm.
 
 Dữ liệu sử dụng múi giờ Việt Nam (GMT+7), được cập nhật tự động lúc 07:17 ngày 1 hằng tháng (giờ Việt Nam) và duy trì cho 10 năm tiếp theo.
 
@@ -99,6 +102,15 @@ python main.py --list-holidays --language vi
 | `reunification` | Ngày Giải phóng miền Nam |
 | `labour-day` | Quốc tế Lao động |
 | `national-day` | Quốc khánh |
+| `valentine` | Lễ Tình nhân |
+| `international-women` | Quốc tế Phụ nữ |
+| `children` | Quốc tế Thiếu nhi |
+| `family` | Gia đình Việt Nam |
+| `vietnamese-women` | Phụ nữ Việt Nam |
+| `teachers` | Nhà giáo Việt Nam |
+| `culture` | Văn hóa Việt Nam (từ 2026) |
+| `christmas-eve`, `christmas` | Đêm Giáng sinh, Giáng sinh |
+| `han-thuc`, `ha-nguyen` | Hàn thực, Hạ nguyên |
 
 Sao chép [examples/holidays.json](examples/holidays.json) thành `.local/holidays.json` rồi sửa bản riêng này để thêm ngày giỗ, sinh nhật hoặc ngày kỷ niệm. Mỗi ngày có `calendar` là `lunar` (âm lịch) hoặc `solar` (dương lịch), `month`, `day`, và tên bằng `vi`/`en`:
 
