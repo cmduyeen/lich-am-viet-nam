@@ -20,3 +20,28 @@ ENV/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Personal calendars and local configuration
+.local/
+private/
+my-calendar/
+output/*custom*
+.env
+.env.*
+!.env.example
+*.local.json
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+client_secret*.json
+
+# Temporary files, reports and repository backups
+*.log
+*.tmp
+*.bak
+*.bundle
+.gitleaks-report*

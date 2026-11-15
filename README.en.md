@@ -93,7 +93,7 @@ python main.py --list-holidays --language en
 | `labour-day` | International Workers' Day |
 | `national-day` | National Day |
 
-Copy and edit [examples/holidays.json](examples/holidays.json) to add memorial dates, birthdays, or anniversaries. Each entry has a `calendar` of `lunar` or `solar`, a `month`, a `day`, and names in both `vi` and `en`:
+Copy [examples/holidays.json](examples/holidays.json) to `.local/holidays.json` and edit that private copy to add memorial dates, birthdays, or anniversaries. Each entry has a `calendar` of `lunar` or `solar`, a `month`, a `day`, and names in both `vi` and `en`:
 
 ```json
 [
@@ -107,18 +107,20 @@ Copy and edit [examples/holidays.json](examples/holidays.json) to add memorial d
 ```
 
 ```sh
-python main.py --language en --holidays tet-1,mid-autumn --custom-holidays examples/holidays.json
+python main.py --language en --holidays tet-1,mid-autumn --custom-holidays .local/holidays.json
 ```
 
 Personal dates are added to the selected holidays. Lunar holidays occur only in regular months; day 30 appears only in months with 30 days, and February 29 only in leap years. Holidays sharing a date appear together in **one** event.
 
 </details>
 
-Files are saved in `output/`: `viet_lunar_en_latest.ics` (English) or `viet_lunar_latest.ics` (Vietnamese) by default. Selecting holidays or adding personal dates produces `viet_lunar_custom_en_latest.ics` or `viet_lunar_custom_vi_latest.ics`, separate from the quick subscription feeds.
+Standard calendars are saved in `output/`: `viet_lunar_en_latest.ics` (English) or `viet_lunar_latest.ics` (Vietnamese) by default. Selecting holidays or adding personal dates writes to `.local/output/` (ignored by Git), producing `viet_lunar_custom_en_latest.ics` or `viet_lunar_custom_vi_latest.ics`, separate from the quick subscription feeds.
 
 Add `--year 2027` for a single year, `--start 2026 --end 2036` for a range, `--split` for yearly files and a ZIP, or `--output-dir my-calendar` to choose a folder. With `--year`, the filename contains the year instead of `latest`.
 
-Import the generated `.ics` file into your calendar app. To subscribe to a custom calendar by URL, host the file at a fixed public URL and rerun Python when you want to update it. The quick subscription feeds above are updated automatically each month by this repository.
+Import the generated `.ics` file into your calendar app. To subscribe to a custom calendar by URL, host the file at a fixed public URL and rerun Python when you want to update it. The quick subscription feeds above are updated automatically each month by this repository. Personal dates in a publicly hosted calendar are readable by anyone; keep private calendars in `.local/` when you do not want to publish them.
+
+[Operations and maintenance](docs/OPERATIONS.md#english) · [Privacy and security](SECURITY.md)
 
 ---
 

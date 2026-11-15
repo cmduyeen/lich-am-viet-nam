@@ -3,6 +3,9 @@ import json
 import sys
 import tempfile
 import unittest
+from contextlib import redirect_stdout
+from io import StringIO
+from unittest.mock import patch
 from datetime import date
 from pathlib import Path
 
@@ -10,10 +13,22 @@ from src.ics import validate_bytes
 from src.ics_generator import LunarCalendarGenerator, _build_event_for_day
 from src.lunar_converter import to_lunar
 from main import create_zip_archive
+import main as cli
 from src.calendar_options import HOLIDAYS, load_custom_holidays
 
 
 class CalendarTests(unittest.TestCase):
+    def test_custom_defaults_to_private_directory(self):
+        with tempfile.TemporaryDirectory() as folder:
+            with patch.object(cli, 'ROOT_DIR', Path(folder)), patch.object(
+                sys, 'argv', ['main.py', '--start', '2026', '--end', '2026',
+                              '--holidays', 'none'],
+            ), redirect_stdout(StringIO()):
+                cli.main()
+            path = Path(folder) / '.local/output/viet_lunar_custom_vi_latest.ics'
+            self.assertEqual(len(validate_bytes(path.read_bytes()).walk('VEVENT')), 365)
+            self.assertFalse((Path(folder) / 'output').exists())
+
     def test_languages_have_same_dates_and_english_text(self):
         vi = LunarCalendarGenerator().generate_year(2026).walk('VEVENT')
         en = LunarCalendarGenerator('en').generate_year(2026).walk('VEVENT')

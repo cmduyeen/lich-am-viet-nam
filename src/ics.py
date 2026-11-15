@@ -7,12 +7,10 @@ from pathlib import Path
 
 from icalendar import Calendar, Event
 
-from .files import atomic_write, obsolete_exports, publish_staged
+from .files import atomic_write
 
 __all__ = [
     "atomic_write",
-    "obsolete_exports",
-    "publish_staged",
     "write_calendar",
     "validate_bytes",
     "reconcile",
@@ -107,6 +105,8 @@ def create_zip(files, target):
         for path in sorted(map(Path, files)):
             info = zipfile.ZipInfo(path.name, (2000, 1, 1, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
+            info.create_system = 3
+            info.external_attr = 0o600 << 16
             archive.writestr(info, path.read_bytes())
     with zipfile.ZipFile(target) as archive:
         if archive.testzip() is not None:
