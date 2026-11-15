@@ -19,6 +19,7 @@ class HolidayRule:
     description_vi: str = ''
     description_en: str = ''
     public: bool = False
+    start_year: int = 1
 
     def name(self, language):
         return self.name_vi if language == 'vi' else self.name_en
@@ -43,6 +44,17 @@ _ENGLISH = [
     ('vu-lan', 'lunar', 7, 15, 'Vu Lan Festival', 'A Vietnamese Buddhist festival honoring parents and ancestors.'),
     ('mid-autumn', 'lunar', 8, 15, 'Mid-Autumn Festival', 'The fifteenth day of the eighth lunar month.'),
     ('kitchen-gods', 'lunar', 12, 23, 'Kitchen Gods Day', 'The twenty-third day of the twelfth lunar month.'),
+    ('valentine', 'solar', 2, 14, "Valentine's Day", 'A celebration of love on February 14.'),
+    ('international-women', 'solar', 3, 8, "International Women's Day", 'International Women’s Day on March 8.'),
+    ('children', 'solar', 6, 1, "Children's Day", 'Children’s Day, observed on June 1 in Vietnam.'),
+    ('family', 'solar', 6, 28, 'Vietnamese Family Day', 'Vietnamese Family Day on June 28.'),
+    ('vietnamese-women', 'solar', 10, 20, "Vietnamese Women's Day", 'Vietnamese Women’s Day on October 20.'),
+    ('teachers', 'solar', 11, 20, "Vietnamese Teachers' Day", 'Vietnamese Teachers’ Day on November 20.'),
+    ('culture', 'solar', 11, 24, 'Vietnam Culture Day', 'Vietnam Culture Day on November 24, effective from 2026 under Resolution 28/2026/QH16.'),
+    ('christmas-eve', 'solar', 12, 24, 'Christmas Eve', 'Christmas Eve on December 24.'),
+    ('christmas', 'solar', 12, 25, 'Christmas', 'Christmas on December 25.'),
+    ('han-thuc', 'lunar', 3, 3, 'Han Thuc Festival', 'The third day of the third lunar month.'),
+    ('ha-nguyen', 'lunar', 10, 15, 'Ha Nguyen Festival', 'The fifteenth day of the tenth lunar month.'),
     ('new-year-eve', 'eve', 0, 0, "Lunar New Year's Eve", 'The last day of the Vietnamese lunar year.'),
 ]
 
@@ -54,7 +66,7 @@ def _catalog():
             FIXED_LUNAR_HOLIDAYS if calendar == 'lunar' else FIXED_SOLAR_HOLIDAYS
         )[(month, day)]
         result[id] = HolidayRule(id, calendar, month, day, original.name, name,
-                                 original.description, description, original.is_public_holiday)
+                                 original.description, description, original.is_public_holiday, original.start_year)
     return result
 
 

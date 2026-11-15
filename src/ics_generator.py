@@ -17,6 +17,8 @@ def _build_event_for_day(d, lunar, dtstamp, language='vi', holidays=None):
     # A single event can include multiple holidays falling on the same date.
     matches = []
     for rule in rules:
+        if d.year < rule.start_year:
+            continue
         if rule.calendar == 'solar':
             matched = (d.month, d.day) == (rule.month, rule.day)
         elif rule.calendar == 'lunar':
@@ -97,9 +99,8 @@ class LunarCalendarGenerator:
     def generate_range(self, start_year, end_year):
         if not 1900 <= start_year <= end_year <= 2098:
             raise ValueError('Supported year range: 1900–2098')
-        title = 'Lịch Âm Việt Nam' if self.language == 'vi' else 'Vietnamese Lunar Calendar'
-        years = str(start_year) if start_year == end_year else f'{start_year}–{end_year}'
-        cal = self._make_calendar(f'{title} {years}')
+        title = 'Lịch Việt Nam · VI' if self.language == 'vi' else 'Vietnam Calendar · EN'
+        cal = self._make_calendar(title)
         current, end = date(start_year, 1, 1), date(end_year, 12, 31)
         stamp = datetime.now(timezone.utc)
         while current <= end:

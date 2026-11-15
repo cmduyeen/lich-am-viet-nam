@@ -16,13 +16,13 @@
 
 Copy the link below and choose **Add calendar from URL** or **Subscribe to calendar by URL** in your calendar app:
 
-**English**
+**English — Vietnam Calendar · EN**
 
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
 ```
 
-**Tiếng Việt**
+**Tiếng Việt — Lịch Việt Nam · VI**
 
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
@@ -32,12 +32,15 @@ Paste the link and save. Subscribe by URL to receive updates automatically. Comp
 
 Choose one language. For example: `15/8 • Mid-Autumn Festival` or `15/8 • Tết Trung Thu`. The existing Vietnamese subscription URL is unchanged.
 
-### Calendar contents
+### One calendar for everything
 
-- Lunar dates for every Gregorian day.
+- **Every daily lunar date**, with lunar and Gregorian holidays in the same event.
 - The first and fifteenth days of each lunar month, and Lunar New Year's Eve.
 - Major holidays: New Year's Day, Tết (Vietnamese Lunar New Year), Hùng Kings' Commemoration Day, Reunification Day, International Workers' Day, and National Day.
-- Traditional observances: Kitchen Gods' Day, God of Wealth Day, First Full Moon Festival, Buddha's Birthday, Đoan Ngọ Festival, Vu Lan Festival, and Mid-Autumn Festival.
+- Traditional observances: Kitchen Gods Day, God of Wealth Day, First Full Moon Festival, Han Thuc, Buddha's Birthday, Doan Ngo, Vu Lan, Mid-Autumn and Ha Nguyen.
+- Gregorian observances: Valentine's Day, International Women's Day, Children's Day, Vietnamese Family Day, Vietnamese Women's Day, Vietnamese Teachers' Day, Vietnam Culture Day (from 2026), Christmas Eve and Christmas.
+
+For example: `12/10 • Vietnamese Teachers' Day`. Holidays sharing a date remain in **one** event. [Catalog and sources](docs/HOLIDAYS.md). This is a calendar of festivals and observances; compensatory leave and workday swaps depend on annual announcements.
 
 Dates follow Vietnam time (GMT+7). The calendar refreshes automatically at 07:17 Vietnam time on the first day of each month, covering the current year and the next ten years. Leap months are labeled, and annual lunar festivals occur in regular months.
 
@@ -92,6 +95,15 @@ python main.py --list-holidays --language en
 | `reunification` | Reunification Day |
 | `labour-day` | International Workers' Day |
 | `national-day` | National Day |
+| `valentine` | Valentine's Day |
+| `international-women` | International Women's Day |
+| `children` | Children's Day |
+| `family` | Vietnamese Family Day |
+| `vietnamese-women` | Vietnamese Women's Day |
+| `teachers` | Vietnamese Teachers' Day |
+| `culture` | Vietnam Culture Day (from 2026) |
+| `christmas-eve`, `christmas` | Christmas Eve, Christmas |
+| `han-thuc`, `ha-nguyen` | Han Thuc, Ha Nguyen |
 
 Copy [examples/holidays.json](examples/holidays.json) to `.local/holidays.json` and edit that private copy to add memorial dates, birthdays, or anniversaries. Each entry has a `calendar` of `lunar` or `solar`, a `month`, a `day`, and names in both `vi` and `en`:
 
