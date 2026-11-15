@@ -7,7 +7,8 @@
 </p>
 
 <p align="center">
-  <img width="900" alt="Vietnamese Lunar Calendar preview" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
+  <a href="assets/screenshots/google-calendar-en.png"><img width="1100" alt="Daily lunar dates with lunar and Gregorian holidays in Google Calendar" src="assets/screenshots/google-calendar-en.png" /></a>
+  <br /><em>Vietnam Calendar · EN — Google Calendar, November 2026.</em>
 </p>
 
 ---

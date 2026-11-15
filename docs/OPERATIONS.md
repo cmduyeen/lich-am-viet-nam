@@ -11,6 +11,7 @@ Kho được tổ chức như sau:
 | `src/` | Tính ngày âm, ngày lễ, xuất và kiểm tra ICS |
 | `tests/` | Kiểm tra hồi quy và bảo vệ bản tùy chỉnh |
 | `examples/` | Mẫu minh họa, không chứa dữ liệu riêng |
+| `assets/screenshots/` | Ảnh Google Calendar riêng cho Việt/Anh, chỉ giữ phần lịch công khai |
 | `output/` | Lịch công khai; giữ các tên tệp cũ để bảo toàn URL |
 | `.local/` | Ngày riêng, lịch tự tạo; được bỏ qua bởi Git |
 | `.github/` | Tự động cập nhật, kiểm thử, quét bí mật và Dependabot |

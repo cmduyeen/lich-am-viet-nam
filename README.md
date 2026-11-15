@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <img width="900" alt="Minh họa Lịch Âm Việt Nam" src="https://github.com/user-attachments/assets/64fc3e3d-d883-4504-84a3-e5f797dbb7e2" />
+  <a href="assets/screenshots/google-calendar-vi.png"><img width="1100" alt="Lịch âm hằng ngày cùng lễ âm và lễ dương trên Google Calendar" src="assets/screenshots/google-calendar-vi.png" /></a>
+  <br /><em>Lịch Việt Nam · VI — Google Calendar, tháng 11/2026.</em>
 </p>
 
 ---
