@@ -3,9 +3,9 @@ VERSION:2.0
 PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//VI
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:Lịch âm Việt Nam tối giản, tự động đồng bộ
-  trọn đời. Bao gồm ngày âm lịch, Mùng 1, Rằm và các ngày 
- lễ lớn. Múi giờ GMT+7 — Asia/Ho_Chi_Minh.
+X-WR-CALDESC:Lịch âm Việt Nam tối giản, tự động cập nhật
+  qua URL. Bao gồm ngày âm lịch, Mùng 1, Rằm và các ngày lễ l
+ ớn. Múi giờ GMT+7 — Asia/Ho_Chi_Minh.
 X-WR-CALNAME:Lịch Âm Việt Nam 2031
 X-APPLE-CALENDAR-COLOR:#E53935
 X-WR-TIMEZONE:Asia/Ho_Chi_Minh

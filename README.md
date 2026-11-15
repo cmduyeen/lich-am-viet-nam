@@ -100,7 +100,7 @@ python main.py --list-holidays --language vi
 | `labour-day` | Quốc tế Lao động |
 | `national-day` | Quốc khánh |
 
-Sao chép và sửa [examples/holidays.json](examples/holidays.json) để thêm ngày giỗ, sinh nhật hoặc ngày kỷ niệm. Mỗi ngày có `calendar` là `lunar` (âm lịch) hoặc `solar` (dương lịch), `month`, `day`, và tên bằng `vi`/`en`:
+Sao chép [examples/holidays.json](examples/holidays.json) thành `.local/holidays.json` rồi sửa bản riêng này để thêm ngày giỗ, sinh nhật hoặc ngày kỷ niệm. Mỗi ngày có `calendar` là `lunar` (âm lịch) hoặc `solar` (dương lịch), `month`, `day`, và tên bằng `vi`/`en`:
 
 ```json
 [
@@ -114,18 +114,20 @@ Sao chép và sửa [examples/holidays.json](examples/holidays.json) để thêm
 ```
 
 ```sh
-python main.py --language vi --holidays tet-1,mid-autumn --custom-holidays examples/holidays.json
+python main.py --language vi --holidays tet-1,mid-autumn --custom-holidays .local/holidays.json
 ```
 
 Ngày riêng được thêm vào các lễ đã chọn. Lễ âm chỉ áp dụng ở tháng thường; ngày 30 chỉ có trong tháng đủ, ngày 29/2 dương chỉ có trong năm nhuận. Nếu nhiều lễ trùng ngày, chúng được ghi kèm trong **một** sự kiện.
 
 </details>
 
-Tệp nằm trong `output/`: mặc định là `viet_lunar_latest.ics` (Việt) hoặc `viet_lunar_en_latest.ics` (Anh). Khi chọn lễ hoặc thêm ngày riêng, tệp là `viet_lunar_custom_vi_latest.ics` hoặc `viet_lunar_custom_en_latest.ics`, giữ riêng với lịch đăng ký nhanh.
+Lịch chuẩn nằm trong `output/`: mặc định là `viet_lunar_latest.ics` (Việt) hoặc `viet_lunar_en_latest.ics` (Anh). Khi chọn lễ hoặc thêm ngày riêng, tệp được lưu trong `.local/output/` (không đưa lên Git), với tên `viet_lunar_custom_vi_latest.ics` hoặc `viet_lunar_custom_en_latest.ics`, giữ riêng với lịch đăng ký nhanh.
 
 Có thể thêm `--year 2027` để xuất riêng năm 2027, `--start 2026 --end 2036` để chọn khoảng năm, `--split` để xuất từng năm kèm ZIP, hoặc `--output-dir my-calendar` để đổi thư mục. Với `--year`, tệp được đặt theo năm thay vì `latest`.
 
-Nhập tệp `.ics` vừa tạo vào ứng dụng lịch. Muốn bản tùy chỉnh tự đồng bộ qua URL, bạn cần lưu tệp trên địa chỉ công khai cố định và chạy lại Python khi muốn cập nhật; các URL thêm nhanh ở trên được kho tự cập nhật hằng tháng.
+Nhập tệp `.ics` vừa tạo vào ứng dụng lịch. Muốn bản tùy chỉnh tự đồng bộ qua URL, bạn cần lưu tệp trên địa chỉ công khai cố định và chạy lại Python khi muốn cập nhật; các URL thêm nhanh ở trên được kho tự cập nhật hằng tháng. Ngày riêng trong lịch công khai sẽ được mọi người đọc; hãy giữ lịch cá nhân ở `.local/` nếu không muốn công khai.
+
+[Vận hành và bảo trì](docs/OPERATIONS.md) · [Bảo vệ thông tin riêng](SECURITY.md)
 
 ---
 

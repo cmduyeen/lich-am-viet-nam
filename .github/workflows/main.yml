@@ -20,20 +20,20 @@ concurrency:
 
 jobs:
   update-calendar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10   # Giới hạn thời gian tối đa để bảo vệ tài nguyên
     permissions:
       contents: write    # Cho phép action push code ngược lại repo
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 1
           persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -51,18 +51,7 @@ jobs:
           python main.py --language en --split
 
       - name: Record successful refresh
-        run: |
-          python - <<'PY'
-          import json
-          from datetime import datetime, timezone
-          from pathlib import Path
-          Path('output/update-status.json').write_text(
-              json.dumps({
-                  'updated_at': datetime.now(timezone.utc).isoformat(timespec='seconds'),
-                  'languages': ['vi', 'en'],
-              }, indent=2) + '\n', encoding='utf-8'
-          )
-          PY
+        run: python -m src.publication --record
 
       - name: Commit and push changes
         env:
@@ -70,7 +59,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A output/
+          python -m src.publication --stage
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh bilingual lunar calendars (10-year rolling)"
             git config --local http.https://github.com/.extraheader "AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"

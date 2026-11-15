@@ -16,7 +16,7 @@ import sys
 import time
 from src.ics import create_zip
 from src.files import atomic_write
-from datetime import date, datetime
+from datetime import datetime
 from zoneinfo import ZoneInfo
 from pathlib import Path
 
@@ -139,8 +139,8 @@ def main():
         help='Tạo file riêng cho từng năm (ngoài file tổng hợp)',
     )
     parser.add_argument(
-        '--output-dir', type=str, default=str(ROOT_DIR / OUTPUT_DIR),
-        help=f'Thư mục output (mặc định: {OUTPUT_DIR})',
+        '--output-dir', type=str, default=None,
+        help='Thư mục xuất: output cho lịch chuẩn; .local/output cho lịch tùy chỉnh',
     )
     parser.add_argument('--language', choices=('vi', 'en'), default='vi', help='Ngôn ngữ lịch: vi hoặc en')
     parser.add_argument('--holidays', default='all', help='all, none hoặc các mã lễ cách nhau bằng dấu phẩy')
@@ -175,14 +175,15 @@ def main():
     if not (1900 <= start_year <= end_year <= 2098):
         parser.error('Khoảng năm hỗ trợ: 1900–2098; năm bắt đầu phải không lớn hơn năm kết thúc.')
 
-    output_path = Path(args.output_dir)
+    default_output = ROOT_DIR / ('.local/output' if customized else OUTPUT_DIR)
+    output_path = Path(args.output_dir) if args.output_dir else default_output
     output_path.mkdir(parents=True, exist_ok=True)
 
     gen = LunarCalendarGenerator(args.language, args.holidays, custom)
     total_files: list[Path] = []
 
     print(f'📅 Khoảng thời gian : {start_year} → {end_year}')
-    print(f'📂 Thư mục output   : {output_path.resolve()}')
+    print(f'📂 Thư mục output   : {output_path.name}')
     print()
 
     # ── 1. Tạo file riêng từng năm (nếu yêu cầu --split hoặc --year) ─
