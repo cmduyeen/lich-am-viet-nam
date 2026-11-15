@@ -16,7 +16,9 @@
 
 Mỗi ngày vẫn chỉ có một sự kiện. Ví dụ: `2/8`, `1/8 • Mùng 1`,
 `15/8 • Tết Trung Thu`. Giữ danh sách lễ dương hiện có.
-Không chuyển cấu hình đa chế độ, lịch chỉ lễ hoặc hệ thống phát hành mới.
+Có hai cách sử dụng: đăng ký nhanh bản Việt/Anh, hoặc chạy Python chọn
+ngôn ngữ và ngày lễ (kể cả ngày riêng theo tệp JSON). Cả hai đều ghi ngày âm
+hằng ngày. Không chuyển lịch chỉ lễ hoặc hệ thống phát hành mới.
 
 Bộ tính hỗ trợ ngày dân sự hiện đại 1900–2099. CLI giới hạn năm xuất
 1900–2098 vì kiểm tra Giao Thừa cần đọc ngày tiếp theo.
@@ -24,4 +26,5 @@ Các trường Can Chi tháng và tiết khí phụ của API cũ vẫn dựa tr
 chúng không được thêm vào sự kiện lịch hàng ngày trong lần cập nhật này.
 
 Kiểm tra hồi quy gồm Tết 1968, 1985, 2007, 2026; tháng nhuận 2020;
-365 sự kiện/năm 2026; UID cũ; revision; ZIP ổn định và đầu vào không hợp lệ.
+365 sự kiện/năm 2026 ở cả hai ngôn ngữ; UID cũ; revision; ZIP ổn định;
+chọn lễ; ngày riêng; nhiều lễ trùng ngày và đầu vào không hợp lệ.

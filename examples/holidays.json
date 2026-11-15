@@ -1,0 +1,14 @@
+[
+  {
+    "calendar": "lunar",
+    "month": 3,
+    "day": 12,
+    "name": {"vi": "Ngày giỗ gia đình", "en": "Family memorial day"}
+  },
+  {
+    "calendar": "solar",
+    "month": 6,
+    "day": 15,
+    "name": {"vi": "Sinh nhật", "en": "Birthday"}
+  }
+]

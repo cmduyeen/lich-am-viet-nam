@@ -33,6 +33,7 @@ except ImportError:
 
 from src.config import OUTPUT_DIR, DEFAULT_YEARS_AHEAD
 from src.ics_generator import LunarCalendarGenerator
+from src.calendar_options import HOLIDAYS, load_custom_holidays, select_holidays
 
 
 def print_banner():
@@ -69,7 +70,7 @@ def create_zip_archive(files: list[Path], output_zip: Path):
     return output_zip
 
 
-def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
+def cleanup_past_files(output_path: Path, current_year: int, prefix='viet_lunar') -> list[str]:
     """
     Tự động xóa các file của những năm đã qua để giữ thư mục output luôn sạch sẽ.
     - Xóa file lẻ từng năm: viet_lunar_{year}.ics nếu year < current_year
@@ -80,9 +81,9 @@ def cleanup_past_files(output_path: Path, current_year: int) -> list[str]:
     if not output_path.exists():
         return removed
 
-    single_year_re = re.compile(r'^viet_lunar_(\d{4})\.ics$')
-    range_ics_re = re.compile(r'^viet_lunar_(\d{4})_(\d{4})\.ics$')
-    range_zip_re = re.compile(r'^viet_lunar_yearly_(\d{4})_(\d{4})\.zip$')
+    single_year_re = re.compile(r'^' + re.escape(prefix) + r'_(\d{4})\.ics$')
+    range_ics_re = re.compile(r'^' + re.escape(prefix) + r'_(\d{4})_(\d{4})\.ics$')
+    range_zip_re = re.compile(r'^' + re.escape(prefix) + r'_yearly_(\d{4})_(\d{4})\.zip$')
 
     for file in output_path.iterdir():
         if not file.is_file():
@@ -141,7 +142,24 @@ def main():
         '--output-dir', type=str, default=str(ROOT_DIR / OUTPUT_DIR),
         help=f'Thư mục output (mặc định: {OUTPUT_DIR})',
     )
+    parser.add_argument('--language', choices=('vi', 'en'), default='vi', help='Ngôn ngữ lịch: vi hoặc en')
+    parser.add_argument('--holidays', default='all', help='all, none hoặc các mã lễ cách nhau bằng dấu phẩy')
+    parser.add_argument('--custom-holidays', type=Path, help='Tệp JSON ngày lễ riêng (âm hoặc dương lịch)')
+    parser.add_argument('--list-holidays', action='store_true', help='Liệt kê mã ngày lễ rồi thoát')
     args = parser.parse_args()
+    if args.list_holidays:
+        for id, rule in HOLIDAYS.items():
+            print(f'{id}: {rule.name(args.language)}')
+        return
+    try:
+        select_holidays(args.holidays)
+        custom = load_custom_holidays(args.custom_holidays) if args.custom_holidays else ()
+    except (ValueError, OSError) as error:
+        parser.error(str(error))
+    customized = args.holidays != 'all' or args.custom_holidays is not None
+    prefix = ('viet_lunar_custom_' + args.language) if customized else (
+        'viet_lunar' if args.language == 'vi' else 'viet_lunar_en'
+    )
 
     print_banner()
 
@@ -160,7 +178,7 @@ def main():
     output_path = Path(args.output_dir)
     output_path.mkdir(parents=True, exist_ok=True)
 
-    gen = LunarCalendarGenerator()
+    gen = LunarCalendarGenerator(args.language, args.holidays, custom)
     total_files: list[Path] = []
 
     print(f'📅 Khoảng thời gian : {start_year} → {end_year}')
@@ -177,7 +195,7 @@ def main():
         for year in iter_years:
             t0 = time.time()
             cal = gen.generate_year(year)
-            fname = output_path / f'viet_lunar_{year}.ics'
+            fname = output_path / f'{prefix}_{year}.ics'
             gen.save(cal, fname)
             yearly_files.append(fname)
             total_files.append(fname)
@@ -187,7 +205,7 @@ def main():
 
         # Nén vào file zip nếu dùng --split (nhiều hơn 1 năm)
         if args.split and len(yearly_files) > 1:
-            zip_name = output_path / f'viet_lunar_yearly_{start_year}_{end_year}.zip'
+            zip_name = output_path / f'{prefix}_yearly_{start_year}_{end_year}.zip'
             print(f'\n📦 Đang nén {len(yearly_files)} file vào {zip_name.name}...')
             create_zip_archive(yearly_files, zip_name)
             total_files.append(zip_name)
@@ -205,12 +223,12 @@ def main():
         cal = gen.generate_range(start_year, end_year)
 
         # Lưu file tên theo khoảng năm
-        fname = output_path / f'viet_lunar_{suffix}.ics'
+        fname = output_path / f'{prefix}_{suffix}.ics'
         gen.save(cal, fname)
         total_files.append(fname)
 
         # Cập nhật file viet_lunar_latest.ics phục vụ link URL cố định
-        latest_fname = output_path / 'viet_lunar_latest.ics'
+        latest_fname = output_path / f'{prefix}_latest.ics'
         atomic_write(latest_fname, fname.read_bytes())
         total_files.append(latest_fname)
 
@@ -218,7 +236,7 @@ def main():
         print(f'  ✅ Hoàn thành trong {elapsed:.1f}s')
 
     # Chỉ dọn tệp cũ sau khi tạo lịch thành công.
-    cleanup_past_files(output_path, min(current_year, start_year))
+    cleanup_past_files(output_path, min(current_year, start_year), prefix)
 
     # ── 3. Tổng kết ────────────────────────────────────────────────
     print()
