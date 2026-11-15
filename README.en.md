@@ -39,7 +39,7 @@ Choose one language. For example: `15/8 • Mid-Autumn Festival` or `15/8 • T�
 - Major holidays: New Year's Day, Tết (Vietnamese Lunar New Year), Hùng Kings' Commemoration Day, Reunification Day, International Workers' Day, and National Day.
 - Traditional observances: Kitchen Gods' Day, God of Wealth Day, First Full Moon Festival, Buddha's Birthday, Đoan Ngọ Festival, Vu Lan Festival, and Mid-Autumn Festival.
 
-Dates follow Vietnam time (GMT+7). The calendar updates automatically each year, covering the current year and the next ten years. Leap months are labeled, and annual lunar festivals occur in regular months.
+Dates follow Vietnam time (GMT+7). The calendar refreshes automatically at 07:17 Vietnam time on the first day of each month, covering the current year and the next ten years. Leap months are labeled, and annual lunar festivals occur in regular months.
 
 
 ## 2. Create a custom calendar with Python
@@ -118,7 +118,7 @@ Files are saved in `output/`: `viet_lunar_en_latest.ics` (English) or `viet_luna
 
 Add `--year 2027` for a single year, `--start 2026 --end 2036` for a range, `--split` for yearly files and a ZIP, or `--output-dir my-calendar` to choose a folder. With `--year`, the filename contains the year instead of `latest`.
 
-Import the generated `.ics` file into your calendar app. To subscribe to a custom calendar by URL, host the file at a fixed public URL and rerun Python when you want to update it. The quick subscription feeds above are updated automatically each year by this repository.
+Import the generated `.ics` file into your calendar app. To subscribe to a custom calendar by URL, host the file at a fixed public URL and rerun Python when you want to update it. The quick subscription feeds above are updated automatically each month by this repository.
 
 ---
 

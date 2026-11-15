@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/Gi%E1%BA%A5y_ph%C3%A9p-MIT-FFD1DC?style=flat" alt="Giấy phép MIT" /></a>
-  <img src="https://img.shields.io/badge/C%E1%BA%ADp_nh%E1%BA%ADt-H%C3%A0ng_n%C4%83m-FFF0F5?style=flat" alt="Cập nhật hàng năm" />
+  <img src="https://img.shields.io/badge/C%E1%BA%ADp_nh%E1%BA%ADt-H%C3%A0ng_th%C3%A1ng-FFF0F5?style=flat" alt="Cập nhật hằng tháng" />
   <img src="https://img.shields.io/badge/Ph%E1%BA%A1m_vi-10_n%C4%83m_t%E1%BB%9Bi-FFD1DC?style=flat" alt="10 năm tiếp theo" />
   <img src="https://img.shields.io/badge/%C4%90%E1%BB%8Bnh_d%E1%BA%A1ng-iCalendar_(.ics)-FFF0F5?style=flat" alt="Định dạng iCalendar" />
 </p>
@@ -46,7 +46,7 @@ Chỉ cần chọn **một** ngôn ngữ. Ví dụ cùng ngày Trung Thu: `15/8 
 - Ngày lễ lớn: Tết Dương lịch, Tết Nguyên Đán, Giỗ Tổ Hùng Vương, Ngày Giải phóng miền Nam, Ngày Quốc tế Lao động và Quốc khánh.
 - Dịp truyền thống: Ông Công Ông Táo, Vía Thần Tài, Tết Nguyên Tiêu, Phật Đản, Tết Đoan Ngọ, Vu Lan và Tết Trung Thu.
 
-Dữ liệu sử dụng múi giờ Việt Nam (GMT+7), được cập nhật tự động hằng năm và duy trì cho 10 năm tiếp theo.
+Dữ liệu sử dụng múi giờ Việt Nam (GMT+7), được cập nhật tự động lúc 07:17 ngày 1 hằng tháng (giờ Việt Nam) và duy trì cho 10 năm tiếp theo.
 
 
 ## 2. Tự tạo lịch bằng Python
@@ -125,7 +125,7 @@ Tệp nằm trong `output/`: mặc định là `viet_lunar_latest.ics` (Việt) 
 
 Có thể thêm `--year 2027` để xuất riêng năm 2027, `--start 2026 --end 2036` để chọn khoảng năm, `--split` để xuất từng năm kèm ZIP, hoặc `--output-dir my-calendar` để đổi thư mục. Với `--year`, tệp được đặt theo năm thay vì `latest`.
 
-Nhập tệp `.ics` vừa tạo vào ứng dụng lịch. Muốn bản tùy chỉnh tự đồng bộ qua URL, bạn cần lưu tệp trên địa chỉ công khai cố định và chạy lại Python khi muốn cập nhật; các URL thêm nhanh ở trên được kho tự cập nhật hằng năm.
+Nhập tệp `.ics` vừa tạo vào ứng dụng lịch. Muốn bản tùy chỉnh tự đồng bộ qua URL, bạn cần lưu tệp trên địa chỉ công khai cố định và chạy lại Python khi muốn cập nhật; các URL thêm nhanh ở trên được kho tự cập nhật hằng tháng.
 
 ---
 
