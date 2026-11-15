@@ -3,13 +3,29 @@
 <h1 align="center">🌙 Vietnamese Lunar Calendar</h1>
 
 <p align="center">
-  Vietnamese lunar dates and festivals, synced to your favorite calendar app with one link.
+  Vietnamese lunar dates and holidays, synced to Google Calendar, Apple Calendar, and Microsoft Outlook with a single URL link (.ics). Automatically updated monthly, free, and ad-free.
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-FFD1DC?style=flat" alt="MIT License" /></a>
+  <img src="https://img.shields.io/badge/Updates-Monthly-FFF0F5?style=flat" alt="Monthly Updates" />
+  <img src="https://img.shields.io/badge/Coverage-Next_10_Years-FFD1DC?style=flat" alt="Next 10 Years" />
+  <img src="https://img.shields.io/badge/Format-iCalendar_(.ics)-FFF0F5?style=flat" alt="iCalendar format" />
 </p>
 
 <p align="center">
   <a href="assets/screenshots/google-calendar-en.png"><img width="1100" alt="Daily lunar dates with lunar and Gregorian holidays in Google Calendar" src="assets/screenshots/google-calendar-en.png" /></a>
   <br /><em>Vietnam Calendar · EN — Google Calendar, November 2026.</em>
 </p>
+
+### Highlights
+
+- 🔄 **Automatic Sync**: Subscribe once via URL; your calendar refreshes automatically each month, maintaining a 10-year rolling window.
+- 📅 **Every Lunar Day**: Displays daily lunar dates (e.g. `15/8`) for all 365/366 days of the year, alongside the 1st and 15th lunar days and Lunar New Year's Eve.
+- 🎋 **Comprehensive Holidays**: Combines Vietnamese traditional lunar festivals, major national holidays, and widely celebrated Gregorian observances.
+- 📱 **Cross-Platform**: Seamlessly works with Google Calendar (Android, iOS, Web), Apple Calendar (iPhone, iPad, Mac), and Microsoft Outlook.
+- 🌏 **Diaspora & Global Friendly**: Formatted as All-Day events aligned with Vietnam astronomical time (UTC+7). Overseas Vietnamese in the US, Europe, Australia, or Japan stay aligned with Vietnam dates without timezone day-shifts.
+- 🛡️ **Privacy & Ad-Free**: 100% open-source, zero advertising, zero tracking, safe for personal calendars.
 
 ---
 
@@ -29,9 +45,38 @@ https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lun
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
 
-Paste the link and save. Subscribe by URL to receive updates automatically. Compatible with Google Calendar, Apple Calendar, Outlook, and other apps that support iCalendar.
+Paste the link and save. Subscribe by URL to receive updates automatically without downloading or manually importing `.ics` files. Compatible with Google Calendar, Apple Calendar, Outlook, and other apps supporting iCalendar.
 
-Choose one language. For example: `15/8 • Mid-Autumn Festival` or `15/8 • Tết Trung Thu`. The existing Vietnamese subscription URL is unchanged.
+Choose **one** language. For example: `15/8 • Mid-Autumn Festival` or `15/8 • Tết Trung Thu`. The existing Vietnamese subscription URL remains active.
+
+<details>
+<summary><strong>Step-by-step instructions for major calendar apps</strong></summary>
+
+#### Google Calendar (Web, Android, and iOS)
+1. Open [Google Calendar](https://calendar.google.com/) in a desktop web browser.
+2. In the left sidebar, next to **Other calendars**, click the **+** icon and select **From URL**.
+3. Paste the `.ics` link above into the **URL of calendar** field and click **Add calendar**.
+4. On your mobile phone, open the Google Calendar app: go to **Settings** -> tap your Google account -> ensure the new calendar is checked and turn on **Sync**.
+
+#### Apple Calendar (iPhone, iPad, and macOS)
+- **On iPhone / iPad (iOS)**:
+  1. Go to **Settings** -> scroll down to **Calendar** -> tap **Calendar Accounts** (or **Accounts** -> **Add Account**).
+  2. Tap **Other** -> tap **Add Subscribed Calendar**.
+  3. Paste the `.ics` link into the **Server** field -> tap **Next** -> tap **Save**.
+- **On Mac (macOS)**:
+  1. Open the **Calendar** app.
+  2. In the top menu bar, choose **File** -> **New Calendar Subscription...**
+  3. Paste the `.ics` link -> click **Subscribe** -> set Auto-refresh frequency to **Every day** -> click **OK**.
+
+#### Microsoft Outlook (Web & Desktop App)
+- **Outlook Web Browser**:
+  1. Go to [Outlook Calendar](https://outlook.live.com/calendar/) -> click **Add calendar**.
+  2. Select **Subscribe from web** -> paste the `.ics` link -> name the calendar and click **Import**.
+- **Outlook Desktop App**:
+  1. Switch to Calendar view -> click **Add Calendar** on the ribbon -> choose **From Internet...**
+  2. Paste the `.ics` link -> click **OK** -> confirm the subscription.
+
+</details>
 
 ### One calendar for everything
 
@@ -106,7 +151,7 @@ python main.py --list-holidays --language en
 | `christmas-eve`, `christmas` | Christmas Eve, Christmas |
 | `han-thuc`, `ha-nguyen` | Han Thuc, Ha Nguyen |
 
-Copy [examples/holidays.json](examples/holidays.json) to `.local/holidays.json` and edit that private copy to add memorial dates, birthdays, or anniversaries. Each entry has a `calendar` of `lunar` or `solar`, a `month`, a `day`, and names in both `vi` and `en`:
+Copy [examples/holidays.json](examples/holidays.json) to `.local/holidays.json` and edit it to add private family memorials, birthdays, or anniversaries. Each entry accepts a `calendar` type (`lunar` or `solar`), `month`, `day`, and names in `vi`/`en`:
 
 ```json
 [
@@ -123,20 +168,53 @@ Copy [examples/holidays.json](examples/holidays.json) to `.local/holidays.json` 
 python main.py --language en --holidays tet-1,mid-autumn --custom-holidays .local/holidays.json
 ```
 
-Personal dates are added to the selected holidays. Lunar holidays occur only in regular months; day 30 appears only in months with 30 days, and February 29 only in leap years. Holidays sharing a date appear together in **one** event.
+Custom dates are merged with your chosen holidays. Lunar dates only apply to standard months; day 30 applies only to full lunar months, and February 29 applies only to leap solar years. Overlapping events on the same day are consolidated into **one** event.
 
 </details>
 
-Standard calendars are saved in `output/`: `viet_lunar_en_latest.ics` (English) or `viet_lunar_latest.ics` (Vietnamese) by default. Selecting holidays or adding personal dates writes to `.local/output/` (ignored by Git), producing `viet_lunar_custom_en_latest.ics` or `viet_lunar_custom_vi_latest.ics`, separate from the quick subscription feeds.
+Standard feeds are generated in `output/`: `viet_lunar_latest.ics` (Vietnamese) and `viet_lunar_en_latest.ics` (English). When selecting specific holidays or supplying personal dates, files are written to `.local/output/` (ignored by Git) under names such as `viet_lunar_custom_en_latest.ics`, keeping private files separate from quick subscription feeds.
 
-Add `--year 2027` for a single year, `--start 2026 --end 2036` for a range, `--split` for yearly files and a ZIP, or `--output-dir my-calendar` to choose a folder. With `--year`, the filename contains the year instead of `latest`.
+Add `--year 2027` to export for 2027 only, `--start 2026 --end 2036` to specify a year span, `--split` to output separate annual files alongside ZIP archives, or `--output-dir my-calendar` to specify a custom folder.
 
-Import the generated `.ics` file into your calendar app. To subscribe to a custom calendar by URL, host the file at a fixed public URL and rerun Python when you want to update it. The quick subscription feeds above are updated automatically each month by this repository. Personal dates in a publicly hosted calendar are readable by anyone; keep private calendars in `.local/` when you do not want to publish them.
+Import your generated `.ics` file into your calendar app. If you want a customized calendar to auto-sync, host the file at a persistent public URL and re-run the generator when updating; the standard subscription URLs above update automatically every month. Any personal dates in a public calendar will be visible to others; keep private calendars in `.local/` to avoid publishing them.
 
-[Operations and maintenance](docs/OPERATIONS.md#english) · [Privacy and security](SECURITY.md)
+
+## 3. Frequently Asked Questions (FAQ)
+
+<details>
+<summary><strong>Why should I subscribe via URL instead of downloading and importing the .ics file?</strong></summary>
+
+Subscribing via URL establishes a live subscription link with the repository. Your calendar automatically syncs monthly updates (covering a continuous 10-year rolling window and any newly gazetted holidays). If you download and import a `.ics` file, events become static entries that never update automatically, leading to event duplication when re-importing later.
+</details>
+
+<details>
+<summary><strong>Will the lunar dates shift incorrectly if I live overseas (US, Australia, Japan, etc.)?</strong></summary>
+
+No. All events are configured as standard **All-Day events** anchored to astronomical Vietnam Time (UTC+7). Regardless of whether your local device is set to US Pacific, Eastern, Central European, or Australian time, the event remains bound to the correct calendar day corresponding to Vietnam's schedule. This ensures overseas Vietnamese can accurately track memorial days, full moons, and traditional Tết celebrations.
+</details>
+
+<details>
+<summary><strong>What algorithm is used to calculate the lunar dates?</strong></summary>
+
+Dates are computed using the canonical astronomical algorithms developed by Dr. Ho Ngoc Duc (Institute of Information Technology, Vietnam), calibrated to the UTC+7 (Hanoi) reference meridian. Holiday schedules strictly reference the Vietnamese Labor Code (Law No. 45/2019/QH14) and relevant national resolutions (details in [docs/HOLIDAYS.md](docs/HOLIDAYS.md)).
+</details>
+
+<details>
+<summary><strong>Does this calendar show compensatory days off or swapped workdays?</strong></summary>
+
+This calendar tracks astronomical lunar dates, traditional festivals, and national cultural observances. Compensatory days off and swapped working schedules vary annually based on official government announcements; the project preserves the authentic holiday dates without presuming unannounced administrative swaps.
+</details>
+
+<details>
+<summary><strong>Does the project collect any user data or contain ads?</strong></summary>
+
+None whatsoever. This project is 100% open-source and non-commercial. It contains no tracking, no telemetry, and no advertisements. When building personal calendars with private memorial dates via Python, data is kept strictly on your local machine under `.local/` (which is excluded from Git tracking).
+</details>
 
 ---
 
+[Operations and maintenance](docs/OPERATIONS.md) · [Security and privacy](SECURITY.md)
+
 <p align="center">
-  Open-source software under the <a href="LICENSE">MIT</a> license.
+  Open source under the <a href="LICENSE">MIT License</a>.
 </p>

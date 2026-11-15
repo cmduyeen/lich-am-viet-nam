@@ -1,0 +1,72 @@
+# 🌙 Lịch Âm Việt Nam (Vietnamese Lunar Calendar)
+
+> Vietnamese lunar calendar and holiday feed (.ics) for Google Calendar, Apple Calendar, Outlook, and mobile devices. Synced daily, covering a rolling 10-year window, free and open-source.
+
+## Overview
+
+- **Project**: Lịch Âm Việt Nam / Vietnamese Lunar Calendar
+- **Repository**: https://github.com/cmduyeen/lich-am-viet-nam
+- **License**: MIT License
+- **Timezone**: Vietnam Time (UTC+7 / Asia/Ho_Chi_Minh)
+- **Format**: Standard iCalendar (.ics), RFC 5545 compliant
+- **Rolling Window**: 10 years (current year and the next ten years)
+- **Automatic Updates**: Scheduled monthly via GitHub Actions; updates sync automatically to subscribers
+
+## Quick Subscription Feeds (Direct URLs)
+
+Subscribe by URL in your calendar app to receive automatic updates without importing files manually:
+
+### 1. Tiếng Việt (Vietnamese Feed)
+- **URL**: `https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics`
+- **Name**: `Lịch Việt Nam · VI`
+- **Contents**: Ngày âm lịch hằng ngày, ngày rằm, mùng 1, đêm Giao Thừa, các ngày lễ truyền thống âm lịch và các dịp kỷ niệm dương lịch phổ biến tại Việt Nam.
+
+### 2. English (Bilingual English Feed)
+- **URL**: `https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics`
+- **Name**: `Vietnam Calendar · EN`
+- **Contents**: Daily Vietnamese lunar dates, 1st and 15th lunar days, Lunar New Year's Eve, traditional Vietnamese lunar festivals, and major national/Gregorian observances.
+
+## How to Subscribe
+
+1. **Google Calendar (Web & Mobile)**:
+   - On desktop web: Click `+` next to "Other calendars" (`Khác`) -> Select "From URL" (`Từ URL`) -> Paste the `.ics` link -> Click "Add calendar" (`Thêm lịch`).
+   - The calendar syncs automatically to Google Calendar apps on Android and iOS.
+2. **Apple Calendar (iPhone, iPad, Mac)**:
+   - On iOS / iPadOS: Settings -> Calendar -> Accounts -> Add Account -> Other -> Add Subscribed Calendar -> Paste URL -> Save.
+   - On macOS: Calendar app -> File -> New Calendar Subscription... -> Paste URL -> Set auto-refresh to Daily/Weekly -> OK.
+3. **Microsoft Outlook (Web & Desktop)**:
+   - Outlook Web: Calendar -> Add calendar -> Subscribe from web -> Paste URL -> Name calendar -> Import.
+   - Outlook Desktop: File -> Account Settings -> Account Settings -> Internet Calendars -> New -> Paste URL.
+
+## Key Features
+
+- **Daily Lunar Dates**: Every single day includes its lunar date (e.g. `15/8 • Tết Trung Thu` or `15/8 • Mid-Autumn Festival`).
+- **All-in-One Events**: Multi-holiday collisions on the same day are consolidated into a single clean event.
+- **Geo & Timezone Friendly (Vietnamese Diaspora)**: Events are configured as All-Day events aligned with Vietnam's astronomical calendar (UTC+7). Users in the US, Europe, Australia, Japan, or elsewhere will see events on the exact intended calendar date without unwanted timezone shifts.
+- **Astronomical Accuracy**: Based on the canonical astronomical algorithms for Vietnamese lunar calendar computation by Dr. Ho Ngoc Duc.
+- **Privacy & Security**: Zero advertisements, zero trackers, zero data collection. Personal memorial dates remain local via `.local/holidays.json` and are ignored by git.
+
+## Custom Calendar Generation (Python CLI)
+
+Users can generate customized `.ics` feeds or add private family memorial dates:
+
+```sh
+git clone https://github.com/cmduyeen/lich-am-viet-nam.git
+cd lich-am-viet-nam
+python -m pip install -r requirements.txt
+
+# Vietnamese version with all holidays
+python main.py --language vi
+
+# English version with selected holidays
+python main.py --language en --holidays tet-1,tet-2,tet-3,mid-autumn
+
+# Add private family memorials (kept in .local/ without exposing to Git)
+python main.py --language vi --custom-holidays .local/holidays.json
+```
+
+## Holiday Reference Catalog
+
+Documented with legal and historical references in `docs/HOLIDAYS.md`:
+- **Solar**: New Year's Day (`new-year`), Valentine's Day (`valentine`), Women's Day (`international-women`), Reunification Day (`reunification`), Labour Day (`labour-day`), Children's Day (`children`), Family Day (`family`), National Day (`national-day`), Vietnamese Women's Day (`vietnamese-women`), Teachers' Day (`teachers`), Vietnam Culture Day (`culture` from 2026), Christmas Eve (`christmas-eve`), Christmas (`christmas`).
+- **Lunar**: Lunar New Year Days 1-3 (`tet-1`, `tet-2`, `tet-3`), Lunar New Year's Eve (`new-year-eve`), God of Wealth (`god-of-wealth`), First Full Moon (`first-full-moon`), Han Thuc (`han-thuc`), Hung Kings (`hung-kings`), Buddha's Birthday (`buddha-birthday`), Doan Ngo (`doan-ngo`), Vu Lan (`vu-lan`), Mid-Autumn (`mid-autumn`), Ha Nguyen (`ha-nguyen`), Kitchen Gods (`kitchen-gods`).

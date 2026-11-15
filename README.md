@@ -3,7 +3,7 @@
 <h1 align="center">🌙 Lịch Âm Việt Nam</h1>
 
 <p align="center">
-  Lịch âm và ngày lễ Việt Nam, đồng bộ với ứng dụng lịch yêu thích bằng một liên kết.
+  Lịch âm và ngày lễ Việt Nam, đồng bộ với Google Calendar, Apple Calendar, Microsoft Outlook bằng một liên kết URL duy nhất (.ics). Tự động cập nhật hằng tháng, hoàn toàn miễn phí và không quảng cáo.
 </p>
 
 <p align="center">
@@ -17,6 +17,15 @@
   <a href="assets/screenshots/google-calendar-vi.png"><img width="1100" alt="Lịch âm hằng ngày cùng lễ âm và lễ dương trên Google Calendar" src="assets/screenshots/google-calendar-vi.png" /></a>
   <br /><em>Lịch Việt Nam · VI — Google Calendar, tháng 11/2026.</em>
 </p>
+
+### Điểm nổi bật
+
+- 🔄 **Tự động cập nhật**: Đăng ký một lần qua URL, lịch tự động đồng bộ hằng tháng và duy trì liên tục cho 10 năm tiếp theo.
+- 📅 **Lịch âm hằng ngày**: Ghi chú ngày âm (ví dụ: `15/8`) cho toàn bộ 365/366 ngày trong năm, kèm mùng 1, ngày rằm và đêm Giao Thừa.
+- 🎋 **Đầy đủ ngày lễ**: Bao gồm các ngày lễ lớn, dịp truyền thống âm lịch và các ngày kỷ niệm dương lịch phổ biến tại Việt Nam.
+- 📱 **Đa nền tảng**: Tương thích hoàn hảo với Google Calendar, Apple Calendar (iPhone, iPad, Mac), Microsoft Outlook và mọi ứng dụng hỗ trợ iCalendar (.ics).
+- 🌏 **Phù hợp người Việt toàn cầu**: Thiết lập sự kiện cả ngày chuẩn theo múi giờ Việt Nam (GMT+7), kiều bào tại Mỹ, Úc, Nhật... không lo bị nhảy lệch ngày.
+- 🛡️ **Bảo mật & Không quảng cáo**: Mã nguồn mở 100%, không chứa quảng cáo, không theo dõi người dùng, an toàn cho lịch cá nhân.
 
 ---
 
@@ -39,6 +48,35 @@ https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lun
 Sau đó dán liên kết và lưu. Hãy đăng ký bằng URL để ứng dụng tự nhận các lần cập nhật, thay vì tải tệp `.ics` về máy. Tương thích với Google Calendar, Apple Calendar, Outlook và các ứng dụng hỗ trợ iCalendar.
 
 Chỉ cần chọn **một** ngôn ngữ. Ví dụ cùng ngày Trung Thu: `15/8 • Tết Trung Thu` hoặc `15/8 • Mid-Autumn Festival`. Liên kết tiếng Việt cũ vẫn dùng được.
+
+<details>
+<summary><strong>Hướng dẫn chi tiết từng bước cho từng ứng dụng lịch</strong></summary>
+
+#### Google Calendar (Máy tính, Android và iPhone)
+1. Mở [Google Calendar](https://calendar.google.com/) trên trình duyệt web máy tính.
+2. Ở cột bên trái, cạnh mục **Lịch khác** (Other calendars), nhấn vào biểu tượng **+** rồi chọn **Từ URL** (From URL).
+3. Dán liên kết `.ics` ở trên vào ô **URL của lịch** rồi nhấn **Thêm lịch**.
+4. Mở ứng dụng Google Calendar trên điện thoại: vào **Cài đặt** -> chọn tài khoản Google của bạn -> tích chọn hiển thị lịch vừa thêm và bật **Đồng bộ hóa** (Sync).
+
+#### Apple Calendar (iPhone, iPad và macOS)
+- **Trên iPhone / iPad (iOS)**:
+  1. Mở **Cài đặt** (Settings) -> cuộn xuống chọn **Lịch** (Calendar) -> **Tài khoản Lịch** (hoặc **Tài khoản** -> **Thêm tài khoản**).
+  2. Chọn **Khác** (Other) -> **Thêm lịch đã đăng ký** (Add Subscribed Calendar).
+  3. Dán liên kết `.ics` vào ô **Máy chủ** (Server) -> nhấn **Tiếp theo** (Next) -> nhấn **Lưu** (Save).
+- **Trên máy Mac (macOS)**:
+  1. Mở ứng dụng **Lịch** (Calendar).
+  2. Trên thanh menu trên cùng, chọn **Tệp** (File) -> **Đăng ký Lịch Mới...** (New Calendar Subscription...).
+  3. Dán liên kết `.ics` -> nhấn **Đăng ký** (Subscribe) -> chọn tần suất Tự động làm mới là **Hằng ngày** -> nhấn **OK**.
+
+#### Microsoft Outlook (Bản web và phần mềm máy tính)
+- **Outlook trên trình duyệt web**:
+  1. Truy cập [Outlook Calendar](https://outlook.live.com/calendar/) -> nhấn **Thêm lịch** (Add calendar).
+  2. Chọn **Đăng ký từ web** (Subscribe from web) -> dán liên kết `.ics` -> đặt tên lịch rồi nhấn **Nhập** (Import).
+- **Outlook phần mềm máy tính (Desktop App)**:
+  1. Mở thẻ Calendar -> chọn **Add Calendar** trên thanh công cụ -> chọn **From Internet...**
+  2. Dán liên kết `.ics` -> nhấn **OK** -> xác nhận đăng ký.
+
+</details>
 
 ### Một lịch cho tất cả
 
@@ -140,9 +178,42 @@ Có thể thêm `--year 2027` để xuất riêng năm 2027, `--start 2026 --end
 
 Nhập tệp `.ics` vừa tạo vào ứng dụng lịch. Muốn bản tùy chỉnh tự đồng bộ qua URL, bạn cần lưu tệp trên địa chỉ công khai cố định và chạy lại Python khi muốn cập nhật; các URL thêm nhanh ở trên được kho tự cập nhật hằng tháng. Ngày riêng trong lịch công khai sẽ được mọi người đọc; hãy giữ lịch cá nhân ở `.local/` nếu không muốn công khai.
 
-[Vận hành và bảo trì](docs/OPERATIONS.md) · [Bảo vệ thông tin riêng](SECURITY.md)
+
+## 3. Câu hỏi thường gặp (FAQ)
+
+<details>
+<summary><strong>Tại sao nên đăng ký bằng URL thay vì tải tệp .ics về nhập vào máy?</strong></summary>
+
+Khi đăng ký bằng liên kết URL, ứng dụng lịch sẽ định kỳ tải dữ liệu mới nhất từ kho lưu trữ. Lịch được duy trì liên tục cho 10 năm tiếp theo và tự động cập nhật khi có bổ sung hoặc điều chỉnh ngày lễ. Ngược lại, nếu bạn tải tệp `.ics` về máy và nhập (import), các sự kiện sẽ bị ghi cứng vào dữ liệu cá nhân, không thể tự cập nhật và dễ gây trùng lặp sự kiện mỗi năm.
+</details>
+
+<details>
+<summary><strong>Người Việt đang sinh sống tại nước ngoài (Mỹ, Úc, Nhật...) có bị lệch ngày âm không?</strong></summary>
+
+Không bị lệch ngày. Toàn bộ các sự kiện trong lịch được thiết kế dưới dạng **sự kiện cả ngày** (All-Day Event) gắn liền với ngày tương ứng theo múi giờ Việt Nam (GMT+7). Khi hiển thị trên thiết bị cá nhân của bạn ở bất kỳ quốc gia nào, sự kiện vẫn xuất hiện đúng ngày dương lịch mà ngày âm lịch đó diễn ra tại Việt Nam, giúp kiều bào theo dõi chính xác ngày giỗ, rằm, mùng 1 và Tết truyền thống.
+</details>
+
+<details>
+<summary><strong>Lịch âm được tính toán dựa trên thuật toán nào?</strong></summary>
+
+Dữ liệu âm lịch được xây dựng dựa trên thuật toán thiên văn kinh điển và chuẩn xác của TS. Hồ Ngọc Đức (Viện Công nghệ Thông tin), kết hợp cơ sở múi giờ chuẩn UTC+7 (Hà Nội). Danh mục các ngày lễ và kỷ niệm được đối chiếu chính thức theo Bộ luật Lao động số 45/2019/QH14 và các nghị quyết quy phạm pháp luật hiện hành của Việt Nam (xem chi tiết tại [docs/HOLIDAYS.md](docs/HOLIDAYS.md)).
+</details>
+
+<details>
+<summary><strong>Lịch có hiển thị ngày nghỉ bù hoặc hoán đổi ngày làm việc không?</strong></summary>
+
+Đây là lịch ghi nhận ngày âm lịch, ngày lễ truyền thống và dịp kỷ niệm văn hóa. Lịch nghỉ bù hoặc các đợt hoán đổi ngày làm việc do Chính phủ quyết định hằng năm theo từng tình hình thực tế, vì vậy dự án giữ nguyên tắc trung thực với ngày lễ gốc và không suy diễn lịch nghỉ bù khi chưa có thông báo chính thức.
+</details>
+
+<details>
+<summary><strong>Dự án có thu thập dữ liệu cá nhân hay chứa quảng cáo không?</strong></summary>
+
+Hoàn toàn không. Dự án là mã nguồn mở 100% phi thương mại, không chèn quảng cáo, không chứa mã theo dõi và không thu thập bất kỳ dữ liệu cá nhân nào. Nếu bạn tự tạo lịch riêng kèm ngày giỗ hoặc sinh nhật bằng Python, dữ liệu cá nhân được lưu hoàn toàn cục bộ trên máy bạn tại thư mục `.local/` (đã được cấu hình tự động loại trừ khỏi Git).
+</details>
 
 ---
+
+[Vận hành và bảo trì](docs/OPERATIONS.md) · [Bảo vệ thông tin riêng](SECURITY.md)
 
 <p align="center">
   Phần mềm mã nguồn mở theo giấy phép <a href="LICENSE">MIT</a>.
