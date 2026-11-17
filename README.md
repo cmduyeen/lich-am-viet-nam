@@ -1,57 +1,66 @@
-# 🌙 Global Lunar Calendars
+# 🌙 Lịch âm Việt Nam
 
-![Lunar calendar cover](assets/lunar-calendar-cover.png)
+[Tiếng Việt](README.md) · [English](README.en.md)
 
-Choose a region, then open a country guide. Each guide has an English version, a native-language version and a copyable calendar URL.
+![Lịch âm Việt Nam](assets/lunar-calendar-cover.png)
 
-## 1. Choose your calendar
+Lịch âm Việt Nam theo múi giờ GMT+7, hiển thị bằng **tiếng Việt hoặc tiếng Anh**. Mỗi ngày có một sự kiện, gồm ngày âm và các dịp lễ tương ứng. Hai bản có cùng ngày; chỉ khác ngôn ngữ hiển thị.
 
-<details>
-<summary><strong>East Asia</strong></summary>
+## Đăng ký lịch
 
-- **China** — [English](china/README.md) · [简体中文](china/README.zh-Hans.md)
-- **Taiwan** — [English](taiwan/README.md) · [繁體中文](taiwan/README.zh-Hant.md)
-- **Hong Kong** — [English](hong-kong/README.md) · [繁體中文](hong-kong/README.zh-Hant.md)
-- **Macao** — [English](macao/README.md) · [繁體中文](macao/README.zh-Hant.md)
-- **South Korea** — [English](south-korea/README.md) · [한국어](south-korea/README.ko.md)
+**Tiếng Việt**
 
-</details>
-
-<details>
-<summary><strong>Southeast Asia</strong></summary>
-
-- **Vietnam** — [English](vietnam/README.md) · [Tiếng Việt](vietnam/README.vi.md)
-- **Singapore** — [English](singapore/README.md) · [简体中文](singapore/README.zh-Hans.md)
-- **Malaysia** — [English](malaysia/README.md) · [Bahasa Melayu](malaysia/README.ms.md)
-
-</details>
-
-<details>
-<summary><strong>North America</strong></summary>
-
-- **[United States](united-states/README.md)** — choose Vietnamese, Chinese or Korean tradition.
-
-</details>
-
-## 2. Customize with Python
-
-One shared generator; no separate country applications. Run from this root folder after installing Python 3.11+ and requirements.txt:
-
-```powershell
-python main.py --config vietnam/calendar.config.json
-python main.py --country US --tradition vietnamese --language en
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
 
-Configurations live next to each country’s two guides. Generated calendars stay in output/ so existing subscription URLs remain stable. Defaults cover the current year and next year; scheduled generation is annual, with immediate rebuilds for fixes. Yearly files and ZIPs are optional via --split --output-dir exports. A local folder rename does not rename the GitHub repository or publish new URLs.
+**Tiếng Anh**
 
-## Status and development
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
+```
 
-New feeds require publication to main before subscription. Native-language review and live calendar-app checks are still pending. Nigeria, Egypt, Brazil and Mexico are roadmap markets, not supported calendar profiles.
+Dán một trong hai link vào mục **Thêm lịch từ URL / Đăng ký lịch** trong Google Calendar, Apple Calendar hoặc Outlook. Chỉ cần chọn một ngôn ngữ để tránh nhìn thấy hai bộ sự kiện. Nhập tệp ICS là bản chụp và không tự cập nhật theo URL.
 
-[Development](docs/DEVELOPMENT.md) · [Automation](docs/AUTOMATION.md) · [Feed inventory](output/index.json) · [Release checklist](docs/RELEASE.md) · [MIT](LICENSE)
+Lịch mặc định gồm năm hiện tại và năm kế tiếp. Ứng dụng lịch quyết định thời điểm làm mới. Các thay đổi trong repo chỉ xuất hiện ở URL sau khi được đưa lên nhánh `main`.
 
-[cmduyeen](https://github.com/cmduyeen)
+## Tạo lịch bằng Python
 
-## Existing Vietnamese daily calendars
+Cần Python 3.11 trở lên:
 
-The bilingual daily feeds retain their latest URLs and one event per day. Holiday selection, private annual dates and the previous Python constructor remain available; see [daily customization](README.en.md) and [observances](docs/HOLIDAYS.md). Personal input and customized output stay in ignored `.local/` by default. [Security policy](SECURITY.md).
+```powershell
+python -m pip install --require-hashes -r requirements.txt
+python generate_all.py
+```
+
+Lệnh trên tạo đúng hai feed Việt–Anh trong `output/`. Chạy lại khi dữ liệu không đổi:
+
+```powershell
+python generate_all.py --if-needed
+```
+
+Chỉ tạo một ngôn ngữ hoặc xuất bản chụp từng năm:
+
+```powershell
+python main.py --language vi
+python main.py --language en
+python main.py --language vi --split --output-dir exports
+```
+
+## Chọn ngày lễ và thêm ngày riêng
+
+```powershell
+python main.py --language vi --list-holidays
+python main.py --language en --holidays mid-autumn
+python main.py --language vi --custom-holidays .local/holidays.json
+```
+
+Tệp ngày riêng theo [mẫu JSON](examples/holidays.json). Lịch tùy chỉnh mặc định được lưu trong `.local/output/`, được Git bỏ qua. Không đưa dữ liệu riêng lên repo công khai.
+
+Ngày lễ là dịp kỷ niệm, không phải lịch nghỉ bù hoặc bảng tính ngày nghỉ hưởng lương. Xem [danh mục ngày lễ](docs/HOLIDAYS.md).
+
+## Vận hành
+
+GitHub Actions kiểm thử trước khi xuất bản, chạy hằng năm và khi mã nguồn thay đổi. Lần chạy không có thay đổi sẽ bỏ qua việc tạo và commit dữ liệu. Xem [tự động hóa](docs/AUTOMATION.md), [vận hành](docs/OPERATIONS.md), [kiểm tra phát hành](docs/RELEASE.md) và [bảo mật](SECURITY.md).
+
+[MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)

@@ -1,4 +1,4 @@
-"""Build every implemented profile, validate everything, then update output.
+"""Build the Vietnamese and English Vietnamese lunar feeds, then update output.
 
 --custom-config may be repeated on a fork to publish personalized subscriptions.
 No network calls are made while generating calendars.
@@ -63,28 +63,14 @@ def main(argv=None):
     try:
         manifest=[]
         jobs=[]
-        for profile in PROFILES.values():
-            for language in profile.languages:
-                for content in ('festivals','observances','daily'):
-                    options=CalendarOptions(country=profile.code,tradition=profile.tradition,language=language,content=content)
-                    jobs.append((options,start,end if args.end is not None else min(end,profile.last_year),True))
-        for host in RESIDENCES.values():
-            for tradition, code in host.traditions:
-                profile = PROFILES[code]
-                for language in residence_languages(host.code, profile):
-                    for content in ('festivals', 'observances', 'daily'):
-                        options = CalendarOptions(country=host.code, tradition=tradition,
-                                                  language=language, content=content)
-                        last = end if args.end is not None else min(end, profile.last_year)
-                        jobs.append((options, start, last, True))
-        # Existing subscriptions keep their filenames, identities and full content.
-        for language in ('vi','en'):
-            for minimal in (False,True):
-                jobs.append((CalendarOptions(language=language,minimal=minimal),start,end if args.end is not None else min(end,PROFILES['VN'].last_year),False))
-        merged_end=end if args.end is not None else min(end,PROFILES['VN'].last_year,PROFILES['CN'].last_year,PROFILES['KR'].last_year)
-        jobs.append((CalendarOptions(countries=('VN','CN','KR'),language='en',content='festivals'),start,merged_end,True))
+        # Publish exactly two Vietnamese daily feeds, preserving subscription URLs.
+        for language in ('vi', 'en'):
+            jobs.append((CalendarOptions(language=language), start,
+                         end if args.end is not None else min(end, PROFILES['VN'].last_year), False))
         for config in args.custom_config:
             options=load_calendar_options(config)
+            if options.selected_countries != ('VN',) or options.residence or options.language not in ('vi', 'en'):
+                raise ValueError('This repository publishes Vietnamese calendars in vi/en only')
             first,last=resolve_year_range(current,
                 options.start_year if options.start_year is not None else args.start,
                 options.end_year if options.end_year is not None else args.end,
@@ -122,6 +108,18 @@ def main(argv=None):
             (staging/'index.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
             write_state(staging,expected)
             stale=obsolete_exports(args.output_dir,staging,manifest)
+            # Retire only previously indexed standard feeds; preserve custom/private files.
+            old_index = args.output_dir / 'index.json'
+            if old_index.is_file():
+                old_entries = json.loads(old_index.read_text(encoding='utf-8'))
+                active = {entry['file'] for entry in manifest}
+                for entry in old_entries:
+                    name = entry.get('file', '')
+                    if (name not in active and Path(name).name == name
+                            and name.startswith(('lunar_', 'viet_lunar_'))
+                            and '_custom_' not in name and name.endswith('_latest.ics')):
+                        stale.append(name)
+            stale = sorted(set(stale))
             changes=publish_staged(staging,args.output_dir,obsolete=stale)
     except (ValueError,OSError) as exc:
         parser.error(str(exc))
