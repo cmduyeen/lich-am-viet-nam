@@ -76,6 +76,6 @@ Ngày lễ là dịp kỷ niệm, không phải lịch nghỉ bù hoặc bảng 
 
 ## Vận hành
 
-GitHub Actions kiểm thử trước khi xuất bản, chạy hằng năm và khi mã nguồn thay đổi. Lần chạy không có thay đổi sẽ bỏ qua việc tạo và commit dữ liệu. Xem [tự động hóa](docs/AUTOMATION.md), [vận hành](docs/OPERATIONS.md), [kiểm tra phát hành](docs/RELEASE.md) và [bảo mật](SECURITY.md).
+GitHub Actions kiểm thử trước khi xuất bản, chạy hằng năm và khi mã nguồn thay đổi. Lần chạy không có thay đổi sẽ bỏ qua việc tạo và commit dữ liệu. Xem [tự động hóa](docs/AUTOMATION.md), [vận hành](docs/OPERATIONS.md) và [kiểm tra phát hành](docs/RELEASE.md).
 
 [MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)
