@@ -14,7 +14,7 @@ OUTPUT_DIR = 'output'
 # Thông tin metadata của Calendar
 CALENDAR_NAME = 'Lịch Âm Việt Nam'
 CALENDAR_DESCRIPTION = (
-    'Lịch âm Việt Nam tối giản, tự động đồng bộ trọn đời. '
+    'Lịch âm Việt Nam, tự động cập nhật qua URL. '
     'Bao gồm ngày âm lịch, Mùng 1, Rằm và các ngày lễ lớn. '
     'Múi giờ GMT+7 — Asia/Ho_Chi_Minh.'
 )

@@ -1,42 +1,54 @@
-# Automation without ChatGPT
+# Automatic updates and recovery
 
-Generation and maintenance are ordinary code. No chat, AI subscription, production server or paid calendar API is required.
+The generator is ordinary Python code. No ChatGPT session, editor, production web server or paid calendar service is required.
 
-## Normal operation: GitHub Actions
+## GitHub Actions: daily health check
 
-Merge the reviewed PR, then set the repository Actions variable `PUBLISH_LUNAR_FEEDS` to `true`. The workflow runs on January 1 at 07:17 Vietnam time, relevant main-branch changes and manual dispatch. A two-year feed rolls forward to the current year plus next year at the same URL. Runtime dependencies are hash-pinned.
+The workflow checks every day at 00:17 UTC (07:17 Vietnam time), on source changes and on manual dispatch. It checks source fingerprints, the current year and all recorded checksums before installing dependencies. Healthy scheduled runs skip dependency setup, generation, browser tests, artifacts and commits. A failed or dropped run can be retried by the next daily invocation.
 
-Before installing dependencies, the workflow checks input fingerprints and every recorded output checksum. An unchanged scheduled run skips installation, generation, browser tests, artifacts and commits. A build that actually runs writes only changed bytes. Runs are serialized, have a 15-minute limit, and do not retry indefinitely. Browser checks are reserved for PRs or explicit manual verification; review artifacts expire after three days.
+When inputs or coverage change, it builds the two Vietnamese/English feeds in staging, validates them and publishes only changed public files. UIDs remain stable for overlapping years. Invalid inventory metadata is rebuilt without deleting unknown private files. There are no dummy commits to keep GitHub active.
 
-## Annual recovery guard: code, Task Scheduler or cron
+Set `PUBLISH_LUNAR_FEEDS=true` once; main-branch maintenance fails visibly if publication is disabled. Repository rules must allow the workflow token to update generated output on main. GitHub notification settings determine whether the owner receives failure emails.
 
-GitHub can disable scheduled workflows after 60 days without repository activity. `src/maintenance.py` checks actual published coverage, recovers only inactivity-disabled workflows, avoids duplicate dispatch when a run already exists, and invokes the same workflow only when a new year needs coverage. A manually disabled workflow stays disabled. There are no dummy commits, keep-alive polling or loops.
+## Recover GitHub inactivity disablement
 
-Windows setup from the project root:
+GitHub can disable scheduled workflows in public repositories after 60 days without repository activity. A daily cron inside that same disabled workflow cannot re-enable itself. See [GitHub's documented behavior](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/disable-and-enable-workflows).
+
+Install the existing maintenance helper once on a computer you regularly use:
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\python.exe -m pip install --require-hashes -r requirements.txt
 gh auth status
-.venv\Scripts\python.exe src/maintenance.py --repo cmduyeen/lich-am-viet-nam --dry-run
-powershell -NoProfile -File src/install_annual_task.ps1
+gh variable set PUBLISH_LUNAR_FEEDS --body true --repo cmduyeen/lich-am-viet-nam
+python src/maintenance.py --repo cmduyeen/lich-am-viet-nam --dry-run
+python src/maintenance.py --repo cmduyeen/lich-am-viet-nam --install-task
 ```
 
-The task runs once a year on January 1 at 07:35 Vietnam time. It uses the current Windows user's existing GitHub CLI login, stores no password/token, requires network access, ignores overlapping starts and catches up a missed run when the machine/user becomes available. Logs go to ignored `.maintenance.log`. Use `-Repo your-name/your-fork` when installing for a fork. It can be managed or removed normally in Windows Task Scheduler. No ChatGPT process or browser needs to be open. A powered-off machine cannot execute code; catch-up runs when available.
+The Windows task runs at 07:35 local time and when the same user logs in. It uses Python 3.11+ and that user's existing GitHub CLI login; no project virtual environment, password or new token is required. It recovers only inactivity-disabled workflows, dispatches when the two feeds need coverage or inventory repair, and avoids duplicate runs. Manually disabled workflows remain disabled.
 
-On an existing always-on Linux machine, use the same standard-library script with authenticated `gh` and a cron entry (this example assumes UTC):
+It catches up after missed schedules, ignores overlapping starts and retries failed requests up to three times at 30-minute intervals. Logs stay in ignored `.maintenance.log`. It runs under the current user with limited privileges, so that user must be logged in and the computer/network must be available. It cannot execute while the machine is powered off; the logon trigger catches up when you return. The helper does not claim permanent operation if the computer is abandoned or its GitHub login is revoked.
+
+Verify after setup:
+
+```powershell
+Get-ScheduledTaskInfo -TaskName VietnameseLunarCalendarMaintenance
+Get-Content .maintenance.log -Tail 5
+```
+
+If an older `LunarCalendarsAnnual` task was installed, it is redundant; it can be removed in Task Scheduler after verifying the new task. The installer does not delete other tasks.
+
+On an existing always-on Linux machine, use the same standard-library guard with authenticated `gh` (UTC example):
 
 ```cron
-35 0 1 1 * cd /path/to/lunar-calender && /usr/bin/python3 src/maintenance.py --repo owner/repo --log-file .maintenance.log
+35 0 * * * cd /path/to/lich-am-viet-nam && /usr/bin/python3 src/maintenance.py --repo owner/repo --log-file .maintenance.log
 ```
 
-Only one guard is needed. This is a small annual request, not a background daemon. Provider quotas and the machine's ordinary operating costs still apply; this project provisions no paid services.
+Only one external guard is needed. If you require recovery while your personal computer is always off, run it on an always-on machine or an independently configured external scheduler.
 
-## Local generation
+## Local generation and supported scope
 
 ```powershell
-.venv\Scripts\python.exe generate_all.py --if-needed
-.venv\Scripts\python.exe main.py --language vi --custom-holidays .local/holidays.json
+python generate_all.py --if-needed
+python main.py --language vi --custom-holidays .local/holidays.json
 ```
 
-Use `--if-needed` for unattended batch runs. Omit it to exercise a full rebuild; identical output must still produce zero changed files. A cross-process OS lock prevents two local writers from reconciling revisions simultaneously and releases on process termination. Publication uses staging, validation, atomic replacement and rollback. GitHub publishes the complete generated set in one commit.
+Default coverage is the current year plus next year, within the verified Vietnamese engine range of 1901–2099. This is not an unlimited-year guarantee. Source changes, dependency updates, platform policy changes and new official observances may still require maintenance. The Google/Apple/Outlook application controls its URL refresh interval independently of generation.

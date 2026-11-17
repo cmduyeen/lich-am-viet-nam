@@ -76,6 +76,8 @@ Observances are not substitute-day or statutory leave schedules. See the [holida
 
 ## Maintenance
 
-GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md) and [release checks](docs/RELEASE.md).
+GitHub Actions checks for updates daily and on source changes, rebuilding only when needed. Coverage rolls forward to the current and next year without changing subscription URLs. Unchanged runs skip dependency installation, generation and data commits.
+
+GitHub may disable schedules after 60 days without public repository activity. Install the recovery helper once using the [automation guide](docs/AUTOMATION.md) to re-enable the workflow and catch up when your computer is online; no ChatGPT session is needed. The helper's computer must be used and logged in periodically. See [operations](docs/OPERATIONS.md) and [release checks](docs/RELEASE.md).
 
 [MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)

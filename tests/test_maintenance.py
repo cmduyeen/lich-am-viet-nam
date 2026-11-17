@@ -1,6 +1,6 @@
 import json
 import unittest
-from src.maintenance import maintain
+from src.maintenance import maintain, coverage_current
 
 class FakeGitHub:
     def __init__(self,year=2026,state='active',coverage=2026,publish='true',running=False,ready=True):
@@ -20,6 +20,32 @@ class FakeGitHub:
     def dispatch(self,repo):self.writes.append('dispatch')
 
 class MaintenanceTests(unittest.TestCase):
+    def test_corrupt_incomplete_and_duplicate_inventory_requests_recovery(self):
+        valid = json.loads(FakeGitHub().content('owner/repo', 'output/index.json'))
+        invalid = [None, {}, [None], valid[:1], [valid[0], valid[0]],
+                   [{**valid[0], 'end_year': True}, valid[1]],
+                   [{**valid[0], 'countries': ['CN']}, valid[1]]]
+        for inventory in invalid:
+            with self.subTest(inventory=inventory):
+                self.assertFalse(coverage_current(inventory, 2026))
+        client = FakeGitHub()
+        original = client.content
+        client.content = lambda repo, path: '{broken' if path == 'output/index.json' else original(repo, path)
+        self.assertEqual(maintain('owner/repo', client, 2026)['status'], 'dispatched')
+        self.assertEqual(client.writes, ['dispatch'])
+
+    def test_transient_read_failure_is_not_treated_as_missing_calendar(self):
+        client = FakeGitHub()
+        original = client.content
+        def failing(repo, path):
+            if path == 'output/index.json':
+                raise ValueError('HTTP 503 service unavailable')
+            return original(repo, path)
+        client.content = failing
+        with self.assertRaisesRegex(ValueError, '503'):
+            maintain('owner/repo', client, 2026)
+        self.assertEqual(client.writes, [])
+
     def test_current_year_uses_no_write_or_dispatch(self):
         client=FakeGitHub();result=maintain('owner/repo',client,2026)
         self.assertEqual(result['status'],'current');self.assertEqual(client.writes,[])
