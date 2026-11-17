@@ -76,6 +76,6 @@ Observances are not substitute-day or statutory leave schedules. See the [holida
 
 ## Maintenance
 
-GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md), [release checks](docs/RELEASE.md) and [security](SECURITY.md).
+GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md) and [release checks](docs/RELEASE.md).
 
 [MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)
