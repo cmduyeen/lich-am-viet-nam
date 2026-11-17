@@ -29,9 +29,11 @@ Dán một trong hai link vào mục **Thêm lịch từ URL / Đăng ký lịch
 3. Bên cạnh **Lịch khác**, nhấn **+ → Từ URL**.
 4. Dán link, nhấn **Thêm lịch**. Lịch sẽ xuất hiện trong **Lịch khác**.
 
-[![Lịch âm tiếng Việt trong Google Calendar](assets/screenshots/google-calendar-vi.png)](assets/videos/google-calendar-vi.mp4)
+![Lịch âm tiếng Việt trong Google Calendar](assets/screenshots/google-calendar-vi.png)
 
-**[▶ Xem / tải video thao tác trực tiếp trên Google Calendar](assets/videos/google-calendar-vi.mp4)**
+**Video thao tác trực tiếp trên Google Calendar**
+
+https://github.com/user-attachments/assets/77db24f7-752b-4ab0-9a5d-4c3d2b17af45
 
 Thêm lần đầu trên máy tính, rồi mở ứng dụng Google Calendar cùng tài khoản trên điện thoại. Xem [hướng dẫn của Google](https://support.google.com/calendar/answer/37100?hl=vi).
 
