@@ -8,16 +8,28 @@
 
 ![Vietnamese lunar calendar](assets/lunar-calendar-cover.png)
 
-A **free, open-source Vietnamese Lunar Calendar (.ics)** calculated in **GMT+7 (UTC+7)** and available in **Vietnamese or English**. **No extra apps or third-party software required** — just paste **one `.ics` URL** directly into your built-in calendar app (**Google Calendar, Apple Calendar on iPhone/iPad/Mac, or Microsoft Outlook**) and start using it right away, with automatic yearly updates and zero ads.
+A **free, open-source Vietnamese Lunar Calendar (.ics)** calculated in **GMT+7 (UTC+7)** and available in **Vietnamese or English**. **No extra apps or third-party software required** — use the **[interactive Web Studio](https://cmduyeen.github.io/lich-am-viet-nam/)** to customize holidays, lunar birthdays, and personal events in your browser, or paste **one `.ics` URL** directly into **Google Calendar, Apple Calendar, or Microsoft Outlook** for automatic yearly updates.
+
+> 🌐 **Try Web Studio:** **[cmduyeen.github.io/lich-am-viet-nam](https://cmduyeen.github.io/lich-am-viet-nam/)** · More tools at **[Blog & Tools](https://cmduyeen.github.io/en/tools/)**
 
 ## Table of Contents
 
+- [Customize Online (Web Studio)](#customize-online-web-studio)
 - [Subscribe via URL (No App Required — Just Paste & Go)](#subscribe-via-url-no-app-required--just-paste--go)
 - [Quick Setup Guides](#quick-setup-guides)
 - [Key Features](#key-features)
 - [Generate & Customize with Python (Optional for Developers)](#generate--customize-with-python-optional-for-developers)
 - [Maintenance & Automation](#maintenance--automation)
 - [FAQ](#faq)
+
+## Customize Online (Web Studio)
+
+Open **[Vietnamese Lunar Calendar Studio](https://cmduyeen.github.io/lich-am-viet-nam/)** in your browser without installing Python:
+
+- **Choose your detail level:** Major festivals only, Festivals + New Moon & Full Moon (1st & 15th), or full daily lunar dates.
+- **Add personal events:** Add lunar birthdays, family anniversaries, or custom solar/lunar reminders.
+- **Instant Solar ↔ Lunar lookup:** Check any date's lunar equivalent and Sexagenary cycle (Can Chi) in GMT+7.
+- **Export `.ics` or JSON/CLI:** Download a ready-to-import `.ics` file or copy the config for Python CLI.
 
 ## Subscribe via URL (No App Required — Just Paste & Go)
 

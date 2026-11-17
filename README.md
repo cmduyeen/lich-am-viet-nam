@@ -8,16 +8,28 @@
 
 ![Lịch âm Việt Nam](assets/lunar-calendar-cover.png)
 
-**Lịch âm Việt Nam miễn phí (.ics)** theo múi giờ chuẩn Việt Nam (**GMT+7 / UTC+7**), hỗ trợ song ngữ **tiếng Việt và tiếng Anh**. **Không cần cài thêm app hay phần mềm bên thứ ba** — bạn chỉ cần sao chép **1 đường link `.ics`** dán vào ứng dụng lịch có sẵn (**Google Calendar, Apple Calendar trên iPhone/iPad/Mac, hoặc Microsoft Outlook**) là dùng ngay, tự động cập nhật hằng năm, không quảng cáo.
+**Lịch âm Việt Nam miễn phí (.ics)** theo múi giờ chuẩn Việt Nam (**GMT+7 / UTC+7**), hỗ trợ song ngữ **tiếng Việt và tiếng Anh**. **Không cần cài thêm app hay phần mềm bên thứ ba** — bạn có thể dùng **[Web Studio tùy chỉnh lịch trực tuyến](https://cmduyeen.github.io/lich-am-viet-nam/)** (thêm ngày giỗ, sinh nhật âm lịch, chọn ngày Mùng 1/Rằm, tra cứu Âm ↔ Dương và xuất `.ics` ngay trên trình duyệt) hoặc sao chép **1 đường link `.ics`** dán vào **Google Calendar, Apple Calendar, Outlook** để tự động cập nhật hằng năm.
+
+> 🌐 **Dùng ngay trên trình duyệt:** **[cmduyeen.github.io/lich-am-viet-nam](https://cmduyeen.github.io/lich-am-viet-nam/)** · Khám phá thêm các công cụ khác tại **[Blog & Tools](https://cmduyeen.github.io/tools/)**
 
 ## Mục lục
 
+- [Tùy chỉnh lịch âm trực tuyến (Web Studio)](#tùy-chỉnh-lịch-âm-trực-tuyến-web-studio)
 - [Đăng ký lịch âm qua URL (Không cần cài app — Gắn link dùng luôn)](#đăng-ký-lịch-âm-qua-url-không-cần-cài-app--gắn-link-dùng-luôn)
 - [Hướng dẫn cài đặt nhanh](#hướng-dẫn-cài-đặt-nhanh)
 - [Điểm nổi bật](#điểm-nổi-bật)
 - [Tự tạo lịch & Thêm ngày riêng bằng Python (Tùy chọn cho lập trình viên)](#tự-tạo-lịch--thêm-ngày-riêng-bằng-python-tùy-chọn-cho-lập-trình-viên)
 - [Vận hành & Tự động hóa](#vận-hành--tự-động-hóa)
 - [Câu hỏi thường gặp (FAQ)](#câu-hỏi-thường-gặp-faq)
+
+## Tùy chỉnh lịch âm trực tuyến (Web Studio)
+
+Truy cập **[Lịch Âm Việt Nam Studio](https://cmduyeen.github.io/lich-am-viet-nam/)** để cá nhân hóa lịch âm ngay trên trình duyệt mà không cần cài Python:
+
+- **Chọn mức độ hiển thị:** Chỉ ngày lễ lớn, Ngày lễ + Mùng 1 & Rằm, hoặc đầy đủ tất cả các ngày âm lịch.
+- **Thêm ngày riêng của bạn:** Thêm ngày giỗ, sinh nhật âm lịch, kỷ niệm cá nhân lặp lại hằng năm.
+- **Tra cứu nhanh Dương ↔ Âm:** Kiểm tra ngày âm lịch & Can Chi bất kỳ theo múi giờ chuẩn GMT+7.
+- **Xuất file `.ics` hoặc JSON/CLI:** Tải file `.ics` dùng ngay hoặc copy cấu hình cho Python CLI.
 
 ## Đăng ký lịch âm qua URL (Không cần cài app — Gắn link dùng luôn)
 

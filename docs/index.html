@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lịch Âm Việt Nam Studio — Tùy chỉnh &amp; Tạo file .ics Âm Lịch</title>
+  <meta name="description" content="Công cụ trực tuyến miễn phí giúp tùy chỉnh Lịch Âm Việt Nam (.ics) cho Google Calendar, Apple Calendar, Outlook. Hỗ trợ thêm ngày giỗ, sinh nhật âm lịch, đổi ngày Âm - Dương GMT+7." />
+  <meta property="og:title" content="Lịch Âm Việt Nam Studio — Tùy chỉnh Lịch Âm (.ics)" />
+  <meta property="og:description" content="Tạo lịch âm cá nhân hóa chuẩn thiên văn GMT+7, thêm ngày giỗ, sinh nhật âm lịch và tải file .ics hoặc đăng ký link tự động." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cmduyeen.github.io/lich-am-viet-nam/" />
+  <link rel="canonical" href="https://cmduyeen.github.io/lich-am-viet-nam/" />
+  <style>
+    :root {
+      --bg: #F6F4F0;
+      --panel: #EDEAE4;
+      --border: #E3DFD7;
+      --text: #3D3A36;
+      --muted: #5C5852;
+      --accent: #914854;
+      --accent-hover: #7A3B45;
+      --accent-soft: rgba(145, 72, 84, 0.1);
+      --code-bg: #F6F4F0;
+      --shadow: 0 8px 24px rgba(61, 58, 54, 0.06);
+      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #191817;
+        --panel: #21201E;
+        --border: #2B2926;
+        --text: #C7C3BA;
+        --muted: #A39E95;
+        --accent: #C9848F;
+        --accent-hover: #DDA0AA;
+        --accent-soft: rgba(201, 132, 143, 0.12);
+        --code-bg: #161514;
+        --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: var(--font-sans);
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: var(--panel);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.015em;
+    }
+
+    .brand p {
+      margin: 2px 0 0;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .btn {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text);
+      padding: 7px 13px;
+      border-radius: 8px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+    }
+
+    .btn:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #FFFFFF;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      color: #FFFFFF;
+    }
+
+    .btn-sm {
+      padding: 5px 10px;
+      font-size: 0.78rem;
+    }
+
+    .steps-bar {
+      max-width: 1560px;
+      margin: 16px auto 0;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    @media (max-width: 900px) {
+      .steps-bar { grid-template-columns: 1fr; }
+    }
+
+    .step-chip {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 0.83rem;
+      color: var(--muted);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .step-chip strong { color: var(--text); }
+
+    .step-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 0.76rem;
+      flex-shrink: 0;
+      font-family: var(--font-mono);
+    }
+
+    main {
+      max-width: 1560px;
+      margin: 16px auto 28px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 360px minmax(0, 1fr) minmax(0, 1fr);
+      gap: 16px;
+      align-items: stretch;
+    }
+
+    @media (max-width: 1120px) {
+      main { grid-template-columns: 1fr; }
+    }
+
+    .card {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    .card-header h2 {
+      margin: 0;
+      font-size: 0.98rem;
+      font-weight: 700;
+    }
+
+    label.field-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin: 11px 0 5px;
+      color: var(--text);
+    }
+
+    .row-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+    }
+
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--code-bg);
+      color: var(--text);
+      font-size: 0.85rem;
+      font-family: inherit;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid var(--accent-soft);
+      border-color: var(--accent);
+    }
+
+    .chip-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+    }
+
+    .chip-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 9px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--code-bg);
+      font-size: 0.78rem;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .chip-toggle.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .chip-toggle input { display: none; }
+
+    .custom-events-box {
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--code-bg);
+    }
+
+    .custom-event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin-top: 8px;
+      max-height: 170px;
+      overflow-y: auto;
+    }
+
+    .custom-event-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 6px 8px;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      background: var(--panel);
+      font-size: 0.78rem;
+    }
+
+    .custom-event-meta {
+      color: var(--muted);
+      font-family: var(--font-mono);
+      font-size: 0.73rem;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      margin-bottom: 10px;
+    }
+
+    .tab-btn {
+      padding: 6px 11px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .tab-btn.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .tab-pane { display: none; flex: 1; flex-direction: column; min-height: 0; }
+    .tab-pane.active { display: flex; }
+
+    pre.code-box {
+      margin: 0;
+      padding: 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--code-bg);
+      color: var(--text);
+      font-family: var(--font-mono);
+      font-size: 0.77rem;
+      line-height: 1.5;
+      overflow: auto;
+      white-space: pre-wrap;
+      word-break: break-word;
+      flex: 1;
+      max-height: 430px;
+    }
+
+    .url-box {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .url-box input {
+      font-family: var(--font-mono);
+      font-size: 0.77rem;
+    }
+
+    .note-box {
+      margin-top: 10px;
+      padding: 10px 12px;
+      border-radius: 9px;
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      background: var(--code-bg);
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .note-box strong { color: var(--text); }
+
+    .today-banner {
+      padding: 12px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--code-bg);
+      margin-bottom: 12px;
+    }
+
+    .today-lunar {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .today-meta {
+      font-size: 0.81rem;
+      color: var(--muted);
+      margin-top: 3px;
+      font-family: var(--font-mono);
+    }
+
+    .converter-box {
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: var(--code-bg);
+      margin-bottom: 12px;
+    }
+
+    .converter-result {
+      margin-top: 8px;
+      font-size: 0.84rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .events-preview {
+      flex: 1;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--code-bg);
+      overflow-y: auto;
+      max-height: 360px;
+    }
+
+    .event-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 10px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.82rem;
+    }
+
+    .event-row:last-child { border-bottom: none; }
+
+    .event-date {
+      font-family: var(--font-mono);
+      font-size: 0.77rem;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .event-tag {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      padding: 1px 6px;
+      border-radius: 5px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .badge-count {
+      font-family: var(--font-mono);
+      font-size: 0.76rem;
+      color: var(--muted);
+    }
+
+    footer {
+      max-width: 1560px;
+      margin: 0 auto 28px;
+      padding: 0 20px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1 id="uiTitle">🌙 Lịch Âm Việt Nam Studio</h1>
+      <p id="uiSubtitle">Tạo &amp; tùy chỉnh file lịch âm (.ics) chuẩn GMT+7 cho Google Calendar, Apple Calendar, Outlook — không cần cài app.</p>
+    </div>
+    <div class="header-actions">
+      <button class="btn" id="langSwitchBtn" type="button">🌐 English</button>
+      <a class="btn" href="https://cmduyeen.github.io/tools/" target="_blank" rel="noopener noreferrer" id="blogLinkBtn">← Blog / Tools</a>
+      <a class="btn" href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <button class="btn btn-primary" id="downloadIcsTopBtn" type="button">⬇ Tải file .ics</button>
+    </div>
+  </header>
+
+  <section class="steps-bar">
+    <div class="step-chip"><span class="step-num">1</span><span><strong>Tùy chỉnh</strong> ngày lễ, Mùng 1 / Rằm &amp; ngày giỗ / sinh nhật riêng</span></div>
+    <div class="step-chip"><span class="step-num">2</span><span><strong>Tải file .ics</strong> trực tiếp hoặc sao chép link đăng ký tự động</span></div>
+    <div class="step-chip"><span class="step-num">3</span><span><strong>Nhập vào Lịch</strong> trên Google Calendar, iPhone / Mac hoặc Outlook</span></div>
+  </section>
+
+  <main>
+    <!-- Cột 1: Cấu hình -->
+    <section class="card">
+      <div class="card-header">
+        <h2 id="col1Title">1. Tùy chỉnh lịch âm</h2>
+        <button class="btn btn-sm" id="resetBtn" type="button">Mặc định</button>
+      </div>
+
+      <label class="field-label" for="calName">Tên lịch hiển thị</label>
+      <input type="text" id="calName" value="Lịch Âm Việt Nam (Tùy chỉnh)" />
+
+      <div class="row-2">
+        <div>
+          <label class="field-label" for="countrySelect">Truyền thống / Múi giờ</label>
+          <select id="countrySelect">
+            <option value="VN" selected>VN — Việt Nam (GMT+7)</option>
+            <option value="CN">CN — Trung Quốc (GMT+8)</option>
+            <option value="TW">TW — Đài Loan (GMT+8)</option>
+            <option value="HK">HK — Hồng Kông (GMT+8)</option>
+            <option value="KR">KR — Hàn Quốc (GMT+9)</option>
+            <option value="SG">SG — Singapore (GMT+8)</option>
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="langSelect">Ngôn ngữ sự kiện</label>
+          <select id="langSelect">
+            <option value="vi" selected>Tiếng Việt (vi)</option>
+            <option value="en">English (en)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div>
+          <label class="field-label" for="contentSelect">Mức độ hiển thị</label>
+          <select id="contentSelect">
+            <option value="observances" selected>Ngày lễ + Mùng 1 &amp; Rằm</option>
+            <option value="festivals">Chỉ các ngày lễ lớn</option>
+            <option value="daily">Đầy đủ tất cả các ngày</option>
+          </select>
+        </div>
+        <div>
+          <label class="field-label" for="holidayTypeSelect">Loại ngày lễ</label>
+          <select id="holidayTypeSelect">
+            <option value="lunar,solar" selected>Cả Âm lịch &amp; Dương lịch</option>
+            <option value="lunar">Chỉ lễ Âm lịch</option>
+            <option value="solar">Chỉ lễ Dương lịch</option>
+            <option value="none">Không kèm ngày lễ</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="row-2">
+        <div>
+          <label class="field-label" for="startYear">Từ năm</label>
+          <input type="number" id="startYear" min="1901" max="2099" />
+        </div>
+        <div>
+          <label class="field-label" for="endYear">Đến năm</label>
+          <input type="number" id="endYear" min="1901" max="2099" />
+        </div>
+      </div>
+
+      <label class="field-label">Ngày âm lịch định kỳ hằng tháng</label>
+      <div class="chip-group" id="lunarDaysChips">
+        <label class="chip-toggle active"><input type="checkbox" value="1" checked /> Mùng 1</label>
+        <label class="chip-toggle"><input type="checkbox" value="14" /> Ngày 14</label>
+        <label class="chip-toggle active"><input type="checkbox" value="15" checked /> Rằm (15)</label>
+        <label class="chip-toggle"><input type="checkbox" value="23" /> 23 (Táo Quân)</label>
+        <label class="chip-toggle"><input type="checkbox" value="30" /> 30 / Cuối tháng</label>
+      </div>
+
+      <label class="field-label">Thêm ngày riêng (Giỗ, Sinh nhật âm lịch...)</label>
+      <div class="custom-events-box">
+        <input type="text" id="customTitle" placeholder="VD: Giỗ ông nội / Sinh nhật Mẹ" />
+        <div class="row-2" style="margin-top:6px;">
+          <select id="customCalType">
+            <option value="lunar">Theo Âm lịch</option>
+            <option value="solar">Theo Dương lịch</option>
+          </select>
+          <div style="display:flex; gap:6px;">
+            <input type="number" id="customDay" min="1" max="31" value="15" title="Ngày" placeholder="Ngày" />
+            <input type="number" id="customMonth" min="1" max="12" value="8" title="Tháng" placeholder="Tháng" />
+          </div>
+        </div>
+        <button class="btn btn-sm" id="addCustomBtn" type="button" style="margin-top:8px; width:100%; justify-content:center;">+ Thêm vào lịch của tôi</button>
+        <div class="custom-event-list" id="customEventList"></div>
+      </div>
+    </section>
+
+    <!-- Cột 2: Xuất file .ics / Subscribe / CLI -->
+    <section class="card">
+      <div class="card-header">
+        <h2 id="col2Title">2. Tải về hoặc Đăng ký lịch</h2>
+        <span class="badge-count" id="icsSizeLabel">0 sự kiện</span>
+      </div>
+
+      <div class="tabs">
+        <button class="tab-btn active" data-tab="icsPane" type="button">File .ics tùy chỉnh</button>
+        <button class="tab-btn" data-tab="urlPane" type="button">Link tự động (URL)</button>
+        <button class="tab-btn" data-tab="cliPane" type="button">JSON &amp; Python CLI</button>
+      </div>
+
+      <div class="tab-pane active" id="icsPane">
+        <div style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px;">
+          <button class="btn btn-primary" id="downloadIcsBtn" type="button">⬇ Tải file .ics ngay</button>
+          <button class="btn" id="copyIcsBtn" type="button">📋 Sao chép mã .ics</button>
+        </div>
+        <pre class="code-box" id="icsPreview"></pre>
+        <div class="note-box">
+          <strong>Cách dùng file .ics:</strong> Mở Google Calendar → <em>Cài đặt → Nhập &amp; xuất (Import &amp; export)</em> → chọn file vừa tải. Trên iPhone/Mac, chỉ cần mở trực tiếp file <code>.ics</code> để thêm vào Apple Calendar.
+        </div>
+      </div>
+
+      <div class="tab-pane" id="urlPane">
+        <label class="field-label">Feed Tiếng Việt (Tự cập nhật mỗi năm)</label>
+        <div class="url-box">
+          <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics" id="feedViUrl" />
+          <button class="btn btn-sm" data-copy="feedViUrl" type="button">Copy</button>
+        </div>
+        <label class="field-label">Feed Tiếng Anh (English)</label>
+        <div class="url-box">
+          <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics" id="feedEnUrl" />
+          <button class="btn btn-sm" data-copy="feedEnUrl" type="button">Copy</button>
+        </div>
+        <div class="note-box">
+          <strong>Mẹo đăng ký qua URL:</strong> Nếu bạn chỉ cần lịch âm mặc định tự cuốn chiếu sang năm mới mà không cần ngày giỗ cá nhân, hãy dùng <strong>Google Calendar → Lịch khác (+) → Từ URL</strong> và dán 1 trong 2 link trên.
+        </div>
+      </div>
+
+      <div class="tab-pane" id="cliPane">
+        <div style="display:flex; gap:8px; margin-bottom:8px;">
+          <button class="btn btn-sm" id="copyJsonBtn" type="button">📋 Copy calendar.config.json</button>
+          <button class="btn btn-sm" id="copyCliBtn" type="button">📋 Copy lệnh Python</button>
+        </div>
+        <pre class="code-box" id="cliPreview"></pre>
+      </div>
+    </section>
+
+    <!-- Cột 3: Xem trước & Tra cứu Âm-Dương -->
+    <section class="card">
+      <div class="card-header">
+        <h2 id="col3Title">3. Tra cứu &amp; Xem trước</h2>
+        <span class="badge-count" id="previewCountLabel">0 mục</span>
+      </div>
+
+      <div class="today-banner">
+        <div class="today-lunar" id="todayLunarText">Đang tính ngày âm lịch...</div>
+        <div class="today-meta" id="todaySolarMeta"></div>
+      </div>
+
+      <div class="converter-box">
+        <label class="field-label" style="margin-top:0;" for="lookupDate">Tra cứu nhanh Dương lịch → Âm lịch</label>
+        <input type="date" id="lookupDate" />
+        <div class="converter-result" id="lookupResult"></div>
+      </div>
+
+      <label class="field-label" style="margin-top:0;">Danh sách sự kiện trong lịch của bạn</label>
+      <div class="events-preview" id="eventsPreview"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Phát triển bởi <a href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer">Duyên (cmduyeen)</a> · Mã nguồn mở MIT tại <a href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">lich-am-viet-nam</a></span>
+    <span>Thuật toán thiên văn Jean Meeus / Hồ Ngọc Đức (GMT+7 / UTC+7) · Xử lý 100% trên trình duyệt</span>
+  </footer>
+
+  <script>
+    // =========================================================================
+    // 1. Thuật toán Lịch Âm Việt Nam (Jean Meeus / Hồ Ngọc Đức)
+    // =========================================================================
+    const PI = Math.PI;
+    function INT(d) { return Math.floor(d); }
+
+    function jdFromDate(dd, mm, yy) {
+      const a = INT((14 - mm) / 12);
+      const y = yy + 4800 - a;
+      const m = mm + 12 * a - 3;
+      let jd = dd + INT((153 * m + 2) / 5) + 365 * y + INT(y / 4) - INT(y / 100) + INT(y / 400) - 32045;
+      if (jd < 2299161) {
+        jd = dd + INT((153 * m + 2) / 5) + 365 * y + INT(y / 4) - 32083;
+      }
+      return jd;
+    }
+
+    function jdToDate(jd) {
+      let a, b, c;
+      if (jd > 2299160) {
+        a = jd + 32044;
+        b = INT((4 * a + 3) / 146097);
+        c = a - INT((b * 146097) / 4);
+      } else {
+        b = 0;
+        c = jd + 32082;
+      }
+      const d = INT((4 * c + 3) / 1461);
+      const e = c - INT((1461 * d) / 4);
+      const m = INT((5 * e + 2) / 153);
+      const day = e - INT((153 * m + 2) / 5) + 1;
+      const month = m + 3 - 12 * INT(m / 10);
+      const year = b * 100 + d - 4800 + INT(m / 10);
+      return [day, month, year];
+    }
+
+    function getNewMoonDay(k, timeZone) {
+      const T = k / 1236.85;
+      const T2 = T * T;
+      const T3 = T2 * T;
+      const dr = PI / 180;
+      let Jd1 = 2415020.75933 + 29.53058868 * k + 0.0001178 * T2 - 0.000000155 * T3;
+      Jd1 += 0.00033 * Math.sin((166.56 + 132.87 * T - 0.009173 * T2) * dr);
+      const M = 359.2242 + 29.10535608 * k - 0.0000333 * T2 - 0.00000347 * T3;
+      const Mpr = 306.0253 + 385.81691806 * k + 0.0107306 * T2 + 0.00001236 * T3;
+      const F = 21.2964 + 390.67050646 * k - 0.0016528 * T2 - 0.00000239 * T3;
+      let C1 = (0.1734 - 0.000393 * T) * Math.sin(M * dr) + 0.0021 * Math.sin(2 * dr * M);
+      C1 -= 0.4068 * Math.sin(Mpr * dr) + 0.0161 * Math.sin(dr * 2 * Mpr);
+      C1 -= 0.0004 * Math.sin(dr * 3 * Mpr);
+      C1 += 0.0104 * Math.sin(dr * 2 * F) - 0.0051 * Math.sin(dr * (M + Mpr));
+      C1 -= 0.0074 * Math.sin(dr * (M - Mpr)) + 0.0004 * Math.sin(dr * (2 * F + M));
+      C1 -= 0.0004 * Math.sin(dr * (2 * F - M)) - 0.0006 * Math.sin(dr * (2 * F + Mpr));
+      C1 += 0.0010 * Math.sin(dr * (2 * F - Mpr)) + 0.0005 * Math.sin(dr * (2 * Mpr + M));
+      const deltat = T < -11
+        ? 0.001 + 0.000839 * T + 0.0002261 * T2 - 0.00000845 * T3 - 0.000000081 * T * T3
+        : -0.000278 + 0.000265 * T + 0.000262 * T2;
+      const JdNew = Jd1 + C1 - deltat;
+      return INT(JdNew + 0.5 + timeZone / 24);
+    }
+
+    function getSunLongitude(jdn, timeZone) {
+      const T = (jdn - 2451545.5 - timeZone / 24) / 36525;
+      const T2 = T * T;
+      const dr = PI / 180;
+      const M = 357.52910 + 35999.05030 * T - 0.0001559 * T2 - 0.00000048 * T * T2;
+      const L0 = 280.46645 + 36000.76983 * T + 0.0003032 * T2;
+      let DL = (1.914600 - 0.004817 * T - 0.000014 * T2) * Math.sin(dr * M);
+      DL += (0.019993 - 0.000101 * T) * Math.sin(dr * 2 * M) + 0.000290 * Math.sin(dr * 3 * M);
+      let L = (L0 + DL) * dr;
+      L -= PI * 2 * INT(L / (PI * 2));
+      return INT((L / PI) * 6);
+    }
+
+    function getLunarMonth11(yy, timeZone) {
+      const off = jdFromDate(31, 12, yy) - 2415021;
+      const k = INT(off / 29.530588853);
+      let nm = getNewMoonDay(k, timeZone);
+      if (getSunLongitude(nm, timeZone) >= 9) nm = getNewMoonDay(k - 1, timeZone);
+      return nm;
+    }
+
+    function getLeapMonthOffset(a11, timeZone) {
+      const k = INT((a11 - 2415021.076998695) / 29.530588853 + 0.5);
+      let last = 0, i = 1;
+      let arc = getSunLongitude(getNewMoonDay(k + i, timeZone), timeZone);
+      do {
+        last = arc;
+        i++;
+        arc = getSunLongitude(getNewMoonDay(k + i, timeZone), timeZone);
+      } while (arc !== last && i < 14);
+      return i - 1;
+    }
+
+    function convertSolar2Lunar(dd, mm, yy, timeZone = 7) {
+      const dayNumber = jdFromDate(dd, mm, yy);
+      const k = INT((dayNumber - 2415021.076998695) / 29.530588853);
+      let monthStart = getNewMoonDay(k + 1, timeZone);
+      if (monthStart > dayNumber) monthStart = getNewMoonDay(k, timeZone);
+      let a11 = getLunarMonth11(yy, timeZone);
+      let b11 = a11;
+      let lunarYear;
+      if (a11 >= monthStart) {
+        lunarYear = yy;
+        a11 = getLunarMonth11(yy - 1, timeZone);
+      } else {
+        lunarYear = yy + 1;
+        b11 = getLunarMonth11(yy + 1, timeZone);
+      }
+      const lunarDay = dayNumber - monthStart + 1;
+      const diff = INT((monthStart - a11) / 29);
+      let lunarLeap = 0;
+      let lunarMonth = diff + 11;
+      if (b11 - a11 > 365) {
+        const leapMonthDiff = getLeapMonthOffset(a11, timeZone);
+        if (diff >= leapMonthDiff) {
+          lunarMonth = diff + 10;
+          if (diff === leapMonthDiff) lunarLeap = 1;
+        }
+      }
+      if (lunarMonth > 12) lunarMonth -= 12;
+      if (lunarMonth >= 11 && diff < 4) lunarYear -= 1;
+      return { day: lunarDay, month: lunarMonth, year: lunarYear, leap: lunarLeap === 1 };
+    }
+
+    function convertLunar2Solar(lunarDay, lunarMonth, lunarYear, lunarLeap, timeZone = 7) {
+      let a11, b11;
+      if (lunarMonth < 11) {
+        a11 = getLunarMonth11(lunarYear - 1, timeZone);
+        b11 = getLunarMonth11(lunarYear, timeZone);
+      } else {
+        a11 = getLunarMonth11(lunarYear, timeZone);
+        b11 = getLunarMonth11(lunarYear + 1, timeZone);
+      }
+      const k = INT(0.5 + (a11 - 2415021.076998695) / 29.530588853);
+      let off = lunarMonth - 11;
+      if (off < 0) off += 12;
+      if (b11 - a11 > 365) {
+        const leapOff = getLeapMonthOffset(a11, timeZone);
+        let leapMonth = leapOff - 2;
+        if (leapMonth < 0) leapMonth += 12;
+        if (lunarLeap && lunarMonth !== leapMonth) return null;
+        if (lunarLeap || off >= leapOff) off += 1;
+      }
+      const monthStart = getNewMoonDay(k + off, timeZone);
+      return jdToDate(monthStart + lunarDay - 1);
+    }
+
+    const CAN = ["Giáp", "Ất", "Bính", "Đinh", "Mậu", "Kỷ", "Canh", "Tân", "Nhâm", "Quý"];
+    const CHI = ["Tý", "Sửu", "Dần", "Mão", "Thìn", "Tỵ", "Ngọ", "Mùi", "Thân", "Dậu", "Tuất", "Hợi"];
+    function yearCanChi(lunarYear) {
+      return CAN[(lunarYear + 6) % 10] + " " + CHI[(lunarYear + 8) % 12];
+    }
+
+    // =========================================================================
+    // 2. Dữ liệu ngày lễ & cấu hình
+    // =========================================================================
+    const TZ_MAP = { VN: 7, CN: 8, TW: 8, HK: 8, SG: 8, KR: 9 };
+
+    const LUNAR_HOLIDAYS = {
+      VN: [
+        { m: 1, d: 1, vi: "Tết Nguyên Đán (Mùng 1 Tết)", en: "Vietnamese Lunar New Year (Tet)" },
+        { m: 1, d: 2, vi: "Mùng 2 Tết Nguyên Đán", en: "Tet Holiday (Day 2)" },
+        { m: 1, d: 3, vi: "Mùng 3 Tết Nguyên Đán", en: "Tet Holiday (Day 3)" },
+        { m: 1, d: 10, vi: "Ngày Vía Thần Tài", en: "God of Wealth Day" },
+        { m: 1, d: 15, vi: "Tết Nguyên Tiêu (Rằm tháng Giêng)", en: "Lantern Festival (Full Moon)" },
+        { m: 3, d: 3, vi: "Tết Hàn Thực", en: "Cold Food Festival (Han Thuc)" },
+        { m: 3, d: 10, vi: "Giỗ Tổ Hùng Vương", en: "Hung Kings' Commemoration Day" },
+        { m: 4, d: 15, vi: "Lễ Phật Đản", en: "Vesak / Buddha's Birthday" },
+        { m: 5, d: 5, vi: "Tết Đoan Ngọ", en: "Duanwu / Mid-Year Festival" },
+        { m: 7, d: 15, vi: "Lễ Vu Lan (Rằm tháng Bảy)", en: "Vu Lan / Ghost Festival" },
+        { m: 8, d: 15, vi: "Tết Trung Thu", en: "Mid-Autumn Festival" },
+        { m: 12, d: 23, vi: "Ông Công Ông Táo", en: "Kitchen Gods Day" },
+      ],
+      CN: [
+        { m: 1, d: 1, vi: "Tết Âm Lịch", en: "Chinese New Year" },
+        { m: 1, d: 15, vi: "Tết Nguyên Tiêu", en: "Lantern Festival" },
+        { m: 5, d: 5, vi: "Tết Đoan Ngọ", en: "Dragon Boat Festival" },
+        { m: 7, d: 7, vi: "Lễ Thất Tịch", en: "Qixi Festival" },
+        { m: 7, d: 15, vi: "Lễ Trung Nguyên", en: "Ghost Festival" },
+        { m: 8, d: 15, vi: "Tết Trung Thu", en: "Mid-Autumn Festival" },
+        { m: 9, d: 9, vi: "Tết Trùng Cửu", en: "Double Ninth Festival" },
+      ],
+    };
+
+    const SOLAR_HOLIDAYS = {
+      VN: [
+        { m: 1, d: 1, vi: "Tết Dương Lịch", en: "New Year's Day" },
+        { m: 4, d: 30, vi: "Ngày Giải phóng miền Nam", en: "Reunification Day" },
+        { m: 5, d: 1, vi: "Ngày Quốc tế Lao động", en: "International Workers' Day" },
+        { m: 9, d: 2, vi: "Ngày Quốc khánh Việt Nam", en: "Vietnam National Day" },
+      ],
+    };
+
+    let customEvents = [
+      // Example default placeholder empty, user adds their own
+    ];
+    let lastIcsText = "";
+    let lastEvents = [];
+
+    const $ = (id) => document.getElementById(id);
+    const pad2 = (n) => String(n).padStart(2, "0");
+    const fmtIso = (y, m, d) => `${y}-${pad2(m)}-${pad2(d)}`;
+    const fmtIcsDate = (y, m, d) => `${y}${pad2(m)}${pad2(d)}`;
+
+    function icsEscape(str) {
+      return String(str)
+        .replace(/\\/g, "\\\\")
+        .replace(/\n/g, "\\n")
+        .replace(/;/g, "\\;")
+        .replace(/,/g, "\\,");
+    }
+
+    function getSelectedLunarDays() {
+      const boxes = document.querySelectorAll("#lunarDaysChips input[type=checkbox]:checked");
+      return Array.from(boxes).map((b) => parseInt(b.value, 10));
+    }
+
+    function syncChipStyles() {
+      document.querySelectorAll("#lunarDaysChips .chip-toggle").forEach((lbl) => {
+        const cb = lbl.querySelector("input");
+        lbl.classList.toggle("active", cb.checked);
+      });
+    }
+
+    function generateCalendar() {
+      syncChipStyles();
+      const country = $("countrySelect").value;
+      const lang = $("langSelect").value;
+      const content = $("contentSelect").value;
+      const holidayType = $("holidayTypeSelect").value;
+      const tz = TZ_MAP[country] || 7;
+      const calName = $("calName").value.trim() || "Lịch Âm Việt Nam";
+
+      const now = new Date();
+      let startY = parseInt($("startYear").value, 10) || now.getFullYear();
+      let endY = parseInt($("endYear").value, 10) || startY + 1;
+      if (endY < startY) endY = startY;
+      if (endY - startY > 10) endY = startY + 10;
+
+      const selectedLunarDays = getSelectedLunarDays();
+      const includeLunarHolidays = holidayType.includes("lunar");
+      const includeSolarHolidays = holidayType.includes("solar");
+      const lunarRules = LUNAR_HOLIDAYS[country] || LUNAR_HOLIDAYS.CN;
+      const solarRules = SOLAR_HOLIDAYS[country] || [];
+
+      const events = [];
+
+      for (let y = startY; y <= endY; y++) {
+        for (let m = 1; m <= 12; m++) {
+          const daysInMonth = new Date(y, m, 0).getDate();
+          for (let d = 1; d <= daysInMonth; d++) {
+            const lunar = convertSolar2Lunar(d, m, y, tz);
+            const titles = [];
+            let tag = "";
+
+            if (includeLunarHolidays && !lunar.leap) {
+              for (const h of lunarRules) {
+                if (h.m === lunar.month && h.d === lunar.day) {
+                  titles.push(lang === "vi" ? h.vi : h.en);
+                  tag = lang === "vi" ? "Lễ Âm" : "Lunar";
+                }
+              }
+            }
+
+            if (includeSolarHolidays) {
+              for (const h of solarRules) {
+                if (h.m === m && h.d === d) {
+                  titles.push(lang === "vi" ? h.vi : h.en);
+                  tag = tag || (lang === "vi" ? "Lễ Dương" : "Solar");
+                }
+              }
+            }
+
+            for (const ce of customEvents) {
+              if (ce.type === "lunar" && !lunar.leap && ce.month === lunar.month && ce.day === lunar.day) {
+                titles.push("★ " + ce.title);
+                tag = lang === "vi" ? "Cá nhân" : "Custom";
+              } else if (ce.type === "solar" && ce.month === m && ce.day === d) {
+                titles.push("★ " + ce.title);
+                tag = lang === "vi" ? "Cá nhân" : "Custom";
+              }
+            }
+
+            const lunarLabel = `${pad2(lunar.day)}/${pad2(lunar.month)}${lunar.leap ? (lang === "vi" ? " (Nhuận)" : " (Leap)") : ""} ÂL`;
+            const isSelectedDay = selectedLunarDays.includes(lunar.day);
+
+            if (titles.length > 0) {
+              events.push({
+                y, m, d,
+                summary: `${titles.join(" · ")} (${lunarLabel})`,
+                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year)})`,
+                tag,
+              });
+            } else if (content === "daily" || (content === "observances" && isSelectedDay)) {
+              let prefix = "";
+              if (lunar.day === 1) prefix = lang === "vi" ? "Mùng 1 Âm lịch" : "New Moon (Day 1)";
+              else if (lunar.day === 15) prefix = lang === "vi" ? "Rằm Âm lịch" : "Full Moon (Day 15)";
+              else prefix = lang === "vi" ? `Âm lịch ${lunar.day}/${lunar.month}` : `Lunar ${lunar.month}/${lunar.day}`;
+
+              events.push({
+                y, m, d,
+                summary: prefix + (lunar.day === 1 || lunar.day === 15 ? ` (${lunar.day}/${lunar.month})` : ""),
+                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year)})`,
+                tag: lunar.day === 1 || lunar.day === 15 ? (lang === "vi" ? "Mùng 1/Rằm" : "Lunar") : (lang === "vi" ? "Hằng ngày" : "Daily"),
+              });
+            }
+          }
+        }
+      }
+
+      lastEvents = events;
+      const lines = [
+        "BEGIN:VCALENDAR",
+        "VERSION:2.0",
+        "PRODID:-//cmduyeen//Lich Am Viet Nam Studio//VI",
+        "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH",
+        `X-WR-CALNAME:${icsEscape(calName)}`,
+        `X-WR-TIMEZONE:Asia/Ho_Chi_Minh`,
+      ];
+
+      for (const ev of events) {
+        const dtStart = fmtIcsDate(ev.y, ev.m, ev.d);
+        const nextDate = new Date(ev.y, ev.m - 1, ev.d + 1);
+        const dtEnd = fmtIcsDate(nextDate.getFullYear(), nextDate.getMonth() + 1, nextDate.getDate());
+        const uid = `lunar-${dtStart}-${Math.abs(hashCode(ev.summary))}@cmduyeen.github.io`;
+        lines.push("BEGIN:VEVENT");
+        lines.push(`UID:${uid}`);
+        lines.push(`DTSTART;VALUE=DATE:${dtStart}`);
+        lines.push(`DTEND;VALUE=DATE:${dtEnd}`);
+        lines.push(`SUMMARY:${icsEscape(ev.summary)}`);
+        lines.push(`DESCRIPTION:${icsEscape(ev.desc)}`);
+        lines.push("TRANSP:TRANSPARENT");
+        lines.push("END:VEVENT");
+      }
+      lines.push("END:VCALENDAR");
+
+      lastIcsText = lines.join("\r\n") + "\r\n";
+
+      $("icsSizeLabel").textContent = `${events.length} sự kiện`;
+      $("previewCountLabel").textContent = `${events.length} mục`;
+      $("icsPreview").textContent = lastIcsText.slice(0, 6000) + (lastIcsText.length > 6000 ? "\n\n... (còn nữa — nhấn 'Tải file .ics' để lấy toàn bộ)" : "");
+
+      // Update JSON & CLI pane
+      const cfg = {
+        country,
+        language: lang,
+        content,
+        start_year: startY,
+        end_year: endY,
+        lunar_days: selectedLunarDays,
+        holiday_types: holidayType === "none" ? [] : holidayType.split(","),
+      };
+      $("cliPreview").textContent =
+        `# 1. Lưu cấu hình thành calendar.config.json\n` +
+        JSON.stringify(cfg, null, 2) +
+        `\n\n# 2. Chạy lệnh tạo lịch bằng Python CLI\n` +
+        `git clone https://github.com/cmduyeen/lich-am-viet-nam.git\n` +
+        `cd lich-am-viet-nam\n` +
+        `pip install -r requirements.txt\n` +
+        `python main.py --config calendar.config.json`;
+
+      renderEventsPreview(events);
+    }
+
+    function hashCode(s) {
+      let h = 0;
+      for (let i = 0; i < s.length; i++) h = ((h << 5) - h + s.charCodeAt(i)) | 0;
+      return h;
+    }
+
+    function renderEventsPreview(events) {
+      const box = $("eventsPreview");
+      if (!events.length) {
+        box.innerHTML = `<div class="event-row"><span>Không có sự kiện nào khớp bộ lọc hiện tại.</span></div>`;
+        return;
+      }
+      const todayIso = fmtIso(new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDate());
+      const upcoming = events.filter((e) => fmtIso(e.y, e.m, e.d) >= todayIso);
+      const list = (upcoming.length ? upcoming : events).slice(0, 80);
+      box.innerHTML = list.map((ev) => `
+        <div class="event-row">
+          <div>
+            <span class="event-date">${fmtIso(ev.y, ev.m, ev.d)}</span>
+            <span style="margin-left:6px;">${escapeHtml(ev.summary)}</span>
+          </div>
+          ${ev.tag ? `<span class="event-tag">${escapeHtml(ev.tag)}</span>` : ""}
+        </div>
+      `).join("");
+    }
+
+    function escapeHtml(s) {
+      return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    }
+
+    function updateTodayAndLookup() {
+      const now = new Date();
+      const tz = TZ_MAP[$("countrySelect").value] || 7;
+      const lunarToday = convertSolar2Lunar(now.getDate(), now.getMonth() + 1, now.getFullYear(), tz);
+      $("todayLunarText").textContent = `Hôm nay Âm lịch: ${lunarToday.day}/${lunarToday.month}/${lunarToday.year}${lunarToday.leap ? " (Nhuận)" : ""} — Năm ${yearCanChi(lunarToday.year)}`;
+      $("todaySolarMeta").textContent = `Dương lịch: ${pad2(now.getDate())}/${pad2(now.getMonth() + 1)}/${now.getFullYear()} · GMT+${tz}`;
+
+      const val = $("lookupDate").value;
+      if (val) {
+        const [yy, mm, dd] = val.split("-").map(Number);
+        const l = convertSolar2Lunar(dd, mm, yy, tz);
+        $("lookupResult").textContent = `→ Âm lịch: Ngày ${l.day} tháng ${l.month}${l.leap ? " (nhuận)" : ""} năm ${l.year} (${yearCanChi(l.year)})`;
+      }
+    }
+
+    function renderCustomEvents() {
+      const list = $("customEventList");
+      if (!customEvents.length) {
+        list.innerHTML = `<div style="font-size:0.76rem;color:var(--muted);">Chưa có ngày riêng nào. Bạn có thể thêm ngày giỗ, sinh nhật âm lịch ở trên.</div>`;
+        return;
+      }
+      list.innerHTML = customEvents.map((ev, idx) => `
+        <div class="custom-event-item">
+          <div>
+            <strong>${escapeHtml(ev.title)}</strong>
+            <div class="custom-event-meta">${ev.day}/${ev.month} (${ev.type === "lunar" ? "Âm lịch" : "Dương lịch"})</div>
+          </div>
+          <button class="btn btn-sm" type="button" data-del="${idx}">✕</button>
+        </div>
+      `).join("");
+      list.querySelectorAll("[data-del]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          customEvents.splice(parseInt(btn.dataset.del, 10), 1);
+          renderCustomEvents();
+          generateCalendar();
+        });
+      });
+    }
+
+    function downloadIcs() {
+      const blob = new Blob([lastIcsText], { type: "text/calendar;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `lich-am-${$("countrySelect").value.toLowerCase()}-${$("startYear").value}-${$("endYear").value}.ics`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }
+
+    function copyText(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const old = btn.textContent;
+        btn.textContent = "✓ Đã sao chép";
+        setTimeout(() => { btn.textContent = old; }, 1400);
+      });
+    }
+
+    // Tabs
+    document.querySelectorAll(".tab-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+        document.querySelectorAll(".tab-pane").forEach((p) => p.classList.remove("active"));
+        btn.classList.add("active");
+        $(btn.dataset.tab).classList.add("active");
+      });
+    });
+
+    // Events
+    $("addCustomBtn").addEventListener("click", () => {
+      const title = $("customTitle").value.trim();
+      const day = Math.min(31, Math.max(1, parseInt($("customDay").value, 10) || 1));
+      const month = Math.min(12, Math.max(1, parseInt($("customMonth").value, 10) || 1));
+      const type = $("customCalType").value;
+      if (!title) return;
+      customEvents.push({ title, day, month, type });
+      $("customTitle").value = "";
+      renderCustomEvents();
+      generateCalendar();
+    });
+
+    ["calName", "countrySelect", "langSelect", "contentSelect", "holidayTypeSelect", "startYear", "endYear"].forEach((id) => {
+      $(id).addEventListener("input", () => { updateTodayAndLookup(); generateCalendar(); });
+      $(id).addEventListener("change", () => { updateTodayAndLookup(); generateCalendar(); });
+    });
+
+    document.querySelectorAll("#lunarDaysChips input").forEach((cb) => {
+      cb.addEventListener("change", generateCalendar);
+    });
+
+    $("lookupDate").addEventListener("change", updateTodayAndLookup);
+    $("downloadIcsBtn").addEventListener("click", downloadIcs);
+    $("downloadIcsTopBtn").addEventListener("click", downloadIcs);
+    $("copyIcsBtn").addEventListener("click", () => copyText(lastIcsText, $("copyIcsBtn")));
+    $("copyJsonBtn").addEventListener("click", () => {
+      const txt = $("cliPreview").textContent.split("# 2.")[0].replace("# 1. Lưu cấu hình thành calendar.config.json\n", "").trim();
+      copyText(txt, $("copyJsonBtn"));
+    });
+    $("copyCliBtn").addEventListener("click", () => {
+      const txt = $("cliPreview").textContent.split("# 2. Chạy lệnh tạo lịch bằng Python CLI\n")[1] || "";
+      copyText(txt.trim(), $("copyCliBtn"));
+    });
+    document.querySelectorAll("[data-copy]").forEach((btn) => {
+      btn.addEventListener("click", () => copyText($(btn.dataset.copy).value, btn));
+    });
+
+    $("resetBtn").addEventListener("click", () => {
+      const y = new Date().getFullYear();
+      $("calName").value = "Lịch Âm Việt Nam (Tùy chỉnh)";
+      $("countrySelect").value = "VN";
+      $("langSelect").value = "vi";
+      $("contentSelect").value = "observances";
+      $("holidayTypeSelect").value = "lunar,solar";
+      $("startYear").value = y;
+      $("endYear").value = y + 1;
+      document.querySelectorAll("#lunarDaysChips input").forEach((cb) => {
+        cb.checked = cb.value === "1" || cb.value === "15";
+      });
+      customEvents = [];
+      renderCustomEvents();
+      updateTodayAndLookup();
+      generateCalendar();
+    });
+
+    // Quick UI language toggle
+    let uiLang = "vi";
+    $("langSwitchBtn").addEventListener("click", () => {
+      uiLang = uiLang === "vi" ? "en" : "vi";
+      if (uiLang === "en") {
+        $("langSwitchBtn").textContent = "🌐 Tiếng Việt";
+        $("uiTitle").textContent = "🌙 Vietnamese Lunar Calendar Studio";
+        $("uiSubtitle").textContent = "Customize & export GMT+7 Lunar Calendar (.ics) for Google, Apple & Outlook Calendar — no app needed.";
+        $("col1Title").textContent = "1. Customize Calendar";
+        $("col2Title").textContent = "2. Export .ics or Subscribe";
+        $("col3Title").textContent = "3. Converter & Preview";
+        $("downloadIcsTopBtn").textContent = "⬇ Download .ics";
+        $("downloadIcsBtn").textContent = "⬇ Download .ics now";
+      } else {
+        $("langSwitchBtn").textContent = "🌐 English";
+        $("uiTitle").textContent = "🌙 Lịch Âm Việt Nam Studio";
+        $("uiSubtitle").textContent = "Tạo & tùy chỉnh file lịch âm (.ics) chuẩn GMT+7 cho Google Calendar, Apple Calendar, Outlook — không cần cài app.";
+        $("col1Title").textContent = "1. Tùy chỉnh lịch âm";
+        $("col2Title").textContent = "2. Tải về hoặc Đăng ký lịch";
+        $("col3Title").textContent = "3. Tra cứu & Xem trước";
+        $("downloadIcsTopBtn").textContent = "⬇ Tải file .ics";
+        $("downloadIcsBtn").textContent = "⬇ Tải file .ics ngay";
+      }
+    });
+
+    // Init
+    (function init() {
+      const now = new Date();
+      $("startYear").value = now.getFullYear();
+      $("endYear").value = now.getFullYear() + 1;
+      $("lookupDate").value = fmtIso(now.getFullYear(), now.getMonth() + 1, now.getDate());
+      renderCustomEvents();
+      updateTodayAndLookup();
+      generateCalendar();
+    })();
+  </script>
+</body>
+</html>
