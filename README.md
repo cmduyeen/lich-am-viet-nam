@@ -1,5 +1,7 @@
 # 🌙 Global Lunar Calendars
 
+![Lunar calendar cover](assets/lunar-calendar-cover.png)
+
 Choose a region, then open a country guide. Each guide has an English version, a native-language version and a copyable calendar URL.
 
 ## 1. Choose your calendar
@@ -49,3 +51,7 @@ New feeds require publication to main before subscription. Native-language revie
 [Development](docs/DEVELOPMENT.md) · [Automation](docs/AUTOMATION.md) · [Feed inventory](output/index.json) · [Release checklist](docs/RELEASE.md) · [MIT](LICENSE)
 
 [cmduyeen](https://github.com/cmduyeen)
+
+## Existing Vietnamese daily calendars
+
+The bilingual daily feeds retain their latest URLs and one event per day. Holiday selection, private annual dates and the previous Python constructor remain available; see [daily customization](README.en.md) and [observances](docs/HOLIDAYS.md). Personal input and customized output stay in ignored `.local/` by default. [Security policy](SECURITY.md).

@@ -41,6 +41,12 @@ def count_events(filepath):
 
 
 def main(argv=None):
+    argv = list(sys.argv[1:] if argv is None else argv)
+    if any(arg.split('=')[0] in ('--holidays', '--custom-holidays', '--list-holidays') for arg in argv):
+        from src import daily_cli
+        daily_cli.ROOT_DIR = ROOT_DIR
+        return daily_cli.main(argv)
+
     if hasattr(sys.stdout,'reconfigure'): sys.stdout.reconfigure(encoding='utf-8')
     parser=argparse.ArgumentParser(description=__doc__,formatter_class=argparse.RawDescriptionHelpFormatter,argument_default=argparse.SUPPRESS)
     group=parser.add_mutually_exclusive_group()

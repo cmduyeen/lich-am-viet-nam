@@ -9,6 +9,7 @@ class HolidayInfo:
     name: str             # Tên ngày lễ
     description: str = '' # Mô tả ngắn gọn
     is_public_holiday: bool = False  # Ngày nghỉ chính thức
+    start_year: int = 1
     category: str = 'lunar'
     name_en: str = ''
     description_en: str = ''
@@ -42,6 +43,16 @@ FIXED_SOLAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
         name_en='Vietnam National Day',
         description_en='National Day of the Socialist Republic of Vietnam.',
     ),
+    (2, 14): HolidayInfo(name='Lễ Tình nhân', description='Ngày lễ tình nhân 14/2.', category='solar'),
+    (3, 8): HolidayInfo(name='Quốc tế Phụ nữ', description='Ngày Quốc tế Phụ nữ 8/3.', category='solar'),
+    (6, 1): HolidayInfo(name='Quốc tế Thiếu nhi', description='Ngày Quốc tế Thiếu nhi 1/6.', category='solar'),
+    (6, 28): HolidayInfo(name='Gia đình Việt Nam', description='Ngày Gia đình Việt Nam 28/6.', category='solar'),
+    (10, 20): HolidayInfo(name='Phụ nữ Việt Nam', description='Ngày Phụ nữ Việt Nam 20/10.', category='solar'),
+    (11, 20): HolidayInfo(name='Nhà giáo Việt Nam', description='Ngày Nhà giáo Việt Nam 20/11.', category='solar'),
+    (11, 24): HolidayInfo(name='Văn hóa Việt Nam', is_public_holiday=True, start_year=2026,
+                          description='Ngày Văn hóa Việt Nam 24/11, áp dụng từ năm 2026 theo Nghị quyết 28/2026/QH16.', category='solar'),
+    (12, 24): HolidayInfo(name='Đêm Giáng sinh', description='Đêm Giáng sinh 24/12.', category='solar'),
+    (12, 25): HolidayInfo(name='Giáng sinh', description='Lễ Giáng sinh 25/12.', category='solar'),
 }
 
 
@@ -116,13 +127,15 @@ FIXED_LUNAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
         name_en='Kitchen Gods Day',
         description_en='The Kitchen Gods are traditionally sent to heaven on this day.',
     ),
+    (3, 3): HolidayInfo(name='Tết Hàn thực', description='Tết Hàn thực, mùng 3 tháng 3 âm lịch.'),
+    (10, 15): HolidayInfo(name='Tết Hạ nguyên', description='Tết Hạ nguyên, rằm tháng 10 âm lịch.'),
 }
 
 # Đêm Giao Thừa (ngày cuối cùng của năm âm lịch: 29 hoặc 30 tháng Chạp)
 GIAO_THUA = HolidayInfo(
     name='Đêm Giao Thừa',
     description='Đêm Giao Thừa đón năm mới âm lịch.',
-    is_public_holiday=True,
+    is_public_holiday=False,
     name_en="Lunar New Year's Eve",
     description_en='The final day of the lunar year.',
 )

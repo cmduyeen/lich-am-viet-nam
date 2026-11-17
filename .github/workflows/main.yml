@@ -56,7 +56,7 @@ jobs:
       CUSTOM_CONFIG: ${{ inputs.custom_config || vars.CUSTOM_CONFIG }}
       PYTHONUTF8: '1'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
       - name: Check whether feed generation is needed
@@ -84,7 +84,7 @@ jobs:
             echo "run=false" >> "$GITHUB_OUTPUT"
             echo 'Feeds current: dependency installation, generation, artifacts and commits skipped.' >> "$GITHUB_STEP_SUMMARY"
           fi
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         if: steps.work.outputs.run == 'true'
         with:
           python-version: '3.11'

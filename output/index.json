@@ -1653,7 +1653,7 @@
     "supported_end_year": 2099,
     "events": 730,
     "file": "viet_lunar_latest.ics",
-    "sha256": "4f8657bc0f390030a25c4207c0617f530400952ae9816f23ae7e702de2377a9d",
+    "sha256": "af8963965d5fef06696c1dc52dafaff46337a6e6ef5d5301729c1bfc1279c21a",
     "sources": [
       "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
       "https://vietnamembassy-usa.org/node/665"
@@ -1695,7 +1695,7 @@
     "supported_end_year": 2099,
     "events": 730,
     "file": "viet_lunar_en_latest.ics",
-    "sha256": "e461d61b1d2f2f272ac36f9748d376ed6aa1ccb5d211624112054c0058693cb0",
+    "sha256": "f8a5d77372c05347f4048768d2ce8fe8fc264c49db57ac061f91d8520ee427d0",
     "sources": [
       "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
       "https://vietnamembassy-usa.org/node/665"

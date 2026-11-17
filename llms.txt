@@ -1,0 +1,17 @@
+# Global Lunar Calendars
+
+> Offline Python generation of traditional lunar calendars, with stable ICS subscription URLs and English/native-language country guides.
+
+## Documentation
+- [Calendar directory](README.md): VN, CN, TW, HK, MO, KR, and Chinese-tradition SG/MY; US communities reuse source calendars.
+- [Vietnamese calendar, English](vietnam/README.md)
+- [Vietnamese calendar, Vietnamese](vietnam/README.vi.md)
+- [Daily Vietnamese customization](README.en.md): holiday selection and private annual dates.
+- [Festival sources](docs/FESTIVALS.md)
+- [Daily Vietnamese observances](docs/HOLIDAYS.md)
+- [Automation](docs/AUTOMATION.md): annual schedule, freshness checks and optional external maintenance.
+- [Release checklist](docs/RELEASE.md): remaining native-language and live calendar-app review.
+- [Security](SECURITY.md)
+
+## Behavior
+Default feeds retain the current and next year. Snapshots and ZIPs require explicit --split --output-dir exports. Existing Vietnamese/English latest URLs remain stable. Calendar dates are traditional observances, not substitute-day or statutory leave schedules. New feeds require publication to main. Private dates must remain in ignored local files. No production web server, paid service or AI runtime is required.

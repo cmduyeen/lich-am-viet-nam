@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "fingerprint": "4ca556c756c6546c7b6f826f2f6bdcf23d1a5fa52930e9acf09bfc552bc83dc7",
+  "fingerprint": "153d766e29c678bb9b64b0694387d5b7790016efecddb9afa20eb39651ef5d97",
   "files": {
-    "index.json": "37a757e4649617b2b16e420ccfdb8fa8194e64ad21c593c3fa2fd1955e9b73f3",
+    "index.json": "571a077b100100c3c060137d87097b402173c7826ff1c69dc1627aca50f4f234",
     "lunar_cn-kr-vn_merged_en_festivals_latest.ics": "c8723cb9ef855b58abce97bc0944bf6e998eb8d986786b7d09e3c340ccc891cc",
     "lunar_cn_chinese_en_daily_latest.ics": "8d39288af79a69f85a1ce3cc3ca7828d183987c74d39fc64ee3c7f655c4348cc",
     "lunar_cn_chinese_en_festivals_latest.ics": "01800cc6d9fcee59c4d25e911adb64642a3f567398c83f275640a249cdf839a0",
@@ -76,9 +76,9 @@
     "lunar_vn_vietnamese_vi_daily_latest.ics": "86b5ebf3ff7c75f3322933cb8cda2c7029c84019120d8a923088e3cf3dae1b1f",
     "lunar_vn_vietnamese_vi_festivals_latest.ics": "9e4cdab1c1f557589a3715492a129ab8eac3ac891df1213137197952c6c313e4",
     "lunar_vn_vietnamese_vi_observances_latest.ics": "303f8754680a006c86178192c61d033a7bd75f361c3ae1fea4bb10e6f49829ca",
-    "viet_lunar_en_latest.ics": "e461d61b1d2f2f272ac36f9748d376ed6aa1ccb5d211624112054c0058693cb0",
+    "viet_lunar_en_latest.ics": "f8a5d77372c05347f4048768d2ce8fe8fc264c49db57ac061f91d8520ee427d0",
     "viet_lunar_en_minimal_latest.ics": "65dcc9e879c7a12584aac796511783f8be9e08e2f3feee53dc88213e47787102",
-    "viet_lunar_latest.ics": "4f8657bc0f390030a25c4207c0617f530400952ae9816f23ae7e702de2377a9d",
+    "viet_lunar_latest.ics": "af8963965d5fef06696c1dc52dafaff46337a6e6ef5d5301729c1bfc1279c21a",
     "viet_lunar_minimal_latest.ics": "c0a1b5b9488fff432658aca0b1437c553d28e17645f20de653f9467f1dc9594c"
   }
 }

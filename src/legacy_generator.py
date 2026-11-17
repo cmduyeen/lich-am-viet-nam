@@ -57,7 +57,7 @@ def _holidays_for_day(d: date, lunar: LunarDate) -> list[HolidayInfo]:
             holidays.append(lunar_holiday)
 
     solar_holiday = FIXED_SOLAR_HOLIDAYS.get((d.month, d.day))
-    if solar_holiday:
+    if solar_holiday and d.year >= solar_holiday.start_year:
         holidays.append(solar_holiday)
     return holidays
 
