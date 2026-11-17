@@ -1,0 +1,1097 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon.
+X-WR-CALNAME:China / South Korea / Vietnam — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+BEGIN:VEVENT
+SUMMARY:Laba Festival [CN]
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-laba-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2025\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day [VN]
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-kitchen_gods-vn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Kitchen Gods Day\nLunar date: 23/12/2025\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China [CN]
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-xiaonian_north-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China [CN]
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-xiaonian_south-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve / Seollal Eve [CN\, KR\, VN]
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T160226Z
+UID:lunar-cn-kr-vn-festivals-new_year_eve-cn-kr-vn-2025@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nSouth K
+ orea: Seollal Eve\nLunar date: 29/12/2025\n\nVietnam: Lunar New Year's Eve
+ \nLunar date: 29/12/2025\n\nTraditional observance\; not an official publi
+ c-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T160226Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,KR,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year / Seollal — Lunar New Year / Tết — Lunar New 
+ Year [CN\, KR\, VN]
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-lunar_new_year-cn-kr-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2026\n\nSouth Korea: Se
+ ollal — Lunar New Year\nLunar date: 1/1/2026\n\nVietnam: Tết — Lunar
+  New Year\nLunar date: 1/1/2026\n\nTraditional observance\; not an officia
+ l public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,KR,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2 [CN]
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-cny_day_2-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Day 2 [KR]
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-seollal_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Day 2\nLunar date: 2/1/2026\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 2 [VN]
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-tet_day_2-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 2\nLunar date: 2/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3 [CN]
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-cny_day_3-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 3 [VN]
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-tet_day_3-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 3\nLunar date: 3/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Khai Hạ — Closing Tết [VN]
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-khai_ha-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Khai Hạ — Closing Tết\nLunar date: 7/1/2026\n\n
+ Traditional observance\; not an official public-holiday or substitute-day 
+ schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:God of Wealth Day [VN]
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-wealth-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: God of Wealth Day\nLunar date: 10/1/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeongwol Daeboreum [KR]
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-daeboreum-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Jeongwol Daeboreum\nLunar date: 15/1/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival [CN\, VN]
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-lantern-cn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2026\n\nVietnam: Lan
+ tern Festival\nLunar date: 15/1/2026\n\nTraditional observance\; not an of
+ ficial public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day [CN]
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dragon_heads-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực [VN]
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-han_thuc-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Hàn Thực\nLunar date: 3/3/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hùng Kings Commemoration [VN]
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-hung_kings-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Hùng Kings Commemoration\nLunar date: 10/3/2026\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddha's Birthday [KR]
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-buddha_east-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Buddha's Birthday\nLunar date: 8/4/2026\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phật Đản — Buddha's Birthday [VN]
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-buddha_vn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Phật Đản — Buddha's Birthday\nLunar date: 15/4
+ /2026\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dano [KR]
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dano-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Dano\nLunar date: 5/5/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival / Tết Đoan Ngọ [CN\, VN]
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dragon_boat-cn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 26\n\nVietnam: Tết Đoan Ngọ\nLunar date: 5/5/2026\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival [CN]
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-qixi-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2026\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival [CN\, VN]
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-ghost-cn-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2026\n\nVietnam: Ghost
+  Festival\nLunar date: 15/7/2026\n\nTraditional observance\; not an offici
+ al public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vu Lan — Filial Gratitude Festival [VN]
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-vu_lan-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Vu Lan — Filial Gratitude Festival\nLunar date: 15/
+ 7/2026\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok Eve [KR]
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-chuseok_eve-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok Eve\nLunar date: 14/8/2026\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok [KR]
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-chuseok-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok\nLunar date: 15/8/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival [CN\, VN]
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-mid_autumn-cn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nVietnam: 
+ Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTraditional observance\; not
+  an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok — Day 2 [KR]
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-chuseok_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok — Day 2\nLunar date: 16/8/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival [CN]
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-double_ninth-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2026\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laba Festival [CN]
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-laba-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day [VN]
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-kitchen_gods-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Kitchen Gods Day\nLunar date: 23/12/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China [CN]
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-xiaonian_north-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China [CN]
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-xiaonian_south-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve [CN\, VN]
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-new_year_eve-cn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nVietnam
+ : Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTraditional observance\;
+  not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year / Tết — Lunar New Year [CN\, VN]
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-lunar_new_year-cn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2027\n\nVietnam: Tết 
+ — Lunar New Year\nLunar date: 1/1/2027\n\nTraditional observance\; not a
+ n official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal Eve [KR]
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T160226Z
+UID:lunar-cn-kr-vn-festivals-new_year_eve-kr-2026@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal Eve\nLunar date: 30/12/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T160226Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2 [CN]
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-cny_day_2-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Lunar New Year [KR]
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-lunar_new_year-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Lunar New Year\nLunar date: 1/1/2027
+ \n\nTraditional observance\; not an official public-holiday or substitute-
+ day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 2 [VN]
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-tet_day_2-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 2\nLunar date: 2/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3 [CN]
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-cny_day_3-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Day 2 [KR]
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-seollal_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Day 2\nLunar date: 2/1/2027\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 3 [VN]
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-tet_day_3-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 3\nLunar date: 3/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Khai Hạ — Closing Tết [VN]
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-khai_ha-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Khai Hạ — Closing Tết\nLunar date: 7/1/2027\n\n
+ Traditional observance\; not an official public-holiday or substitute-day 
+ schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:God of Wealth Day [VN]
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-wealth-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: God of Wealth Day\nLunar date: 10/1/2027\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival [CN\, VN]
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-lantern-cn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2027\n\nVietnam: Lan
+ tern Festival\nLunar date: 15/1/2027\n\nTraditional observance\; not an of
+ ficial public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeongwol Daeboreum [KR]
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-daeboreum-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Jeongwol Daeboreum\nLunar date: 15/1/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day [CN]
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dragon_heads-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực [VN]
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-han_thuc-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Hàn Thực\nLunar date: 3/3/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hùng Kings Commemoration [VN]
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-hung_kings-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Hùng Kings Commemoration\nLunar date: 10/3/2027\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddha's Birthday [KR]
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-buddha_east-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Buddha's Birthday\nLunar date: 8/4/2027\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phật Đản — Buddha's Birthday [VN]
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-buddha_vn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Phật Đản — Buddha's Birthday\nLunar date: 15/4
+ /2027\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dano [KR]
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dano-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Dano\nLunar date: 5/5/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival / Tết Đoan Ngọ [CN\, VN]
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-dragon_boat-cn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 27\n\nVietnam: Tết Đoan Ngọ\nLunar date: 5/5/2027\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival [CN]
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-qixi-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2027\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival [CN\, VN]
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-ghost-cn-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2027\n\nVietnam: Ghost
+  Festival\nLunar date: 15/7/2027\n\nTraditional observance\; not an offici
+ al public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vu Lan — Filial Gratitude Festival [VN]
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-vu_lan-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Vu Lan — Filial Gratitude Festival\nLunar date: 15/
+ 7/2027\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok Eve [KR]
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-chuseok_eve-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok Eve\nLunar date: 14/8/2027\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok [KR]
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-chuseok-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok\nLunar date: 15/8/2027\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival [CN\, VN]
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-mid_autumn-cn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nVietnam: 
+ Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTraditional observance\; not
+  an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN,VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok — Day 2 [KR]
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261114T000000Z
+UID:lunar-cn-kr-vn-festivals-chuseok_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok — Day 2\nLunar date: 16/8/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival [CN]
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+DTSTAMP:20261114T154353Z
+UID:lunar-cn-kr-vn-festivals-double_ninth-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2027\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154353Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+END:VCALENDAR

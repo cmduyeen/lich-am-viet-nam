@@ -1,3 +1,5 @@
+> Daily Vietnamese feeds only. Shared country profiles use [FESTIVALS.md](FESTIVALS.md). Current rolling coverage and automation: [OPERATIONS.md](OPERATIONS.md).
+
 # Ngày lễ âm và dương / Lunar and Gregorian holidays
 
 Đối chiếu ngày **15/11/2026**. Mỗi ngày chỉ có một sự kiện: ngày âm, rồi tên
@@ -70,6 +72,6 @@ Both language feeds contain every lunar date together with these Gregorian
 and lunar observances, in one event per day. This curated list is not a complete
 statutory leave schedule. Compensatory leave, workday swaps, the adjacent National
 Day holiday and specific Tet leave dates require applicable annual announcements.
-Monthly automation recalculates dates using the reviewed catalog; it does not
+Annual automation recalculates dates using the reviewed catalog; it does not
 automatically discover legislative changes. Personal observances can be added
 with `--custom-holidays` and remain private by default.

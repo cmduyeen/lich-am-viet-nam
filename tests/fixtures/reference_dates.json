@@ -1,0 +1,74 @@
+[
+  {
+    "engine": "vietnamese",
+    "solar": "1968-01-29",
+    "lunar": [
+      1968,
+      1,
+      1,
+      false
+    ],
+    "source": "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+    "verification": "Historical regression; modern UTC+7 convention, not all historical regional calendars."
+  },
+  {
+    "engine": "vietnamese",
+    "solar": "1985-01-21",
+    "lunar": [
+      1985,
+      1,
+      1,
+      false
+    ],
+    "source": "https://anhbin.wordpress.com/2007/02/20/t%E1%BA%BEt-dung-la-17022007/",
+    "verification": "Historical report of the State Calendar Board explanation."
+  },
+  {
+    "engine": "vietnamese",
+    "solar": "2007-02-17",
+    "lunar": [
+      2007,
+      1,
+      1,
+      false
+    ],
+    "source": "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+    "verification": "Interview with the head of the State Calendar Board."
+  },
+  {
+    "engine": "korean",
+    "solar": "2026-09-25",
+    "lunar": [
+      2026,
+      8,
+      15,
+      false
+    ],
+    "source": "https://english.seoul.go.kr/holidays-and-annual-events-for-2026-in-seoul/",
+    "verification": "Seoul Metropolitan Government: Chuseok, September 25, lunar August 15."
+  },
+  {
+    "engine": "korean",
+    "solar": "2026-05-24",
+    "lunar": [
+      2026,
+      4,
+      8,
+      false
+    ],
+    "source": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=140038",
+    "verification": "Korea Tourism Organization: Buddha birthday, not the substitute day May 25."
+  },
+  {
+    "engine": "korean",
+    "solar": "2017-06-24",
+    "lunar": [
+      2017,
+      5,
+      1,
+      true
+    ],
+    "source": "https://github.com/usingsky/korean_lunar_calendar_py/blob/master/test_korean_lunar_calendar.py",
+    "verification": "Upstream regression fixture; supplementary, not an independent official validation."
+  }
+]

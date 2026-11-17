@@ -21,6 +21,23 @@ ENV/
 Thumbs.db
 desktop.ini
 
+.dependency-cache/
+
+.check-output/
+.generation.log
+
+/exports/
+
+.lunar-*.lock
+node_modules/
+/tests/e2e/artifacts/
+
+.maintenance.log
+
+
+
+
+
 # Personal calendars and local configuration
 .local/
 private/

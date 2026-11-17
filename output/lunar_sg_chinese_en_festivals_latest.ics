@@ -1,0 +1,258 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon.
+X-WR-CALNAME:Singapore — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Singapore
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-new_year_eve-sg-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nTra
+ ditional observance\; not an official public-holiday or substitute-day sch
+ edule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-lunar_new_year-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year\nLunar date: 1/1/2026\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-sg-festivals-cny_day_2-sg-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year — Day 2\nLunar date: 2/1/2026\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chap Goh Mei — Lantern Festival
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-lantern-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Chap Goh Mei — Lantern Festival\nLunar date: 15/1
+ /2026\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-dragon_boat-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Double Fifth / Dragon Boat Festival\nLunar date: 5/
+ 5/2026\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-ghost-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Ghost Festival\nLunar date: 15/7/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-mid_autumn-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-new_year_eve-sg-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTra
+ ditional observance\; not an official public-holiday or substitute-day sch
+ edule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-lunar_new_year-sg-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year\nLunar date: 1/1/2027\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T000000Z
+UID:lunar-sg-festivals-cny_day_2-sg-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Singapore: Lunar New Year — Day 2\nLunar date: 2/1/2027\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chap Goh Mei — Lantern Festival
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-lantern-sg-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Chap Goh Mei — Lantern Festival\nLunar date: 15/1
+ /2027\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-dragon_boat-sg-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Double Fifth / Dragon Boat Festival\nLunar date: 5/
+ 5/2027\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-ghost-sg-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Ghost Festival\nLunar date: 15/7/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154337Z
+UID:lunar-sg-festivals-mid_autumn-sg-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Singapore: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154337Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:SG
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+END:VCALENDAR

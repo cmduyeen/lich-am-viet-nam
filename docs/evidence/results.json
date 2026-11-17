@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "feeds": 77,
+  "events": 21192,
+  "checks": [
+    "Independent ICAL.js parse, checksums, UIDs and all-day boundaries: 77 feeds / 21192 events",
+    "Root region lists collapsed by default",
+    "Region expands and exposes country links",
+    "Vietnam native guide exposes one clean subscription URL",
+    "Vietnam guide keeps secondary choices collapsed",
+    "Eight native country guides: desktop URL visibility and 390px layout without horizontal overflow",
+    "HK May 24 renders both Buddha and Tam Kung festivals",
+    "Korean Chuseok spans its three separate all-day dates in the rendered calendar",
+    "Unchanged subscription receives HTTP 304",
+    "CLI update → HTTP feed → browser refresh preserves dates/UIDs with zero duplicate events",
+    "Updated event revisions visible through independent parser",
+    "Four browser timezones preserve the source all-day date, including US residence feeds",
+    "No browser JavaScript errors"
+  ],
+  "screenshots": "Browser-native capture; no pointer overlay",
+  "scope": "Local actual ICS + ICAL.js + FullCalendar. Not Google/Apple/Outlook subscription certification."
+}

@@ -1,0 +1,1260 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon.
+X-WR-CALNAME:China — Lunar festivals and observances 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Shanghai
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202511150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/11/2025\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202512010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/12/2025\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laba Festival
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-laba-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2025\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202512150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/12/2025\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-xiaonian_north-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-xiaonian_south-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 025\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_year_eve-cn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-lunar_new_year-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-cny_day_2-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-cny_day_3-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-lantern-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202602010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/2/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-dragon_heads-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202602150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/2/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202603010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/3/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202603150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/3/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202604010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/4/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202604150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/4/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202605010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/5/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-dragon_boat-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 26\n\nTraditional observance\; not an official public-holiday or substitut
+ e-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202605150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/5/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202606010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/6/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202606150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/6/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202607010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/7/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-qixi-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2026\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-ghost-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2026\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202608010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/8/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-mid_autumn-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202609010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/9/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-double_ninth-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2026\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202609150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/9/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202610010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/10/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202610150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/10/2026\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202611010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/11/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202611150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/11/2026\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202612010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/12/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Laba Festival
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-laba-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Laba Festival\nLunar date: 8/12/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:laba
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202612150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/12/2026\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Northern China
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-xiaonian_north-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Northern China\nLunar date: 23/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_north
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Little New Year — Southern China
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-xiaonian_south-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Little New Year — Southern China\nLunar date: 24/12/2
+ 026\n\nTraditional observance\; not an official public-holiday or substitu
+ te-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:xiaonian_south
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_year_eve-cn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-lunar_new_year-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year\nLunar date: 1/1/2027\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 2
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-cny_day_2-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 2\nLunar date: 2/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year — Day 3
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-cny_day_3-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lunar New Year — Day 3\nLunar date: 3/1/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-lantern-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Lantern Festival\nLunar date: 15/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202702010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/2/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dragon Heads-raising Day
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-dragon_heads-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Dragon Heads-raising Day\nLunar date: 2/2/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_heads
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202702150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/2/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202703010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/3/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202703150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/3/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202704010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/4/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202704150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/4/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202705010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/5/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Fifth / Dragon Boat Festival
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-dragon_boat-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Fifth / Dragon Boat Festival\nLunar date: 5/5/20
+ 27\n\nTraditional observance\; not an official public-holiday or substitut
+ e-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202705150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/5/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202706010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/6/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202706150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/6/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202707010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/7/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Qixi Festival
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-qixi-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Qixi Festival\nLunar date: 7/7/2027\n\nTraditional obse
+ rvance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:qixi
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-ghost-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Ghost Festival\nLunar date: 15/7/2027\n\nTraditional ob
+ servance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202708010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/8/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-mid_autumn-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202709010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/9/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Double Ninth Festival
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-double_ninth-cn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:China: Double Ninth Festival\nLunar date: 9/9/2027\n\nTraditio
+ nal observance\; not an official public-holiday or substitute-day schedule
+ .
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:double_ninth
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202709150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/9/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFull Moo
+ n means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202710010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/10/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202710150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/10/2027\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202711010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/11/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Full Moon
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-full_moon-cn-202711150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: Full Moon\nLunar date: 15/11/2027\n\nTraditional observ
+ ance\; not an official public-holiday or substitute-day schedule.\nFull Mo
+ on means traditional lunar day 15\, not an exact astronomical full moon.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:First day of lunar month
+DTSTART;VALUE=DATE:20271228
+DTEND;VALUE=DATE:20271229
+DTSTAMP:20261114T154329Z
+UID:lunar-cn-observances-new_moon-cn-202712010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:China: First day of lunar month\nLunar date: 1/12/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.
+LAST-MODIFIED:20261114T154329Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:CN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+END:VEVENT
+END:VCALENDAR

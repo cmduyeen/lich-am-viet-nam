@@ -1,0 +1,1517 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Global Lunar Calendars//vi
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Ngày lễ truyền thống; không phải lịch nghỉ chí
+ nh thức hoặc nghỉ bù. Rằm là ngày 15 âm lịch truyền thốn
+ g, không phải thời điểm trăng tròn thiên văn. Dành cho cộng
+  đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc, không phải 
+ ngày nghỉ chính thức của Mỹ. Sự kiện cả ngày không đư
+ ợc dịch sang ngày khác theo múi giờ.
+X-WR-CALNAME:Hoa Kỳ — Việt Nam — Lễ âm lịch và ngày sóc, r
+ ằm 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-RESIDENCE:US
+X-SOURCE-COUNTRIES:VN
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202511150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/11/2025\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202512010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/12/2025\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202512150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/12/2025\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cúng Ông Táo
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-kitchen_gods-vn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Cúng Ông Táo\nNgày âm: 23/12/2025\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Đêm Giao Thừa
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_year_eve-vn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Đêm Giao Thừa\nNgày âm: 29/12/2025\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-lunar_new_year-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Nguyên Đán\nNgày âm: 1/1/2026\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 2 Tết
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-tet_day_2-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Mùng 2 Tết\nNgày âm: 2/1/2026\n\nNgày lễ t
+ ruyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ 
+ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch
+  gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện 
+ cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 3 Tết
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-tet_day_3-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Mùng 3 Tết\nNgày âm: 3/1/2026\n\nNgày lễ t
+ ruyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ 
+ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch
+  gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện 
+ cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Khai Hạ
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-khai_ha-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Khai Hạ\nNgày âm: 7/1/2026\n\nNgày lễ
+  truyền thống\; không phải lịch nghỉ chính thức hoặc ngh
+ ỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vía Thần Tài
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-wealth-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Vía Thần Tài\nNgày âm: 10/1/2026\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Tiêu
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-lantern-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Nguyên Tiêu\nNgày âm: 15/1/2026\n\nNgày
+  lễ truyền thống\; không phải lịch nghỉ chính thức hoặc 
+ nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ
+  lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự 
+ kiện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202602010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/2/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202602150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/2/2026\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202603010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/3/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-han_thuc-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Hàn Thực\nNgày âm: 3/3/2026\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giỗ Tổ Hùng Vương
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-hung_kings-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Giỗ Tổ Hùng Vương\nNgày âm: 10/3/2026\n\n
+ Ngày lễ truyền thống\; không phải lịch nghỉ chính thức ho
+ ặc nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo
+  hệ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. 
+ Sự kiện cả ngày không được dịch sang ngày khác theo múi g
+ iờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202603150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/3/2026\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202604010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/4/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lễ Phật Đản
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-buddha_vn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Lễ Phật Đản\nNgày âm: 15/4/2026\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202605010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/5/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-dragon_boat-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Đoan Ngọ\nNgày âm: 5/5/2026\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202605150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/5/2026\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202606010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/6/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202606150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/6/2026\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202607010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/7/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Trung Nguyên
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-ghost-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Trung Nguyên\nNgày âm: 15/7/2026\n\nNgày
+  lễ truyền thống\; không phải lịch nghỉ chính thức hoặc 
+ nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ
+  lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự 
+ kiện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lễ Vu Lan
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-vu_lan-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Lễ Vu Lan\nNgày âm: 15/7/2026\n\nNgày lễ tr
+ uyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ b
+ ù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch 
+ gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202608010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/8/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Trung Thu
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-mid_autumn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Trung Thu\nNgày âm: 15/8/2026\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202609010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/9/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202609150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/9/2026\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202610010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/10/2026\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202610150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/10/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202611010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/11/2026\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202611150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/11/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202612010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/12/2026\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202612150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/12/2026\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cúng Ông Táo
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-kitchen_gods-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Cúng Ông Táo\nNgày âm: 23/12/2026\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Đêm Giao Thừa
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_year_eve-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Đêm Giao Thừa\nNgày âm: 29/12/2026\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Đán
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-lunar_new_year-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Nguyên Đán\nNgày âm: 1/1/2027\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 2 Tết
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-tet_day_2-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Mùng 2 Tết\nNgày âm: 2/1/2027\n\nNgày lễ t
+ ruyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ 
+ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch
+  gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện 
+ cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 3 Tết
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-tet_day_3-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Mùng 3 Tết\nNgày âm: 3/1/2027\n\nNgày lễ t
+ ruyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ 
+ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch
+  gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện 
+ cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Khai Hạ
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-khai_ha-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Khai Hạ\nNgày âm: 7/1/2027\n\nNgày lễ
+  truyền thống\; không phải lịch nghỉ chính thức hoặc ngh
+ ỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vía Thần Tài
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-wealth-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Vía Thần Tài\nNgày âm: 10/1/2027\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Nguyên Tiêu
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-lantern-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Nguyên Tiêu\nNgày âm: 15/1/2027\n\nNgày
+  lễ truyền thống\; không phải lịch nghỉ chính thức hoặc 
+ nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ
+  lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự 
+ kiện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202702010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/2/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202702150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/2/2027\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202703010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/3/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-han_thuc-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Hàn Thực\nNgày âm: 3/3/2027\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Giỗ Tổ Hùng Vương
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-hung_kings-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Giỗ Tổ Hùng Vương\nNgày âm: 10/3/2027\n\n
+ Ngày lễ truyền thống\; không phải lịch nghỉ chính thức ho
+ ặc nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo
+  hệ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. 
+ Sự kiện cả ngày không được dịch sang ngày khác theo múi g
+ iờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202703150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/3/2027\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202704010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/4/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lễ Phật Đản
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-buddha_vn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Lễ Phật Đản\nNgày âm: 15/4/2027\n\nNgày 
+ lễ truyền thống\; không phải lịch nghỉ chính thức hoặc n
+ ghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ 
+ lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự k
+ iện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202705010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/5/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-dragon_boat-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Đoan Ngọ\nNgày âm: 5/5/2027\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202705150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/5/2027\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202706010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/6/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202706150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/6/2027\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202707010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/7/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Trung Nguyên
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-observances-ghost-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Trung Nguyên\nNgày âm: 15/7/2027\n\nNgày
+  lễ truyền thống\; không phải lịch nghỉ chính thức hoặc 
+ nghỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ
+  lịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự 
+ kiện cả ngày không được dịch sang ngày khác theo múi giờ.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lễ Vu Lan
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-vu_lan-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Lễ Vu Lan\nNgày âm: 15/7/2027\n\nNgày lễ tr
+ uyền thống\; không phải lịch nghỉ chính thức hoặc nghỉ b
+ ù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch 
+ gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202708010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/8/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Trung Thu
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-mid_autumn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Việt Nam: Tết Trung Thu\nNgày âm: 15/8/2027\n\nNgày l
+ ễ truyền thống\; không phải lịch nghỉ chính thức hoặc ng
+ hỉ bù.\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ l
+ ịch gốc\, không phải ngày nghỉ chính thức của Mỹ. Sự ki
+ ện cả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202709010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/9/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Dành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch gốc
+ \, không phải ngày nghỉ chính thức của Mỹ. Sự kiện cả n
+ gày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202709150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/9/2027\n\nNgày lễ truyền
+  thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\nR
+ ằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202710010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/10/2027\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202710150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/10/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202711010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/11/2027\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Rằm
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-full_moon-vn-202711150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Rằm\nNgày âm: 15/11/2027\n\nNgày lễ truyề
+ n thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù.\n
+ Rằm là ngày 15 âm lịch truyền thống\, không phải thời đi
+ ểm trăng tròn thiên văn.\nDành cho cộng đồng tại Hoa Kỳ. N
+ gày lễ theo hệ lịch gốc\, không phải ngày nghỉ chính thứ
+ c của Mỹ. Sự kiện cả ngày không được dịch sang ngày kh
+ ác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mùng 1
+DTSTART;VALUE=DATE:20271228
+DTEND;VALUE=DATE:20271229
+DTSTAMP:20261114T154343Z
+UID:lunar-us-vn-observances-new_moon-vn-202712010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:Việt Nam: Mùng 1\nNgày âm: 1/12/2027\n\nNgày lễ truy
+ ền thống\; không phải lịch nghỉ chính thức hoặc nghỉ bù
+ .\nDành cho cộng đồng tại Hoa Kỳ. Ngày lễ theo hệ lịch g
+ ốc\, không phải ngày nghỉ chính thức của Mỹ. Sự kiện c
+ ả ngày không được dịch sang ngày khác theo múi giờ.
+LAST-MODIFIED:20261114T154343Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+END:VCALENDAR

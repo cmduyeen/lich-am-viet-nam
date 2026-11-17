@@ -1,0 +1,12 @@
+{
+  "unit_tests": 86,
+  "status": "passed",
+  "repeated_skip_seconds": [
+    0.424,
+    0.383,
+    0.439
+  ],
+  "forced_identical_rebuild_seconds": 30.575,
+  "forced_identical_rebuild_changed_files": 0,
+  "code_only_annual_task": "LunarCalendarsAnnual; January 1 07:35 Asia/Ho_Chi_Minh; catch-up enabled; no ChatGPT runtime"
+}

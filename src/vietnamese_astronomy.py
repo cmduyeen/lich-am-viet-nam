@@ -5,11 +5,9 @@ assigning civil days. Month 11 contains the winter solstice; the first month
 without a principal solar term is intercalary when there are 13 months.
 Supported modern civil-calendar interval: 1900-2099.
 """
-
 from datetime import date
 from functools import lru_cache
 from math import floor, pi
-
 from lunar_python.util import ShouXingUtil as Astronomy
 
 J2000 = 2451545
@@ -65,13 +63,13 @@ def _leap_offset(month_eleven):
         if sector == previous:
             return offset - 1
         previous = sector
-    raise ValueError("Unable to determine Vietnamese leap month")
+    raise ValueError('Unable to determine Vietnamese leap month')
 
 
 @lru_cache(maxsize=8192)
 def vietnamese_date(value):
     if not 1900 <= value.year <= 2099:
-        raise ValueError("Vietnamese astronomical conversion supports 1900-2099")
+        raise ValueError('Vietnamese astronomical conversion supports 1900-2099')
     day = _julian_day(value)
     start, index = _month_start(day)
     first = last = _month_eleven(value.year)

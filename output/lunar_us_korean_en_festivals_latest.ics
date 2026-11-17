@@ -1,0 +1,387 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Global Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon. For communities in the United States. Festival 
+ dates follow the original calendar; these are not US public holidays. All-
+ day dates are not shifted between time zones.
+X-WR-CALNAME:United States — South Korea — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-RESIDENCE:US
+X-SOURCE-COUNTRIES:KR
+BEGIN:VEVENT
+SUMMARY:Seollal Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T160221Z
+UID:lunar-us-kr-festivals-new_year_eve-kr-2025@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal Eve\nLunar date: 29/12/2025\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T160221Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-lunar_new_year-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Lunar New Year\nLunar date: 1/1/2026
+ \n\nTraditional observance\; not an official public-holiday or substitute-
+ day schedule.\nFor communities in the United States. Festival dates follow
+  the original calendar\; these are not US public holidays. All-day dates a
+ re not shifted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-seollal_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Day 2\nLunar date: 2/1/2026\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.\nFor communities in the United States. Festival dates follow the origi
+ nal calendar\; these are not US public holidays. All-day dates are not shi
+ fted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeongwol Daeboreum
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-daeboreum-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Jeongwol Daeboreum\nLunar date: 15/1/2026\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.\nFor communities in the United States. Festival dates follow the ori
+ ginal calendar\; these are not US public holidays. All-day dates are not s
+ hifted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddha's Birthday
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-buddha_east-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Buddha's Birthday\nLunar date: 8/4/2026\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.\nFor communities in the United States. Festival dates follow the origi
+ nal calendar\; these are not US public holidays. All-day dates are not shi
+ fted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dano
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-dano-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Dano\nLunar date: 5/5/2026\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFor comm
+ unities in the United States. Festival dates follow the original calendar
+ \; these are not US public holidays. All-day dates are not shifted between
+  time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok Eve
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-chuseok_eve-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok Eve\nLunar date: 14/8/2026\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.\n
+ For communities in the United States. Festival dates follow the original c
+ alendar\; these are not US public holidays. All-day dates are not shifted 
+ between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-chuseok-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok\nLunar date: 15/8/2026\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.\nFor 
+ communities in the United States. Festival dates follow the original calen
+ dar\; these are not US public holidays. All-day dates are not shifted betw
+ een time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok — Day 2
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-chuseok_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok — Day 2\nLunar date: 16/8/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.\nFor communities in the United States. Festival dates follow the orig
+ inal calendar\; these are not US public holidays. All-day dates are not sh
+ ifted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal Eve
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T160221Z
+UID:lunar-us-kr-festivals-new_year_eve-kr-2026@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal Eve\nLunar date: 30/12/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T160221Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Lunar New Year
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-lunar_new_year-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Lunar New Year\nLunar date: 1/1/2027
+ \n\nTraditional observance\; not an official public-holiday or substitute-
+ day schedule.\nFor communities in the United States. Festival dates follow
+  the original calendar\; these are not US public holidays. All-day dates a
+ re not shifted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Seollal — Day 2
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-seollal_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Seollal — Day 2\nLunar date: 2/1/2027\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.\nFor communities in the United States. Festival dates follow the origi
+ nal calendar\; these are not US public holidays. All-day dates are not shi
+ fted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Jeongwol Daeboreum
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-daeboreum-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Jeongwol Daeboreum\nLunar date: 15/1/2027\n\nTrad
+ itional observance\; not an official public-holiday or substitute-day sche
+ dule.\nFor communities in the United States. Festival dates follow the ori
+ ginal calendar\; these are not US public holidays. All-day dates are not s
+ hifted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Buddha's Birthday
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-buddha_east-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Buddha's Birthday\nLunar date: 8/4/2027\n\nTradit
+ ional observance\; not an official public-holiday or substitute-day schedu
+ le.\nFor communities in the United States. Festival dates follow the origi
+ nal calendar\; these are not US public holidays. All-day dates are not shi
+ fted between time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Dano
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-dano-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Dano\nLunar date: 5/5/2027\n\nTraditional observa
+ nce\; not an official public-holiday or substitute-day schedule.\nFor comm
+ unities in the United States. Festival dates follow the original calendar
+ \; these are not US public holidays. All-day dates are not shifted between
+  time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok Eve
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-chuseok_eve-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok Eve\nLunar date: 14/8/2027\n\nTraditional
+  observance\; not an official public-holiday or substitute-day schedule.\n
+ For communities in the United States. Festival dates follow the original c
+ alendar\; these are not US public holidays. All-day dates are not shifted 
+ between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154349Z
+UID:lunar-us-kr-festivals-chuseok-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok\nLunar date: 15/8/2027\n\nTraditional obs
+ ervance\; not an official public-holiday or substitute-day schedule.\nFor 
+ communities in the United States. Festival dates follow the original calen
+ dar\; these are not US public holidays. All-day dates are not shifted betw
+ een time zones.
+LAST-MODIFIED:20261114T154349Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chuseok — Day 2
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-festivals-chuseok_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:South Korea: Chuseok — Day 2\nLunar date: 16/8/2027\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.\nFor communities in the United States. Festival dates follow the orig
+ inal calendar\; these are not US public holidays. All-day dates are not sh
+ ifted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+X-RESIDENCE:US
+END:VEVENT
+END:VCALENDAR

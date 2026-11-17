@@ -71,6 +71,12 @@ def _catalog():
 
 
 HOLIDAYS = _catalog()
+for rule in HOLIDAYS.values():
+    if rule.calendar in ('solar', 'lunar'):
+        original = (FIXED_SOLAR_HOLIDAYS if rule.calendar == 'solar' else FIXED_LUNAR_HOLIDAYS)[rule.month, rule.day]
+        if not original.name_en:
+            original.name_en = rule.name_en
+            original.description_en = rule.description_en
 
 
 def select_holidays(value='all'):

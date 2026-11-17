@@ -8,28 +8,51 @@ from dataclasses import dataclass
 class HolidayInfo:
     name: str             # Tên ngày lễ
     description: str = '' # Mô tả ngắn gọn
-    is_public_holiday: bool = False  # Dịp lễ chính thức; không phải lịch nghỉ bù
+    is_public_holiday: bool = False  # Ngày nghỉ chính thức
     start_year: int = 1
+    category: str = 'lunar'
+    name_en: str = ''
+    description_en: str = ''
 
 
 # ──────────────────────────────────────────────────────────────
 # 1. QUỐC LỄ DƯƠNG LỊCH (Nghỉ chính thức)
 # ──────────────────────────────────────────────────────────────
 FIXED_SOLAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
-    (1, 1):   HolidayInfo(name='Tết Dương Lịch', is_public_holiday=True, description='Nghỉ Tết Dương Lịch.'),
-    (4, 30):  HolidayInfo(name='Giải Phóng Miền Nam', is_public_holiday=True, description='Ngày Giải phóng miền Nam, Thống nhất đất nước.'),
-    (5, 1):   HolidayInfo(name='Quốc Tế Lao Động', is_public_holiday=True, description='Ngày Quốc tế Lao động.'),
-    (9, 2):   HolidayInfo(name='Quốc Khánh', is_public_holiday=True, description='Quốc khánh nước CHXHCN Việt Nam.'),
-    (2, 14):  HolidayInfo(name='Lễ Tình nhân', description='Ngày lễ tình nhân 14/2.'),
-    (3, 8):   HolidayInfo(name='Quốc tế Phụ nữ', description='Ngày Quốc tế Phụ nữ 8/3.'),
-    (6, 1):   HolidayInfo(name='Quốc tế Thiếu nhi', description='Ngày Quốc tế Thiếu nhi 1/6.'),
-    (6, 28):  HolidayInfo(name='Gia đình Việt Nam', description='Ngày Gia đình Việt Nam 28/6.'),
-    (10, 20): HolidayInfo(name='Phụ nữ Việt Nam', description='Ngày Phụ nữ Việt Nam 20/10.'),
-    (11, 20): HolidayInfo(name='Nhà giáo Việt Nam', description='Ngày Nhà giáo Việt Nam 20/11.'),
+    (1, 1): HolidayInfo(
+        name='Tết Dương Lịch', description='Nghỉ Tết Dương Lịch.', is_public_holiday=True,
+        category='solar', name_en="New Year's Day",
+        description_en='New Year holiday.',
+    ),
+    (4, 30): HolidayInfo(
+        name='Giải Phóng Miền Nam',
+        description='Ngày Giải phóng miền Nam, Thống nhất đất nước.',
+        is_public_holiday=True, category='solar',
+        name_en='Reunification Day',
+        description_en='Commemorates the reunification of Vietnam.',
+    ),
+    (5, 1): HolidayInfo(
+        name='Quốc Tế Lao Động', description='Ngày Quốc tế Lao động.',
+        is_public_holiday=True, category='solar',
+        name_en='International Labour Day',
+        description_en='International Workers Day.',
+    ),
+    (9, 2): HolidayInfo(
+        name='Quốc Khánh', description='Quốc khánh nước CHXHCN Việt Nam.',
+        is_public_holiday=True, category='solar',
+        name_en='Vietnam National Day',
+        description_en='National Day of the Socialist Republic of Vietnam.',
+    ),
+    (2, 14): HolidayInfo(name='Lễ Tình nhân', description='Ngày lễ tình nhân 14/2.', category='solar'),
+    (3, 8): HolidayInfo(name='Quốc tế Phụ nữ', description='Ngày Quốc tế Phụ nữ 8/3.', category='solar'),
+    (6, 1): HolidayInfo(name='Quốc tế Thiếu nhi', description='Ngày Quốc tế Thiếu nhi 1/6.', category='solar'),
+    (6, 28): HolidayInfo(name='Gia đình Việt Nam', description='Ngày Gia đình Việt Nam 28/6.', category='solar'),
+    (10, 20): HolidayInfo(name='Phụ nữ Việt Nam', description='Ngày Phụ nữ Việt Nam 20/10.', category='solar'),
+    (11, 20): HolidayInfo(name='Nhà giáo Việt Nam', description='Ngày Nhà giáo Việt Nam 20/11.', category='solar'),
     (11, 24): HolidayInfo(name='Văn hóa Việt Nam', is_public_holiday=True, start_year=2026,
-                          description='Ngày Văn hóa Việt Nam 24/11, áp dụng từ năm 2026 theo Nghị quyết 28/2026/QH16.'),
-    (12, 24): HolidayInfo(name='Đêm Giáng sinh', description='Đêm Giáng sinh 24/12.'),
-    (12, 25): HolidayInfo(name='Giáng sinh', description='Lễ Giáng sinh 25/12.'),
+                          description='Ngày Văn hóa Việt Nam 24/11, áp dụng từ năm 2026 theo Nghị quyết 28/2026/QH16.', category='solar'),
+    (12, 24): HolidayInfo(name='Đêm Giáng sinh', description='Đêm Giáng sinh 24/12.', category='solar'),
+    (12, 25): HolidayInfo(name='Giáng sinh', description='Lễ Giáng sinh 25/12.', category='solar'),
 }
 
 
@@ -38,32 +61,74 @@ FIXED_SOLAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
 # ──────────────────────────────────────────────────────────────
 FIXED_LUNAR_HOLIDAYS: dict[tuple[int, int], HolidayInfo] = {
     # Tết Nguyên Đán
-    (1, 1):   HolidayInfo(name='Mùng 1 Tết', is_public_holiday=True, description='Tết Nguyên Đán.'),
-    (1, 2):   HolidayInfo(name='Mùng 2 Tết', is_public_holiday=True, description='Tết Nguyên Đán.'),
-    (1, 3):   HolidayInfo(name='Mùng 3 Tết', is_public_holiday=True, description='Tết Nguyên Đán.'),
-    (1, 10):  HolidayInfo(name='Vía Thần Tài', description='Ngày vía Thần Tài (Mùng 10 tháng Giêng).'),
-    (1, 15):  HolidayInfo(name='Tết Nguyên Tiêu', description='Tết Nguyên Tiêu — Rằm đầu năm.'),
-
-    (3, 3):   HolidayInfo(name='Tết Hàn thực', description='Tết Hàn thực, mùng 3 tháng 3 âm lịch.'),
-    (10, 15): HolidayInfo(name='Tết Hạ nguyên', description='Tết Hạ nguyên, rằm tháng 10 âm lịch.'),
+    (1, 1): HolidayInfo(
+        name='Mùng 1 Tết', is_public_holiday=True, description='Tết Nguyên Đán.',
+        name_en='Lunar New Year', description_en='The first day of Lunar New Year.',
+    ),
+    (1, 2): HolidayInfo(
+        name='Mùng 2 Tết', is_public_holiday=True, description='Tết Nguyên Đán.',
+        name_en='Lunar New Year Holiday', description_en='The second day of Lunar New Year.',
+    ),
+    (1, 3): HolidayInfo(
+        name='Mùng 3 Tết', is_public_holiday=True, description='Tết Nguyên Đán.',
+        name_en='Lunar New Year Holiday', description_en='The third day of Lunar New Year.',
+    ),
+    (1, 10): HolidayInfo(
+        name='Vía Thần Tài', description='Ngày vía Thần Tài (Mùng 10 tháng Giêng).',
+        name_en='God of Wealth Day',
+        description_en='Traditional observance on the 10th day of the first lunar month.',
+    ),
+    (1, 15): HolidayInfo(
+        name='Rằm Tháng Giêng (Tết Nguyên Tiêu)',
+        description='Tết Nguyên Tiêu — Rằm đầu năm.',
+        name_en='Lantern Festival (First Full Moon)',
+        description_en='The first full moon observance of the lunar year.',
+    ),
 
     # Giỗ Tổ Hùng Vương
-    (3, 10):  HolidayInfo(name='Giỗ Tổ Hùng Vương', is_public_holiday=True, description='Ngày Giỗ Tổ Hùng Vương (10/3 âm lịch).'),
+    (3, 10): HolidayInfo(
+        name='Giỗ Tổ Hùng Vương', is_public_holiday=True,
+        description='Ngày Giỗ Tổ Hùng Vương (10/3 âm lịch).',
+        name_en='Hung Kings Commemoration Day',
+        description_en='Commemorates the Hung Kings on the 10th day of the third lunar month.',
+    ),
 
     # Lễ Phật Đản
-    (4, 15):  HolidayInfo(name='Lễ Phật Đản', description='Đại lễ Phật Đản (15/4 âm lịch).'),
+    (4, 15): HolidayInfo(
+        name='Lễ Phật Đản', description='Đại lễ Phật Đản (15/4 âm lịch).',
+        name_en='Buddha Day', description_en="Buddha's Birthday (15th day of the fourth lunar month).",
+    ),
 
     # Tết Đoan Ngọ
-    (5, 5):   HolidayInfo(name='Tết Đoan Ngọ', description='Tết Đoan Ngọ (5/5 âm lịch).'),
+    (5, 5): HolidayInfo(
+        name='Tết Đoan Ngọ', description='Tết Đoan Ngọ (5/5 âm lịch).',
+        name_en='Double Fifth Festival',
+        description_en='Traditional observance on the fifth day of the fifth lunar month.',
+    ),
 
     # Lễ Vu Lan
-    (7, 15):  HolidayInfo(name='Lễ Vu Lan', description='Lễ Vu Lan báo hiếu (Rằm tháng 7 âm lịch).'),
+    (7, 15): HolidayInfo(
+        name='Lễ Vu Lan', description='Lễ Vu Lan báo hiếu (Rằm tháng 7 âm lịch).',
+        name_en='Vu Lan Festival',
+        description_en='A day of filial gratitude on the 15th day of the seventh lunar month.',
+    ),
 
     # Tết Trung Thu
-    (8, 15):  HolidayInfo(name='Tết Trung Thu', description='Tết Trung Thu (Rằm tháng 8 âm lịch).'),
+    (8, 15): HolidayInfo(
+        name='Tết Trung Thu', description='Tết Trung Thu (Rằm tháng 8 âm lịch).',
+        name_en='Mid-Autumn Festival',
+        description_en='Traditional festival on the 15th day of the eighth lunar month.',
+    ),
 
     # Cúng Ông Táo
-    (12, 23): HolidayInfo(name='Cúng Ông Táo', description='Lễ cúng tiễn Táo Quân về trời (23 tháng Chạp).'),
+    (12, 23): HolidayInfo(
+        name='Cúng Ông Táo',
+        description='Lễ cúng tiễn Táo Quân về trời (23 tháng Chạp).',
+        name_en='Kitchen Gods Day',
+        description_en='The Kitchen Gods are traditionally sent to heaven on this day.',
+    ),
+    (3, 3): HolidayInfo(name='Tết Hàn thực', description='Tết Hàn thực, mùng 3 tháng 3 âm lịch.'),
+    (10, 15): HolidayInfo(name='Tết Hạ nguyên', description='Tết Hạ nguyên, rằm tháng 10 âm lịch.'),
 }
 
 # Đêm Giao Thừa (ngày cuối cùng của năm âm lịch: 29 hoặc 30 tháng Chạp)
@@ -71,4 +136,6 @@ GIAO_THUA = HolidayInfo(
     name='Đêm Giao Thừa',
     description='Đêm Giao Thừa đón năm mới âm lịch.',
     is_public_holiday=False,
+    name_en="Lunar New Year's Eve",
+    description_en='The final day of the lunar year.',
 )

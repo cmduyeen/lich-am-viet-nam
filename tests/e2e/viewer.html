@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ICS consumer verification</title>
+<style>
+*{box-sizing:border-box;cursor:none!important}body{margin:0;background:#f4f6f8;color:#192938;font:15px "Segoe UI",Arial,sans-serif}main{max-width:1380px;margin:30px auto;padding:0 30px}.eyebrow{color:#617386;font-size:12px;font-weight:650;letter-spacing:1.6px;text-transform:uppercase}h1{font-size:27px;font-weight:650;line-height:1.4;margin:10px 0}header{margin-bottom:20px}.meta{color:#617386;line-height:1.8}.badge{display:inline-block;background:#e3f3eb;color:#247249;border-radius:20px;padding:5px 12px;margin-right:10px;font-weight:600;font-size:12px}#calendar{background:white;padding:24px;border:1px solid #dfe6ec;border-radius:12px;box-shadow:0 3px 15px #18304005}.fc{--fc-border-color:#e5eaf0;--fc-today-bg-color:transparent;--fc-button-bg-color:#263b4c;--fc-button-border-color:#263b4c}.fc-toolbar-title{font-size:1.4em!important}.fc-col-header-cell{padding:11px 0!important;color:#617386}.fc-daygrid-day-number{padding:8px!important;color:#36495b}.fc-event{font-size:12px!important;padding:3px 5px;border-radius:4px;white-space:normal!important}.fc-h-event .fc-event-title{white-space:normal!important;line-height:1.35}#detail{margin-top:16px;background:white;border:1px solid #dfe6ec;border-radius:10px;padding:18px;white-space:pre-wrap}footer{color:#617386;font-size:12px;margin:16px 0;line-height:1.6}button{font:inherit}@media(max-width:600px){main{margin:18px auto;padding:0 10px}#calendar{padding:10px}.fc-event{font-size:10px!important}.fc-toolbar-title{font-size:1em!important}}
+</style><main><header><div class="eyebrow">Actual generated ICS · independent browser consumer</div><h1 id="name">Loading calendar…</h1><div class="meta"><span class="badge" id="status">Reading ICS</span><span id="count"></span></div></header><div id="calendar"></div><section id="detail" hidden></section><footer>Read directly from the generated feed using ICAL.js and FullCalendar. All-day source dates are preserved.<br>Verification preview only; this is not Google Calendar, Apple Calendar or Outlook.</footer></main>
+<script src="/tests/e2e/node_modules/fullcalendar/index.global.min.js"></script>
+<script type="module">
+import {readCalendar} from '/tests/e2e/reader.mjs';
+const query=new URLSearchParams(location.search);
+const feed=query.get('feed');
+let etag;
+window.calendar=new FullCalendar.Calendar(document.querySelector('#calendar'),{
+ initialView:'dayGridMonth',initialDate:query.get('date')||'2026-02-01',height:'auto',fixedWeekCount:false,
+ headerToolbar:{left:'title',center:'',right:'prev,next'},dayMaxEvents:false,
+ eventClick:({event})=>{const detail=document.querySelector('#detail');detail.hidden=false;detail.textContent=event.title+'\n'+event.startStr+' → '+event.endStr+' (exclusive)\n\n'+event.extendedProps.description;}
+});
+window.calendar.render();
+window.refreshFeed=async()=>{
+ const response=await fetch(feed,{cache:'no-store',headers:etag?{'If-None-Match':etag}:{}});
+ if(response.status===304){document.querySelector('#status').textContent='Unchanged · HTTP 304';return;}
+ if(!response.ok)throw new Error('Feed HTTP '+response.status);
+ etag=response.headers.get('etag');const value=readCalendar(await response.text());
+ document.querySelector('#name').textContent=value.name;
+ document.querySelector('#count').textContent=value.events.length+' all-day events · UID preserved';
+ document.querySelector('#status').textContent='ICS loaded';
+ const previous=window.calendar.getEventSourceById('feed');if(previous)previous.remove();
+ window.calendar.addEventSource({id:'feed',events:value.events});
+ window.loadedEvents=value.events;window.ready=true;
+};
+await window.refreshFeed();
+</script></html>

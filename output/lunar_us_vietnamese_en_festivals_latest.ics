@@ -1,0 +1,639 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Global Lunar Calendars//en
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Traditional observance; not an official public-holiday or sub
+ stitute-day schedule. Full Moon means traditional lunar day 15, not an exa
+ ct astronomical full moon. For communities in the United States. Festival 
+ dates follow the original calendar; these are not US public holidays. All-
+ day dates are not shifted between time zones.
+X-WR-CALNAME:United States — Vietnam — Lunar festivals 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-RESIDENCE:US
+X-SOURCE-COUNTRIES:VN
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-kitchen_gods-vn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Kitchen Gods Day\nLunar date: 23/12/2025\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-new_year_eve-vn-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Lunar New Year's Eve\nLunar date: 29/12/2025\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.\nFor communities in the United States. Festival dates follow the orig
+ inal calendar\; these are not US public holidays. All-day dates are not sh
+ ifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-lunar_new_year-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Lunar New Year\nLunar date: 1/1/2026\n\nTra
+ ditional observance\; not an official public-holiday or substitute-day sch
+ edule.\nFor communities in the United States. Festival dates follow the or
+ iginal calendar\; these are not US public holidays. All-day dates are not 
+ shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 2
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-tet_day_2-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 2\nLunar date: 2/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 3
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-tet_day_3-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 3\nLunar date: 3/1/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Khai Hạ — Closing Tết
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-khai_ha-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Khai Hạ — Closing Tết\nLunar date: 7/1/2026\n\n
+ Traditional observance\; not an official public-holiday or substitute-day 
+ schedule.\nFor communities in the United States. Festival dates follow the
+  original calendar\; these are not US public holidays. All-day dates are n
+ ot shifted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:God of Wealth Day
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-wealth-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: God of Wealth Day\nLunar date: 10/1/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-lantern-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Lantern Festival\nLunar date: 15/1/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-han_thuc-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Hàn Thực\nLunar date: 3/3/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hùng Kings Commemoration
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-hung_kings-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Hùng Kings Commemoration\nLunar date: 10/3/2026\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.\nFor communities in the United States. Festival dates follow the 
+ original calendar\; these are not US public holidays. All-day dates are no
+ t shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phật Đản — Buddha's Birthday
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-buddha_vn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Phật Đản — Buddha's Birthday\nLunar date: 15/4
+ /2026\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.\nFor communities in the United States. Festival dates f
+ ollow the original calendar\; these are not US public holidays. All-day da
+ tes are not shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-dragon_boat-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Đoan Ngọ\nLunar date: 5/5/2026\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-ghost-vn-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Ghost Festival\nLunar date: 15/7/2026\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vu Lan — Filial Gratitude Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-vu_lan-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Vu Lan — Filial Gratitude Festival\nLunar date: 15/
+ 7/2026\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.\nFor communities in the United States. Festival dates 
+ follow the original calendar\; these are not US public holidays. All-day d
+ ates are not shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-mid_autumn-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Mid-Autumn Festival\nLunar date: 15/8/2026\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.\nFor communities in the United States. Festival dates follow the origin
+ al calendar\; these are not US public holidays. All-day dates are not shif
+ ted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Kitchen Gods Day
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-kitchen_gods-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Kitchen Gods Day\nLunar date: 23/12/2026\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:kitchen_gods
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-new_year_eve-vn-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Lunar New Year's Eve\nLunar date: 29/12/2026\n\nTradi
+ tional observance\; not an official public-holiday or substitute-day sched
+ ule.\nFor communities in the United States. Festival dates follow the orig
+ inal calendar\; these are not US public holidays. All-day dates are not sh
+ ifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-lunar_new_year-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Lunar New Year\nLunar date: 1/1/2027\n\nTra
+ ditional observance\; not an official public-holiday or substitute-day sch
+ edule.\nFor communities in the United States. Festival dates follow the or
+ iginal calendar\; these are not US public holidays. All-day dates are not 
+ shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 2
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-tet_day_2-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 2\nLunar date: 2/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Day 3
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-tet_day_3-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết — Day 3\nLunar date: 3/1/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:tet_day_3
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Khai Hạ — Closing Tết
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-khai_ha-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Khai Hạ — Closing Tết\nLunar date: 7/1/2027\n\n
+ Traditional observance\; not an official public-holiday or substitute-day 
+ schedule.\nFor communities in the United States. Festival dates follow the
+  original calendar\; these are not US public holidays. All-day dates are n
+ ot shifted between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:khai_ha
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:God of Wealth Day
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-wealth-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: God of Wealth Day\nLunar date: 10/1/2027\n\nTradition
+ al observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:wealth
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lantern Festival
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-lantern-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Lantern Festival\nLunar date: 15/1/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Hàn Thực
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-han_thuc-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Hàn Thực\nLunar date: 3/3/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:han_thuc
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hùng Kings Commemoration
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-hung_kings-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Hùng Kings Commemoration\nLunar date: 10/3/2027\n\nT
+ raditional observance\; not an official public-holiday or substitute-day s
+ chedule.\nFor communities in the United States. Festival dates follow the 
+ original calendar\; these are not US public holidays. All-day dates are no
+ t shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:hung_kings
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Phật Đản — Buddha's Birthday
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-buddha_vn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Phật Đản — Buddha's Birthday\nLunar date: 15/4
+ /2027\n\nTraditional observance\; not an official public-holiday or substi
+ tute-day schedule.\nFor communities in the United States. Festival dates f
+ ollow the original calendar\; these are not US public holidays. All-day da
+ tes are not shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_vn
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-dragon_boat-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Tết Đoan Ngọ\nLunar date: 5/5/2027\n\nTraditiona
+ l observance\; not an official public-holiday or substitute-day schedule.
+ \nFor communities in the United States. Festival dates follow the original
+  calendar\; these are not US public holidays. All-day dates are not shifte
+ d between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ghost Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T000000Z
+UID:lunar-us-vn-festivals-ghost-vn-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Vietnam: Ghost Festival\nLunar date: 15/7/2027\n\nTraditional 
+ observance\; not an official public-holiday or substitute-day schedule.\nF
+ or communities in the United States. Festival dates follow the original ca
+ lendar\; these are not US public holidays. All-day dates are not shifted b
+ etween time zones.
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Vu Lan — Filial Gratitude Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-vu_lan-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Vu Lan — Filial Gratitude Festival\nLunar date: 15/
+ 7/2027\n\nTraditional observance\; not an official public-holiday or subst
+ itute-day schedule.\nFor communities in the United States. Festival dates 
+ follow the original calendar\; these are not US public holidays. All-day d
+ ates are not shifted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:vu_lan
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154342Z
+UID:lunar-us-vn-festivals-mid_autumn-vn-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Vietnam: Mid-Autumn Festival\nLunar date: 15/8/2027\n\nTraditi
+ onal observance\; not an official public-holiday or substitute-day schedul
+ e.\nFor communities in the United States. Festival dates follow the origin
+ al calendar\; these are not US public holidays. All-day dates are not shif
+ ted between time zones.
+LAST-MODIFIED:20261114T154342Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:VN
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+X-RESIDENCE:US
+END:VEVENT
+END:VCALENDAR

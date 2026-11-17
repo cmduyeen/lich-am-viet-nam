@@ -1,0 +1,1355 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Global Lunar Calendars//ko
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:전통 기념일이며 법정 공휴일이나 대체공휴일
+  일정이 아닙니다. 보름은 음력 15일을 뜻하며 천문학적 
+ 보름달 시각과 다릅니다. 미국 내 공동체를 위한 달력입
+ 니다. 명절 날짜는 원래 역법을 따르며 미국 법정 공휴
+ 일이 아닙니다. 종일 일정의 날짜는 시간대에 따라 이동
+ 하지 않습니다.
+X-WR-CALNAME:미국 — 대한민국 — 음력 명절과 초하루·보
+ 름 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-RESIDENCE:US
+X-SOURCE-COUNTRIES:KR
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202511150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2025년 11월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202512010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2025년 12월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202512150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2025년 12월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날 전날
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T160223Z
+UID:lunar-us-kr-observances-new_year_eve-kr-2025@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:대한민국: 설날 전날\n음력: 2025년 12월 29일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T160223Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-lunar_new_year-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 설날\n음력: 2026년 1월 1일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날 다음 날
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-seollal_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 설날 다음 날\n음력: 2026년 1월 2일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:정월대보름
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-daeboreum-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 정월대보름\n음력: 2026년 1월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202602010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 2월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202602150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 2월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202603010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 3월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202603150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 3월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202604010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 4월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:부처님오신날
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-buddha_east-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 부처님오신날\n음력: 2026년 4월 8일\n
+ \n전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202604150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 4월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202605010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 5월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:단오
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-dano-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 단오\n음력: 2026년 5월 5일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202605150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 5월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202606010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 6월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202606150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 6월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202607010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 7월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202607150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 7월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202608010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 8월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석 전날
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-chuseok_eve-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 추석 전날\n음력: 2026년 8월 14일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날짜
+ 는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다. 
+ 종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-chuseok-kr-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 추석\n음력: 2026년 8월 15일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석 다음 날
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-chuseok_day_2-kr-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 추석 다음 날\n음력: 2026년 8월 16일\n
+ \n전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202609010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 9월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202609150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 9월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202610010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 10월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202610150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 10월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202611010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 11월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202611150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 11월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202612010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2026년 12월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202612150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2026년 12월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날 전날
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T160223Z
+UID:lunar-us-kr-observances-new_year_eve-kr-2026@cmduyeen
+SEQUENCE:2
+COLOR:crimson
+DESCRIPTION:대한민국: 설날 전날\n음력: 2026년 12월 30일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T160223Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-lunar_new_year-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 설날\n음력: 2027년 1월 1일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:설날 다음 날
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-seollal_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 설날 다음 날\n음력: 2027년 1월 2일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:seollal_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:정월대보름
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-daeboreum-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 정월대보름\n음력: 2027년 1월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:daeboreum
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202702010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 2월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202702150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 2월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202703010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 3월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202703150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 3월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202704010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 4월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:부처님오신날
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-buddha_east-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 부처님오신날\n음력: 2027년 4월 8일\n
+ \n전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:buddha_east
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202704150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 4월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202705010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 5월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:단오
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-dano-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 단오\n음력: 2027년 5월 5일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dano
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202705150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 5월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202706010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 6월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202706150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 6월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202707010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 7월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202707150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 7월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202708010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 8월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석 전날
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-chuseok_eve-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 추석 전날\n음력: 2027년 8월 14일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날짜
+ 는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다. 
+ 종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_eve
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-chuseok-kr-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:대한민국: 추석\n음력: 2027년 8월 15일\n\n전통 기
+ 념일이며 법정 공휴일이나 대체공휴일 일정이 아닙니다
+ .\n미국 내 공동체를 위한 달력입니다. 명절 날짜는 원래
+  역법을 따르며 미국 법정 공휴일이 아닙니다. 종일 일
+ 정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:추석 다음 날
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+DTSTAMP:20261114T000000Z
+UID:lunar-us-kr-observances-chuseok_day_2-kr-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:대한민국: 추석 다음 날\n음력: 2027년 8월 16일\n
+ \n전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:chuseok_day_2
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202709010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 9월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202709150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 9월 15일\n\n전
+ 통 기념일이며 법정 공휴일이나 대체공휴일 일정이 아
+ 닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 시
+ 각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 명
+ 절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙
+ 니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않습
+ 니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202710010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 10월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202710150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 10월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202711010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 11월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 보름
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-full_moon-kr-202711150@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 보름\n음력: 2027년 11월 15일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n보름은 음력 15일을 뜻하며 천문학적 보름달 
+ 시각과 다릅니다.\n미국 내 공동체를 위한 달력입니다. 
+ 명절 날짜는 원래 역법을 따르며 미국 법정 공휴일이 아
+ 닙니다. 종일 일정의 날짜는 시간대에 따라 이동하지 않
+ 습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:full_moon
+X-RESIDENCE:US
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:음력 초하루
+DTSTART;VALUE=DATE:20271228
+DTEND;VALUE=DATE:20271229
+DTSTAMP:20261114T154350Z
+UID:lunar-us-kr-observances-new_moon-kr-202712010@cmduyeen
+SEQUENCE:1
+COLOR:darkorange
+DESCRIPTION:대한민국: 음력 초하루\n음력: 2027년 12월 1일\n\n
+ 전통 기념일이며 법정 공휴일이나 대체공휴일 일정이 
+ 아닙니다.\n미국 내 공동체를 위한 달력입니다. 명절 날
+ 짜는 원래 역법을 따르며 미국 법정 공휴일이 아닙니다.
+  종일 일정의 날짜는 시간대에 따라 이동하지 않습니다.
+LAST-MODIFIED:20261114T154350Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:KR
+X-EVENT-CATEGORY:observance
+X-LUNAR-COLOR:#FB8C00
+X-LUNAR-EVENT-ID:new_moon
+X-RESIDENCE:US
+END:VEVENT
+END:VCALENDAR

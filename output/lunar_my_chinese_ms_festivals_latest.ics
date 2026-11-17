@@ -1,0 +1,250 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//cmduyeen//Asian Lunar Calendars//ms
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Perayaan tradisional; bukan jadual cuti umum rasmi atau cuti 
+ gantian. Hari ke-15 lunar ialah tarikh tradisional, bukan waktu bulan purn
+ ama astronomi yang tepat.
+X-WR-CALNAME:Malaysia — Perayaan lunar 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Kuala_Lumpur
+BEGIN:VEVENT
+SUMMARY:Malam Tahun Baharu Cina
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-new_year_eve-my-2025@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Malam Tahun Baharu Cina\nTarikh lunar: 29/12/2025\n
+ \nPerayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tahun Baharu Cina
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-lunar_new_year-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Tahun Baharu Cina\nTarikh lunar: 1/1/2026\n\nPerayaa
+ n tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Hari Kedua
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261114T000000Z
+UID:lunar-my-festivals-cny_day_2-my-2026@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Malaysia: Tết — Hari Kedua\nTarikh lunar: 2/1/2026\n\nPera
+ yaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chap Goh Mei
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-lantern-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Chap Goh Mei\nTarikh lunar: 15/1/2026\n\nPerayaan tr
+ adisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Perahu Naga
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-dragon_boat-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Perahu Naga\nTarikh lunar: 5/5/2026\n\nPera
+ yaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Hantu Lapar
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-ghost-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Hantu Lapar\nTarikh lunar: 15/7/2026\n\nPer
+ ayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Pertengahan Musim Luruh
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-mid_autumn-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Pertengahan Musim Luruh\nTarikh lunar: 15/8
+ /2026\n\nPerayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gan
+ tian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Malam Tahun Baharu Cina
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-new_year_eve-my-2026@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Malam Tahun Baharu Cina\nTarikh lunar: 29/12/2026\n
+ \nPerayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:new_year_eve
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tahun Baharu Cina
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-lunar_new_year-my-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Tahun Baharu Cina\nTarikh lunar: 1/1/2027\n\nPerayaa
+ n tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lunar_new_year
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tết — Hari Kedua
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261114T000000Z
+UID:lunar-my-festivals-cny_day_2-my-2027@cmduyeen
+SEQUENCE:0
+COLOR:crimson
+DESCRIPTION:Malaysia: Tết — Hari Kedua\nTarikh lunar: 2/1/2027\n\nPera
+ yaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:cny_day_2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Chap Goh Mei
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-lantern-my-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Chap Goh Mei\nTarikh lunar: 15/1/2027\n\nPerayaan tr
+ adisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:lantern
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Perahu Naga
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-dragon_boat-my-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Perahu Naga\nTarikh lunar: 5/5/2027\n\nPera
+ yaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:dragon_boat
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Hantu Lapar
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-ghost-my-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Hantu Lapar\nTarikh lunar: 15/7/2027\n\nPer
+ ayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gantian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:ghost
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Perayaan Pertengahan Musim Luruh
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261114T154339Z
+UID:lunar-my-festivals-mid_autumn-my-2027@cmduyeen
+SEQUENCE:1
+COLOR:crimson
+DESCRIPTION:Malaysia: Perayaan Pertengahan Musim Luruh\nTarikh lunar: 15/8
+ /2027\n\nPerayaan tradisional\; bukan jadual cuti umum rasmi atau cuti gan
+ tian.
+LAST-MODIFIED:20261114T154339Z
+TRANSP:TRANSPARENT
+X-COUNTRIES:MY
+X-EVENT-CATEGORY:lunar
+X-LUNAR-COLOR:#E53935
+X-LUNAR-EVENT-ID:mid_autumn
+END:VEVENT
+END:VCALENDAR
