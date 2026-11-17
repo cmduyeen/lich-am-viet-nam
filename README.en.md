@@ -1,27 +1,66 @@
-# Vietnamese and Global Lunar Calendars
+# 🌙 Vietnamese Lunar Calendar
 
-![Lunar calendar cover](assets/lunar-calendar-cover.png)
+[Tiếng Việt](README.md) · [English](README.en.md)
 
-Choose your region in the [calendar directory](README.md), or open the Vietnamese calendar guides in [English](vietnam/README.md) or [Vietnamese](vietnam/README.vi.md).
+![Vietnamese lunar calendar](assets/lunar-calendar-cover.png)
 
-Existing subscriptions remain available at `output/viet_lunar_latest.ics` and `output/viet_lunar_en_latest.ics`. Each contains one event per civil day with lunar dates and the bilingual observances documented in [HOLIDAYS](docs/HOLIDAYS.md).
+Vietnamese lunar dates in GMT+7, displayed in **Vietnamese or English**. Each civil day has one event containing its lunar date and relevant observances. Both feeds use the same dates; only the display language changes.
 
-The default rolling window is now the current year and next year. Dated files and ZIPs are optional snapshots: `python main.py --split --output-dir exports`. Previously downloaded snapshots remain static.
+## Subscribe
 
-## Personal calendars
+**Vietnamese**
 
-The holiday-selection and personal-date commands remain supported:
-
-```powershell
-python main.py --language en --holidays mid-autumn
-python main.py --language vi --custom-holidays .local/holidays.json
-python main.py --list-holidays
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
 
-Customized daily calendars default to `.local/output`, which Git ignores. Do not place personal data in committed files. See [examples/holidays.json](examples/holidays.json) for fictional input.
+**English**
 
-Use `--country`, `--countries`, `--residence` or `--config` for the shared multi-country pipeline; these options use the country-guide configuration format. Holiday-selection commands use the daily Vietnamese format and cannot be combined with profile options.
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
+```
 
-[Automation](docs/AUTOMATION.md) describes the annual schedule, checksum preflight and optional external maintenance. [Security](SECURITY.md) covers private data and secret reporting.
+Paste one URL into **Add calendar from URL / Subscribe** in Google Calendar, Apple Calendar or Outlook. Choose one language to avoid seeing both sets of events. Importing an ICS file creates a snapshot and does not follow URL updates.
 
-The screenshots in `assets/screenshots/` are retained historical Vietnamese/English previews. They do not verify subscription refresh for the new multi-country feeds. Current consumer evidence and remaining release checks are documented in [docs/RELEASE.md](docs/RELEASE.md).
+Default coverage is the current year and next year. Your calendar app controls its refresh interval. Repository changes reach subscription URLs after publication to `main`.
+
+## Generate with Python
+
+Requires Python 3.11 or later:
+
+```powershell
+python -m pip install --require-hashes -r requirements.txt
+python generate_all.py
+```
+
+This publishes exactly two Vietnamese/English feeds into `output/`. Skip generation when inputs and output checksums are unchanged:
+
+```powershell
+python generate_all.py --if-needed
+```
+
+Generate a single language or save annual snapshots:
+
+```powershell
+python main.py --language vi
+python main.py --language en
+python main.py --language vi --split --output-dir exports
+```
+
+## Select holidays and add personal dates
+
+```powershell
+python main.py --language en --list-holidays
+python main.py --language en --holidays mid-autumn
+python main.py --language vi --custom-holidays .local/holidays.json
+```
+
+Use the [fictional JSON example](examples/holidays.json) for personal dates. Customized calendars default to ignored `.local/output/`. Keep private data out of the public repository.
+
+Observances are not substitute-day or statutory leave schedules. See the [holiday catalog](docs/HOLIDAYS.md).
+
+## Maintenance
+
+GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md), [release checks](docs/RELEASE.md) and [security](SECURITY.md).
+
+[MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)

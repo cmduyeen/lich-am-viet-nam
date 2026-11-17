@@ -12,6 +12,6 @@ npm test
 
 Use `PYTHON` to select a virtual-environment interpreter and `BROWSER_EXECUTABLE` to use an already installed Chrome/Edge executable instead of downloading Chromium. Set `EVIDENCE_DIR` to keep screenshots elsewhere. Default output is ignored `tests/e2e/artifacts/`. Images are native browser screenshots with no desktop chrome, mouse pointer or simulated cursor overlay.
 
-Coverage: every inventory checksum, event count, unique UID, Unicode summary, all-day boundary and year range; country/native guide navigation and 390px layout; two distinct holidays on one day; three Chuseok dates; HTTP 304 for unchanged content; real CLI regeneration followed by HTTP refresh without duplicated UIDs; four timezone contexts. Temporary test files and the loopback server are cleaned up on success or failure.
+Coverage: exactly two Vietnamese daily feeds in vi/en; inventory checksums, event counts, unique UIDs, all-day boundaries and year range; both root READMEs, the shared cover and 390px mobile layout; localized Tet events in both languages; HTTP 304; actual CLI regeneration followed by refresh without duplicate events; four timezone contexts. Temporary files and the loopback server are cleaned up on success or failure.
 
 This is evidence for this consumer and parser. It must not be labeled as a Google Calendar, Apple Calendar or Outlook subscription test. Those applications control their own refresh intervals and require separate live acceptance checks.

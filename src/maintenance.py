@@ -46,9 +46,13 @@ def maintain(repo, github, year, dry_run=False):
         if '404' not in str(exc):raise
         inventory=[]
     managed=[e for e in inventory if not e['file'].startswith('custom_') and '_custom_' not in e['file']]
-    covered={code for e in managed for code in e['countries']}
-    current=bool(managed) and covered>={'VN','CN','TW','HK','MO','KR','SG','MY'} and all(
-        e['start_year']==year and e['end_year']>=min(year+1,e.get('supported_end_year',year+1)) for e in managed)
+    expected = {'viet_lunar_latest.ics': 'vi', 'viet_lunar_en_latest.ics': 'en'}
+    managed = [e for e in managed if e['file'] in expected]
+    current = ({e['file'] for e in managed} == set(expected) and all(
+        e.get('countries') == ['VN'] and e.get('language') == expected[e['file']]
+        and e['start_year'] == year
+        and e['end_year'] >= min(year + 1, e.get('supported_end_year', year + 1))
+        for e in managed))
     if current:return dict(status='current',actions=actions,year=year)
     variables=github.api(f'repos/{repo}/actions/variables/PUBLISH_LUNAR_FEEDS')
     if variables.get('value')!='true':
