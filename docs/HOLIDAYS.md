@@ -1,4 +1,4 @@
-> Daily Vietnamese feeds only. Shared country profiles use [FESTIVALS.md](FESTIVALS.md). Current rolling coverage and automation: [OPERATIONS.md](OPERATIONS.md).
+> Vietnamese daily feeds in Vietnamese and English. Current rolling coverage and automation: [OPERATIONS.md](OPERATIONS.md).
 
 # Ngày lễ âm và dương / Lunar and Gregorian holidays
 

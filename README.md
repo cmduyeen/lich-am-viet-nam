@@ -22,6 +22,19 @@ https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lun
 
 Dán một trong hai link vào mục **Thêm lịch từ URL / Đăng ký lịch** trong Google Calendar, Apple Calendar hoặc Outlook. Chỉ cần chọn một ngôn ngữ để tránh nhìn thấy hai bộ sự kiện. Nhập tệp ICS là bản chụp và không tự cập nhật theo URL.
 
+### Thêm vào Google Calendar trong 4 bước
+
+1. Sao chép link **tiếng Việt hoặc tiếng Anh** ở trên.
+2. Mở [Google Calendar](https://calendar.google.com/) bằng trình duyệt trên máy tính.
+3. Bên cạnh **Lịch khác**, nhấn **+ → Từ URL**.
+4. Dán link, nhấn **Thêm lịch**. Lịch sẽ xuất hiện trong **Lịch khác**.
+
+[![Lịch âm tiếng Việt trong Google Calendar](assets/screenshots/google-calendar-vi.png)](assets/videos/google-calendar-vi.mp4)
+
+**[▶ Xem / tải video thao tác trực tiếp trên Google Calendar](assets/videos/google-calendar-vi.mp4)**
+
+Thêm lần đầu trên máy tính, rồi mở ứng dụng Google Calendar cùng tài khoản trên điện thoại. Xem [hướng dẫn của Google](https://support.google.com/calendar/answer/37100?hl=vi).
+
 Lịch mặc định gồm năm hiện tại và năm kế tiếp. Ứng dụng lịch quyết định thời điểm làm mới. Các thay đổi trong repo chỉ xuất hiện ở URL sau khi được đưa lên nhánh `main`.
 
 ## Tạo lịch bằng Python

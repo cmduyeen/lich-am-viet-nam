@@ -36,7 +36,7 @@ Only one guard is needed. This is a small annual request, not a background daemo
 
 ```powershell
 .venv\Scripts\python.exe generate_all.py --if-needed
-.venv\Scripts\python.exe main.py --config vietnam/calendar.config.json --feed-name family
+.venv\Scripts\python.exe main.py --language vi --custom-holidays .local/holidays.json
 ```
 
 Use `--if-needed` for unattended batch runs. Omit it to exercise a full rebuild; identical output must still produce zero changed files. A cross-process OS lock prevents two local writers from reconciling revisions simultaneously and releases on process termination. Publication uses staging, validation, atomic replacement and rollback. GitHub publishes the complete generated set in one commit.

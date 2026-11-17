@@ -22,6 +22,19 @@ https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lun
 
 Paste one URL into **Add calendar from URL / Subscribe** in Google Calendar, Apple Calendar or Outlook. Choose one language to avoid seeing both sets of events. Importing an ICS file creates a snapshot and does not follow URL updates.
 
+### Add to Google Calendar in 4 steps
+
+1. Copy the **Vietnamese or English** feed URL above.
+2. Open [Google Calendar](https://calendar.google.com/) in a desktop browser.
+3. Next to **Other calendars**, click **+ → From URL**.
+4. Paste the URL and click **Add calendar**. Find it under **Other calendars**.
+
+[![Vietnamese lunar dates in English in Google Calendar](assets/screenshots/google-calendar-en.png)](assets/videos/google-calendar-en.mp4)
+
+**[▶ Watch / download the Google Calendar screen recording](assets/videos/google-calendar-en.mp4)**
+
+Subscribe on your computer first, then use the Google Calendar app with the same account on your phone. See [Google's instructions](https://support.google.com/calendar/answer/37100?hl=en).
+
 Default coverage is the current year and next year. Your calendar app controls its refresh interval. Repository changes reach subscription URLs after publication to `main`.
 
 ## Generate with Python
