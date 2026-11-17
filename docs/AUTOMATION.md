@@ -1,6 +1,6 @@
 # Automatic updates and recovery
 
-The generator is ordinary Python code. No ChatGPT session, editor, production web server or paid calendar service is required.
+The generator is ordinary Python code. No editor, production web server, or paid calendar service is required.
 
 ## GitHub Actions: daily health check
 
