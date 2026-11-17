@@ -111,11 +111,18 @@ def main(argv=None):
             # Retire only previously indexed standard feeds; preserve custom/private files.
             old_index = args.output_dir / 'index.json'
             if old_index.is_file():
-                old_entries = json.loads(old_index.read_text(encoding='utf-8'))
+                try:
+                    old_entries = json.loads(old_index.read_text(encoding='utf-8'))
+                except (ValueError, UnicodeError):
+                    old_entries = []  # Rebuild corrupt metadata without pruning unknown files.
+                if not isinstance(old_entries, list):
+                    old_entries = []
                 active = {entry['file'] for entry in manifest}
                 for entry in old_entries:
+                    if not isinstance(entry, dict):
+                        continue
                     name = entry.get('file', '')
-                    if (name not in active and Path(name).name == name
+                    if (isinstance(name, str) and name not in active and Path(name).name == name
                             and name.startswith(('lunar_', 'viet_lunar_'))
                             and '_custom_' not in name and name.endswith('_latest.ics')):
                         stale.append(name)

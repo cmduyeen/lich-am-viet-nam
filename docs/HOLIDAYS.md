@@ -72,6 +72,6 @@ Both language feeds contain every lunar date together with these Gregorian
 and lunar observances, in one event per day. This curated list is not a complete
 statutory leave schedule. Compensatory leave, workday swaps, the adjacent National
 Day holiday and specific Tet leave dates require applicable annual announcements.
-Annual automation recalculates dates using the reviewed catalog; it does not
+Automation recalculates dates using the reviewed catalog; it does not
 automatically discover legislative changes. Personal observances can be added
 with `--custom-holidays` and remain private by default.

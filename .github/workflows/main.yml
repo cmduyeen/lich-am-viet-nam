@@ -23,7 +23,7 @@ on:
       - 'requirements.txt'
       - '.github/workflows/**'
   schedule:
-    - cron: '17 0 1 1 *' # January 1, 07:17 Vietnam time; avoid the busy hour boundary
+    - cron: '17 0 * * *' # Daily 07:17 Vietnam time; unchanged feeds skip expensive work
   workflow_dispatch:
     inputs:
       custom_config:
@@ -56,6 +56,11 @@ jobs:
       CUSTOM_CONFIG: ${{ inputs.custom_config || vars.CUSTOM_CONFIG }}
       PYTHONUTF8: '1'
     steps:
+      - name: Require publication for main-branch maintenance
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && vars.PUBLISH_LUNAR_FEEDS != 'true'
+        run: |
+          echo '::error::Set PUBLISH_LUNAR_FEEDS=true to enable automatic publication.'
+          exit 1
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false

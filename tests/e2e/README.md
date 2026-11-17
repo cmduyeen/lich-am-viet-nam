@@ -12,6 +12,8 @@ npm test
 
 Use `PYTHON` to select a virtual-environment interpreter and `BROWSER_EXECUTABLE` to use an already installed Chrome/Edge executable instead of downloading Chromium. Set `EVIDENCE_DIR` to keep screenshots elsewhere. Default output is ignored `tests/e2e/artifacts/`. Images are native browser screenshots with no desktop chrome, mouse pointer or simulated cursor overlay.
 
+Use `CALENDAR_OUTPUT_DIR` to test a separate generated inventory (for example a future 2027-2028 build). Browser dates and the Lunar New Year event are derived from that inventory rather than a fixed year. Historical astronomy reference fixtures remain deliberately date-specific.
+
 Coverage: exactly two Vietnamese daily feeds in vi/en; inventory checksums, event counts, unique UIDs, all-day boundaries and year range; both root READMEs, the shared cover and 390px mobile layout; localized Tet events in both languages; HTTP 304; actual CLI regeneration followed by refresh without duplicate events; four timezone contexts. Temporary files and the loopback server are cleaned up on success or failure.
 
 This is evidence for this consumer and parser. It must not be labeled as a Google Calendar, Apple Calendar or Outlook subscription test. Those applications control their own refresh intervals and require separate live acceptance checks.

@@ -76,6 +76,8 @@ Ngày lễ là dịp kỷ niệm, không phải lịch nghỉ bù hoặc bảng 
 
 ## Vận hành
 
-GitHub Actions kiểm thử trước khi xuất bản, chạy hằng năm và khi mã nguồn thay đổi. Lần chạy không có thay đổi sẽ bỏ qua việc tạo và commit dữ liệu. Xem [tự động hóa](docs/AUTOMATION.md), [vận hành](docs/OPERATIONS.md) và [kiểm tra phát hành](docs/RELEASE.md).
+GitHub Actions kiểm tra cập nhật mỗi ngày và khi mã nguồn thay đổi; chỉ tạo lại lịch khi cần. Năm mới tự chuyển phạm vi sang năm hiện tại và năm kế tiếp, giữ nguyên link đăng ký. Lần chạy không có thay đổi sẽ bỏ qua việc cài thư viện, tạo lịch và commit dữ liệu.
+
+GitHub có thể tắt lịch chạy khi repo công khai không hoạt động 60 ngày. Cài bộ bảo trì một lần theo [hướng dẫn tự động hóa](docs/AUTOMATION.md) để tự bật lại và chạy bù khi máy có mạng; không cần mở ChatGPT. Máy cài bộ bảo trì cần được sử dụng và đăng nhập định kỳ. Xem thêm [vận hành](docs/OPERATIONS.md) và [kiểm tra phát hành](docs/RELEASE.md).
 
 [MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)

@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "fingerprint": "1d6df4db54db5459d4f8189d39353d8b64c00ddfe82a4da70d408d8ecf7d742d",
+  "fingerprint": "fb5687d3eba0070eb20855792da0db393faa036ff7c82a0d9c08ed61a0a7cfdc",
   "files": {
-    "index.json": "7eb3e93fe30943de329371dc7169ab487d3b198713ac30b227eb0e2176f35e6b",
+    "index.json": "5d45b31d9ce3b45251bbf7b3b23f1a5a9e5f959ea768f1b169b350e4bc7ae58f",
     "viet_lunar_en_latest.ics": "f8a5d77372c05347f4048768d2ce8fe8fc264c49db57ac061f91d8520ee427d0",
-    "viet_lunar_latest.ics": "af8963965d5fef06696c1dc52dafaff46337a6e6ef5d5301729c1bfc1279c21a"
+    "viet_lunar_latest.ics": "d3cb21af7a3a56d90794062fdbf57fc1a0592511f2d5cb9179aee5d6263f5965"
   }
 }
