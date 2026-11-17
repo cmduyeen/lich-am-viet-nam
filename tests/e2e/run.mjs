@@ -29,6 +29,9 @@ function buildCustom(color){
 }
 try{
  const inventory=JSON.parse(await fs.readFile(path.join(root,'output/index.json'),'utf8'));
+ assert.equal(inventory.length,2);
+ assert.deepEqual(new Set(inventory.map(e=>e.language)),new Set(['vi','en']));
+ assert(inventory.every(e=>e.countries.length===1 && e.countries[0]==='VN'));
  let totalEvents=0;
  for(const entry of inventory){
   const raw=await fs.readFile(path.join(root,'output',entry.file));
@@ -61,36 +64,24 @@ try{
  browser=await chromium.launch(process.env.BROWSER_EXECUTABLE?{executablePath:process.env.BROWSER_EXECUTABLE}:{});
  const context=await browser.newContext({viewport:{width:1440,height:1050},timezoneId:'America/Los_Angeles',deviceScaleFactor:1});
  const page=await context.newPage();page.on('pageerror',error=>errors.push(error.message));
- await page.goto(base+'/README.md');
- check('Root region lists collapsed by default',await page.locator('details[open]').count()===0);
- await page.locator('summary').filter({hasText:/^East Asia$/}).click();
- check('Region expands and exposes country links',await page.locator('a[href="china/README.md"]').isVisible());
- await page.locator('summary').filter({hasText:/^Southeast Asia$/}).click();
- await page.screenshot({path:path.join(evidence,'01-country-selector.png')});
- await page.getByRole('link',{name:'Tiếng Việt',exact:true}).click();
- const copyUrl=await page.locator('pre code').first().textContent();
- check('Vietnam native guide exposes one clean subscription URL',copyUrl.trim()==='https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/lunar_vn_vietnamese_vi_festivals_latest.ics');
- check('Vietnam guide keeps secondary choices collapsed',await page.locator('details[open]').count()===0);
- await page.screenshot({path:path.join(evidence,'02-vietnam-guide.png')});
- const guides=['vietnam/README.vi.md','china/README.zh-Hans.md','taiwan/README.zh-Hant.md','hong-kong/README.zh-Hant.md','macao/README.zh-Hant.md','south-korea/README.ko.md','singapore/README.zh-Hans.md','malaysia/README.ms.md'];
- for(const guide of guides){
-  await page.goto(base+'/'+guide);assert(await page.locator('pre code').first().isVisible());
-  const mobile=await context.newPage({viewport:{width:390,height:844}});
-  await mobile.setViewportSize({width:390,height:844});await mobile.goto(base+'/'+guide);
-  assert(await mobile.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),guide+' horizontal overflow');
-  if(guide==='malaysia/README.ms.md')await page.screenshot({path:path.join(evidence,'03-malaysia-guide.png')});
-  if(guide==='vietnam/README.vi.md')await mobile.screenshot({path:path.join(evidence,'04-vietnam-mobile.png')});
-  await mobile.close();
- }
- check('Eight native country guides: desktop URL visibility and 390px layout without horizontal overflow');
  async function show(feed,date){await page.goto(`${base}/viewer?feed=${encodeURIComponent(feed)}&date=${date}`);await page.waitForFunction(()=>window.ready===true);}
- await show('/output/lunar_hk_chinese_zh-Hant_festivals_latest.ics','2026-05-01');
- check('HK May 24 renders both Buddha and Tam Kung festivals',await page.locator('.fc-daygrid-day[data-date="2026-05-24"] .fc-event').count()===2);
- await page.screenshot({path:path.join(evidence,'05-hong-kong-calendar.png')});
- await show('/output/lunar_kr_korean_ko_festivals_latest.ics','2026-09-01');
- for(const date of ['2026-09-24','2026-09-25','2026-09-26'])assert(await page.locator(`.fc-daygrid-day[data-date="${date}"] .fc-event`).count()>=1,date);
- check('Korean Chuseok spans its three separate all-day dates in the rendered calendar');
- await page.screenshot({path:path.join(evidence,'06-korea-calendar.png')});
+ for(const [guide,language] of [['README.md','vi'],['README.en.md','en']]){
+  await page.goto(base+'/'+guide);
+  check(language+' README has only Vietnamese/English feed URLs', (await page.locator('pre code').first().textContent()).trim().endsWith('viet_lunar_latest.ics'));
+  check(language+' shared cover loads',await page.locator('img').evaluate(img=>img.complete && img.naturalWidth>0));
+  await page.screenshot({path:path.join(evidence,'readme-'+language+'.png')});
+  await page.setViewportSize({width:390,height:844});
+  check(language+' README fits mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+  await page.screenshot({path:path.join(evidence,'readme-'+language+'-mobile.png')});
+  await page.setViewportSize({width:1440,height:1050});
+ }
+ for(const [language,file] of [['vi','viet_lunar_latest.ics'],['en','viet_lunar_en_latest.ics']]){
+  await show('/output/'+file,'2026-02-01');
+  check(language+' Tet is one all-day event',await page.locator('.fc-daygrid-day[data-date="2026-02-17"] .fc-event').count()===1);
+  const title=await page.locator('.fc-daygrid-day[data-date="2026-02-17"] .fc-event').textContent();
+  check(language+' localized Tet title',title.includes(language==='vi'?'T\u1ebft':'Lunar New Year'));
+  await page.screenshot({path:path.join(evidence,'calendar-'+language+'.png')});
+ }
  await show('/custom.ics','2026-02-01');
  const before=await page.evaluate(()=>window.calendar.getEvents().map(e=>[e.id,e.startStr,e.endStr]));
  await page.evaluate(()=>window.refreshFeed());
@@ -103,11 +94,11 @@ try{
  await page.screenshot({path:path.join(evidence,'07-custom-subscription.png')});
  for(const zone of ['Asia/Ho_Chi_Minh','Asia/Shanghai','Asia/Seoul','America/New_York']){
   const zoneContext=await browser.newContext({timezoneId:zone});const zonePage=await zoneContext.newPage();
-  await zonePage.goto(`${base}/viewer?feed=/output/lunar_us_vietnamese_en_festivals_latest.ics&date=2026-02-01`);await zonePage.waitForFunction(()=>window.ready);
-  const value=await zonePage.evaluate(()=>window.calendar.getEvents().find(e=>e.extendedProps.identity==='lunar_new_year').startStr);
+  await zonePage.goto(`${base}/viewer?feed=/output/viet_lunar_en_latest.ics&date=2026-02-01`);await zonePage.waitForFunction(()=>window.ready);
+  const value=await zonePage.evaluate(()=>window.calendar.getEvents().find(e=>e.id==='vnlunar-en-20260217@cmduyeen').startStr);
   assert.equal(value,'2026-02-17',zone);await zoneContext.close();
  }
- check('Four browser timezones preserve the source all-day date, including US residence feeds');
+ check('Four browser timezones preserve the source all-day date, in the English Vietnamese feed');
  assert.deepEqual(errors,[]);check('No browser JavaScript errors');
  await fs.writeFile(path.join(evidence,'results.json'),JSON.stringify({status:'passed',feeds:inventory.length,events:totalEvents,checks,screenshots:'Browser-native capture; no pointer overlay',scope:'Local actual ICS + ICAL.js + FullCalendar. Not Google/Apple/Outlook subscription certification.'},null,2)+'\n');
  console.log(JSON.stringify({status:'passed',feeds:inventory.length,events:totalEvents,checks:checks.length,evidence},null,2));

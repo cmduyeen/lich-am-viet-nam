@@ -1,17 +1,12 @@
-# Global Lunar Calendars
+# Vietnamese Lunar Calendar
 
-> Offline Python generation of traditional lunar calendars, with stable ICS subscription URLs and English/native-language country guides.
+> Vietnamese lunar dates in GMT+7, displayed in Vietnamese or English. One daily event includes the lunar date and selected observances.
 
-## Documentation
-- [Calendar directory](README.md): VN, CN, TW, HK, MO, KR, and Chinese-tradition SG/MY; US communities reuse source calendars.
-- [Vietnamese calendar, English](vietnam/README.md)
-- [Vietnamese calendar, Vietnamese](vietnam/README.vi.md)
-- [Daily Vietnamese customization](README.en.md): holiday selection and private annual dates.
-- [Festival sources](docs/FESTIVALS.md)
-- [Daily Vietnamese observances](docs/HOLIDAYS.md)
-- [Automation](docs/AUTOMATION.md): annual schedule, freshness checks and optional external maintenance.
-- [Release checklist](docs/RELEASE.md): remaining native-language and live calendar-app review.
+- [Vietnamese guide](README.md)
+- [English guide](README.en.md)
+- [Holiday catalog](docs/HOLIDAYS.md)
+- [Operations](docs/OPERATIONS.md)
+- [Automation](docs/AUTOMATION.md)
 - [Security](SECURITY.md)
 
-## Behavior
-Default feeds retain the current and next year. Snapshots and ZIPs require explicit --split --output-dir exports. Existing Vietnamese/English latest URLs remain stable. Calendar dates are traditional observances, not substitute-day or statutory leave schedules. New feeds require publication to main. Private dates must remain in ignored local files. No production web server, paid service or AI runtime is required.
+Default subscriptions: output/viet_lunar_latest.ics and output/viet_lunar_en_latest.ics. Both cover the current year and next year. Personal dates stay in ignored local files. Observances are not statutory leave schedules. No web server or AI runtime is required.

@@ -14,7 +14,7 @@ class FakeGitHub:
     def content(self,repo,path):
         if path.endswith('main.yml'):return 'python3 src/release_state.py --check' if self.ready else 'old workflow'
         if path=='output/index.json':
-            return json.dumps([{'file':f'{code}_latest.ics','countries':[code],'start_year':self.coverage,'end_year':self.coverage+1} for code in ('VN','CN','TW','HK','MO','KR','SG','MY')])
+            return json.dumps([{'file': name, 'countries': ['VN'], 'language': language, 'start_year': self.coverage, 'end_year': self.coverage + 1} for name, language in (('viet_lunar_latest.ics', 'vi'), ('viet_lunar_en_latest.ics', 'en'))])
         raise AssertionError(path)
     def enable(self,repo):self.writes.append('enable')
     def dispatch(self,repo):self.writes.append('dispatch')
