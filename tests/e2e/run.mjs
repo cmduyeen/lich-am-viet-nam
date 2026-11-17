@@ -68,7 +68,7 @@ try{
  for(const [guide,language] of [['README.md','vi'],['README.en.md','en']]){
   await page.goto(base+'/'+guide);
   check(language+' README has only Vietnamese/English feed URLs', (await page.locator('pre code').first().textContent()).trim().endsWith('viet_lunar_latest.ics'));
-  check(language+' shared cover loads',await page.locator('img').evaluate(img=>img.complete && img.naturalWidth>0));
+  check(language+' shared cover loads',await page.locator('img[src="assets/lunar-calendar-cover.png"]').evaluate(img=>img.complete && img.naturalWidth>0));
   await page.screenshot({path:path.join(evidence,'readme-'+language+'.png')});
   await page.setViewportSize({width:390,height:844});
   check(language+' README fits mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));

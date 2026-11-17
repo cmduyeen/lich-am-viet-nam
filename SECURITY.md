@@ -14,7 +14,7 @@
   giá trị tìm thấy và không tải báo cáo thô lên artifact. Quét bí mật không
   thể bảo đảm phát hiện mọi dữ liệu nhạy cảm.
 - Workflow cập nhật dùng `GITHUB_TOKEN` do GitHub cấp cho lần chạy. Không cần
-  thêm token cá nhân vào mã. Actions được ghim theo commit, thư viện Python
+  thêm token cá nhân vào mã. Checkout và thiết lập Python được ghim theo commit, thư viện Python
   được ghim phiên bản và hash; Dependabot đề xuất cập nhật hằng tháng.
 - Nếu một khóa thật đã bị công khai, thu hồi hoặc thay khóa trước. Xóa tệp
   hiện tại không xóa được khóa khỏi lịch sử Git. Không đăng khóa vào issue,
@@ -33,7 +33,7 @@ The publishing workflow stages only standard public calendar filenames. Publicly
 hosted personal calendars are readable by anyone. Gitleaks scans Git history on
 pull requests and pushes to `main`; findings are fully redacted and raw reports
 are not uploaded. The update job uses GitHub's temporary `GITHUB_TOKEN`, not a
-personal token stored in source. Actions are pinned to commits, Python packages
+personal token stored in source. Checkout and Python setup are pinned to commits, Python packages
 to versions and hashes; Dependabot proposes monthly upgrades.
 
 Revoke or rotate any exposed credential first. Deleting a file does not remove

@@ -1,12 +1,33 @@
 import subprocess
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
-from src.publication import stage_public_outputs
+from src.publication import stage_public_outputs, public_paths
 
 
 class PublicationTests(unittest.TestCase):
+    def test_inventory_and_state_are_published_without_unrelated_private_files(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root = Path(folder)
+            subprocess.run(['git', 'init', '-q', folder], check=True)
+            output = root / 'output'
+            output.mkdir()
+            names = ('viet_lunar_latest.ics', 'viet_lunar_en_latest.ics')
+            for name in (*names, 'personal.ics', 'credentials.json', '.build-state.json'):
+                (output / name).write_text('test')
+            (output / 'index.json').write_text(json.dumps([{'file': name} for name in names]))
+            self.assertEqual(set(public_paths(root)), {
+                'output/viet_lunar_latest.ics', 'output/viet_lunar_en_latest.ics',
+                'output/index.json', 'output/.build-state.json',
+            })
+            (output / 'index.json').write_text(json.dumps([{'file': 'personal.ics'}]))
+            with self.assertRaisesRegex(ValueError, 'keep custom feeds local'):
+                stage_public_outputs(root)
+            staged = subprocess.check_output(['git', 'diff', '--cached', '--name-only'], cwd=root)
+            self.assertEqual(staged, b'')
+
     def test_only_standard_exports_are_staged_including_retired_files(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)

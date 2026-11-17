@@ -129,7 +129,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: lunar-calendar-candidates
-          path: output/
+          path: |
+            output/viet_lunar_latest.ics
+            output/viet_lunar_en_latest.ics
+            output/index.json
+            output/.build-state.json
           include-hidden-files: true
           retention-days: 3
       - name: Publish reviewed feeds only when different
@@ -139,7 +143,7 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A output/
+          python -m src.publication --stage
           if ! git diff --cached --quiet; then
             git commit -m "chore: update reviewed lunar calendar feeds"
             auth=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)

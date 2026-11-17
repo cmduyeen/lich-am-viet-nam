@@ -9,6 +9,6 @@ Public scope: Vietnamese lunar dates, displayed in Vietnamese and English. Only 
 - Require GitHub CI on the pushed commit before merging.
 - Live Google Calendar, Apple Calendar and Outlook subscription/refresh checks still require separate acceptance testing.
 
-Historical multi-country evidence under docs/evidence predates this scope reduction; it is not current product documentation. Local consumer checks write current results into ignored tests/e2e/artifacts.
+Local consumer checks write current results into ignored tests/e2e/artifacts. The two root READMEs link to the author's actual Google Calendar screen recordings under assets/videos, with language-specific screenshots under assets/screenshots.
 
-Local verification after scope reduction: 104 Python tests passed; independent browser/ICAL.js consumer passed 16 checks on 2 feeds and 1,460 daily events for 2026-2027. Dependency installation and GitHub CI were not rerun in this network-restricted session.
+Final local verification: 105 Python tests passed; independent browser/ICAL.js consumer passed 16 checks on 2 feeds and 1,460 daily events for 2026-2027. Gitleaks found no secrets in current files or Git history. The author's screenshots and recordings are preserved as supplied. Dependency installation and GitHub CI were not rerun in this network-restricted session.
