@@ -29,9 +29,11 @@ Paste one URL into **Add calendar from URL / Subscribe** in Google Calendar, App
 3. Next to **Other calendars**, click **+ → From URL**.
 4. Paste the URL and click **Add calendar**. Find it under **Other calendars**.
 
-[![Vietnamese lunar dates in English in Google Calendar](assets/screenshots/google-calendar-en.png)](assets/videos/google-calendar-en.mp4)
+![Vietnamese lunar dates in English in Google Calendar](assets/screenshots/google-calendar-en.png)
 
-**[▶ Watch / download the Google Calendar screen recording](assets/videos/google-calendar-en.mp4)**
+**Google Calendar screen recording**
+
+https://github.com/user-attachments/assets/37bef49a-dff3-42a1-b842-bd1d1a16d44e
 
 Subscribe on your computer first, then use the Google Calendar app with the same account on your phone. See [Google's instructions](https://support.google.com/calendar/answer/37100?hl=en).
 
@@ -74,6 +76,6 @@ Observances are not substitute-day or statutory leave schedules. See the [holida
 
 ## Maintenance
 
-GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md), [release checks](docs/RELEASE.md) and [security](SECURITY.md).
+GitHub Actions tests before publication and runs annually and on source changes. Unchanged scheduled runs skip generation and data commits. See [automation](docs/AUTOMATION.md), [operations](docs/OPERATIONS.md) and [release checks](docs/RELEASE.md).
 
 [MIT](LICENSE) · [cmduyeen](https://github.com/cmduyeen)

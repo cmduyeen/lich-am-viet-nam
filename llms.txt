@@ -7,6 +7,5 @@
 - [Holiday catalog](docs/HOLIDAYS.md)
 - [Operations](docs/OPERATIONS.md)
 - [Automation](docs/AUTOMATION.md)
-- [Security](SECURITY.md)
 
 Default subscriptions: output/viet_lunar_latest.ics and output/viet_lunar_en_latest.ics. Both cover the current year and next year. Personal dates stay in ignored local files. Observances are not statutory leave schedules. No web server or AI runtime is required.
