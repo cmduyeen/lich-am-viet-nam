@@ -1,79 +1,184 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lịch Âm Việt Nam Studio — Tùy chỉnh &amp; Tạo file .ics Âm Lịch</title>
-  <meta name="description" content="Công cụ trực tuyến miễn phí giúp tùy chỉnh Lịch Âm Việt Nam (.ics) cho Google Calendar, Apple Calendar, Outlook. Hỗ trợ thêm ngày giỗ, sinh nhật âm lịch, đổi ngày Âm - Dương GMT+7." />
+  <title>Lịch Âm Việt Nam Studio — Tùy chỉnh &amp; Tạo file .ics Âm Lịch (GMT+7)</title>
+  <meta name="description" content="Công cụ trực tuyến miễn phí tùy chỉnh Lịch Âm Việt Nam (.ics) chuẩn GMT+7 cho Google Calendar, Apple Calendar, Outlook. Thêm ngày giỗ, sinh nhật âm lịch, đổi ngày Âm - Dương." />
   <meta property="og:title" content="Lịch Âm Việt Nam Studio — Tùy chỉnh Lịch Âm (.ics)" />
   <meta property="og:description" content="Tạo lịch âm cá nhân hóa chuẩn thiên văn GMT+7, thêm ngày giỗ, sinh nhật âm lịch và tải file .ics hoặc đăng ký link tự động." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://cmduyeen.github.io/lich-am-viet-nam/" />
   <link rel="canonical" href="https://cmduyeen.github.io/lich-am-viet-nam/" />
+  <link rel="icon" href="https://cmduyeen.github.io/favicon.svg?v=2" type="image/svg+xml" />
+  <script>
+    (()=>{try{const t=localStorage.getItem("dyn-theme");if(t==="light"||t==="dark"){document.documentElement.setAttribute("data-theme",t)}else{const d=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";document.documentElement.setAttribute("data-theme",d)}}catch(_){document.documentElement.setAttribute("data-theme","light")}})();
+  </script>
   <style>
+    /* ==========================================================================
+       Stardew Valley Cozy Engineering Design System (~/dyn)
+       ========================================================================== */
     :root {
       color-scheme: light;
-      --bg: #f7eed6;
-      --panel: #fff8e7;
-      --border: #d6ba8a;
-      --text: #3e2723;
-      --muted: #795548;
-      --accent: #4f8f3c;
-      --accent-hover: #3f782e;
-      --accent-soft: rgba(79, 143, 60, 0.12);
-      --code-bg: #efe0bc;
-      --shadow: 3px 3px 0 rgba(143, 86, 59, 0.22);
+      --bg-void: #f7eed6;
+      --bg-surface: #fff8e7;
+      --bg-elevated: #efe0bc;
+      --border-subtle: #d6ba8a;
+      --border-strong: #8f563b;
+      --text-primary: #3e2723;
+      --text-secondary: #5d4037;
+      --text-muted: #795548;
+      --accent-emerald: #2e6f28;
+      --accent-emerald-hover: #23581e;
+      --accent-emerald-soft: rgba(46, 111, 40, 0.12);
+      --accent-cyan: #92400e;
+      --accent-cyan-soft: rgba(146, 64, 14, 0.12);
+      --header-bg: rgba(247, 238, 214, 0.94);
       --grid-dot: rgba(143, 86, 59, 0.14);
-      --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      --shadow-card: 3px 3px 0 rgba(143, 86, 59, 0.22);
+      --shadow-btn: 2px 2px 0 var(--border-strong);
+      --radius-sm: 4px;
+      --radius-md: 6px;
+      --radius-lg: 8px;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+      --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+      /* Compatibility aliases */
+      --bg: var(--bg-void);
+      --panel: var(--bg-surface);
+      --border: var(--border-subtle);
+      --text: var(--text-primary);
+      --muted: var(--text-muted);
+      --accent: var(--accent-emerald);
+      --accent-hover: var(--accent-emerald-hover);
+      --accent-soft: var(--accent-emerald-soft);
+      --code-bg: var(--bg-elevated);
+      --shadow: var(--shadow-card);
     }
 
-    @media (prefers-color-scheme: dark) {
-      :root {
-        color-scheme: dark;
-        --bg: #1f1916;
-        --panel: #2a221d;
-        --border: #5c4332;
-        --text: #f5ebd6;
-        --muted: #a69076;
-        --accent: #7ec850;
-        --accent-hover: #96d96c;
-        --accent-soft: rgba(126, 200, 80, 0.14);
-        --code-bg: #362c25;
-        --shadow: 3px 3px 0 rgba(0, 0, 0, 0.45);
-        --grid-dot: rgba(156, 113, 81, 0.14);
-      }
+    [data-theme="dark"] {
+      color-scheme: dark;
+      --bg-void: #1f1916;
+      --bg-surface: #2a221d;
+      --bg-elevated: #362c25;
+      --border-subtle: #5c4332;
+      --border-strong: #9c7151;
+      --text-primary: #f5ebd6;
+      --text-secondary: #d7c4a5;
+      --text-muted: #a69076;
+      --accent-emerald: #7ec850;
+      --accent-emerald-hover: #96d96c;
+      --accent-emerald-soft: rgba(126, 200, 80, 0.14);
+      --accent-cyan: #eab308;
+      --accent-cyan-soft: rgba(234, 179, 8, 0.14);
+      --header-bg: rgba(31, 25, 22, 0.94);
+      --grid-dot: rgba(156, 113, 81, 0.14);
+      --shadow-card: 3px 3px 0 rgba(0, 0, 0, 0.45);
+      --shadow-btn: 2px 2px 0 #000;
+
+      --bg: var(--bg-void);
+      --panel: var(--bg-surface);
+      --border: var(--border-subtle);
+      --text: var(--text-primary);
+      --muted: var(--text-muted);
+      --accent: var(--accent-emerald);
+      --accent-hover: var(--accent-emerald-hover);
+      --accent-soft: var(--accent-emerald-soft);
+      --code-bg: var(--bg-elevated);
+      --shadow: var(--shadow-card);
     }
 
     * { box-sizing: border-box; }
 
+    html {
+      background: var(--bg-void);
+      scroll-behavior: smooth;
+    }
+
+    ::selection {
+      background: var(--accent-emerald);
+      color: #fff8e7;
+    }
+    [data-theme="dark"] ::selection {
+      background: var(--accent-emerald);
+      color: #1f1916;
+    }
+
     body {
       margin: 0;
       font-family: var(--font-sans);
-      background-color: var(--bg);
+      background-color: var(--bg-void);
       background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
       background-size: 24px 24px;
-      color: var(--text);
+      color: var(--text-primary);
       min-height: 100vh;
-      line-height: 1.55;
+      line-height: 1.6;
       -webkit-font-smoothing: antialiased;
+      transition: background-color 0.2s ease, color 0.2s ease;
     }
 
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a {
+      color: var(--accent-cyan);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 0.2em;
+      transition: color 0.15s ease;
+    }
+    a:hover {
+      color: var(--accent-emerald);
+      text-decoration-thickness: 2px;
+    }
 
     header {
-      padding: 16px 24px;
-      border-bottom: 1px solid var(--border);
+      padding: 12px 24px;
+      border-bottom: 1px solid var(--border-subtle);
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
       gap: 12px;
-      background: var(--panel);
+      background: var(--header-bg);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
       position: sticky;
       top: 0;
       z-index: 20;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-title-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .site-link {
+      font-family: var(--font-mono);
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+    }
+    .site-link .prompt {
+      color: var(--accent-emerald);
+      margin-right: 2px;
+    }
+    .site-link:hover {
+      color: var(--accent-cyan);
+      text-decoration: none;
+    }
+
+    .brand-divider {
+      color: var(--border-strong);
+      font-weight: 700;
+      opacity: 0.6;
     }
 
     .brand h1 {
@@ -81,12 +186,27 @@
       font-size: 1.15rem;
       font-weight: 700;
       letter-spacing: -0.015em;
+      color: var(--text-primary);
+    }
+
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 2px 7px;
+      border-radius: var(--radius-sm);
+      font-size: 0.68rem;
+      font-weight: 700;
+      font-family: var(--font-mono);
+      background: var(--accent-emerald-soft);
+      color: var(--accent-emerald);
+      border: 1px solid var(--border-subtle);
+      letter-spacing: 0.03em;
     }
 
     .brand p {
       margin: 2px 0 0;
-      font-size: 0.84rem;
-      color: var(--muted);
+      font-size: 0.83rem;
+      color: var(--text-muted);
     }
 
     .header-actions {
@@ -98,41 +218,61 @@
 
     .btn {
       appearance: none;
-      border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--text);
-      padding: 7px 13px;
-      border-radius: 8px;
-      font-size: 0.84rem;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 0.83rem;
       font-weight: 600;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
-    }
-
-    .btn:hover {
-      border-color: var(--accent);
-      color: var(--accent);
+      box-shadow: var(--shadow-btn);
+      transition: all 0.1s ease;
+      user-select: none;
       text-decoration: none;
     }
 
+    .btn:hover {
+      background: var(--bg-elevated);
+      color: var(--accent-cyan);
+      border-color: var(--border-strong);
+      text-decoration: none;
+    }
+
+    .btn:active {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0 var(--border-strong);
+    }
+
     .btn-primary {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #FFFFFF;
+      background: var(--accent-emerald);
+      border-color: var(--accent-emerald);
+      color: #fff8e7;
+      box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.35);
     }
 
     .btn-primary:hover {
-      background: var(--accent-hover);
-      border-color: var(--accent-hover);
-      color: #FFFFFF;
+      background: var(--accent-emerald-hover);
+      border-color: var(--accent-emerald-hover);
+      color: #fff8e7;
+    }
+
+    .btn-primary:active {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.35);
+    }
+
+    .btn-icon {
+      padding: 6px 9px;
+      font-size: 0.95rem;
     }
 
     .btn-sm {
-      padding: 5px 10px;
-      font-size: 0.78rem;
+      padding: 4px 8px;
+      font-size: 0.77rem;
     }
 
     .steps-bar {
@@ -141,7 +281,7 @@
       padding: 0 20px;
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 10px;
+      gap: 12px;
     }
 
     @media (max-width: 900px) {
@@ -149,26 +289,27 @@
     }
 
     .step-chip {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 10px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
       padding: 10px 14px;
       font-size: 0.83rem;
-      color: var(--muted);
+      color: var(--text-muted);
       display: flex;
       align-items: center;
       gap: 10px;
       min-width: 0;
+      box-shadow: 2px 2px 0 var(--shadow-card);
     }
 
-    .step-chip strong { color: var(--text); }
+    .step-chip strong { color: var(--text-primary); }
 
     .step-num {
       width: 24px;
       height: 24px;
-      border-radius: 999px;
-      background: var(--accent-soft);
-      color: var(--accent);
+      border-radius: var(--radius-sm);
+      background: var(--accent-emerald);
+      color: #fff8e7;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -176,6 +317,10 @@
       font-size: 0.76rem;
       flex-shrink: 0;
       font-family: var(--font-mono);
+      box-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+    }
+    [data-theme="dark"] .step-num {
+      color: #1f1916;
     }
 
     main {
@@ -196,11 +341,11 @@
       min-width: 0;
       display: flex;
       flex-direction: column;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 14px;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
       padding: 18px;
-      box-shadow: var(--shadow);
+      box-shadow: var(--shadow-card);
     }
 
     .card-header {
@@ -209,14 +354,15 @@
       justify-content: space-between;
       gap: 8px;
       margin-bottom: 12px;
-      border-bottom: 1px solid var(--border);
-      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-subtle);
+      padding-bottom: 10px;
     }
 
     .card-header h2 {
       margin: 0;
       font-size: 0.98rem;
       font-weight: 700;
+      color: var(--text-primary);
     }
 
     label.field-label {
@@ -224,7 +370,7 @@
       font-size: 0.8rem;
       font-weight: 600;
       margin: 11px 0 5px;
-      color: var(--text);
+      color: var(--text-primary);
     }
 
     .row-2 {
@@ -240,17 +386,18 @@
     textarea {
       width: 100%;
       padding: 8px 10px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: var(--code-bg);
-      color: var(--text);
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-elevated);
+      color: var(--text-primary);
       font-size: 0.85rem;
       font-family: inherit;
+      transition: border-color 0.15s ease, outline 0.15s ease;
     }
 
     input:focus, select:focus, textarea:focus {
-      outline: 2px solid var(--accent-soft);
-      border-color: var(--accent);
+      outline: 2px solid var(--accent-emerald-soft);
+      border-color: var(--accent-emerald);
     }
 
     .chip-group {
@@ -265,29 +412,39 @@
       align-items: center;
       gap: 5px;
       padding: 5px 9px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--code-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      background: var(--bg-elevated);
       font-size: 0.78rem;
       cursor: pointer;
       user-select: none;
+      transition: all 0.12s ease;
+    }
+
+    .chip-toggle:hover {
+      border-color: var(--border-strong);
+      background: var(--bg-surface);
     }
 
     .chip-toggle.active {
-      border-color: var(--accent);
-      background: var(--accent-soft);
-      color: var(--accent);
+      border-color: var(--accent-emerald);
+      background: var(--accent-emerald);
+      color: #fff8e7;
       font-weight: 600;
+      box-shadow: 1px 1px 0 rgba(0,0,0,0.2);
+    }
+    [data-theme="dark"] .chip-toggle.active {
+      color: #1f1916;
     }
 
     .chip-toggle input { display: none; }
 
     .custom-events-box {
       margin-top: 10px;
-      padding: 10px;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      background: var(--code-bg);
+      padding: 12px;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      background: var(--bg-elevated);
     }
 
     .custom-event-list {
@@ -305,14 +462,14 @@
       justify-content: space-between;
       gap: 8px;
       padding: 6px 8px;
-      border: 1px solid var(--border);
-      border-radius: 7px;
-      background: var(--panel);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm);
+      background: var(--bg-surface);
       font-size: 0.78rem;
     }
 
     .custom-event-meta {
-      color: var(--muted);
+      color: var(--text-muted);
       font-family: var(--font-mono);
       font-size: 0.73rem;
     }
@@ -325,20 +482,31 @@
     }
 
     .tab-btn {
-      padding: 6px 11px;
-      border-radius: 8px;
-      border: 1px solid var(--border);
-      background: var(--bg);
-      color: var(--muted);
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-strong);
+      background: var(--bg-surface);
+      color: var(--text-muted);
       font-size: 0.8rem;
       font-weight: 600;
       cursor: pointer;
+      box-shadow: 1px 1px 0 var(--border-strong);
+      transition: all 0.1s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--accent-cyan);
+      background: var(--bg-elevated);
     }
 
     .tab-btn.active {
-      background: var(--accent-soft);
-      border-color: var(--accent);
-      color: var(--accent);
+      background: var(--accent-emerald);
+      border-color: var(--accent-emerald);
+      color: #fff8e7;
+      box-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+    }
+    [data-theme="dark"] .tab-btn.active {
+      color: #1f1916;
     }
 
     .tab-pane { display: none; flex: 1; flex-direction: column; min-height: 0; }
@@ -347,10 +515,10 @@
     pre.code-box {
       margin: 0;
       padding: 12px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--code-bg);
-      color: var(--text);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-elevated);
+      color: var(--text-primary);
       font-family: var(--font-mono);
       font-size: 0.77rem;
       line-height: 1.5;
@@ -376,42 +544,43 @@
     .note-box {
       margin-top: 10px;
       padding: 10px 12px;
-      border-radius: 9px;
-      border: 1px solid var(--border);
-      border-left: 3px solid var(--accent);
-      background: var(--code-bg);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--accent-emerald);
+      background: var(--bg-elevated);
       font-size: 0.8rem;
-      color: var(--muted);
+      color: var(--text-muted);
     }
 
-    .note-box strong { color: var(--text); }
+    .note-box strong { color: var(--text-primary); }
 
     .today-banner {
       padding: 12px 14px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--code-bg);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      border-left: 4px solid var(--accent-emerald);
+      background: var(--bg-elevated);
       margin-bottom: 12px;
     }
 
     .today-lunar {
       font-size: 1.05rem;
       font-weight: 700;
-      color: var(--accent);
+      color: var(--accent-emerald);
     }
 
     .today-meta {
       font-size: 0.81rem;
-      color: var(--muted);
+      color: var(--text-muted);
       margin-top: 3px;
       font-family: var(--font-mono);
     }
 
     .converter-box {
       padding: 10px 12px;
-      border-radius: 10px;
-      border: 1px solid var(--border);
-      background: var(--code-bg);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-elevated);
       margin-bottom: 12px;
     }
 
@@ -419,14 +588,14 @@
       margin-top: 8px;
       font-size: 0.84rem;
       font-weight: 600;
-      color: var(--text);
+      color: var(--text-primary);
     }
 
     .events-preview {
       flex: 1;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      background: var(--code-bg);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      background: var(--bg-elevated);
       overflow-y: auto;
       max-height: 360px;
     }
@@ -437,7 +606,7 @@
       align-items: baseline;
       gap: 10px;
       padding: 8px 12px;
-      border-bottom: 1px solid var(--border);
+      border-bottom: 1px solid var(--border-subtle);
       font-size: 0.82rem;
     }
 
@@ -446,49 +615,150 @@
     .event-date {
       font-family: var(--font-mono);
       font-size: 0.77rem;
-      color: var(--muted);
+      color: var(--text-muted);
       white-space: nowrap;
     }
 
     .event-tag {
       font-family: var(--font-mono);
-      font-size: 0.7rem;
-      padding: 1px 6px;
-      border-radius: 5px;
-      background: var(--accent-soft);
-      color: var(--accent);
+      font-size: 0.69rem;
+      padding: 2px 7px;
+      border-radius: var(--radius-sm);
       white-space: nowrap;
+      border: 1px solid transparent;
+      font-weight: 600;
+    }
+    .event-tag-lunar {
+      background: var(--accent-emerald-soft);
+      color: var(--accent-emerald);
+      border-color: var(--accent-emerald);
+    }
+    .event-tag-solar {
+      background: var(--accent-cyan-soft);
+      color: var(--accent-cyan);
+      border-color: var(--accent-cyan);
+    }
+    .event-tag-moon {
+      background: var(--bg-surface);
+      color: var(--text-secondary);
+      border-color: var(--border-subtle);
+    }
+    .event-tag-custom {
+      background: rgba(234, 179, 8, 0.15);
+      color: #b45309;
+      border-color: #d97706;
+    }
+    [data-theme="dark"] .event-tag-custom {
+      color: #fde047;
+      border-color: #eab308;
     }
 
     .badge-count {
       font-family: var(--font-mono);
       font-size: 0.76rem;
-      color: var(--muted);
+      color: var(--text-muted);
+    }
+
+    .footer-grass {
+      width: 100%;
+      height: 10px;
+      background-image:
+        linear-gradient(90deg, var(--accent-emerald) 4px, transparent 4px),
+        linear-gradient(90deg, #7ec850 3px, transparent 3px);
+      background-size: 14px 10px, 22px 6px;
+      background-position: 0 0, 6px 4px;
+      background-repeat: repeat-x;
+      opacity: 0.55;
+      margin-top: 24px;
     }
 
     footer {
       max-width: 1560px;
       margin: 0 auto 28px;
-      padding: 0 20px;
+      padding: 14px 20px 0;
       font-size: 0.82rem;
-      color: var(--muted);
+      color: var(--text-muted);
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      gap: 10px;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-left {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .footer-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .footer-top-link {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border-strong);
+      background: var(--bg-surface);
+      color: var(--text-primary);
+      box-shadow: var(--shadow-btn);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1rem;
+      cursor: pointer;
+      z-index: 50;
+      transition: all 0.15s ease;
+    }
+    .back-to-top.visible {
+      display: flex;
+    }
+    .back-to-top:hover {
+      background: var(--bg-elevated);
+      color: var(--accent-emerald);
+      transform: translateY(-2px);
+    }
+    .back-to-top:active {
+      transform: translate(1px, 1px);
+      box-shadow: 1px 1px 0 var(--border-strong);
     }
   </style>
 </head>
-<body>
+<body id="top">
   <header>
     <div class="brand">
-      <h1 id="uiTitle">🌙 Lịch Âm Việt Nam Studio</h1>
+      <div class="brand-title-row">
+        <a class="site-link" href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer" title="cmduyeen blog">
+          <span class="prompt">~/</span>cmduyeen
+        </a>
+        <span class="brand-divider">/</span>
+        <h1 id="uiTitle">🌙 Lịch Âm Việt Nam Studio</h1>
+        <span class="badge-pill">GMT+7</span>
+      </div>
       <p id="uiSubtitle">Tạo &amp; tùy chỉnh file lịch âm (.ics) chuẩn GMT+7 cho Google Calendar, Apple Calendar, Outlook — không cần cài app.</p>
     </div>
     <div class="header-actions">
+      <button class="btn btn-icon" id="themeSwitchBtn" type="button" aria-label="Toggle Theme" title="Chuyển chế độ Sáng / Tối">
+        <span id="themeIcon">🌓</span>
+      </button>
       <button class="btn" id="langSwitchBtn" type="button">🌐 English</button>
       <a class="btn" href="https://cmduyeen.github.io/tools/" target="_blank" rel="noopener noreferrer" id="blogLinkBtn">← Blog / Tools</a>
-      <a class="btn" href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">GitHub Repo</a>
+      <a class="btn" href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer" id="repoLinkBtn">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+        GitHub
+      </a>
       <button class="btn btn-primary" id="downloadIcsTopBtn" type="button">⬇ Tải file .ics</button>
     </div>
   </header>
@@ -661,10 +931,20 @@
     </section>
   </main>
 
+  <div class="footer-grass" aria-hidden="true"></div>
   <footer>
-    <span id="footerDev">Phát triển bởi <a href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer">Duyên (cmduyeen)</a> · Mã nguồn mở MIT tại <a href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">lich-am-viet-nam</a></span>
-    <span id="footerAlgo">Thuật toán thiên văn Jean Meeus / Hồ Ngọc Đức (GMT+7 / UTC+7) · Xử lý 100% trên trình duyệt</span>
+    <div class="footer-left">
+      <span id="footerDev">Phát triển bởi <a href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer">Duyên (cmduyeen)</a> · Mã nguồn mở MIT tại <a href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">lich-am-viet-nam</a></span>
+      <span id="footerAlgo">Thuật toán thiên văn Jean Meeus / Hồ Ngọc Đức (GMT+7 / UTC+7) · Xử lý 100% trên trình duyệt</span>
+    </div>
+    <div class="footer-right">
+      <a href="#top" class="footer-top-link" id="backToTopText">↑ Đầu trang</a>
+    </div>
   </footer>
+
+  <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top" title="Lên đầu trang">
+    ↑
+  </button>
 
   <script>
     // =========================================================================
@@ -945,6 +1225,9 @@
         previewItemsCount: "mục",
         copied: "✓ Đã sao chép",
         truncated: "\n\n... (còn nữa — nhấn 'Tải file .ics' để lấy toàn bộ)",
+        themeDarkTitle: "Chuyển sang chế độ Tối",
+        themeLightTitle: "Chuyển sang chế độ Sáng",
+        backToTop: "↑ Đầu trang",
         footerDev: 'Phát triển bởi <a href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer">Duyên (cmduyeen)</a> · Mã nguồn mở MIT tại <a href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">lich-am-viet-nam</a>',
         footerAlgo: 'Thuật toán thiên văn Jean Meeus / Hồ Ngọc Đức (GMT+7 / UTC+7) · Xử lý 100% trên trình duyệt',
         todayCalculating: "Đang tính ngày âm lịch...",
@@ -1041,6 +1324,9 @@
         previewItemsCount: "items",
         copied: "✓ Copied",
         truncated: "\n\n... (truncated — click 'Download .ics' to get the full calendar)",
+        themeDarkTitle: "Switch to Dark Mode",
+        themeLightTitle: "Switch to Light Mode",
+        backToTop: "↑ Back to top",
         footerDev: 'Developed by <a href="https://cmduyeen.github.io/" target="_blank" rel="noopener noreferrer">Duyên (cmduyeen)</a> · MIT Open Source at <a href="https://github.com/cmduyeen/lich-am-viet-nam" target="_blank" rel="noopener noreferrer">lich-am-viet-nam</a>',
         footerAlgo: 'Astronomical algorithms by Jean Meeus / Hồ Ngọc Đức (GMT+7 / UTC+7) · 100% browser-based',
         todayCalculating: "Calculating lunar date...",
@@ -1131,6 +1417,7 @@
                 if (h.m === lunar.month && h.d === lunar.day) {
                   titles.push(lang === "vi" ? h.vi : h.en);
                   tag = t.tagLunar;
+                  tagClass = "event-tag-lunar";
                 }
               }
             }
@@ -1140,6 +1427,7 @@
                 if (h.m === m && h.d === d) {
                   titles.push(lang === "vi" ? h.vi : h.en);
                   tag = tag || t.tagSolar;
+                  tagClass = tagClass || "event-tag-solar";
                 }
               }
             }
@@ -1148,9 +1436,11 @@
               if (ce.type === "lunar" && !lunar.leap && ce.month === lunar.month && ce.day === lunar.day) {
                 titles.push("★ " + ce.title);
                 tag = t.tagCustom;
+                tagClass = "event-tag-custom";
               } else if (ce.type === "solar" && ce.month === m && ce.day === d) {
                 titles.push("★ " + ce.title);
                 tag = t.tagCustom;
+                tagClass = "event-tag-custom";
               }
             }
 
@@ -1163,6 +1453,7 @@
                 summary: `${titles.join(" · ")} (${lunarLabel})`,
                 desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})`,
                 tag,
+                tagClass: tagClass || "event-tag-lunar",
               });
             } else if (content === "daily" || (content === "observances" && isSelectedDay)) {
               let prefix = "";
@@ -1170,11 +1461,13 @@
               else if (lunar.day === 15) prefix = lang === "vi" ? t.fullMoonSummary : "Full Moon (15th of lunar month)";
               else prefix = lang === "vi" ? `Âm lịch ${lunar.day}/${lunar.month}` : `Lunar day ${lunar.day}, Month ${lunar.month}`;
 
+              const isMoon = lunar.day === 1 || lunar.day === 15;
               events.push({
                 y, m, d,
-                summary: prefix + (lunar.day === 1 || lunar.day === 15 ? ` (${lunar.day}/${lunar.month})` : ""),
+                summary: prefix + (isMoon ? ` (${lunar.day}/${lunar.month})` : ""),
                 desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})`,
-                tag: lunar.day === 1 || lunar.day === 15 ? t.tagMoon : t.tagDaily,
+                tag: isMoon ? t.tagMoon : t.tagDaily,
+                tagClass: isMoon ? "event-tag-moon" : "",
               });
             }
           }
@@ -1258,7 +1551,7 @@
             <span class="event-date">${fmtIso(ev.y, ev.m, ev.d)}</span>
             <span style="margin-left:6px;">${escapeHtml(ev.summary)}</span>
           </div>
-          ${ev.tag ? `<span class="event-tag">${escapeHtml(ev.tag)}</span>` : ""}
+          ${ev.tag ? `<span class="event-tag ${ev.tagClass || ''}">${escapeHtml(ev.tag)}</span>` : ""}
         </div>
       `).join("");
     }
@@ -1292,7 +1585,7 @@
       const list = $("customEventList");
       const t = I18N[uiLang];
       if (!customEvents.length) {
-        list.innerHTML = `<div style="font-size:0.76rem;color:var(--muted);">${t.noCustomEvents}</div>`;
+        list.innerHTML = `<div style="font-size:0.76rem;color:var(--text-muted);">${t.noCustomEvents}</div>`;
         return;
       }
       list.innerHTML = customEvents.map((ev, idx) => `
@@ -1331,6 +1624,31 @@
         btn.textContent = I18N[uiLang].copied;
         setTimeout(() => { btn.textContent = old; }, 1400);
       });
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute("data-theme") || "light";
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try {
+        localStorage.setItem("dyn-theme", next);
+      } catch (_) {}
+      updateThemeIcon(next);
+    }
+
+    function updateThemeIcon(theme) {
+      const current = theme || document.documentElement.getAttribute("data-theme") || "light";
+      const btn = $("themeSwitchBtn");
+      const icon = $("themeIcon");
+      const t = I18N[uiLang];
+      if (!icon || !btn) return;
+      if (current === "dark") {
+        icon.textContent = "☀️";
+        btn.title = t.themeLightTitle;
+      } else {
+        icon.textContent = "🌙";
+        btn.title = t.themeDarkTitle;
+      }
     }
 
     function applyUiLanguage(targetLang) {
@@ -1422,7 +1740,10 @@
       // Footer
       $("footerDev").innerHTML = t.footerDev;
       $("footerAlgo").innerHTML = t.footerAlgo;
+      const btt = $("backToTopText");
+      if (btt) btt.textContent = t.backToTop;
 
+      updateThemeIcon();
       renderCustomEvents();
       updateTodayAndLookup();
       generateCalendar();
@@ -1507,6 +1828,21 @@
       applyUiLanguage(uiLang === "vi" ? "en" : "vi");
     });
 
+    // Theme switch button
+    $("themeSwitchBtn")?.addEventListener("click", toggleTheme);
+
+    // Back to top scroll listener
+    window.addEventListener("scroll", () => {
+      const btn = $("back-to-top");
+      if (btn) {
+        btn.classList.toggle("visible", window.scrollY > 280);
+      }
+    }, { passive: true });
+
+    $("back-to-top")?.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
     // Init
     (function init() {
       const now = new Date();
@@ -1525,7 +1861,11 @@
       } catch (e) {}
 
       applyUiLanguage(initialLang);
+      updateThemeIcon();
     })();
+  </script>
+</body>
+</html>
   </script>
 </body>
 </html>
