@@ -12,32 +12,36 @@
   <link rel="canonical" href="https://cmduyeen.github.io/lich-am-viet-nam/" />
   <style>
     :root {
-      --bg: #F6F4F0;
-      --panel: #EDEAE4;
-      --border: #E3DFD7;
-      --text: #3D3A36;
-      --muted: #5C5852;
-      --accent: #914854;
-      --accent-hover: #7A3B45;
-      --accent-soft: rgba(145, 72, 84, 0.1);
-      --code-bg: #F6F4F0;
-      --shadow: 0 8px 24px rgba(61, 58, 54, 0.06);
+      color-scheme: dark;
+      --bg: #07080a;
+      --panel: #0d1015;
+      --border: rgba(56, 189, 248, 0.16);
+      --text: #f4f4f5;
+      --muted: #8b949e;
+      --accent: #10b981;
+      --accent-hover: #34d399;
+      --accent-soft: rgba(16, 185, 129, 0.12);
+      --code-bg: #050608;
+      --shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+      --grid-dot: rgba(56, 189, 248, 0.11);
       --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     }
 
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
       :root {
-        --bg: #191817;
-        --panel: #21201E;
-        --border: #2B2926;
-        --text: #C7C3BA;
-        --muted: #A39E95;
-        --accent: #C9848F;
-        --accent-hover: #DDA0AA;
-        --accent-soft: rgba(201, 132, 143, 0.12);
-        --code-bg: #161514;
-        --shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+        color-scheme: light;
+        --bg: #fafafa;
+        --panel: #ffffff;
+        --border: rgba(15, 23, 42, 0.12);
+        --text: #09090b;
+        --muted: #52525b;
+        --accent: #059669;
+        --accent-hover: #047857;
+        --accent-soft: rgba(5, 150, 105, 0.1);
+        --code-bg: #f4f4f5;
+        --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+        --grid-dot: rgba(2, 132, 199, 0.12);
       }
     }
 
@@ -46,7 +50,9 @@
     body {
       margin: 0;
       font-family: var(--font-sans);
-      background: var(--bg);
+      background-color: var(--bg);
+      background-image: radial-gradient(var(--grid-dot) 1px, transparent 1px);
+      background-size: 24px 24px;
       color: var(--text);
       min-height: 100vh;
       line-height: 1.55;
