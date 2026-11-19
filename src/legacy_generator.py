@@ -113,6 +113,14 @@ def _build_event_for_day(
         element = _STEM_ELEMENT_EN.get(stem)
         year_name = f"{element} {animal}" if element else animal
         desc_lines.append(f"Year of the {year_name}")
+        if day == 1:
+            desc_lines.append(
+                'New Moon (Lunar 1st): Traditional day for altar offerings, vegetarian meals, and peaceful blessings.'
+            )
+        elif day == 15:
+            desc_lines.append(
+                'Full Moon (Lunar 15th): Traditional day for altar offerings, vegetarian meals, and honoring ancestors.'
+            )
         desc_lines.extend(
             f"{_holiday_name(h, 'en')}: {_holiday_description(h, 'en')}"
             for h in holidays
@@ -127,6 +135,10 @@ def _build_event_for_day(
         else:
             summary = f'{day}/{m}'
         desc_lines = [f'Ngày {day} tháng {m} âm lịch ({lunar.can_chi_year})']
+        if day == 1:
+            desc_lines.append('Mùng 1 (Sóc nhật): Thắp hương gia tiên, ăn chay thanh tịnh, cầu bình an.')
+        elif day == 15:
+            desc_lines.append('Rằm (Vọng nhật): Thắp hương gia tiên, ăn chay thanh tịnh, tưởng nhớ tổ tiên.')
         desc_lines.extend(
             f'{_holiday_name(h, "vi")}: {_holiday_description(h, "vi")}'
             for h in holidays

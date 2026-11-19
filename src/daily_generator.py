@@ -47,6 +47,18 @@ def _build_event_for_day(d, lunar, dtstamp, language='vi', holidays=None):
     lines = [description]
     if lunar.is_leap_month:
         lines.append('Tháng nhuận' if language == 'vi' else 'Leap lunar month')
+    if day == 1:
+        lines.append(
+            'Mùng 1 (Sóc nhật): Thắp hương gia tiên, ăn chay thanh tịnh, cầu bình an.'
+            if language == 'vi' else
+            'New Moon (Lunar 1st): Traditional day for altar offerings, vegetarian meals, and peaceful blessings.'
+        )
+    elif day == 15:
+        lines.append(
+            'Rằm (Vọng nhật): Thắp hương gia tiên, ăn chay thanh tịnh, tưởng nhớ tổ tiên.'
+            if language == 'vi' else
+            'Full Moon (Lunar 15th): Traditional day for altar offerings, vegetarian meals, and honoring ancestors.'
+        )
     for rule in matches:
         detail = rule.description(language)
         lines.append(f'{rule.name(language)}: {detail}' if detail else rule.name(language))

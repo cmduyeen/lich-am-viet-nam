@@ -1446,12 +1446,22 @@
 
             const lunarLabel = `${pad2(lunar.day)}/${pad2(lunar.month)}${lunar.leap ? (lang === "vi" ? " (Nhuận)" : " (Leap)") : ""} ${lang === "vi" ? "ÂL" : "Lunar"}`;
             const isSelectedDay = selectedLunarDays.includes(lunar.day);
+            let moonNote = "";
+            if (lunar.day === 1) {
+              moonNote = "\n" + (lang === "vi"
+                ? "Mùng 1 (Sóc nhật): Thắp hương gia tiên, ăn chay thanh tịnh, cầu bình an."
+                : "New Moon (Lunar 1st): Traditional day for altar offerings, vegetarian meals, and peaceful blessings.");
+            } else if (lunar.day === 15) {
+              moonNote = "\n" + (lang === "vi"
+                ? "Rằm (Vọng nhật): Thắp hương gia tiên, ăn chay thanh tịnh, tưởng nhớ tổ tiên."
+                : "Full Moon (Lunar 15th): Traditional day for altar offerings, vegetarian meals, and honoring ancestors.");
+            }
 
             if (titles.length > 0) {
               events.push({
                 y, m, d,
                 summary: `${titles.join(" · ")} (${lunarLabel})`,
-                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})`,
+                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})` + moonNote,
                 tag,
                 tagClass: tagClass || "event-tag-lunar",
               });
@@ -1465,7 +1475,7 @@
               events.push({
                 y, m, d,
                 summary: prefix + (isMoon ? ` (${lunar.day}/${lunar.month})` : ""),
-                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})`,
+                desc: `${lang === "vi" ? "Âm lịch" : "Lunar"}: ${lunar.day}/${lunar.month}/${lunar.year} (${yearCanChi(lunar.year, lang)})` + moonNote,
                 tag: isMoon ? t.tagMoon : t.tagDaily,
                 tagClass: isMoon ? "event-tag-moon" : "",
               });

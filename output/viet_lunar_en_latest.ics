@@ -38,12 +38,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/11 • 15th lunar day
 DTSTART;VALUE=DATE:20260103
 DTEND;VALUE=DATE:20260104
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260103@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2025
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2025\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -230,12 +232,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/12 • First lunar day
 DTSTART;VALUE=DATE:20260119
 DTEND;VALUE=DATE:20260120
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260119@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2025
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2025\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -398,12 +402,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/12 • 15th lunar day
 DTSTART;VALUE=DATE:20260202
 DTEND;VALUE=DATE:20260203
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260202@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 12\, year 2025
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 12\, year 2025\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -581,13 +587,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/1 • Lunar New Year — Day 1
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260217@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:crimson
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 1\, year 2026\nLunar New Year 
- — Day 1: The first day of Vietnamese Lunar New Year.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 1\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.\nLunar New Year — Day 1: The first day of Vietnamese Lunar
+  New Year.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#E53935
 X-MICROSOFT-CDO-IMPORTANCE:2
 END:VEVENT
@@ -756,13 +764,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/1 • First Full Moon Festival
 DTSTART;VALUE=DATE:20260303
 DTEND;VALUE=DATE:20260304
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260303@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 1\, year 2026\nFirst Full Moo
- n Festival: The fifteenth day of the first lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 1\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nFirst Full Moon Festival: The fifteenth day of the first
+  lunar month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -950,12 +960,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/2 • First lunar day
 DTSTART;VALUE=DATE:20260319
 DTEND;VALUE=DATE:20260320
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260319@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 2\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 2\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -1118,12 +1130,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/2 • 15th lunar day
 DTSTART;VALUE=DATE:20260402
 DTEND;VALUE=DATE:20260403
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260402@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 2\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 2\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -1298,12 +1312,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/3 • First lunar day
 DTSTART;VALUE=DATE:20260417
 DTEND;VALUE=DATE:20260418
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260417@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 3\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 3\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -1471,13 +1487,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/3 • International Workers' Day
 DTSTART;VALUE=DATE:20260501
 DTEND;VALUE=DATE:20260502
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260501@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:crimson
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 3\, year 2026\nInternational 
- Workers' Day: International Workers' Day.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 3\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nInternational Workers' Day: International Workers' Day.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#E53935
 X-MICROSOFT-CDO-IMPORTANCE:2
 END:VEVENT
@@ -1665,12 +1682,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/4 • First lunar day
 DTSTART;VALUE=DATE:20260517
 DTEND;VALUE=DATE:20260518
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260517@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 4\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 4\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -1833,13 +1852,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/4 • Buddha's Birthday
 DTSTART;VALUE=DATE:20260531
 DTEND;VALUE=DATE:20260601
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260531@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 4\, year 2026\nBuddha's Birth
- day: Observed on the fifteenth day of the fourth lunar month in Vietnam.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 4\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nBuddha's Birthday: Observed on the fifteenth day of the 
+ fourth lunar month in Vietnam.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2015,12 +2036,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/5 • First lunar day
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260615@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 5\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 5\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2185,12 +2208,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/5 • 15th lunar day
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260629@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 5\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 5\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2365,12 +2390,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/6 • First lunar day
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260714@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 6\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 6\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2533,12 +2560,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/6 • 15th lunar day
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260728@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 6\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 6\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2725,12 +2754,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/7 • First lunar day
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260813@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 7\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 7\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -2893,13 +2924,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/7 • Vu Lan Festival
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260827@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 7\, year 2026\nVu Lan Festiva
- l: A Vietnamese Buddhist festival honoring parents and ancestors.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 7\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nVu Lan Festival: A Vietnamese Buddhist festival honoring
+  parents and ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3076,12 +3109,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/8 • First lunar day
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260911@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 8\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 8\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3244,13 +3279,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/8 • Mid-Autumn Festival
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20260925@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 8\, year 2026\nMid-Autumn Fes
- tival: The fifteenth day of the eighth lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 8\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nMid-Autumn Festival: The fifteenth day of the eighth lun
+ ar month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3425,12 +3462,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/9 • First lunar day
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261010@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 9\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 9\, year 2026\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3594,12 +3633,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/9 • 15th lunar day
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261024@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 9\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 9\, year 2026\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3786,12 +3827,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/10 • First lunar day
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261109@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 10\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 10\, year 2026\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -3955,13 +3998,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/10 • Ha Nguyen Festival
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261123@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 10\, year 2026\nHa Nguyen Fes
- tival: The fifteenth day of the tenth lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 10\, year 2026\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.\nHa Nguyen Festival: The fifteenth day of the tenth luna
+ r month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -4151,12 +4196,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/11 • First lunar day
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261209@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 11\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 11\, year 2026\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -4319,12 +4366,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/11 • 15th lunar day
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20261223@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2026\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -4515,12 +4564,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/12 • First lunar day
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270109
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270108@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2026\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -4683,12 +4734,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/12 • 15th lunar day
 DTSTART;VALUE=DATE:20270122
 DTEND;VALUE=DATE:20270123
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270122@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 12\, year 2026
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 12\, year 2026\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -4865,13 +4918,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/1 • Lunar New Year — Day 1
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270206@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:crimson
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 1\, year 2027\nLunar New Year 
- — Day 1: The first day of Vietnamese Lunar New Year.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 1\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.\nLunar New Year — Day 1: The first day of Vietnamese Lunar
+  New Year.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#E53935
 X-MICROSOFT-CDO-IMPORTANCE:2
 END:VEVENT
@@ -5041,13 +5096,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/1 • First Full Moon Festival
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270220@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 1\, year 2027\nFirst Full Moo
- n Festival: The fifteenth day of the first lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 1\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nFirst Full Moon Festival: The fifteenth day of the first
+  lunar month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -5234,13 +5291,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/2 • International Women's Day
 DTSTART;VALUE=DATE:20270308
 DTEND;VALUE=DATE:20270309
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270308@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 2\, year 2027\nInternational W
- omen's Day: International Women’s Day on March 8.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 2\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.\nInternational Women's Day: International Women’s Day on M
+ arch 8.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -5403,12 +5462,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/2 • 15th lunar day
 DTSTART;VALUE=DATE:20270322
 DTEND;VALUE=DATE:20270323
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270322@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 2\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 2\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -5595,12 +5656,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/3 • First lunar day
 DTSTART;VALUE=DATE:20270407
 DTEND;VALUE=DATE:20270408
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270407@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 3\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 3\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -5766,12 +5829,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/3 • 15th lunar day
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270422
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270421@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 3\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 3\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -5950,12 +6015,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/4 • First lunar day
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270506@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 4\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 4\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -6118,13 +6185,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/4 • Buddha's Birthday
 DTSTART;VALUE=DATE:20270520
 DTEND;VALUE=DATE:20270521
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270520@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 4\, year 2027\nBuddha's Birth
- day: Observed on the fifteenth day of the fourth lunar month in Vietnam.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 4\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nBuddha's Birthday: Observed on the fifteenth day of the 
+ fourth lunar month in Vietnam.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -6312,12 +6381,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/5 • First lunar day
 DTSTART;VALUE=DATE:20270605
 DTEND;VALUE=DATE:20270606
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270605@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 5\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 5\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -6481,12 +6552,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/5 • 15th lunar day
 DTSTART;VALUE=DATE:20270619
 DTEND;VALUE=DATE:20270620
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270619@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 5\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 5\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -6662,12 +6735,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/6 • First lunar day
 DTSTART;VALUE=DATE:20270704
 DTEND;VALUE=DATE:20270705
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270704@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 6\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 6\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -6830,12 +6905,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/6 • 15th lunar day
 DTSTART;VALUE=DATE:20270718
 DTEND;VALUE=DATE:20270719
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270718@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 6\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 6\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7010,12 +7087,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/7 • First lunar day
 DTSTART;VALUE=DATE:20270802
 DTEND;VALUE=DATE:20270803
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270802@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 7\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 7\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7178,13 +7257,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/7 • Vu Lan Festival
 DTSTART;VALUE=DATE:20270816
 DTEND;VALUE=DATE:20270817
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270816@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 7\, year 2027\nVu Lan Festiva
- l: A Vietnamese Buddhist festival honoring parents and ancestors.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 7\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nVu Lan Festival: A Vietnamese Buddhist festival honoring
+  parents and ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7371,12 +7452,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/8 • First lunar day
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270901@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 8\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 8\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7541,13 +7624,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/8 • Mid-Autumn Festival
 DTSTART;VALUE=DATE:20270915
 DTEND;VALUE=DATE:20270916
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270915@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 8\, year 2027\nMid-Autumn Fes
- tival: The fifteenth day of the eighth lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 8\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nMid-Autumn Festival: The fifteenth day of the eighth lun
+ ar month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7722,12 +7807,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/9 • First lunar day
 DTSTART;VALUE=DATE:20270930
 DTEND;VALUE=DATE:20271001
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20270930@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 9\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 9\, year 2027\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -7890,12 +7977,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/9 • 15th lunar day
 DTSTART;VALUE=DATE:20271014
 DTEND;VALUE=DATE:20271015
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271014@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 9\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 9\, year 2027\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -8071,12 +8160,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/10 • First lunar day
 DTSTART;VALUE=DATE:20271029
 DTEND;VALUE=DATE:20271030
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271029@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 10\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 10\, year 2027\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -8239,13 +8330,15 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/10 • Ha Nguyen Festival
 DTSTART;VALUE=DATE:20271112
 DTEND;VALUE=DATE:20271113
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271112@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 10\, year 2027\nHa Nguyen Fes
- tival: The fifteenth day of the tenth lunar month.
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 10\, year 2027\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.\nHa Nguyen Festival: The fifteenth day of the tenth luna
+ r month.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -8436,12 +8529,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/11 • First lunar day
 DTSTART;VALUE=DATE:20271128
 DTEND;VALUE=DATE:20271129
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271128@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 11\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 11\, year 2027\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -8604,12 +8699,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:15/11 • 15th lunar day
 DTSTART;VALUE=DATE:20271212
 DTEND;VALUE=DATE:20271213
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271212@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 15\, month 11\, year 2027\nFull Moon (Lu
+ nar 15th): Traditional day for altar offerings\, vegetarian meals\, and ho
+ noring ancestors.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
@@ -8798,12 +8895,14 @@ BEGIN:VEVENT
 SUMMARY;LANGUAGE=en:1/12 • First lunar day
 DTSTART;VALUE=DATE:20271228
 DTEND;VALUE=DATE:20271229
-DTSTAMP:20261117T011033Z
+DTSTAMP:20261119T001628Z
 UID:vnlunar-en-20271228@cmduyeen
-SEQUENCE:2
+SEQUENCE:3
 COLOR:darkorange
-DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2027
-LAST-MODIFIED:20261117T011033Z
+DESCRIPTION;LANGUAGE=en:Lunar day 1\, month 12\, year 2027\nNew Moon (Luna
+ r 1st): Traditional day for altar offerings\, vegetarian meals\, and peace
+ ful blessings.
+LAST-MODIFIED:20261119T001628Z
 X-LUNAR-COLOR:#FB8C00
 END:VEVENT
 BEGIN:VEVENT
