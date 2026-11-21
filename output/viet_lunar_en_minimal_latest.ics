@@ -1,0 +1,1084 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Vietnamese lunar & solar holidays, Lunar New Year, 1st (New M
+ oon) and 15th (Full Moon). Time zone: Asia/Ho_Chi_Minh (UTC+7).
+X-WR-CALNAME:Vietnamese Lunar Calendar (Minimal) 2026-2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:Lunar day 13\, Month 11 • New Year's Day
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260101@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 13/11/2025\nYear of the Wood Snake\nNew Year's Day
+ : New Year holiday.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 11 • Full Moon
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260103@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2025\nYear of the Wood Snake\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 12 • New Moon
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260119@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/12/2025\nYear of the Wood Snake\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 12 • Full Moon
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260202@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/12/2025\nYear of the Wood Snake\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 23\, Month 12 • Kitchen Gods Day
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260210@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 23/12/2025\nYear of the Wood Snake\nKitchen Gods D
+ ay: The Kitchen Gods are traditionally sent to heaven on this day.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 27\, Month 12 • Valentine's Day
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260214@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 27/12/2025\nYear of the Wood Snake\nValentine's Da
+ y: A celebration of love on February 14.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 29\, Month 12 • Lunar New Year's Eve
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260216@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 29/12/2025\nYear of the Wood Snake\nLunar New Year
+ 's Eve: The final day of the lunar year.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 1 • Lunar New Year
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260217@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 1/1/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.\nLunar New Year: The first day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 2\, Month 1 • Lunar New Year Holiday
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260218@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 2/1/2026\nYear of the Fire Horse\nLunar New Year H
+ oliday: The second day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 3\, Month 1 • Lunar New Year Holiday
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260219@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 3/1/2026\nYear of the Fire Horse\nLunar New Year H
+ oliday: The third day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 10\, Month 1 • God of Wealth Day
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260226@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 10/1/2026\nYear of the Fire Horse\nGod of Wealth D
+ ay: Traditional observance on the 10th day of the first lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 1 • Lantern Festival (First Full Moon)
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260303@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/1/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nLantern Festival (First Full Moon): The first full moon o
+ bservance of the lunar year.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 20\, Month 1 • International Women's Day
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260308@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 20/1/2026\nYear of the Fire Horse\nInternational W
+ omen's Day: International Women’s Day on March 8.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 2 • New Moon
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260319@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/2/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 2 • Full Moon
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260402@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/2/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 3 • New Moon
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260417@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/3/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 3\, Month 3 • Han Thuc Festival
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260419@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 3/3/2026\nYear of the Fire Horse\nHan Thuc Festiva
+ l: The third day of the third lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 10\, Month 3 • Hung Kings Commemoration Day
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260426@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 10/3/2026\nYear of the Fire Horse\nHung Kings Comm
+ emoration Day: Commemorates the Hung Kings on the 10th day of the third lu
+ nar month.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 14\, Month 3 • Reunification Day
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260430@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 14/3/2026\nYear of the Fire Horse\nReunification D
+ ay: Commemorates the reunification of Vietnam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 3 • International Labour Day
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260501@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 15/3/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nInternational Labour Day: International Workers Day.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 4 • New Moon
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260517@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/4/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 4 • Buddha Day
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260531@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/4/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nBuddha Day: Buddha's Birthday (15th day of the fourth lun
+ ar month).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 16\, Month 4 • Children's Day
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260601@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 16/4/2026\nYear of the Fire Horse\nChildren's Day:
+  Children’s Day\, observed on June 1 in Vietnam.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 5 • New Moon
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260615@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/5/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 5\, Month 5 • Double Fifth Festival
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260619@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 5/5/2026\nYear of the Fire Horse\nDouble Fifth Fes
+ tival: Traditional observance on the fifth day of the fifth lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 14\, Month 5 • Vietnamese Family Day
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260628@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 14/5/2026\nYear of the Fire Horse\nVietnamese Fami
+ ly Day: Vietnamese Family Day on June 28.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 5 • Full Moon
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260629@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/5/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 6 • New Moon
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260714@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/6/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 6 • Full Moon
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260728@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/6/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 7 • New Moon
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260813@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/7/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 7 • Vu Lan Festival
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260827@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/7/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nVu Lan Festival: A day of filial gratitude on the 15th da
+ y of the seventh lunar month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 21\, Month 7 • Vietnam National Day
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260902@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 21/7/2026\nYear of the Fire Horse\nVietnam Nationa
+ l Day: National Day of the Socialist Republic of Vietnam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 8 • New Moon
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260911@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/8/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 8 • Mid-Autumn Festival
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20260925@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/8/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nMid-Autumn Festival: Traditional festival on the 15th day
+  of the eighth lunar month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 9 • New Moon
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261010@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/9/2026\nYear of the Fire Horse\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 11\, Month 9 • Vietnamese Women's Day
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261020@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 11/9/2026\nYear of the Fire Horse\nVietnamese Wome
+ n's Day: Vietnamese Women’s Day on October 20.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 9 • Full Moon
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261024@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/9/2026\nYear of the Fire Horse\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 10 • New Moon
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261109@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/10/2026\nYear of the Fire Horse\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 12\, Month 10 • Vietnamese Teachers' Day
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261120@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 12/10/2026\nYear of the Fire Horse\nVietnamese Tea
+ chers' Day: Vietnamese Teachers’ Day on November 20.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 10 • Ha Nguyen Festival
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261123@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/10/2026\nYear of the Fire Horse\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.\nHa Nguyen Festival: The fifteenth day of the tenth lunar
+  month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 16\, Month 10 • Vietnam Culture Day
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261124@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 16/10/2026\nYear of the Fire Horse\nVietnam Cultur
+ e Day: Vietnam Culture Day on November 24\, effective from 2026 under Reso
+ lution 28/2026/QH16.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 11 • New Moon
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261209@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/11/2026\nYear of the Fire Horse\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 11 • Full Moon
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261223@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2026\nYear of the Fire Horse\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 16\, Month 11 • Christmas Eve
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261224@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 16/11/2026\nYear of the Fire Horse\nChristmas Eve:
+  Christmas Eve on December 24.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 17\, Month 11 • Christmas
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20261225@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 17/11/2026\nYear of the Fire Horse\nChristmas: Chr
+ istmas on December 25.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 24\, Month 11 • New Year's Day
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270101@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 24/11/2026\nYear of the Fire Horse\nNew Year's Day
+ : New Year holiday.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 12 • New Moon
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270108@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/12/2026\nYear of the Fire Horse\nNew Moon (Lunar
+  1st): Traditional day for altar offerings\, vegetarian meals\, and peacef
+ ul blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 12 • Full Moon
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270122@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/12/2026\nYear of the Fire Horse\nFull Moon (Lun
+ ar 15th): Traditional day for altar offerings\, vegetarian meals\, and hon
+ oring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 23\, Month 12 • Kitchen Gods Day
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270130@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 23/12/2026\nYear of the Fire Horse\nKitchen Gods D
+ ay: The Kitchen Gods are traditionally sent to heaven on this day.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 29\, Month 12 • Lunar New Year's Eve
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270205@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 29/12/2026\nYear of the Fire Horse\nLunar New Year
+ 's Eve: The final day of the lunar year.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 1 • Lunar New Year
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270206@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 1/1/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.\nLunar New Year: The first day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 2\, Month 1 • Lunar New Year Holiday
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270207@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 2/1/2027\nYear of the Fire Goat\nLunar New Year Ho
+ liday: The second day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 3\, Month 1 • Lunar New Year Holiday
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270208@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 3/1/2027\nYear of the Fire Goat\nLunar New Year Ho
+ liday: The third day of Lunar New Year.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 9\, Month 1 • Valentine's Day
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270214@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 9/1/2027\nYear of the Fire Goat\nValentine's Day: 
+ A celebration of love on February 14.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 10\, Month 1 • God of Wealth Day
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270215@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 10/1/2027\nYear of the Fire Goat\nGod of Wealth Da
+ y: Traditional observance on the 10th day of the first lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 1 • Lantern Festival (First Full Moon)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270220@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/1/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.\nLantern Festival (First Full Moon): The first full moon ob
+ servance of the lunar year.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 2 • International Women's Day
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270308@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/2/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.\nInternational Women's Day: International Women’s Day on Mar
+ ch 8.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 2 • Full Moon
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270322@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/2/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 3 • New Moon
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270407@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/3/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 3\, Month 3 • Han Thuc Festival
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270409@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 3/3/2027\nYear of the Fire Goat\nHan Thuc Festival
+ : The third day of the third lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 10\, Month 3 • Hung Kings Commemoration Day
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270416@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 10/3/2027\nYear of the Fire Goat\nHung Kings Comme
+ moration Day: Commemorates the Hung Kings on the 10th day of the third lun
+ ar month.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 3 • Full Moon
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270421@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/3/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 24\, Month 3 • Reunification Day
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270430@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 24/3/2027\nYear of the Fire Goat\nReunification Da
+ y: Commemorates the reunification of Vietnam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 25\, Month 3 • International Labour Day
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270501@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 25/3/2027\nYear of the Fire Goat\nInternational La
+ bour Day: International Workers Day.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 4 • New Moon
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270506@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/4/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 4 • Buddha Day
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270520@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/4/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.\nBuddha Day: Buddha's Birthday (15th day of the fourth luna
+ r month).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 27\, Month 4 • Children's Day
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270601@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 27/4/2027\nYear of the Fire Goat\nChildren's Day: 
+ Children’s Day\, observed on June 1 in Vietnam.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 5 • New Moon
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270605@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/5/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 5\, Month 5 • Double Fifth Festival
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270609@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 5/5/2027\nYear of the Fire Goat\nDouble Fifth Fest
+ ival: Traditional observance on the fifth day of the fifth lunar month.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 5 • Full Moon
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270619@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/5/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 24\, Month 5 • Vietnamese Family Day
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270628@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 24/5/2027\nYear of the Fire Goat\nVietnamese Famil
+ y Day: Vietnamese Family Day on June 28.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 6 • New Moon
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270704@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/6/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 6 • Full Moon
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270718@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/6/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 7 • New Moon
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270802@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/7/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 7 • Vu Lan Festival
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270816@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/7/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.\nVu Lan Festival: A day of filial gratitude on the 15th day
+  of the seventh lunar month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 8 • New Moon
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270901@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/8/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 2\, Month 8 • Vietnam National Day
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270902@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 2/8/2027\nYear of the Fire Goat\nVietnam National 
+ Day: National Day of the Socialist Republic of Vietnam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 8 • Mid-Autumn Festival
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270915@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/8/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.\nMid-Autumn Festival: Traditional festival on the 15th day 
+ of the eighth lunar month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 9 • New Moon
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20270930@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/9/2027\nYear of the Fire Goat\nNew Moon (Lunar 1
+ st): Traditional day for altar offerings\, vegetarian meals\, and peaceful
+  blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 9 • Full Moon
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271014@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/9/2027\nYear of the Fire Goat\nFull Moon (Lunar
+  15th): Traditional day for altar offerings\, vegetarian meals\, and honor
+ ing ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 21\, Month 9 • Vietnamese Women's Day
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271020@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 21/9/2027\nYear of the Fire Goat\nVietnamese Women
+ 's Day: Vietnamese Women’s Day on October 20.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 10 • New Moon
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271029@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/10/2027\nYear of the Fire Goat\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 10 • Ha Nguyen Festival
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271112@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/10/2027\nYear of the Fire Goat\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.\nHa Nguyen Festival: The fifteenth day of the tenth lunar 
+ month.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 23\, Month 10 • Vietnamese Teachers' Day
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271120@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 23/10/2027\nYear of the Fire Goat\nVietnamese Teac
+ hers' Day: Vietnamese Teachers’ Day on November 20.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 27\, Month 10 • Vietnam Culture Day
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271124@cmduyeen
+COLOR:crimson
+DESCRIPTION:Lunar date: 27/10/2027\nYear of the Fire Goat\nVietnam Culture
+  Day: Vietnam Culture Day on November 24\, effective from 2026 under Resol
+ ution 28/2026/QH16.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 11 • New Moon
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271128@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/11/2027\nYear of the Fire Goat\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 15\, Month 11 • Full Moon
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271212@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 15/11/2027\nYear of the Fire Goat\nFull Moon (Luna
+ r 15th): Traditional day for altar offerings\, vegetarian meals\, and hono
+ ring ancestors.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 27\, Month 11 • Christmas Eve
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271224@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 27/11/2027\nYear of the Fire Goat\nChristmas Eve: 
+ Christmas Eve on December 24.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 28\, Month 11 • Christmas
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271225@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Lunar date: 28/11/2027\nYear of the Fire Goat\nChristmas: Chri
+ stmas on December 25.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Lunar day 1\, Month 12 • New Moon
+DTSTART;VALUE=DATE:20271228
+DTEND;VALUE=DATE:20271229
+DTSTAMP:20261121T005552Z
+UID:vnlunar-en-keydays-20271228@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Lunar date: 1/12/2027\nYear of the Fire Goat\nNew Moon (Lunar 
+ 1st): Traditional day for altar offerings\, vegetarian meals\, and peacefu
+ l blessings.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+END:VCALENDAR

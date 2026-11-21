@@ -14,12 +14,16 @@ class PublicationTests(unittest.TestCase):
             subprocess.run(['git', 'init', '-q', folder], check=True)
             output = root / 'output'
             output.mkdir()
-            names = ('viet_lunar_latest.ics', 'viet_lunar_en_latest.ics')
+            names = (
+                'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics',
+                'viet_lunar_minimal_latest.ics', 'viet_lunar_en_minimal_latest.ics',
+            )
             for name in (*names, 'personal.ics', 'credentials.json', '.build-state.json'):
                 (output / name).write_text('test')
             (output / 'index.json').write_text(json.dumps([{'file': name} for name in names]))
             self.assertEqual(set(public_paths(root)), {
                 'output/viet_lunar_latest.ics', 'output/viet_lunar_en_latest.ics',
+                'output/viet_lunar_minimal_latest.ics', 'output/viet_lunar_en_minimal_latest.ics',
                 'output/index.json', 'output/.build-state.json',
             })
             (output / 'index.json').write_text(json.dumps([{'file': 'personal.ics'}]))

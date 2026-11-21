@@ -164,7 +164,7 @@ def _build_event_for_day(
 
     event = Event()
     uid_language = '-en' if options.language == 'en' else ''
-    uid_mode = '-minimal' if options.minimal else ''
+    uid_mode = '-minimal' if options.minimal else ('-keydays' if options.lunar_days == frozenset({1, 15}) else '')
     event.add('uid', f"vnlunar{uid_language}{uid_mode}-{d.strftime('%Y%m%d')}@cmduyeen")
     event.add('summary', summary)
     event.add('description', description)
@@ -197,7 +197,7 @@ class LunarCalendarGenerator:
         prodid = PRODID
         if options.language == 'en':
             prodid = '-//VietLunarCalendar//Vietnamese Lunar Calendar//EN'
-        if options.minimal:
+        if options.minimal or options.lunar_days == frozenset({1, 15}):
             name = name.replace('Vietnamese Lunar Calendar', 'Vietnamese Lunar Calendar (Minimal)').replace('Lịch Âm Việt Nam', 'Lịch Âm Việt Nam (Tối giản)')
         cal.add('prodid', prodid)
         cal.add('version', CALENDAR_VERSION)
@@ -216,6 +216,14 @@ class LunarCalendarGenerator:
                 'Traditional lunar day 15 and Lunar New Year only. Full Moon is not an astronomical instant. UTC+7.'
                 if options.language == 'en' else
                 'Chỉ ngày Rằm (15 âm lịch) và mùng 1 Tết. Rằm không phải thời điểm trăng tròn thiên văn. GMT+7.'
+            )
+        elif options.lunar_days == frozenset({1, 15}):
+            description = (
+                'Vietnamese lunar & solar holidays, Lunar New Year, 1st (New Moon) and 15th (Full Moon). '
+                'Time zone: Asia/Ho_Chi_Minh (UTC+7).'
+                if options.language == 'en' else
+                'Các ngày lễ Âm/Dương lịch Việt Nam, Tết Nguyên Đán, Mùng 1 và ngày Rằm (15 âm lịch). '
+                'Múi giờ: Asia/Ho_Chi_Minh (GMT+7).'
             )
         cal.add('x-wr-caldesc', description)
         cal.add('x-apple-calendar-color', options.calendar_color)

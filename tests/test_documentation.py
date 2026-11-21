@@ -23,9 +23,12 @@ class DocumentationTests(unittest.TestCase):
                 self.assertTrue(target.is_relative_to(ROOT))
                 self.assertTrue(target.is_file(), (name, link))
 
-    def test_only_two_vietnamese_feeds_are_documented_and_published(self):
+    def test_only_standard_vietnamese_feeds_are_documented_and_published(self):
         entries = json.loads((ROOT / 'output/index.json').read_text(encoding='utf-8'))
-        expected = {'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics'}
+        expected = {
+            'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics',
+            'viet_lunar_minimal_latest.ics', 'viet_lunar_en_minimal_latest.ics',
+        }
         self.assertEqual({e['file'] for e in entries}, expected)
         self.assertEqual({e['language'] for e in entries}, {'vi', 'en'})
         for entry in entries:
@@ -42,4 +45,5 @@ class DocumentationTests(unittest.TestCase):
                      'singapore', 'malaysia', 'united-states'):
             self.assertFalse((ROOT / name).exists(), name)
         self.assertEqual({p.name for p in (ROOT / 'output').glob('*.ics')},
-                         {'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics'})
+                         {'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics',
+                          'viet_lunar_minimal_latest.ics', 'viet_lunar_en_minimal_latest.ics'})

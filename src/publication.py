@@ -11,7 +11,7 @@ from .files import atomic_write
 
 PUBLIC_FILENAME = re.compile(
     r'(?:index\.json|\.build-state\.json|update-status\.json|viet_lunar(?:_en)?_'
-    r'(?:latest\.ics|\d{4}(?:_\d{4})?\.ics|yearly_\d{4}_\d{4}\.zip))'
+    r'(?:minimal_)?(?:latest\.ics|\d{4}(?:_\d{4})?\.ics|yearly_\d{4}_\d{4}\.zip))'
 )
 
 
@@ -32,12 +32,15 @@ def public_paths(root):
         raise ValueError('Public inventory must not be a symlink')
     if index.is_file():
         inventory = json.loads(index.read_text(encoding='utf-8'))
-        expected = {'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics'}
-        if (not isinstance(inventory, list) or len(inventory) != 2
+        expected = {
+            'viet_lunar_latest.ics', 'viet_lunar_en_latest.ics',
+            'viet_lunar_minimal_latest.ics', 'viet_lunar_en_minimal_latest.ics',
+        }
+        if (not isinstance(inventory, list) or len(inventory) != 4
                 or any(not isinstance(entry, dict) or not isinstance(entry.get('file'), str)
                        for entry in inventory)
                 or {entry.get('file') for entry in inventory} != expected):
-            raise ValueError('Only the two standard public feeds may be published; keep custom feeds local')
+            raise ValueError('Only the four standard public feeds may be published; keep custom feeds local')
     paths = []
     for name in sorted(candidates):
         if not PUBLIC_FILENAME.fullmatch(name):

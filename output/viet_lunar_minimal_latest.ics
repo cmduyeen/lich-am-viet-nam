@@ -1,0 +1,1056 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//VietLunarCalendar//Vietnamese Lunar Calendar//VI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:Các ngày lễ Âm/Dương lịch Việt Nam, Tết Nguyên 
+ Đán, Mùng 1 và ngày Rằm (15 âm lịch). Múi giờ: Asia/Ho_Chi_Mi
+ nh (GMT+7).
+X-WR-CALNAME:Lịch Âm Việt Nam (Tối giản) 2026–2027
+X-APPLE-CALENDAR-COLOR:#E53935
+X-WR-TIMEZONE:Asia/Ho_Chi_Minh
+BEGIN:VEVENT
+SUMMARY:13/11 • Tết Dương Lịch
+DTSTART;VALUE=DATE:20260101
+DTEND;VALUE=DATE:20260102
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260101@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 13 tháng 11 âm lịch (Ất Tỵ)\nTết Dương Lịc
+ h: Nghỉ Tết Dương Lịch.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/11 • Rằm
+DTSTART;VALUE=DATE:20260103
+DTEND;VALUE=DATE:20260104
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260103@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Ất Tỵ)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/12 • Mùng 1
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260119@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 12 âm lịch (Ất Tỵ)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/12 • Rằm
+DTSTART;VALUE=DATE:20260202
+DTEND;VALUE=DATE:20260203
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260202@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Ất Tỵ)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:23/12 • Cúng Ông Táo
+DTSTART;VALUE=DATE:20260210
+DTEND;VALUE=DATE:20260211
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260210@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 23 tháng 12 âm lịch (Ất Tỵ)\nCúng Ông Táo: L
+ ễ cúng tiễn Táo Quân về trời (23 tháng Chạp).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:27/12 • Lễ Tình nhân
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260214@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 27 tháng 12 âm lịch (Ất Tỵ)\nLễ Tình nhân: N
+ gày lễ tình nhân 14/2.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:29/12 • Đêm Giao Thừa
+DTSTART;VALUE=DATE:20260216
+DTEND;VALUE=DATE:20260217
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260216@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 29 tháng 12 âm lịch (Ất Tỵ)\nĐêm Giao Thừa: 
+ Đêm Giao Thừa đón năm mới âm lịch.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/1 • Mùng 1 Tết
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260217@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.\nM
+ ùng 1 Tết: Tết Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2/1 • Mùng 2 Tết
+DTSTART;VALUE=DATE:20260218
+DTEND;VALUE=DATE:20260219
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260218@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 2 tháng 1 âm lịch (Bính Ngọ)\nMùng 2 Tết: Tế
+ t Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3/1 • Mùng 3 Tết
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260219@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 3 tháng 1 âm lịch (Bính Ngọ)\nMùng 3 Tết: Tế
+ t Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10/1 • Vía Thần Tài
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260227
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260226@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 10 tháng 1 âm lịch (Bính Ngọ)\nVía Thần Tài: 
+ Ngày vía Thần Tài (Mùng 10 tháng Giêng).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/1 • Rằm Tháng Giêng (Tết Nguyên Tiêu)
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260303@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nRằm Tháng Giêng (Tết Nguyên Tiêu): Tết Nguyên Tiêu
+  — Rằm đầu năm.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:20/1 • Quốc tế Phụ nữ
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260308@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 20 tháng 1 âm lịch (Bính Ngọ)\nQuốc tế Phụ 
+ nữ: Ngày Quốc tế Phụ nữ 8/3.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/2 • Mùng 1
+DTSTART;VALUE=DATE:20260319
+DTEND;VALUE=DATE:20260320
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260319@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 2 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/2 • Rằm
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260402@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/3 • Mùng 1
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260417@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 3 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3/3 • Tết Hàn thực
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260419@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 3 tháng 3 âm lịch (Bính Ngọ)\nTết Hàn thực: 
+ Tết Hàn thực\, mùng 3 tháng 3 âm lịch.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10/3 • Giỗ Tổ Hùng Vương
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260426@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 10 tháng 3 âm lịch (Bính Ngọ)\nGiỗ Tổ Hùng V
+ ương: Ngày Giỗ Tổ Hùng Vương (10/3 âm lịch).
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:14/3 • Giải Phóng Miền Nam
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260430@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 14 tháng 3 âm lịch (Bính Ngọ)\nGiải Phóng Mi
+ ền Nam: Ngày Giải phóng miền Nam\, Thống nhất đất nước.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/3 • Quốc Tế Lao Động
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260501@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nQuốc Tế Lao Động: Ngày Quốc tế Lao động.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/4 • Mùng 1
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260517@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 4 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/4 • Lễ Phật Đản
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260531@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nLễ Phật Đản: Đại lễ Phật Đản (15/4 âm lịch
+ ).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:16/4 • Quốc tế Thiếu nhi
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260601@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 16 tháng 4 âm lịch (Bính Ngọ)\nQuốc tế Thiế
+ u nhi: Ngày Quốc tế Thiếu nhi 1/6.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/5 • Mùng 1
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260615@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 5 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5/5 • Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260619@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 5 tháng 5 âm lịch (Bính Ngọ)\nTết Đoan Ngọ: 
+ Tết Đoan Ngọ (5/5 âm lịch).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:14/5 • Gia đình Việt Nam
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260628@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 14 tháng 5 âm lịch (Bính Ngọ)\nGia đình Việt 
+ Nam: Ngày Gia đình Việt Nam 28/6.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/5 • Rằm
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260629@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/6 • Mùng 1
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260714@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 6 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/6 • Rằm
+DTSTART;VALUE=DATE:20260728
+DTEND;VALUE=DATE:20260729
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260728@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/7 • Mùng 1
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260813@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 7 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/7 • Lễ Vu Lan
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260827@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nLễ Vu Lan: Lễ Vu Lan báo hiếu (Rằm tháng 7 âm lịc
+ h).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:21/7 • Quốc Khánh
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260902@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 21 tháng 7 âm lịch (Bính Ngọ)\nQuốc Khánh: Qu
+ ốc khánh nước CHXHCN Việt Nam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/8 • Mùng 1
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260911@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 8 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/8 • Tết Trung Thu
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20260925@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nTết Trung Thu: Tết Trung Thu (Rằm tháng 8 âm lịch).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/9 • Mùng 1
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261010@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 9 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:11/9 • Phụ nữ Việt Nam
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261020@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 11 tháng 9 âm lịch (Bính Ngọ)\nPhụ nữ Việt 
+ Nam: Ngày Phụ nữ Việt Nam 20/10.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/9 • Rằm
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261024@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/10 • Mùng 1
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261109@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 10 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:12/10 • Nhà giáo Việt Nam
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261120@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 12 tháng 10 âm lịch (Bính Ngọ)\nNhà giáo Việt
+  Nam: Ngày Nhà giáo Việt Nam 20/11.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/10 • Tết Hạ nguyên
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261123@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nTết Hạ nguyên: Tết Hạ nguyên\, rằm tháng 10 âm l
+ ịch.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:16/10 • Văn hóa Việt Nam
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261124@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 16 tháng 10 âm lịch (Bính Ngọ)\nVăn hóa Việt 
+ Nam: Ngày Văn hóa Việt Nam 24/11\, áp dụng từ năm 2026 theo Ngh
+ ị quyết 28/2026/QH16.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/11 • Mùng 1
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261209@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 11 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/11 • Rằm
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261223@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:16/11 • Đêm Giáng sinh
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261224@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 16 tháng 11 âm lịch (Bính Ngọ)\nĐêm Giáng sinh
+ : Đêm Giáng sinh 24/12.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:17/11 • Giáng sinh
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20261225@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 17 tháng 11 âm lịch (Bính Ngọ)\nGiáng sinh: Lễ
+  Giáng sinh 25/12.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:24/11 • Tết Dương Lịch
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270101@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 24 tháng 11 âm lịch (Bính Ngọ)\nTết Dương L
+ ịch: Nghỉ Tết Dương Lịch.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/12 • Mùng 1
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270108@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 12 âm lịch (Bính Ngọ)\nMùng 1 (Sóc nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/12 • Rằm
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270122@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 12 âm lịch (Bính Ngọ)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:23/12 • Cúng Ông Táo
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270130@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 23 tháng 12 âm lịch (Bính Ngọ)\nCúng Ông Táo: 
+ Lễ cúng tiễn Táo Quân về trời (23 tháng Chạp).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:29/12 • Đêm Giao Thừa
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270205@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 29 tháng 12 âm lịch (Bính Ngọ)\nĐêm Giao Thừa
+ : Đêm Giao Thừa đón năm mới âm lịch.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/1 • Mùng 1 Tết
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270206@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 1 tháng 1 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.\nMù
+ ng 1 Tết: Tết Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2/1 • Mùng 2 Tết
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270207@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 2 tháng 1 âm lịch (Đinh Mùi)\nMùng 2 Tết: Tết
+  Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3/1 • Mùng 3 Tết
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270208@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 3 tháng 1 âm lịch (Đinh Mùi)\nMùng 3 Tết: Tết
+  Nguyên Đán.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:9/1 • Lễ Tình nhân
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270214@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 9 tháng 1 âm lịch (Đinh Mùi)\nLễ Tình nhân: Ng
+ ày lễ tình nhân 14/2.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10/1 • Vía Thần Tài
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270215@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 10 tháng 1 âm lịch (Đinh Mùi)\nVía Thần Tài: N
+ gày vía Thần Tài (Mùng 10 tháng Giêng).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/1 • Rằm Tháng Giêng (Tết Nguyên Tiêu)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270220@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 1 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.\nRằm Tháng Giêng (Tết Nguyên Tiêu): Tết Nguyên Tiêu 
+ — Rằm đầu năm.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/2 • Quốc tế Phụ nữ
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270308@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 2 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.\nQu
+ ốc tế Phụ nữ: Ngày Quốc tế Phụ nữ 8/3.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/2 • Rằm
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270322@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 2 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/3 • Mùng 1
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270407@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 3 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:3/3 • Tết Hàn thực
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270409@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 3 tháng 3 âm lịch (Đinh Mùi)\nTết Hàn thực: T
+ ết Hàn thực\, mùng 3 tháng 3 âm lịch.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:10/3 • Giỗ Tổ Hùng Vương
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270416@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 10 tháng 3 âm lịch (Đinh Mùi)\nGiỗ Tổ Hùng V
+ ương: Ngày Giỗ Tổ Hùng Vương (10/3 âm lịch).
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/3 • Rằm
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270421@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 3 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:24/3 • Giải Phóng Miền Nam
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270430@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 24 tháng 3 âm lịch (Đinh Mùi)\nGiải Phóng Miề
+ n Nam: Ngày Giải phóng miền Nam\, Thống nhất đất nước.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:25/3 • Quốc Tế Lao Động
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270501@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 25 tháng 3 âm lịch (Đinh Mùi)\nQuốc Tế Lao Đ
+ ộng: Ngày Quốc tế Lao động.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/4 • Mùng 1
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270506@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 4 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/4 • Lễ Phật Đản
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270520@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 4 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.\nLễ Phật Đản: Đại lễ Phật Đản (15/4 âm lịch).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:27/4 • Quốc tế Thiếu nhi
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270601@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 27 tháng 4 âm lịch (Đinh Mùi)\nQuốc tế Thiếu
+  nhi: Ngày Quốc tế Thiếu nhi 1/6.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/5 • Mùng 1
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270605@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 5 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:5/5 • Tết Đoan Ngọ
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270609@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 5 tháng 5 âm lịch (Đinh Mùi)\nTết Đoan Ngọ: T
+ ết Đoan Ngọ (5/5 âm lịch).
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/5 • Rằm
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270619@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 5 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:24/5 • Gia đình Việt Nam
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270628@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 24 tháng 5 âm lịch (Đinh Mùi)\nGia đình Việt N
+ am: Ngày Gia đình Việt Nam 28/6.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/6 • Mùng 1
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270704@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 6 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/6 • Rằm
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270718@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 6 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/7 • Mùng 1
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270802@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 7 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/7 • Lễ Vu Lan
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270816@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 7 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.\nLễ Vu Lan: Lễ Vu Lan báo hiếu (Rằm tháng 7 âm lịch).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/8 • Mùng 1
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270901@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 8 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:2/8 • Quốc Khánh
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270902@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 2 tháng 8 âm lịch (Đinh Mùi)\nQuốc Khánh: Quố
+ c khánh nước CHXHCN Việt Nam.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/8 • Tết Trung Thu
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270915@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 8 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.\nTết Trung Thu: Tết Trung Thu (Rằm tháng 8 âm lịch).
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/9 • Mùng 1
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20270930@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 9 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhật
+ ): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/9 • Rằm
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271014@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 9 âm lịch (Đinh Mùi)\nRằm (Vọng nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ tổ
+  tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:21/9 • Phụ nữ Việt Nam
+DTSTART;VALUE=DATE:20271020
+DTEND;VALUE=DATE:20271021
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271020@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 21 tháng 9 âm lịch (Đinh Mùi)\nPhụ nữ Việt N
+ am: Ngày Phụ nữ Việt Nam 20/10.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/10 • Mùng 1
+DTSTART;VALUE=DATE:20271029
+DTEND;VALUE=DATE:20271030
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271029@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 10 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/10 • Tết Hạ nguyên
+DTSTART;VALUE=DATE:20271112
+DTEND;VALUE=DATE:20271113
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271112@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 10 âm lịch (Đinh Mùi)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.\nTết Hạ nguyên: Tết Hạ nguyên\, rằm tháng 10 âm l
+ ịch.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:23/10 • Nhà giáo Việt Nam
+DTSTART;VALUE=DATE:20271120
+DTEND;VALUE=DATE:20271121
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271120@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 23 tháng 10 âm lịch (Đinh Mùi)\nNhà giáo Việt 
+ Nam: Ngày Nhà giáo Việt Nam 20/11.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:27/10 • Văn hóa Việt Nam
+DTSTART;VALUE=DATE:20271124
+DTEND;VALUE=DATE:20271125
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271124@cmduyeen
+COLOR:crimson
+DESCRIPTION:Ngày 27 tháng 10 âm lịch (Đinh Mùi)\nVăn hóa Việt N
+ am: Ngày Văn hóa Việt Nam 24/11\, áp dụng từ năm 2026 theo Ngh
+ ị quyết 28/2026/QH16.
+X-LUNAR-COLOR:#E53935
+X-MICROSOFT-CDO-IMPORTANCE:2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/11 • Mùng 1
+DTSTART;VALUE=DATE:20271128
+DTEND;VALUE=DATE:20271129
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271128@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 11 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:15/11 • Rằm
+DTSTART;VALUE=DATE:20271212
+DTEND;VALUE=DATE:20271213
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271212@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 15 tháng 11 âm lịch (Đinh Mùi)\nRằm (Vọng nh
+ ật): Thắp hương gia tiên\, ăn chay thanh tịnh\, tưởng nhớ t
+ ổ tiên.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:27/11 • Đêm Giáng sinh
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20271225
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271224@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 27 tháng 11 âm lịch (Đinh Mùi)\nĐêm Giáng sinh:
+  Đêm Giáng sinh 24/12.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:28/11 • Giáng sinh
+DTSTART;VALUE=DATE:20271225
+DTEND;VALUE=DATE:20271226
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271225@cmduyeen
+COLOR:dodgerblue
+DESCRIPTION:Ngày 28 tháng 11 âm lịch (Đinh Mùi)\nGiáng sinh: Lễ 
+ Giáng sinh 25/12.
+X-LUNAR-COLOR:#1E88E5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:1/12 • Mùng 1
+DTSTART;VALUE=DATE:20271228
+DTEND;VALUE=DATE:20271229
+DTSTAMP:20261121T005550Z
+UID:vnlunar-keydays-20271228@cmduyeen
+COLOR:darkorange
+DESCRIPTION:Ngày 1 tháng 12 âm lịch (Đinh Mùi)\nMùng 1 (Sóc nhậ
+ t): Thắp hương gia tiên\, ăn chay thanh tịnh\, cầu bình an.
+X-LUNAR-COLOR:#FB8C00
+END:VEVENT
+END:VCALENDAR

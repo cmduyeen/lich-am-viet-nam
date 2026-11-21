@@ -9,7 +9,14 @@ def output_prefix(options):
         return f"custom_{options.feed_name}"
     if options.legacy:
         prefix='viet_lunar' if options.language=='vi' else 'viet_lunar_en'
-        if options.minimal: prefix+='_minimal'
+        if options.minimal:
+            prefix+='_minimal'
+        elif (options.lunar_days == frozenset({1, 15})
+              and options.start_year is None and options.end_year is None
+              and options.holiday_types == frozenset({'solar', 'lunar'})
+              and options.calendar_color == '#E53935' and options.holiday_color is None
+              and options.lunar_day_color == '#FB8C00' and options.ordinary_color == '#1E88E5'):
+            return prefix + '_minimal'
     else:
         codes='-'.join(c.lower() for c in options.selected_countries)
         tradition=options.tradition or ('merged' if len(options.selected_countries)>1 else get_profile(options.selected_countries[0]).tradition)

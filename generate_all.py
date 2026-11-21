@@ -63,10 +63,11 @@ def main(argv=None):
     try:
         manifest=[]
         jobs=[]
-        # Publish exactly two Vietnamese daily feeds, preserving subscription URLs.
+        # Publish daily and minimal (holidays + 1st/15th) Vietnamese feeds in vi and en.
         for language in ('vi', 'en'):
-            jobs.append((CalendarOptions(language=language), start,
-                         end if args.end is not None else min(end, PROFILES['VN'].last_year), False))
+            last_default = end if args.end is not None else min(end, PROFILES['VN'].last_year)
+            jobs.append((CalendarOptions(language=language), start, last_default, False))
+            jobs.append((CalendarOptions(language=language, lunar_days=frozenset({1, 15})), start, last_default, False))
         for config in args.custom_config:
             options=load_calendar_options(config)
             if options.selected_countries != ('VN',) or options.residence or options.language not in ('vi', 'en'):
@@ -91,7 +92,8 @@ def main(argv=None):
                 prefixes.add(latest.name)
                 raw=latest.read_bytes()
                 entry=dict(countries=list(options.selected_countries),tradition=options.tradition,
-                                     language=options.language,content=options.content or ('minimal' if options.minimal else 'legacy-daily'),
+                                     language=options.language,
+                                     content=options.content or ('minimal' if options.minimal else ('observances' if options.lunar_days == frozenset({1, 15}) else 'legacy-daily')),
                                      legacy=options.legacy,start_year=first,end_year=last,
                                      supported_end_year=min(PROFILES[c].last_year for c in options.selected_countries),
                                      events=len(calendar.walk('VEVENT')),file=latest.name,

@@ -80,13 +80,18 @@ class GitHub:
 
 def coverage_current(inventory, year):
     """Treat incomplete/corrupt metadata as stale, never as a permanent crash."""
-    expected = {'viet_lunar_latest.ics': 'vi', 'viet_lunar_en_latest.ics': 'en'}
+    expected = {
+        'viet_lunar_latest.ics': 'vi',
+        'viet_lunar_en_latest.ics': 'en',
+        'viet_lunar_minimal_latest.ics': 'vi',
+        'viet_lunar_en_minimal_latest.ics': 'en',
+    }
     if not isinstance(inventory, list):
         return False
     managed = [entry for entry in inventory
                if isinstance(entry, dict) and isinstance(entry.get('file'), str)
                and entry['file'] in expected]
-    if len(managed) != 2 or {entry['file'] for entry in managed} != set(expected):
+    if len(managed) != 4 or {entry['file'] for entry in managed} != set(expected):
         return False
     for entry in managed:
         start, end = entry.get('start_year'), entry.get('end_year')

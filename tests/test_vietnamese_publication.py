@@ -46,11 +46,12 @@ class VietnamesePublicationTests(unittest.TestCase):
             self.assertFalse(foreign.exists())
             self.assertEqual(private.read_bytes(), b'private data')
             entries = json.loads((output / 'index.json').read_text())
-            self.assertEqual(len(entries), 2)
-            calendars = [validate_bytes((output / e['file']).read_bytes()) for e in entries]
-            dates = [[e.decoded('dtstart') for e in c.walk('VEVENT')] for c in calendars]
-            self.assertEqual(dates[0], dates[1])
-            self.assertEqual(len(dates[0]), 365)
+            self.assertEqual(len(entries), 4)
+            by_file = {e['file']: [ev.decoded('dtstart') for ev in validate_bytes((output / e['file']).read_bytes()).walk('VEVENT')] for e in entries}
+            self.assertEqual(by_file['viet_lunar_latest.ics'], by_file['viet_lunar_en_latest.ics'])
+            self.assertEqual(len(by_file['viet_lunar_latest.ics']), 365)
+            self.assertEqual(by_file['viet_lunar_minimal_latest.ics'], by_file['viet_lunar_en_minimal_latest.ics'])
+            self.assertTrue(set(by_file['viet_lunar_minimal_latest.ics']) < set(by_file['viet_lunar_latest.ics']))
 
     def test_foreign_batch_customization_is_rejected_before_writing(self):
         with tempfile.TemporaryDirectory() as folder:

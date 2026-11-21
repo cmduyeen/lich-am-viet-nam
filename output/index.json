@@ -25,6 +25,27 @@
       "VN"
     ],
     "tradition": null,
+    "language": "vi",
+    "content": "observances",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 90,
+    "file": "viet_lunar_minimal_latest.ics",
+    "sha256": "92fb95e51dba19c2fe69e5ffcc2f9f4f1cf69fd55ae18ef4ea7baab33613da9c",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
     "language": "en",
     "content": "legacy-daily",
     "legacy": true,
@@ -34,6 +55,27 @@
     "events": 730,
     "file": "viet_lunar_en_latest.ics",
     "sha256": "d5055e5862f8a3947f3ab8aaa3b5a8eef5a9584c9a45a9c1d7b2990343d185b2",
+    "sources": [
+      "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
+      "https://vietnamembassy-usa.org/node/665"
+    ],
+    "date_status": "calculated-traditional-observance",
+    "app_subscription_tested": false
+  },
+  {
+    "countries": [
+      "VN"
+    ],
+    "tradition": null,
+    "language": "en",
+    "content": "observances",
+    "legacy": true,
+    "start_year": 2026,
+    "end_year": 2027,
+    "supported_end_year": 2099,
+    "events": 90,
+    "file": "viet_lunar_en_minimal_latest.ics",
+    "sha256": "3e959955f11bbd9c845f2d0c5bff2ee010d111003be7e6e29381ae060de04325",
     "sources": [
       "https://tienphong.vn/nam-2007-viet-nam-an-tet-som-hon-trung-quoc-mot-ngay-post52582.tpo",
       "https://vietnamembassy-usa.org/node/665"

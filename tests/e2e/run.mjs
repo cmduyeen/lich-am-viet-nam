@@ -87,7 +87,7 @@ try{
   await page.screenshot({path:path.join(evidence,'readme-'+language+'-mobile.png')});
   await page.setViewportSize({width:1440,height:1050});
  }
- for(const [language,file] of [['vi','viet_lunar_latest.ics'],['en','viet_lunar_en_latest.ics']]){
+ for(const [language,file] of [['vi','viet_lunar_latest.ics'],['en','viet_lunar_en_latest.ics'],['vi','viet_lunar_minimal_latest.ics'],['en','viet_lunar_en_minimal_latest.ics']]){
   await show('/output/'+file,displayMonth);
   check(language+' Tet is one all-day event',await page.locator(`.fc-daygrid-day[data-date="${tetDate}"] .fc-event`).count()===1);
   const title=await page.locator(`.fc-daygrid-day[data-date="${tetDate}"] .fc-event`).textContent();

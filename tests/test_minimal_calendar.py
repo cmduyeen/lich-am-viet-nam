@@ -107,5 +107,27 @@ class MinimalCalendarTests(unittest.TestCase):
                     self.assertEqual(z.read(name), (folder / name).read_bytes())
 
 
+    def test_keydays_minimal_feed_includes_1st_15th_tet_and_festivals(self):
+        from src.naming import output_prefix
+        gen = LunarCalendarGenerator()
+        for language, expected_prefix in (('vi', 'viet_lunar_minimal'), ('en', 'viet_lunar_en_minimal')):
+            options = CalendarOptions(language=language, lunar_days=frozenset({1, 15}))
+            self.assertEqual(output_prefix(options), expected_prefix)
+            cal = gen.generate_year(2026, options)
+            daily_cal = gen.generate_year(2026, CalendarOptions(language=language))
+            events = cal.walk('VEVENT')
+            dates = {e.decoded('dtstart') for e in events}
+            # Includes 1st (New Moon), 15th (Full Moon), Tet, solar holiday (Jan 1), and excludes ordinary day
+            self.assertIn(date(2026, 2, 17), dates)  # Tet (Lunar 1/1)
+            self.assertIn(date(2026, 3, 3), dates)   # Full Moon (Lunar 15/1)
+            self.assertIn(date(2026, 3, 19), dates)  # New Moon (Lunar 1/2)
+            self.assertIn(date(2026, 1, 1), dates)   # Solar New Year
+            self.assertNotIn(date(2026, 1, 2), dates)
+            self.assertLess(len(events), 60)
+            uids = {str(e['uid']) for e in events}
+            daily_uids = {str(e['uid']) for e in daily_cal.walk('VEVENT')}
+            self.assertTrue(uids.isdisjoint(daily_uids))
+
+
 if __name__ == '__main__':
     unittest.main()

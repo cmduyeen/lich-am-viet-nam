@@ -884,18 +884,28 @@
       </div>
 
       <div class="tab-pane" id="urlPane">
-        <label class="field-label" id="lblFeedVi" for="feedViUrl">Feed Tiếng Việt (Tự cập nhật mỗi năm)</label>
+        <label class="field-label" id="lblFeedVi" for="feedViUrl">Feed Tiếng Việt — Đầy đủ hằng ngày</label>
         <div class="url-box">
           <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics" id="feedViUrl" aria-label="URL Feed Tiếng Việt" />
           <button class="btn btn-sm" data-copy="feedViUrl" type="button" aria-label="Sao chép URL Tiếng Việt">Copy</button>
         </div>
-        <label class="field-label" id="lblFeedEn" for="feedEnUrl">Feed Tiếng Anh (English)</label>
+        <label class="field-label" id="lblFeedEn" for="feedEnUrl">Feed Tiếng Anh (English) — Đầy đủ hằng ngày</label>
         <div class="url-box">
           <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics" id="feedEnUrl" aria-label="URL Feed Tiếng Anh" />
           <button class="btn btn-sm" data-copy="feedEnUrl" type="button" aria-label="Sao chép URL Tiếng Anh">Copy</button>
         </div>
+        <label class="field-label" id="lblFeedViMinimal" for="feedViMinimalUrl">Feed Tiếng Việt — Tối giản (Chỉ ngày lễ, Tết, Mùng 1 &amp; Rằm)</label>
+        <div class="url-box">
+          <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_minimal_latest.ics" id="feedViMinimalUrl" aria-label="URL Feed Tiếng Việt Tối giản" />
+          <button class="btn btn-sm" data-copy="feedViMinimalUrl" type="button" aria-label="Sao chép URL Tiếng Việt Tối giản">Copy</button>
+        </div>
+        <label class="field-label" id="lblFeedEnMinimal" for="feedEnMinimalUrl">Feed Tiếng Anh (English) — Tối giản (Chỉ ngày lễ, Tết, Mùng 1 &amp; Rằm)</label>
+        <div class="url-box">
+          <input type="text" readonly value="https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_minimal_latest.ics" id="feedEnMinimalUrl" aria-label="URL Feed Tiếng Anh Tối giản" />
+          <button class="btn btn-sm" data-copy="feedEnMinimalUrl" type="button" aria-label="Sao chép URL Tiếng Anh Tối giản">Copy</button>
+        </div>
         <div class="note-box" id="noteUrl">
-          <strong>Mẹo đăng ký qua URL:</strong> Nếu bạn chỉ cần lịch âm mặc định tự cuốn chiếu sang năm mới mà không cần ngày giỗ cá nhân, hãy dùng <strong>Google Calendar → Lịch khác (+) → Từ URL</strong> và dán 1 trong 2 link trên.
+          <strong>Mẹo đăng ký qua URL:</strong> Nếu bạn chỉ cần lịch âm mặc định tự cuốn chiếu sang năm mới mà không cần ngày giỗ cá nhân, hãy dùng <strong>Google Calendar → Lịch khác (+) → Từ URL</strong> và dán 1 trong các link trên (chọn bản Đầy đủ hoặc Tối giản).
         </div>
       </div>
 
@@ -1209,9 +1219,11 @@
         downloadIcsBtn: "⬇ Tải file .ics ngay",
         copyIcsBtn: "📋 Sao chép mã .ics",
         noteIcs: "<strong>Cách dùng file .ics:</strong> Mở Google Calendar → <em>Cài đặt → Nhập &amp; xuất (Import &amp; export)</em> → chọn file vừa tải. Trên iPhone/Mac, chỉ cần mở trực tiếp file <code>.ics</code> để thêm vào Apple Calendar.",
-        lblFeedVi: "Feed Tiếng Việt (Tự cập nhật mỗi năm)",
-        lblFeedEn: "Feed Tiếng Anh (English)",
-        noteUrl: "<strong>Mẹo đăng ký qua URL:</strong> Nếu bạn chỉ cần lịch âm mặc định tự cuốn chiếu sang năm mới mà không cần ngày giỗ cá nhân, hãy dùng <strong>Google Calendar → Lịch khác (+) → Từ URL</strong> và dán 1 trong 2 link trên.",
+        lblFeedVi: "Feed Tiếng Việt — Đầy đủ hằng ngày",
+        lblFeedEn: "Feed Tiếng Anh (English) — Đầy đủ hằng ngày",
+        lblFeedViMinimal: "Feed Tiếng Việt — Tối giản (Ngày lễ, Tết, Mùng 1 & Rằm)",
+        lblFeedEnMinimal: "Feed Tiếng Anh (English) — Tối giản (Ngày lễ, Tết, Mùng 1 & Rằm)",
+        noteUrl: "<strong>Mẹo đăng ký qua URL:</strong> Nếu bạn chỉ cần lịch âm tự cuốn chiếu sang năm mới mà không cần ngày giỗ cá nhân, hãy dùng <strong>Google Calendar → Lịch khác (+) → Từ URL</strong> và dán 1 trong các link trên (bản Đầy đủ hoặc Tối giản).",
         copyJsonBtn: "📋 Copy calendar.config.json",
         copyCliBtn: "📋 Copy lệnh Python",
         col3Title: "3. Tra cứu & Xem trước",
@@ -1308,9 +1320,11 @@
         downloadIcsBtn: "⬇ Download .ics Now",
         copyIcsBtn: "📋 Copy .ics Content",
         noteIcs: "<strong>How to use .ics file:</strong> Open Google Calendar → <em>Settings → Import &amp; export</em> → select downloaded file. On iPhone/Mac, open the <code>.ics</code> file directly to add to Apple Calendar.",
-        lblFeedVi: "Vietnamese Feed (Auto-updates yearly)",
-        lblFeedEn: "English Feed (Auto-updates yearly)",
-        noteUrl: "<strong>Subscribe via URL tip:</strong> If you only need the default rolling calendar that updates every year without personal dates, go to <strong>Google Calendar → Other calendars (+) → From URL</strong> and paste either link above.",
+        lblFeedVi: "Vietnamese Feed — Full Daily (Auto-updates yearly)",
+        lblFeedEn: "English Feed — Full Daily (Auto-updates yearly)",
+        lblFeedViMinimal: "Vietnamese Feed — Minimal (Holidays, Tet, 1st & 15th)",
+        lblFeedEnMinimal: "English Feed — Minimal (Holidays, Tet, 1st & 15th)",
+        noteUrl: "<strong>Subscribe via URL tip:</strong> If you only need a rolling calendar that updates every year without personal dates, go to <strong>Google Calendar → Other calendars (+) → From URL</strong> and paste any single link above (Full Daily or Minimal).",
         copyJsonBtn: "📋 Copy calendar.config.json",
         copyCliBtn: "📋 Copy Python Command",
         col3Title: "3. Lookup & Preview",
@@ -1736,6 +1750,8 @@
       $("noteIcs").innerHTML = t.noteIcs;
       $("lblFeedVi").textContent = t.lblFeedVi;
       $("lblFeedEn").textContent = t.lblFeedEn;
+      $("lblFeedViMinimal").textContent = t.lblFeedViMinimal;
+      $("lblFeedEnMinimal").textContent = t.lblFeedEnMinimal;
       $("noteUrl").innerHTML = t.noteUrl;
       $("copyJsonBtn").textContent = t.copyJsonBtn;
       $("copyCliBtn").textContent = t.copyCliBtn;

@@ -33,18 +33,28 @@ Truy cập **[Lịch Âm Việt Nam Studio](https://cmduyeen.github.io/lich-am-v
 
 ## Đăng ký lịch âm qua URL (Không cần cài app — Gắn link dùng luôn)
 
-Bạn **không cần tải file, không cần cài Python hay ứng dụng lịch bên thứ ba**. Chỉ cần sao chép **một** trong hai đường dẫn `.ics` dưới đây và dán vào ứng dụng lịch mặc định trên máy (cả hai bản có cùng ngày âm lịch, chỉ khác ngôn ngữ):
+Bạn **không cần tải file, không cần cài Python hay ứng dụng lịch bên thứ ba**. Chỉ cần sao chép **một** đường dẫn `.ics` phù hợp dưới đây và dán vào ứng dụng lịch mặc định trên máy (tất cả đều dùng chung dữ liệu ngày âm lịch chuẩn GMT+7):
 
-**Tiếng Việt**
+**Đầy đủ hằng ngày (365 ngày âm lịch + ngày lễ)**
 
+* Tiếng Việt:
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
-
-**Tiếng Anh (English)**
-
+* Tiếng Anh (English):
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
+```
+
+**Tối giản (Chỉ ngày lễ Âm/Dương lịch, Tết, Mùng 1 & Rằm)**
+
+* Tiếng Việt:
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_minimal_latest.ics
+```
+* Tiếng Anh (English):
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_minimal_latest.ics
 ```
 
 > **Lưu ý:** Chỉ nên đăng ký **một ngôn ngữ** để tránh hiển thị trùng hai sự kiện mỗi ngày. Hãy dùng tính năng **Thêm lịch từ URL / Đăng ký lịch (Subscribe)** thay vì tải tệp `.ics` về nhập thủ công, vì nhập tệp tĩnh sẽ không tự cập nhật khi sang năm mới.

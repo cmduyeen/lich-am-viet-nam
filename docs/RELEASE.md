@@ -1,6 +1,6 @@
 # Vietnamese lunar calendar release checklist
 
-Public scope: Vietnamese lunar dates, displayed in Vietnamese and English. Only `viet_lunar_latest.ics` and `viet_lunar_en_latest.ics` are published by default. Stable UIDs and the existing subscription URLs are preserved.
+Public scope: Vietnamese lunar dates, displayed in Vietnamese and English. Only `viet_lunar_latest.ics`, `viet_lunar_en_latest.ics`, `viet_lunar_minimal_latest.ics`, and `viet_lunar_en_minimal_latest.ics` are published by default. Stable UIDs and the existing subscription URLs are preserved.
 
 - Run the Python regression suite, including Vietnamese date reference fixtures, private custom dates and rollback.
 - Parse both feed inventories independently and verify matching dates, unique UIDs, checksums and all-day boundaries.

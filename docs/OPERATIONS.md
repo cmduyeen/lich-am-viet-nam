@@ -1,6 +1,6 @@
 # Operations
 
-This repository publishes Vietnamese lunar dates in Vietnamese and English only. Default outputs are `viet_lunar_latest.ics` and `viet_lunar_en_latest.ics`, plus the inventory and checksum state. Both retain the current year and next year. Existing URLs and UIDs remain stable.
+This repository publishes Vietnamese lunar dates in Vietnamese and English only. Default outputs are `viet_lunar_latest.ics`, `viet_lunar_en_latest.ics`, `viet_lunar_minimal_latest.ics`, and `viet_lunar_en_minimal_latest.ics`, plus the inventory and checksum state. All retain the current year and next year. Existing URLs and UIDs remain stable.
 
 Run `python generate_all.py --if-needed` for checksum-aware generation. The workflow checks daily, on relevant source changes and on manual dispatch. Healthy runs skip expensive steps and do not write keep-alive commits or monthly status timestamps. A later daily check retries after transient generation or publication failures.
 

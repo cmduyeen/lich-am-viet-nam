@@ -33,18 +33,28 @@ Open **[Vietnamese Lunar Calendar Studio](https://cmduyeen.github.io/lich-am-vie
 
 ## Subscribe via URL (No App Required — Just Paste & Go)
 
-You **don't need to download any files, install Python, or use third-party calendar apps**. Simply copy **one** of the `.ics` subscription URLs below and paste it into your existing calendar app (both feeds share the exact same lunar dates; only the text language differs):
+You **don't need to download any files, install Python, or use third-party calendar apps**. Simply copy **one** of the `.ics` subscription URLs below and paste it into your existing calendar app (all feeds share the exact same GMT+7 lunar dates):
 
-**Vietnamese**
+**Full Daily Feed (all lunar dates + holidays)**
 
+* Vietnamese:
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_latest.ics
 ```
-
-**English**
-
+* English:
 ```text
 https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_latest.ics
+```
+
+**Minimal Feed (Lunar & Solar Holidays, Lunar New Year, 1st & 15th only)**
+
+* Vietnamese:
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_minimal_latest.ics
+```
+* English:
+```text
+https://raw.githubusercontent.com/cmduyeen/lich-am-viet-nam/main/output/viet_lunar_en_minimal_latest.ics
 ```
 
 > **Note:** Subscribe to **one language only** to avoid duplicate daily events. Always use **Add calendar from URL / Subscribe** rather than downloading and importing a static `.ics` file, as imported snapshots will not receive automatic yearly updates.
