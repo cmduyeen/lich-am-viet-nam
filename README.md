@@ -150,6 +150,11 @@ Không. Lịch hiển thị các ngày âm lịch và 27 dịp lễ/kỷ niệm 
 **4. Tôi muốn đóng góp hoặc báo lỗi thì làm thế nào?**  
 Hãy mở [Issue](https://github.com/cmduyeen/lich-am-viet-nam/issues) hoặc gửi Pull Request. Nếu thấy hữu ích, đừng quên tặng repo một **Star ⭐** nhé!
 
+## Đóng góp (Contributors)
+
+- [@cmduyeen](https://github.com/cmduyeen) — Khởi tạo & phát triển dự án
+- [@DevSecNinja](https://github.com/DevSecNinja) — Đề xuất và góp ý hoàn thiện bản tiếng Anh & feed tối giản
+
 ---
 
 [MIT License](LICENSE) · Phát triển bởi [cmduyeen](https://github.com/cmduyeen)

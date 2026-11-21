@@ -150,6 +150,11 @@ No. It lists lunar dates and 27 standard observances. Statutory leave swaps and 
 **4. How can I report an issue or contribute?**  
 Feel free to open an [Issue](https://github.com/cmduyeen/lich-am-viet-nam/issues) or submit a Pull Request. If you find this project helpful, please consider giving it a **Star ⭐**!
 
+## Contributors
+
+- [@cmduyeen](https://github.com/cmduyeen) — Creator & Maintainer
+- [@DevSecNinja](https://github.com/DevSecNinja) — Suggested and helped shape the English & minimal subscription feeds
+
 ---
 
 [MIT License](LICENSE) · Maintained by [cmduyeen](https://github.com/cmduyeen)
