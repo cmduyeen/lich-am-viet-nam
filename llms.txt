@@ -1,11 +1,18 @@
-# Vietnamese Lunar Calendar
+# Vietnamese Lunar Calendar (Lịch Âm Việt Nam)
 
-> Vietnamese lunar dates in GMT+7, displayed in Vietnamese or English. One daily event includes the lunar date and selected observances.
+> Free, open-source Vietnamese lunar calendar (.ics) in GMT+7 (UTC+7), available in Vietnamese and English for Google Calendar, Apple Calendar, and Microsoft Outlook.
 
+- [Web Studio (Browser Customizer)](https://cmduyeen.github.io/lich-am-viet-nam/)
 - [Vietnamese guide](README.md)
 - [English guide](README.en.md)
+- [Public feeds](docs/FEEDS.md)
 - [Holiday catalog](docs/HOLIDAYS.md)
-- [Operations](docs/OPERATIONS.md)
-- [Automation](docs/AUTOMATION.md)
+- [Blog & Tools](https://cmduyeen.github.io/tools/)
 
-Default subscriptions: output/viet_lunar_latest.ics and output/viet_lunar_en_latest.ics. Both cover the current year and next year. Personal dates stay in ignored local files. Observances are not statutory leave schedules. No web server or AI runtime is required.
+## Subscription Feeds (.ics)
+- Vietnamese Daily (all lunar dates + holidays): `output/viet_lunar_latest.ics`
+- English Daily (all lunar dates + holidays): `output/viet_lunar_en_latest.ics`
+- Vietnamese Minimal (holidays, Tet, 1st & 15th only): `output/viet_lunar_minimal_latest.ics`
+- English Minimal (holidays, Tet, 1st & 15th only): `output/viet_lunar_en_minimal_latest.ics`
+
+All feeds cover the current year and next year in UTC+7. Personal dates stay in ignored local files. Observances are not statutory leave schedules. No web server or AI runtime is required.
