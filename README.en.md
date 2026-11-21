@@ -9,6 +9,8 @@
 
 ![Vietnamese lunar calendar](assets/lunar-calendar-cover.png)
 
+[![~/cmduyeen — lich-am-viet-nam](assets/dewhua-banner.svg)](https://cmduyeen.github.io/lich-am-viet-nam/)
+
 A **free, open-source Vietnamese Lunar Calendar (.ics)** calculated in **GMT+7 (UTC+7)** and available in **Vietnamese or English**. **No extra apps or third-party software required** — use the **[interactive Web Studio](https://cmduyeen.github.io/lich-am-viet-nam/)** to customize holidays, lunar birthdays, and personal events in your browser, or paste **one `.ics` URL** directly into **Google Calendar, Apple Calendar, or Microsoft Outlook** for automatic yearly updates.
 
 > 🌐 **Try Web Studio:** **[cmduyeen.github.io/lich-am-viet-nam](https://cmduyeen.github.io/lich-am-viet-nam/)** · More tools at **[Blog & Tools](https://cmduyeen.github.io/en/tools/)** · ☕ **[Buy me a coffee](https://ko-fi.com/cmduyeen)**

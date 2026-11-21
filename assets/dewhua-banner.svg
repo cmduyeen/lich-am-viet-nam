@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 72" role="img" aria-label="~/cmduyeen — Vietnamese Lunar Calendar (GMT+7)">
+  <rect width="840" height="72" rx="8" fill="#1f1916"/>
+  <rect x="4" y="4" width="832" height="64" rx="6" fill="#2a221d" stroke="#9c7151" stroke-width="1.8"/>
+  <rect x="4" y="4" width="832" height="3" rx="1.5" fill="#7ec850"/>
+
+  <!-- Pixel Moon & Sprout -->
+  <rect x="20" y="20" width="12" height="12" fill="#eab308"/>
+  <rect x="26" y="20" width="6" height="6" fill="#2a221d"/>
+  <rect x="24" y="38" width="2" height="12" fill="#2e6f28"/>
+  <rect x="20" y="40" width="4" height="4" fill="#7ec850"/>
+  <rect x="26" y="38" width="4" height="4" fill="#7ec850"/>
+
+  <!-- Text -->
+  <text x="48" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" font-weight="700" fill="#eab308">~/cmduyeen <tspan fill="#a69076">/</tspan> <tspan fill="#f5ebd6">lich-am-viet-nam</tspan></text>
+  <text x="48" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12" fill="#d7c4a5">GMT+7 Lunar Calendar (.ics) · Daily &amp; Minimal Feeds · Built for Mom &amp; Vietnamese Families</text>
+
+  <!-- Right Pill -->
+  <rect x="684" y="23" width="136" height="26" rx="5" fill="#1f1916" stroke="#7ec850" stroke-width="1.4"/>
+  <text x="752" y="40" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" fill="#7ec850">Made in Vietnam</text>
+</svg>
