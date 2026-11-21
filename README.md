@@ -5,12 +5,13 @@
 [![Update Lunar Calendars](https://github.com/cmduyeen/lich-am-viet-nam/actions/workflows/main.yml/badge.svg)](https://github.com/cmduyeen/lich-am-viet-nam/actions/workflows/main.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/cmduyeen)
 
 ![Lịch âm Việt Nam](assets/lunar-calendar-cover.png)
 
 **Lịch âm Việt Nam miễn phí (.ics)** theo múi giờ chuẩn Việt Nam (**GMT+7 / UTC+7**), hỗ trợ song ngữ **tiếng Việt và tiếng Anh**. **Không cần cài thêm app hay phần mềm bên thứ ba** — bạn có thể dùng **[Web Studio tùy chỉnh lịch trực tuyến](https://cmduyeen.github.io/lich-am-viet-nam/)** (thêm ngày giỗ, sinh nhật âm lịch, chọn ngày Mùng 1/Rằm, tra cứu Âm ↔ Dương và xuất `.ics` ngay trên trình duyệt) hoặc sao chép **1 đường link `.ics`** dán vào **Google Calendar, Apple Calendar, Outlook** để tự động cập nhật hằng năm.
 
-> 🌐 **Dùng ngay trên trình duyệt:** **[cmduyeen.github.io/lich-am-viet-nam](https://cmduyeen.github.io/lich-am-viet-nam/)** · Khám phá thêm các công cụ khác tại **[Blog & Tools](https://cmduyeen.github.io/tools/)**
+> 🌐 **Dùng ngay trên trình duyệt:** **[cmduyeen.github.io/lich-am-viet-nam](https://cmduyeen.github.io/lich-am-viet-nam/)** · Khám phá thêm tại **[Blog & Tools](https://cmduyeen.github.io/tools/)** · ☕ **[Mời mình 1 ly cà phê](https://ko-fi.com/cmduyeen)**
 
 ## Mục lục
 
