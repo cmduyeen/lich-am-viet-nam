@@ -155,6 +155,10 @@ Feel free to open an [Issue](https://github.com/cmduyeen/lich-am-viet-nam/issues
 - [@cmduyeen](https://github.com/cmduyeen) — Creator & Maintainer
 - [@DevSecNinja](https://github.com/DevSecNinja) — Suggested and helped shape the English & minimal subscription feeds
 
+## Support the Project ☕
+
+This project is completely free and open-source. If it helps you or your family keep track of Vietnamese lunar dates, you can optionally buy me a coffee at **[Ko-fi (ko-fi.com/cmduyeen)](https://ko-fi.com/cmduyeen)**!
+
 ---
 
 [MIT License](LICENSE) · Maintained by [cmduyeen](https://github.com/cmduyeen)

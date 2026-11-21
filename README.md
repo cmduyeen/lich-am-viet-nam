@@ -155,6 +155,10 @@ Hãy mở [Issue](https://github.com/cmduyeen/lich-am-viet-nam/issues) hoặc g�
 - [@cmduyeen](https://github.com/cmduyeen) — Khởi tạo & phát triển dự án
 - [@DevSecNinja](https://github.com/DevSecNinja) — Đề xuất và góp ý hoàn thiện bản tiếng Anh & feed tối giản
 
+## Ủng hộ dự án ☕
+
+Dự án hoàn toàn miễn phí và mã nguồn mở. Nếu lịch âm giúp ích cho bạn và gia đình, bạn có thể mời mình một ly cà phê tại **[Ko-fi (ko-fi.com/cmduyeen)](https://ko-fi.com/cmduyeen)** để tiếp thêm động lực duy trì nhé!
+
 ---
 
 [MIT License](LICENSE) · Phát triển bởi [cmduyeen](https://github.com/cmduyeen)
